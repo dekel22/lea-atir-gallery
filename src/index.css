@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500&family=Bellefair&display=swap');
+
+:root {
+  --color-bg: #FAF9F6; /* Ivory / Cream canvas */
+  --color-surface: transparent;
+  --color-text: #1A1614; /* Deep Artistic Charcoal-Brown */
+  --color-text-muted: #7A7571;
+  --color-border: rgba(26, 22, 20, 0.1);
+  --color-accent: #C5A880; /* Subtle gold/bronze for highlights if needed */
+  
+  --font-sans: 'Assistant', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Bellefair', Georgia, serif;
+  
+  --spacing-sm: 0.75rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 3rem;
+  --spacing-xl: 6rem;
+  --spacing-xxl: 10rem;
+  
+  --radius-sm: 2px;
+  --radius-md: 4px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  color: var(--color-text);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: opacity 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), color 0.4s ease;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+/* Animations */
+@keyframes fadeDriftUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  opacity: 0;
+  animation: fadeDriftUp 1s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+.animate-delay-1 { animation-delay: 0.2s; }
+.animate-delay-2 { animation-delay: 0.4s; }
+.animate-delay-3 { animation-delay: 0.6s; }
+
+/* Utilities */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg);
+}
+
+.section {
+  padding: var(--spacing-xxl) 0;
+}

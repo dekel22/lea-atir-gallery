@@ -1,0 +1,209 @@
+.gallery-header {
+  padding: var(--spacing-xxl) 0 var(--spacing-xl);
+  text-align: center; /* Center the text for an editorial look */
+  border-bottom: none;
+  background-color: transparent;
+}
+
+.gallery-header h1 {
+  font-size: 4rem;
+  margin-bottom: var(--spacing-md);
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+
+.gallery-description {
+  color: var(--color-text-muted);
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+}
+
+.gallery-long-description {
+  margin: var(--spacing-lg) auto 0;
+  color: var(--color-text);
+  font-size: 1.05rem;
+  max-width: 800px;
+  line-height: 1.9;
+  text-align: center;
+  font-weight: 300;
+}
+
+.gallery-long-description p {
+  margin-bottom: var(--spacing-md);
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  margin-bottom: var(--spacing-lg);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-family: var(--font-sans);
+}
+
+.back-link:hover {
+  color: var(--color-text);
+}
+
+/* Masonry Layout Approximation */
+.masonry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: var(--spacing-lg);
+  align-items: start;
+}
+
+.masonry-item {
+  position: relative;
+  width: 100%;
+  break-inside: avoid;
+  margin-bottom: var(--spacing-lg);
+  cursor: zoom-in;
+  overflow: hidden;
+}
+
+.masonry-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  filter: brightness(0.95);
+}
+
+.masonry-item-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(42, 42, 42, 0.2); /* elegant dark tint */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.masonry-item-overlay span {
+  color: white;
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: 0.9rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  transform: translateY(10px);
+  transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.masonry-item:hover img {
+  transform: scale(1.03);
+  filter: brightness(1);
+}
+
+.masonry-item:hover .masonry-item-overlay {
+  opacity: 1;
+}
+
+.masonry-item:hover .masonry-item-overlay span {
+  transform: translateY(0);
+}
+
+@media (min-width: 768px) {
+  .masonry-grid {
+    display: block;
+    column-count: 2;
+    column-gap: var(--spacing-lg);
+  }
+}
+
+@media (min-width: 1200px) {
+  .masonry-grid {
+    column-count: 3;
+    column-gap: var(--spacing-xl);
+  }
+}
+
+/* Lightbox Styles */
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(250, 249, 246, 0.95); /* Light elegant overlay instead of black */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.4s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+.lightbox-content {
+  max-width: 95vw;
+  max-height: 95vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox-content img {
+  max-width: 100%;
+  max-height: 95vh;
+  object-fit: contain;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.15); /* Slightly stronger shadow for larger image */
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background: none;
+  border: none;
+  color: var(--color-text);
+  cursor: pointer;
+  z-index: 1010;
+  opacity: 0.5;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.lightbox-close:hover {
+  opacity: 1;
+  transform: rotate(90deg);
+}
+
+.lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--color-text);
+  cursor: pointer;
+  z-index: 1010;
+  opacity: 0.3;
+  transition: opacity 0.3s, transform 0.3s;
+  padding: 20px;
+}
+
+.lightbox-nav:hover {
+  opacity: 0.8;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.lightbox-prev {
+  right: 2vw;
+}
+
+.lightbox-next {
+  left: 2vw;
+}
