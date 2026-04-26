@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowRight, X, ChevronRight, ChevronLeft } from 'lucide-react';
@@ -9,6 +9,11 @@ const Gallery = () => {
   const { id } = useParams();
   const gallery = galleries.find(g => g.id === id);
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
+
+  // Scroll to top when gallery opens
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]);
 
   if (!gallery) {
     return (
