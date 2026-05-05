@@ -9,16 +9,6 @@ function App() {
   return (
     <Router>
       <div dir="rtl" className="min-h-screen flex flex-col relative">
-        {/* Semi-transparent background image */}
-        <div 
-          className="fixed inset-0 pointer-events-none z-[-1]" 
-          style={{
-            backgroundImage: "url('/semi-transparent.jpg')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            opacity: 0.15
-          }}
-        />
         <Navbar />
         <main className="flex-1 relative z-10">
           <Routes>

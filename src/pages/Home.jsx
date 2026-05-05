@@ -62,8 +62,8 @@ const Home = () => {
                 </p>
               </div>
               {/* Image and link on the left (appears second in RTL grid, size halved via col-span-5 instead of 7) */}
-              <div className="md:col-span-5 flex flex-col gap-6">
-                <Link to={`/gallery/${gallery.id}`} className="group overflow-hidden bg-surface-container block w-full rounded shadow-sm">
+              <div className="md:col-span-5 flex flex-col gap-6 items-end">
+                <Link to={`/gallery/${gallery.id}`} className="group overflow-hidden bg-surface-container block w-1/2 rounded shadow-sm">
                   <div 
                     className="aspect-[16/9] w-full bg-cover bg-center group-hover:scale-105 transition-transform duration-1000" 
                     style={{ 
@@ -72,7 +72,7 @@ const Home = () => {
                     }}
                   ></div>
                 </Link>
-                <Link to={`/gallery/${gallery.id}`} className="font-label-sm text-primary border-b border-primary pb-1 self-start hover:opacity-70 transition-opacity">
+                <Link to={`/gallery/${gallery.id}`} className="font-label-sm text-primary border-b border-primary pb-1 self-end hover:opacity-70 transition-opacity">
                   גלו את האוסף
                 </Link>
               </div>
