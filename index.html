@@ -1,12 +1,128 @@
 <!doctype html>
-<html lang="he" dir="rtl">
+<html lang="he" dir="rtl" class="light">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>לאה עתיר - גלריה לאומנות</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Manrope:wght@300;400;600&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "secondary-fixed-dim": "#d7c3b0",
+                    "inverse-primary": "#cac5c4",
+                    "surface-container-lowest": "#ffffff",
+                    "tertiary": "#231a0c",
+                    "surface-container-highest": "#e6e2d8",
+                    "background": "#fdf9ef",
+                    "tertiary-container": "#392f1f",
+                    "on-tertiary": "#ffffff",
+                    "on-secondary-fixed": "#241a0e",
+                    "on-tertiary-fixed": "#231a0c",
+                    "surface-bright": "#fdf9ef",
+                    "on-error-container": "#93000a",
+                    "on-secondary-container": "#716252",
+                    "secondary-fixed": "#f4dfcb",
+                    "surface-dim": "#dddad0",
+                    "primary-fixed-dim": "#cac5c4",
+                    "on-error": "#ffffff",
+                    "surface-container-low": "#f7f3e9",
+                    "tertiary-fixed-dim": "#d5c4ae",
+                    "on-primary-fixed": "#1d1b1a",
+                    "outline-variant": "#cfc4be",
+                    "tertiary-fixed": "#f2e0c9",
+                    "primary-fixed": "#e7e1df",
+                    "on-surface-variant": "#4c4540",
+                    "on-surface": "#1c1c16",
+                    "surface-tint": "#615e5c",
+                    "secondary": "#6b5c4c",
+                    "surface-container-high": "#ece8de",
+                    "surface-container": "#f1eee4",
+                    "on-tertiary-fixed-variant": "#504534",
+                    "surface-variant": "#e6e2d8",
+                    "error-container": "#ffdad6",
+                    "on-tertiary-container": "#a59681",
+                    "on-primary-fixed-variant": "#494645",
+                    "primary-container": "#32302f",
+                    "outline": "#7e7570",
+                    "inverse-on-surface": "#f4f0e7",
+                    "on-primary": "#ffffff",
+                    "surface": "#fdf9ef",
+                    "on-primary-container": "#9b9796",
+                    "primary": "#1d1b1a",
+                    "on-background": "#1c1c16",
+                    "inverse-surface": "#31312a",
+                    "error": "#ba1a1a",
+                    "on-secondary": "#ffffff",
+                    "on-secondary-fixed-variant": "#524436",
+                    "secondary-container": "#f4dfcb"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "unit": "8px",
+                    "gutter": "32px",
+                    "section-gap": "128px",
+                    "margin-page": "64px"
+            },
+            "fontFamily": {
+                    "headline-lg": ["Noto Serif"],
+                    "headline-xl": ["Noto Serif"],
+                    "headline-md": ["Noto Serif"],
+                    "label-sm": ["Manrope"],
+                    "body-md": ["Manrope"],
+                    "body-lg": ["Manrope"]
+            },
+            "fontSize": {
+                    "headline-lg": ["32px", {"lineHeight": "1.3", "letterSpacing": "0px", "fontWeight": "400"}],
+                    "headline-xl": ["48px", {"lineHeight": "1.2", "letterSpacing": "0px", "fontWeight": "400"}],
+                    "headline-md": ["24px", {"lineHeight": "1.4", "letterSpacing": "0px", "fontWeight": "400"}],
+                    "label-sm": ["12px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "letterSpacing": "0.01em", "fontWeight": "400"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "letterSpacing": "0.01em", "fontWeight": "300"}]
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+          background-color: #fdf9ef;
+          color: #1c1c16;
+          -webkit-font-smoothing: antialiased;
+          position: relative;
+      }
+      body::before {
+          content: "";
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-image: url('/bg-image.jpg');
+          background-size: cover;
+          background-position: center;
+          opacity: 0.2;
+          z-index: -1;
+          pointer-events: none;
+      }
+      .material-symbols-outlined {
+          font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+          vertical-align: middle;
+      }
+    </style>
   </head>
-  <body>
+  <body class="font-body-md selection:bg-primary-fixed-dim selection:text-on-primary-fixed">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
