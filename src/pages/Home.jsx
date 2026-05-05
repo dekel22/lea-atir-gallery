@@ -56,8 +56,8 @@ const Home = () => {
             <div key={gallery.id} className="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
               {/* Description on the right (appears first in RTL grid) */}
               <div className="md:col-span-7 md:pl-12">
-                <h3 className="font-headline-md text-headline-md text-on-surface mb-4">{gallery.title}</h3>
-                <p className="font-body-md text-secondary leading-relaxed">
+                <h3 className="font-headline-md text-4xl md:text-5xl text-on-surface mb-6">{gallery.title}</h3>
+                <p className="font-body-md text-xl md:text-2xl text-secondary leading-relaxed">
                   {gallery.description}
                 </p>
               </div>
