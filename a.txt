@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="he"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary-fixed": "#e7e1df",
+                    "surface-container-low": "#f3f4f3",
+                    "secondary-fixed-dim": "#d6c4aa",
+                    "on-surface": "#1a1c1c",
+                    "error": "#ba1a1a",
+                    "surface-variant": "#e2e2e2",
+                    "tertiary-fixed-dim": "#cac5c4",
+                    "on-tertiary-container": "#918d8b",
+                    "inverse-on-surface": "#f1f1f0",
+                    "on-primary": "#ffffff",
+                    "error-container": "#ffdad6",
+                    "surface-bright": "#f9f9f8",
+                    "primary-container": "#262626",
+                    "secondary": "#6a5c47",
+                    "on-surface-variant": "#444748",
+                    "background": "#f9f9f8",
+                    "tertiary": "#131111",
+                    "surface-container-highest": "#e2e2e2",
+                    "tertiary-container": "#282625",
+                    "surface-container": "#eeeeed",
+                    "primary": "#111111",
+                    "secondary-container": "#f3e0c4",
+                    "on-background": "#1a1c1c",
+                    "primary-fixed": "#e4e2e1",
+                    "on-error": "#ffffff",
+                    "secondary-fixed": "#f3e0c4",
+                    "outline-variant": "#c4c7c7",
+                    "on-primary-fixed": "#1b1c1c",
+                    "on-tertiary-fixed-variant": "#494645",
+                    "primary-fixed-dim": "#c8c6c5",
+                    "inverse-primary": "#c8c6c5",
+                    "on-secondary-fixed-variant": "#514531",
+                    "on-tertiary": "#ffffff",
+                    "on-primary-container": "#8e8d8c",
+                    "on-error-container": "#93000a",
+                    "on-secondary": "#ffffff",
+                    "inverse-surface": "#2f3130",
+                    "on-secondary-fixed": "#241a09",
+                    "surface-container-high": "#e8e8e7",
+                    "surface": "#f9f9f8",
+                    "surface-tint": "#5f5e5e",
+                    "on-tertiary-fixed": "#1d1b1a",
+                    "on-secondary-container": "#70624d",
+                    "on-primary-fixed-variant": "#474746",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-dim": "#dadad9",
+                    "outline": "#747878"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "unit": "8px",
+                    "container-max": "1440px",
+                    "margin-edge": "80px",
+                    "section-gap": "120px",
+                    "gutter": "40px"
+            },
+            "fontFamily": {
+                    "body-md": ["Inter"],
+                    "body-lg": ["Inter"],
+                    "label-sm": ["Inter"],
+                    "h1": ["Noto Serif"],
+                    "h2": ["Noto Serif"],
+                    "h3": ["Noto Serif"]
+            },
+            "fontSize": {
+                    "body-md": ["16px", {"lineHeight": "1.7", "fontWeight": "400"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "label-sm": ["13px", {"lineHeight": "1.2", "letterSpacing": "0.08em", "fontWeight": "500"}],
+                    "h1": ["56px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+                    "h2": ["36px", {"lineHeight": "1.2", "fontWeight": "400"}],
+                    "h3": ["24px", {"lineHeight": "1.4", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        body {
+            background-color: #f9f9f8;
+            color: #1a1c1c;
+            -webkit-font-smoothing: antialiased;
+        }
+        .reveal-image {
+            clip-path: inset(0 0 100% 0);
+            animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+        }
+        @keyframes reveal {
+            to { clip-path: inset(0 0 0 0); }
+        }
+    </style>
+</head>
+<body class="font-body-md selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-white/60 backdrop-blur-xl border-b border-neutral-100/50">
+<nav class="flex justify-between items-center px-12 py-4 max-w-full mx-auto rtl">
+<div class="flex items-center gap-8">
+<button class="text-neutral-800 opacity-70 hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</div>
+<h1 class="font-h1 text-xl tracking-tighter text-neutral-900 cursor-pointer">לאה עתיר</h1>
+<div class="flex items-center gap-8">
+<span class="material-symbols-outlined text-neutral-800 cursor-pointer" data-icon="search">search</span>
+</div>
+</nav>
+</header>
+<main class="pt-24 pb-section-gap max-w-container-max mx-auto px-margin-edge h-[calc(100vh-64px)] overflow-hidden flex flex-col justify-center py-4">
+<!-- Hero Gallery Section -->
+<section class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- Navigation Context -->
+<div class="lg:col-span-12 flex justify-start mb-6">
+<div class="flex items-center gap-4">
+<span class="font-label-sm text-on-surface-variant uppercase tracking-widest">01</span>
+<div class="w-12 h-px bg-outline-variant"></div>
+<span class="font-label-sm text-primary uppercase tracking-widest">אודות האמנית</span>
+</div>
+</div>
+<!-- Profile Illustration: Compacted -->
+<div class="lg:col-span-5 lg:sticky lg:top-24 pr-0 lg:pr-12">
+<div class="relative overflow-hidden aspect-square bg-surface-container-low group reveal-image max-w-[300px] mx-auto lg:mr-0">
+<img alt="לאה עטיר" class="object-cover w-full h-full grayscale group-hover:grayscale-0 transition-all duration-[2000ms] ease-out scale-105 group-hover:scale-100" data-alt="A detailed charcoal sketch portrait of the artist, showing expressive lines and deep shadows, reflecting an artistic and creative persona." src="https://lh3.googleusercontent.com/aida/ADBb0ug2CNeh6jdll6MLSupt6Ws56u1hHxylKk6oRq-eMe26mrgT45w-txMVsyg4UIDAgPf2LxcD01IoGt6ny1rKwmGKEIYKDjUStE8AjrbeCkHicpmlefFrtgX_hQZ9nLpb4d5w3j-tcm5tmUVstIBXwFhTMjuzEdcAZcAgCls6fYYhfvC6ilRCJzV3U9SjpLIIv-i76RBLdueVlT8wIdOn1OPiFFEVoVk0nh0ipJE61vYgKYFRTtlphFFQztbn4bZIj_CRF2ky9BQ2Al4"/>
+</div>
+<div class="mt-4">
+<p class="font-label-sm text-on-surface-variant/60 uppercase italic text-xs">פורטרט מאת לאה עתיר, פחם על נייר, 2020</p>
+</div>
+</div>
+<!-- Narrative Content: Tightened Spacing -->
+<div class="lg:col-span-7 mt-8 lg:mt-0 pl-0 lg:pl-12">
+<h2 class="font-h1 text-h1 text-primary mb-8 leading-[1.05] text-3xl mb-4">יצירה מתוך השקט <br/>&amp; התבוננות פנימית</h2>
+<div class="text-on-surface">
+<p class="font-body-lg text-body-lg leading-relaxed first-letter:font-serif first-letter:ml-4 first-letter:float-right first-letter:mt-1 first-letter:text-4xl">
+                        לאה עטיר היא אמנית רב-תחומית הפועלת בירושלים. עבודתה מתמקדת בממתח שבין המופשט למוחשי, תוך שימוש בחומרים טבעיים וטכניקות מסורתיות הנשזרות לתוך קומפוזיציות מודרניות. הקריירה שלה משתרעת על פני שני עשורים, במהלכם הציגה בתערוכות יחיד וקבוצתיות בגלריות הנחשבות בארץ ובעולם.
+                    </p>
+<p class="font-body-md text-on-surface-variant max-w-xl">
+                        המסע האמנותי של לאה החל בלימודי עיצוב ואדריכלות, רקע המשתקף בדיוק המבני ובמשחקי האור והצל המאפיינים את יצירותיה. לאורך השנים, פיתחה שפה חזותית ייחודית המשלבת מינימליזם צורני עם עומק רגשי רב.
+                    </p>
+<!-- Large Quote / Artist Statement: Tightened -->
+<div class="border-y border-surface-variant/50 relative">
+<span class="material-symbols-outlined text-5xl text-secondary-container/40 absolute -top-6 right-0" data-icon="format_quote" style="font-variation-settings: 'FILL' 1;">format_quote</span>
+<div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+<div class="lg:col-span-1">
+<h3 class="font-label-sm uppercase tracking-widest text-primary">הצהרת אמן</h3>
+</div>
+<div class="lg:col-span-3">
+<p class="font-h3 italic leading-snug text-secondary">
+                                    "האמנות עבורי היא תהליך של זיקוק. אני מחפשת את הנקודה שבה החומר מפסיק להיות רק נוכחות פיזית והופך לרגש. בעולם רועש, אני שואפת ליצור מרחבים של שקט."
+                                </p>
+</div>
+</div>
+</div>
+<!-- Details Grid -->
+<div class="pt-8 grid grid-cols-1 md:grid-cols-2 gap-12 pt-4 gap-8">
+<div class="space-y-4">
+<h4 class="font-label-sm text-on-surface-variant border-b border-outline-variant/30 pb-2">תערוכות נבחרות</h4>
+<ul class="font-body-md space-y-2">
+<li class="flex justify-between items-baseline gap-4">
+<span class="text-primary font-medium">מוזיאון ישראל</span>
+<span class="text-on-surface-variant text-sm tabular-nums">2022</span>
+</li>
+<li class="flex justify-between items-baseline gap-4">
+<span class="text-primary font-medium">גלריה קונטמפוררי</span>
+<span class="text-on-surface-variant text-sm tabular-nums">2020</span>
+</li>
+<li class="flex justify-between items-baseline gap-4">
+<span class="text-primary font-medium">הביאנלה לאומנויות</span>
+<span class="text-on-surface-variant text-sm tabular-nums">2018</span>
+</li>
+</ul>
+</div>
+<div class="space-y-4">
+<h4 class="font-label-sm text-on-surface-variant border-b border-outline-variant/30 pb-2">פרסים ומלגות</h4>
+<ul class="font-body-md space-y-2">
+<li class="flex justify-between items-baseline gap-4">
+<span class="text-primary font-medium">פרס שרת התרבות</span>
+<span class="text-on-surface-variant text-sm tabular-nums">2021</span>
+</li>
+<li class="flex justify-between items-baseline gap-4">
+<span class="text-primary font-medium">מלגת שהות, פריז</span>
+<span class="text-on-surface-variant text-sm tabular-nums">2019</span>
+</li>
+<li class="flex justify-between items-baseline gap-4">
+<span class="text-primary font-medium">קרן יהושע רבינוביץ'</span>
+<span class="text-on-surface-variant text-sm tabular-nums">2017</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Secondary Visual: Studio/Gallery Space -->
+</main>
+<!-- NavigationDrawer (Mobile/Interaction) -->
+<aside class="h-full w-96 fixed right-0 top-0 bg-white shadow-2xl translate-x-full transition-transform duration-700 ease-in-out z-[100] flex flex-col rtl" id="drawer">
+<div class="p-12 border-b border-neutral-100 flex justify-between items-center">
+<span class="font-h3 text-neutral-900">לאה עטיר</span>
+<button class="material-symbols-outlined hover:rotate-90 transition-transform p-2" onclick="document.getElementById('drawer').classList.add('translate-x-full')">close</button>
+</div>
+<div class="flex-grow py-12">
+<nav class="space-y-4">
+<a class="flex items-center gap-6 px-12 py-6 text-neutral-400 hover:text-neutral-900 font-h3 transition-all group" href="#">
+<span class="text-sm font-label-sm opacity-0 group-hover:opacity-100 transition-opacity">01</span> בית
+                </a>
+<a class="flex items-center gap-6 px-12 py-6 text-neutral-400 hover:text-neutral-900 font-h3 transition-all group" href="#">
+<span class="text-sm font-label-sm opacity-0 group-hover:opacity-100 transition-opacity">02</span> גלריה
+                </a>
+<a class="flex items-center gap-6 px-12 py-6 text-neutral-900 font-bold font-h3 transition-all group bg-surface-container-low" href="#">
+<span class="text-sm font-label-sm">03</span> אודות
+                </a>
+<a class="flex items-center gap-6 px-12 py-6 text-neutral-400 hover:text-neutral-900 font-h3 transition-all group" href="#">
+<span class="text-sm font-label-sm opacity-0 group-hover:opacity-100 transition-opacity">04</span> צור קשר
+                </a>
+</nav>
+</div>
+</aside>
+<!-- Footer -->
+<footer class="w-full border-t border-neutral-100 bg-white flex flex-col md:flex-row-reverse justify-between items-center px-12 gap-8 rtl py-6">
+<div class="flex gap-12">
+<a class="font-label-sm uppercase tracking-widest text-neutral-400 hover:text-primary transition-all border-b border-transparent hover:border-primary" href="#">אינסטגרם</a>
+<a class="font-label-sm uppercase tracking-widest text-neutral-400 hover:text-primary transition-all border-b border-transparent hover:border-primary" href="#">פייסבוק</a>
+<a class="font-label-sm uppercase tracking-widest text-neutral-400 hover:text-primary transition-all border-b border-transparent hover:border-primary" href="#">פינטרסט</a>
+</div>
+<div class="flex flex-col items-center md:items-start gap-2">
+<p class="font-label-sm uppercase tracking-widest text-primary">
+                © 2024 לאה עטיר. כל הזכויות שמורות.
+            </p>
+<p class="font-label-sm text-on-surface-variant/40 text-[10px]">DESIGNED FOR THE QUIET OBSERVER</p>
+</div>
+</footer>
+<script>
+        document.querySelector('[data-icon="menu"]').parentElement.addEventListener('click', () => {
+            document.getElementById('drawer').classList.remove('translate-x-full');
+        });
+    </script>
+</body></html>
