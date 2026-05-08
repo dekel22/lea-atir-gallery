@@ -98,7 +98,7 @@ const Home = () => {
             <img 
               alt="קולאז' ציורים של לאה עטיר" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-[3000ms]" 
-              src="https://lh3.googleusercontent.com/aida/ADBb0uhDbveGRzAU3mwK_O4a9RS04uhqEZYnFM4abW1ZSlst1cd2I8jDiMGIFJm-0ej2UCpGKZI2cvPdbge4v4EgBRTK19hKbLzZS27ayTA6w6SfnXjouXq0t4l5jOYY9kEDwxPHVDD93uvsIkQ8ARA5rac1P00jnrDi7ofQrwDCCNxLYVshlghYMH5DnsY82e-rF9eIU-3KTKmrXr3vwcAx6wANYh36armcEYM5ry6VG55tGd3BRWBvW4NInLWAHZLbDMhzR4iqJvWYPDA"
+              src="/pho.png"
             />
           </div>
           <div className="lg:col-span-4 flex flex-col justify-center p-8 lg:p-12 bg-surface-container-high text-on-surface">
