@@ -74,7 +74,6 @@
   height: auto;
   display: block;
   transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-  filter: brightness(0.95);
 }
 
 .masonry-item-overlay {
@@ -83,7 +82,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(42, 42, 42, 0.2); /* elegant dark tint */
+  background: rgba(255, 255, 255, 0.1); /* very subtle light tint instead of dark */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,6 +92,7 @@
 
 .masonry-item-overlay span {
   color: white;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
   font-family: var(--font-sans);
   font-weight: 300;
   font-size: 0.9rem;
@@ -104,7 +104,6 @@
 
 .masonry-item:hover img {
   transform: scale(1.03);
-  filter: brightness(1);
 }
 
 .masonry-item:hover .masonry-item-overlay {

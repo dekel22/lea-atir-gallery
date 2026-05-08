@@ -2,17 +2,17 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-surface-container-low border-t border-outline-variant full-width py-12 mt-32 relative z-10">
-      <div className="flex flex-col md:flex-row-reverse justify-between items-center px-12 w-full gap-8 max-w-screen-2xl mx-auto">
-        <div className="text-lg font-serif italic text-on-surface">לאה עתיר</div>
-        <div className="flex flex-row-reverse gap-12 font-sans text-xs uppercase tracking-widest text-on-surface-variant">
-          <a className="hover:text-primary transition-colors duration-300" href="#">אינסטגרם</a>
-          <a className="hover:text-primary transition-colors duration-300" href="#">פייסבוק</a>
-          <a className="hover:text-primary transition-colors duration-300" href="#">דוא"ל</a>
-        </div>
-        <div className="font-sans text-xs uppercase tracking-widest text-on-surface-variant">
-          © כל הזכויות שמורות ללאה עטיר
-        </div>
+    <footer className="w-full border-t border-neutral-100 bg-white/60 backdrop-blur-xl flex flex-col md:flex-row-reverse justify-between items-center px-12 py-20 gap-8 rtl mt-auto">
+      <div className="flex gap-12">
+        <a className="font-label-sm uppercase tracking-widest text-neutral-400 hover:text-primary transition-all border-b border-transparent hover:border-primary" href="#">אינסטגרם</a>
+        <a className="font-label-sm uppercase tracking-widest text-neutral-400 hover:text-primary transition-all border-b border-transparent hover:border-primary" href="#">פייסבוק</a>
+        <a className="font-label-sm uppercase tracking-widest text-neutral-400 hover:text-primary transition-all border-b border-transparent hover:border-primary" href="#">פינטרסט</a>
+      </div>
+      <div className="flex flex-col items-center md:items-start gap-2">
+        <p className="font-label-sm uppercase tracking-widest text-primary">
+          © 2024 לאה עתיר. כל הזכויות שמורות.
+        </p>
+        <p className="font-label-sm text-on-surface-variant/40 text-[10px]">DESIGNED FOR THE QUIET OBSERVER</p>
       </div>
     </footer>
   );

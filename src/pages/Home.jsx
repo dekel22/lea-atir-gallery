@@ -1,83 +1,88 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { galleries } from '../data/galleries';
 
 const Home = () => {
+  useEffect(() => {
+    document.title = 'לאה עתיר - גלריה לאומנות';
+  }, []);
+
   return (
-    <main className="pt-32 pb-section-gap max-w-container-max mx-auto px-margin-edge min-h-[calc(100vh-64px)] flex flex-col py-4 animate-fade-in">
+    <main className="pt-24 pb-12 max-w-container-max mx-auto px-margin-edge">
       {/* Hero Gallery Section */}
       <section className="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
-        {/* Profile Illustration: Compacted */}
-        <div className="lg:col-span-5 lg:sticky lg:top-24 pr-0 lg:pr-12">
-          <div className="relative overflow-hidden aspect-square bg-surface-container-low group reveal-image max-w-[300px] mx-auto lg:mr-0">
+        {/* Navigation Context */}
+        <div className="lg:col-span-12 mb-8 flex justify-start">
+          <div className="flex items-center gap-4">
+            <span className="font-label-sm text-on-surface-variant uppercase tracking-widest">01</span>
+            <div className="w-12 h-px bg-outline-variant"></div>
+            <span className="font-label-sm text-primary uppercase tracking-widest">אודות האמנית</span>
+          </div>
+        </div>
+        {/* Profile Illustration */}
+        <div className="lg:col-span-4 lg:sticky lg:top-32 pr-0 lg:pr-12 mb-8 lg:mb-0">
+          <div className="relative overflow-hidden aspect-[3/4] w-1/2 lg:w-full mx-auto lg:mx-0 bg-surface-container-low group reveal-image">
             <img 
-              alt="לאה עטיר" 
-              className="object-cover w-full h-full grayscale group-hover:grayscale-0 transition-all duration-[2000ms] ease-out scale-105 group-hover:scale-100" 
-              data-alt="A detailed charcoal sketch portrait of the artist, showing expressive lines and deep shadows, reflecting an artistic and creative persona." 
+              alt="לאה עתיר" 
+              className="object-cover w-full h-full transition-all duration-[2000ms] ease-out scale-105 group-hover:scale-100" 
               src="/about-portrait.jpg"
             />
           </div>
-          <div className="mt-4">
-            <p className="font-label-sm text-on-surface-variant/60 uppercase italic text-xs">פורטרט מאת לאה עתיר, פחם על נייר, 2020</p>
+          <div className="mt-8 text-center lg:text-right">
+            <p className="font-label-sm text-on-surface-variant/60 uppercase italic">פורטרט מאת לאה עתיר, פחם על נייר, 2020</p>
           </div>
         </div>
-        {/* Narrative Content: Tightened Spacing */}
-        <div className="lg:col-span-7 mt-8 lg:mt-0 pl-0 lg:pl-12">
-          <h2 className="font-h1 text-h1 text-primary leading-[1.05] text-3xl mb-4">יצירה מתוך השקט <br/>&amp; התבוננות פנימית</h2>
-          <div className="text-on-surface">
-            <p className="font-body-lg text-body-lg leading-relaxed first-letter:font-serif first-letter:ml-4 first-letter:float-right first-letter:mt-1 first-letter:text-4xl">
+        {/* Narrative Content */}
+        <div className="lg:col-span-8 mt-4 lg:mt-0 pl-0 lg:pl-12">
+          <h2 className="font-h1 text-4xl lg:text-5xl text-primary mb-8 leading-[1.05]">יצירה מתוך השקט <br/>&amp; התבוננות פנימית</h2>
+          <div className="space-y-6 text-on-surface">
+            <p className="font-body-lg text-body-lg leading-relaxed first-letter:text-7xl first-letter:font-serif first-letter:ml-4 first-letter:float-right first-letter:mt-2">
               לאה עטיר היא אמנית רב-תחומית הפועלת בירושלים. עבודתה מתמקדת בממתח שבין המופשט למוחשי, תוך שימוש בחומרים טבעיים וטכניקות מסורתיות הנשזרות לתוך קומפוזיציות מודרניות. הקריירה שלה משתרעת על פני שני עשורים, במהלכם הציגה בתערוכות יחיד וקבוצתיות בגלריות הנחשבות בארץ ובעולם.
             </p>
-            <p className="font-body-md text-on-surface-variant max-w-xl mt-4">
-              המסע האמנותי של לאה החל בלימודי עיצוב ואדריכלות, רקע המשתקף בדיוק המבני ובמשחקי האור והצל המאפיינים את יצירותיה. לאורך השנים, פיתחה שפה חזותית ייחודית המשלבת מינימליזם צורני עם עומק רגשי רב.
+            <p className="font-body-md text-on-surface-variant max-w-xl">
+              המסע האמנותי של לאה החל בלימודי עיצוב ואדריכלות, רקע המשתקף בדיוק המבני ובמשחקי האור והצל המאפיינים את יצירותיה. לאורך השנים, פיתחה שפה חזותית ייחודית המשלבת מינימליזם צורני עם עומק רגשי רב, המזמינה את המתבונן לרגע של שהות ומחשבה.
             </p>
-            {/* Large Quote / Artist Statement: Tightened */}
-            <div className="border-y border-surface-variant/50 relative mt-8">
-              <span className="material-symbols-outlined text-5xl text-secondary-container/40 absolute -top-6 right-0" data-icon="format_quote" style={{fontVariationSettings: "'FILL' 1"}}>format_quote</span>
-              <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 py-6">
+            {/* Large Quote / Artist Statement */}
+            <div className="py-8 border-y border-surface-variant/50 relative">
+              <span className="material-symbols-outlined text-6xl text-secondary-container/40 absolute -top-8 right-0" data-icon="format_quote" style={{fontVariationSettings: "'FILL' 1"}}>format_quote</span>
+              <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
                 <div className="lg:col-span-1">
                   <h3 className="font-label-sm uppercase tracking-widest text-primary">הצהרת אמן</h3>
                 </div>
                 <div className="lg:col-span-3">
-                  <p className="font-h3 italic leading-snug text-secondary">
+                  <p className="font-h3 text-xl lg:text-2xl italic leading-snug text-secondary mb-2">
                     "האמנות עבורי היא תהליך של זיקוק. אני מחפשת את הנקודה שבה החומר מפסיק להיות רק נוכחות פיזית והופך לרגש. בעולם רועש, אני שואפת ליצור מרחבים של שקט."
                   </p>
                 </div>
               </div>
             </div>
-            {/* Details Grid */}
-            <div className="pt-8 grid grid-cols-1 md:grid-cols-2 gap-12 gap-8">
-              <div className="space-y-4">
+            {/* Details Section */}
+            <div className="pt-8 max-w-xl">
+              <div className="space-y-6">
                 <h4 className="font-label-sm text-on-surface-variant border-b border-outline-variant/30 pb-2">תערוכות נבחרות</h4>
-                <ul className="font-body-md space-y-2">
+                <ul className="font-body-md space-y-4">
                   <li className="flex justify-between items-baseline gap-4">
-                    <span className="text-primary font-medium">מוזיאון ישראל</span>
-                    <span className="text-on-surface-variant text-sm tabular-nums">2022</span>
+                    <Link to="/gallery/gallery_3" className="text-primary font-medium hover:text-secondary transition-colors underline decoration-outline-variant/30 underline-offset-4">ש.ב.ר רמות מנשה גלריה לאומנות</Link>
+                    <span className="text-on-surface-variant text-sm tabular-nums">2026</span>
                   </li>
                   <li className="flex justify-between items-baseline gap-4">
-                    <span className="text-primary font-medium">גלריה קונטמפוררי</span>
+                    <Link to="/gallery/transparent" className="text-primary font-medium hover:text-secondary transition-colors underline decoration-outline-variant/30 underline-offset-4">שקופים</Link>
                     <span className="text-on-surface-variant text-sm tabular-nums">2020</span>
                   </li>
                   <li className="flex justify-between items-baseline gap-4">
-                    <span className="text-primary font-medium">הביאנלה לאומנויות</span>
-                    <span className="text-on-surface-variant text-sm tabular-nums">2018</span>
-                  </li>
-                </ul>
-              </div>
-              <div className="space-y-4">
-                <h4 className="font-label-sm text-on-surface-variant border-b border-outline-variant/30 pb-2">פרסים ומלגות</h4>
-                <ul className="font-body-md space-y-2">
-                  <li className="flex justify-between items-baseline gap-4">
-                    <span className="text-primary font-medium">פרס שרת התרבות</span>
-                    <span className="text-on-surface-variant text-sm tabular-nums">2021</span>
+                    <Link to="/gallery/gallery_7" className="text-primary font-medium hover:text-secondary transition-colors underline decoration-outline-variant/30 underline-offset-4">וריאציות על נושא</Link>
+                    <span className="text-on-surface-variant text-sm tabular-nums">1995</span>
                   </li>
                   <li className="flex justify-between items-baseline gap-4">
-                    <span className="text-primary font-medium">מלגת שהות, פריז</span>
-                    <span className="text-on-surface-variant text-sm tabular-nums">2019</span>
+                    <Link to="/gallery/gallery_1" className="text-primary font-medium hover:text-secondary transition-colors underline decoration-outline-variant/30 underline-offset-4">מבטים של יום יום</Link>
+                    <span className="text-on-surface-variant text-sm tabular-nums">2003</span>
                   </li>
                   <li className="flex justify-between items-baseline gap-4">
-                    <span className="text-primary font-medium">קרן יהושע רבינוביץ'</span>
-                    <span className="text-on-surface-variant text-sm tabular-nums">2017</span>
+                    <Link to="/gallery/gallery_1" className="text-primary font-medium hover:text-secondary transition-colors underline decoration-outline-variant/30 underline-offset-4">גלריה לאומנות קסטרא חיפה</Link>
+                    <span className="text-on-surface-variant text-sm tabular-nums">2003</span>
+                  </li>
+                  <li className="flex justify-between items-baseline gap-4">
+                    <Link to="/gallery/silver" className="text-primary font-medium hover:text-secondary transition-colors underline decoration-outline-variant/30 underline-offset-4">כסף</Link>
+                    <span className="text-on-surface-variant text-sm tabular-nums">2026</span>
                   </li>
                 </ul>
               </div>
@@ -86,23 +91,25 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Textual Gallery Links Section */}
-      <section className="mt-32 pt-16 border-t border-outline-variant/30 lg:pr-12 lg:col-span-7 lg:col-start-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          {galleries.map((gallery) => (
-            <div key={gallery.id} className="group">
-              <Link to={`/gallery/${gallery.id}`} className="block hover:bg-surface-container-low p-6 -m-6 rounded transition-colors duration-500">
-                <h3 className="font-h3 text-primary group-hover:text-secondary transition-colors mb-3">{gallery.title}</h3>
-                <p className="font-body-md text-on-surface-variant line-clamp-3">
-                  {gallery.description}
-                </p>
-                <div className="mt-6 flex items-center gap-2 text-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <span className="font-label-sm uppercase tracking-widest">לצפייה בגלריה</span>
-                  <span className="material-symbols-outlined text-sm" style={{fontVariationSettings: "'wght' 300"}}>arrow_back</span>
-                </div>
-              </Link>
-            </div>
-          ))}
+      {/* Secondary Visual: Process/Behind the Scenes */}
+      <section className="mt-section-gap">
+        <div className="grid grid-cols-1 lg:grid-cols-12 items-stretch overflow-hidden border border-surface-variant/30">
+          <div className="lg:col-span-8 bg-surface-container-highest aspect-[16/9]">
+            <img 
+              alt="קולאז' ציורים של לאה עטיר" 
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-[3000ms]" 
+              src="https://lh3.googleusercontent.com/aida/ADBb0uhDbveGRzAU3mwK_O4a9RS04uhqEZYnFM4abW1ZSlst1cd2I8jDiMGIFJm-0ej2UCpGKZI2cvPdbge4v4EgBRTK19hKbLzZS27ayTA6w6SfnXjouXq0t4l5jOYY9kEDwxPHVDD93uvsIkQ8ARA5rac1P00jnrDi7ofQrwDCCNxLYVshlghYMH5DnsY82e-rF9eIU-3KTKmrXr3vwcAx6wANYh36armcEYM5ry6VG55tGd3BRWBvW4NInLWAHZLbDMhzR4iqJvWYPDA"
+            />
+          </div>
+          <div className="lg:col-span-4 flex flex-col justify-center p-8 lg:p-12 bg-surface-container-high text-on-surface">
+            <span className="font-label-sm text-primary/60 mb-8 uppercase tracking-widest">מאחורי הקלעים</span>
+            <h3 className="font-h2 text-h2 text-primary mb-6">תהליך היצירה</h3>
+            <p className="font-body-md text-on-surface-variant mb-6">הסטודיו הוא מרחב של ניסוי וטעייה, מקום שבו המחשבות הופכות לצבע וצורה. השהות בו מאפשרת זיקוק של הרעיון לכדי חומר.</p>
+            <Link to="/galleries" className="inline-flex items-center gap-4 font-label-sm uppercase tracking-[0.2em] group border-b border-primary/20 pb-2 w-fit hover:border-primary transition-all text-primary">
+              לצפייה בגלריות
+              <span className="material-symbols-outlined text-lg group-hover:-translate-x-2 transition-transform" data-icon="arrow_back">arrow_back</span>
+            </Link>
+          </div>
         </div>
       </section>
     </main>

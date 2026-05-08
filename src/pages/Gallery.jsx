@@ -10,10 +10,36 @@ const Gallery = () => {
   const gallery = galleries.find(g => g.id === id);
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
 
-  // Scroll to top when gallery opens
+  // Scroll to top and set page title when gallery opens
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [id]);
+    if (gallery) {
+      document.title = `${gallery.title} | לאה עתיר`;
+    }
+    
+    // Reset title on unmount
+    return () => {
+      document.title = 'לאה עתיר - גלריה לאומנות';
+    };
+  }, [id, gallery]);
+
+  // Keyboard navigation
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (selectedImageIndex === null) return;
+      
+      if (e.key === 'ArrowRight') {
+        setSelectedImageIndex((prev) => (prev === 0 ? gallery.images.length - 1 : prev - 1));
+      } else if (e.key === 'ArrowLeft') {
+        setSelectedImageIndex((prev) => (prev === gallery.images.length - 1 ? 0 : prev + 1));
+      } else if (e.key === 'Escape') {
+        closeLightbox();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [selectedImageIndex, gallery]);
 
   if (!gallery) {
     return (
