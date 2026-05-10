@@ -101,11 +101,11 @@ const Home = () => {
               src="/galleries/קטלוג.PNG"
             />
           </div>
-          <div className="lg:col-span-4 flex flex-col justify-center p-8 lg:p-12 bg-surface-container-high text-on-surface">
-            <span className="font-label-sm text-primary/60 mb-8 uppercase tracking-widest">מאחורי הקלעים</span>
-            <h3 className="font-h2 text-h2 text-primary mb-6">תהליך היצירה</h3>
-            <p className="font-body-md text-on-surface-variant mb-6">הסטודיו הוא מרחב של ניסוי וטעייה, מקום שבו המחשבות הופכות לצבע וצורה. השהות בו מאפשרת זיקוק של הרעיון לכדי חומר.</p>
-            <Link to="/galleries" className="inline-flex items-center gap-4 font-label-sm uppercase tracking-[0.2em] group border-b border-primary/20 pb-2 w-fit hover:border-primary transition-all text-primary">
+          <div className="lg:col-span-4 flex flex-col justify-center p-8 lg:p-12 bg-black text-white">
+            <span className="font-label-sm text-white/60 mb-8 uppercase tracking-widest">מאחורי הקלעים</span>
+            <h3 className="font-h2 text-h2 text-white mb-6">תהליך היצירה</h3>
+            <p className="font-body-md text-white/80 mb-6">הסטודיו הוא מרחב של ניסוי וטעייה, מקום שבו המחשבות הופכות לצבע וצורה. השהות בו מאפשרת זיקוק של הרעיון לכדי חומר.</p>
+            <Link to="/galleries" className="inline-flex items-center gap-4 font-label-sm uppercase tracking-[0.2em] group border-b border-white/20 pb-2 w-fit hover:border-white transition-all text-white">
               לצפייה בגלריות
               <span className="material-symbols-outlined text-lg group-hover:-translate-x-2 transition-transform" data-icon="arrow_back">arrow_back</span>
             </Link>
