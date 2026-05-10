@@ -21,7 +21,7 @@ const Navbar = () => {
             <img 
               src="/sig.png" 
               alt="לאה עתיר" 
-              className="h-[144px] lg:h-[180px] object-contain" 
+              className="h-[216px] lg:h-[270px] object-contain" 
             />
           </div>
 
