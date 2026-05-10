@@ -28,7 +28,7 @@ const Home = () => {
             />
           </div>
           <div className="mt-8 text-center lg:text-right">
-            <p className="font-label-sm text-on-surface-variant/60 uppercase italic">דיוקן עצמי מאת לאה עתיר, פחם על נייר, 2020</p>
+            <p className="font-label-sm text-on-surface-variant/60 uppercase italic">דיוקן עצמי, פחם על נייר, 2020</p>
           </div>
         </div>
         {/* Narrative Content */}
