@@ -96,9 +96,9 @@ const Home = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 items-stretch overflow-hidden border border-surface-variant/30">
           <div className="lg:col-span-8 bg-surface-container-highest aspect-[16/9]">
             <img 
-              alt="קולאז' ציורים של לאה עטיר" 
-              className="w-full h-full object-cover hover:scale-105 transition-transform duration-[3000ms]" 
-              src="/pho.png"
+              alt="קטלוג ציורים של לאה עתיר" 
+              className="w-full h-full object-contain hover:scale-105 transition-transform duration-[3000ms]" 
+              src="/galleries/קטלוג.PNG"
             />
           </div>
           <div className="lg:col-span-4 flex flex-col justify-center p-8 lg:p-12 bg-surface-container-high text-on-surface">
