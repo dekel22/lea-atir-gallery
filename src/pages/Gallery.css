@@ -26,13 +26,13 @@
   color: var(--color-text);
   font-size: 1.5rem;
   max-width: 800px;
-  line-height: 1.9;
+  line-height: 1.5;
   text-align: center;
   font-weight: 300;
 }
 
 .gallery-long-description p {
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
 }
 
 .back-link {
