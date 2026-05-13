@@ -13,6 +13,7 @@ const Navbar = () => {
           <div className="flex items-center gap-12 lg:gap-16">
             <Link to="/galleries" className="font-label-sm uppercase tracking-widest text-primary hover:text-secondary transition-colors">גלריות</Link>
             <Link to="/about" className="font-label-sm uppercase tracking-widest text-primary hover:text-secondary transition-colors">אודות</Link>
+            <Link to="/contact" className="font-label-sm uppercase tracking-widest text-primary hover:text-secondary transition-colors">צור קשר</Link>
             <Link to="/" className="font-label-sm uppercase tracking-widest text-primary hover:text-secondary transition-colors">דף הבית</Link>
           </div>
 
