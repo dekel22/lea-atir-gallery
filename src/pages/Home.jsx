@@ -50,7 +50,7 @@ const Home = () => {
                 </div>
                 <div className="lg:col-span-3">
                   <p className="font-h3 text-xl lg:text-2xl italic leading-snug text-secondary mb-2">
-                    "האמנות עבורי היא תהליך של זיקוק. אני מחפשת את הנקודה שבה החומר מפסיק להיות רק נוכחות פיזית והופך לרגש. בעולם רועש, אני שואפת ליצור מרחבים של שקט."
+                    "לגבי אומנות ויצירה היא דרך חיים, האומנות מאז שאני זוכרת את עצמי הייתה לי עוגן ומקור לחוזק. מכל הטכניקות, ואני מכירה הרבה. הרישום בשחור לבן בחומרים הכי בסיסיים כמו עיפרון גורמים לי הנאה, הוא החומר החוקר שלי, הבסיס לרוב עבודותי, ההתחלה כמעט בכל עבודה."
                   </p>
                 </div>
               </div>
@@ -102,9 +102,9 @@ const Home = () => {
             />
           </div>
           <div className="lg:col-span-4 flex flex-col justify-center p-8 lg:p-12 bg-black text-white">
-            <span className="font-label-sm text-white/60 mb-8 uppercase tracking-widest">מאחורי הקלעים</span>
+
             <h3 className="font-h2 text-h2 text-white mb-6">תהליך היצירה</h3>
-            <p className="font-body-md text-white/80 mb-6">הסטודיו הוא מרחב של ניסוי וטעייה, מקום שבו המחשבות הופכות לצבע וצורה. השהות בו מאפשרת זיקוק של הרעיון לכדי חומר.</p>
+            <p className="font-body-md text-white/80 mb-6">יצירה היא משהו שניבנה עם עשייתה, גם אם ידוע וברור לי במחשבה מה אני הולכת לעשות תמיד קיים "פער היצירה", זהו התהליך בין ההתחלה לתוצאה.. לכן יצירה היא תהליך לא ידוע מראש.</p>
             <Link to="/galleries" className="inline-flex items-center gap-4 font-label-sm uppercase tracking-[0.2em] group border-b border-white/20 pb-2 w-fit hover:border-white transition-all text-white">
               לצפייה בגלריות
               <span className="material-symbols-outlined text-lg group-hover:-translate-x-2 transition-transform" data-icon="arrow_back">arrow_back</span>
