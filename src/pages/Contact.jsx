@@ -17,107 +17,39 @@ const Contact = () => {
         <h1 className="font-h1 text-5xl lg:text-6xl text-primary mb-6">נשמח לשמוע ממך</h1>
       </header>
 
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
-        <div className="lg:col-span-7">
-          <form 
-            action="https://formspree.io/leaatir@walla.com" 
-            method="POST" 
-            className="space-y-8"
-          >
-            {/* Formspree Configuration */}
-            <input type="hidden" name="_subject" value="פנייה חדשה מאתר לאה עתיר" />
-            <input type="hidden" name="_next" value={window.location.origin + "/success"} />
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="space-y-2">
-                <label htmlFor="name" className="font-label-sm uppercase tracking-wider text-primary/70">שם מלא</label>
-                <input 
-                  type="text" 
-                  id="name" 
-                  name="name" 
-                  required 
-                  className="w-full bg-surface-container-low border-b border-outline-variant py-4 px-2 focus:border-primary outline-none transition-colors text-on-surface"
-                />
-              </div>
-              <div className="space-y-2">
-                <label htmlFor="phone" className="font-label-sm uppercase tracking-wider text-primary/70">טלפון</label>
-                <input 
-                  type="tel" 
-                  id="phone" 
-                  name="phone" 
-                  required 
-                  className="w-full bg-surface-container-low border-b border-outline-variant py-4 px-2 focus:border-primary outline-none transition-colors text-on-surface"
-                />
-              </div>
-            </div>
-
-            <div className="space-y-2">
-              <label htmlFor="email" className="font-label-sm uppercase tracking-wider text-primary/70">אימייל</label>
-              <input 
-                type="email" 
-                id="email" 
-                name="email" 
-                required 
-                className="w-full bg-surface-container-low border-b border-outline-variant py-4 px-2 focus:border-primary outline-none transition-colors text-on-surface"
-              />
-            </div>
-
-            <div className="space-y-2">
-              <label htmlFor="message" className="font-label-sm uppercase tracking-wider text-primary/70">סיבת הפנייה / הודעה</label>
-              <textarea 
-                id="message" 
-                name="message" 
-                rows="5" 
-                required 
-                className="w-full bg-surface-container-low border-b border-outline-variant py-4 px-2 focus:border-primary outline-none transition-colors text-on-surface resize-none"
-              ></textarea>
-            </div>
-
-            <div className="flex flex-col gap-4">
-              <input type="hidden" name="_next" value={window.location.origin + "/success"} />
-              <button 
-                type="submit" 
-                className="inline-flex items-center gap-4 bg-primary text-on-primary px-12 py-5 font-label-sm uppercase tracking-[0.2em] hover:bg-secondary transition-all"
-              >
-                שלח הודעה
-                <span className="material-symbols-outlined text-lg" data-icon="send">send</span>
-              </button>
-            </div>
-          </form>
-        </div>
-
-        <div className="lg:col-span-5 flex flex-col justify-start space-y-12">
-          <div className="space-y-6">
+      <div className="max-w-4xl">
+        <div className="flex flex-col space-y-16">
+          <div className="space-y-6 max-w-2xl">
             <h3 className="font-h3 text-2xl text-secondary">פרטי התקשרות</h3>
-            <p className="font-body-md text-on-surface-variant leading-relaxed">
-              לבירורים נוספים, רכישת עבודות או תיאום ביקור בסטודיו, ניתן ליצור קשר גם באופן ישיר.
+            <p className="font-body-lg text-lg text-on-surface-variant leading-relaxed">
+              לבירורים נוספים, רכישת עבודות או תיאום ביקור בסטודיו, ניתן ליצור קשר באופן ישיר. אני זמינה לכל שאלה או התייעצות לגבי היצירות והתהליך האמנותי.
             </p>
           </div>
 
-          <div className="space-y-8">
-            <div className="flex items-center gap-6">
-              <div className="w-12 h-12 flex items-center justify-center bg-surface-container rounded-full text-primary">
-                <span className="material-symbols-outlined" data-icon="mail">mail</span>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div className="flex items-center gap-8 group">
+              <div className="w-16 h-16 flex items-center justify-center bg-surface-container rounded-full text-primary group-hover:bg-primary group-hover:text-on-primary transition-all duration-500">
+                <span className="material-symbols-outlined text-2xl" data-icon="mail">mail</span>
               </div>
               <div>
-                <p className="font-label-xs uppercase tracking-widest text-primary/50">אימייל</p>
-                <a href="mailto:leaatir@walla.com" className="font-body-lg text-lg hover:text-primary transition-colors">leaatir@walla.com</a>
+                <p className="font-label-sm uppercase tracking-widest text-primary/40 mb-1">אימייל</p>
+                <a href="mailto:leaatir@walla.com" className="font-h3 text-2xl hover:text-secondary transition-colors">leaatir@walla.com</a>
               </div>
             </div>
 
-            <div className="flex items-center gap-6">
-              <div className="w-12 h-12 flex items-center justify-center bg-surface-container rounded-full text-primary">
-                <span className="material-symbols-outlined" data-icon="call">call</span>
+            <div className="flex items-center gap-8 group">
+              <div className="w-16 h-16 flex items-center justify-center bg-surface-container rounded-full text-primary group-hover:bg-primary group-hover:text-on-primary transition-all duration-500">
+                <span className="material-symbols-outlined text-2xl" data-icon="call">call</span>
               </div>
               <div>
-                <p className="font-label-xs uppercase tracking-widest text-primary/50">טלפון נייד</p>
-                <a href="tel:0544911985" className="font-body-lg text-lg hover:text-primary transition-colors" dir="ltr">054-4911985</a>
+                <p className="font-label-sm uppercase tracking-widest text-primary/40 mb-1">טלפון נייד</p>
+                <a href="tel:0544911985" className="font-h3 text-2xl hover:text-secondary transition-colors" dir="ltr">054-4911985</a>
               </div>
             </div>
           </div>
 
-          <div className="pt-8 border-t border-surface-variant/30">
-            <p className="font-label-sm italic text-secondary/60 uppercase tracking-wider">
+          <div className="pt-12 border-t border-surface-variant/30">
+            <p className="font-h3 italic text-secondary/40 text-3xl">
               "האמנות היא גשר בין אנשים"
             </p>
           </div>
