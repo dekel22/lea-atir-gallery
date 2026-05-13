@@ -33,7 +33,7 @@ const Home = () => {
         </div>
         {/* Narrative Content */}
         <div className="lg:col-span-8 mt-4 lg:mt-0 pl-0 lg:pl-12">
-          <h2 className="font-h1 text-4xl lg:text-5xl text-primary mb-8 leading-[1.05]">יצירה מתוך השקט <br/>&amp; התבוננות פנימית</h2>
+          <h2 className="font-h1 text-4xl lg:text-5xl text-primary mb-8 leading-[1.05]">לאה עתיר <br/>+50 שנים של יצירה</h2>
           <div className="space-y-6 text-on-surface">
             <p className="font-body-lg text-body-lg leading-relaxed first-letter:text-7xl first-letter:font-serif first-letter:ml-4 first-letter:float-right first-letter:mt-2">
               לאה עטיר היא אמנית רב-תחומית הפועלת בירושלים. עבודתה מתמקדת בממתח שבין המופשט למוחשי, תוך שימוש בחומרים טבעיים וטכניקות מסורתיות הנשזרות לתוך קומפוזיציות מודרניות. הקריירה שלה משתרעת על פני שני עשורים, במהלכם הציגה בתערוכות יחיד וקבוצתיות בגלריות הנחשבות בארץ ובעולם.
