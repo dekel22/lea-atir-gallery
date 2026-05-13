@@ -20,7 +20,7 @@ const Contact = () => {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
         <div className="lg:col-span-7">
           <form 
-            action="https://formspree.io/f/leaatir@walla.com" 
+            action="https://formspree.io/leaatir@walla.com" 
             method="POST" 
             className="space-y-8"
           >
@@ -34,7 +34,7 @@ const Contact = () => {
                 <input 
                   type="text" 
                   id="name" 
-                  name="שם" 
+                  name="name" 
                   required 
                   className="w-full bg-surface-container-low border-b border-outline-variant py-4 px-2 focus:border-primary outline-none transition-colors text-on-surface"
                 />
@@ -44,7 +44,7 @@ const Contact = () => {
                 <input 
                   type="tel" 
                   id="phone" 
-                  name="טלפון" 
+                  name="phone" 
                   required 
                   className="w-full bg-surface-container-low border-b border-outline-variant py-4 px-2 focus:border-primary outline-none transition-colors text-on-surface"
                 />
@@ -56,7 +56,7 @@ const Contact = () => {
               <input 
                 type="email" 
                 id="email" 
-                name="אימייל" 
+                name="email" 
                 required 
                 className="w-full bg-surface-container-low border-b border-outline-variant py-4 px-2 focus:border-primary outline-none transition-colors text-on-surface"
               />
@@ -66,7 +66,7 @@ const Contact = () => {
               <label htmlFor="message" className="font-label-sm uppercase tracking-wider text-primary/70">סיבת הפנייה / הודעה</label>
               <textarea 
                 id="message" 
-                name="הודעה" 
+                name="message" 
                 rows="5" 
                 required 
                 className="w-full bg-surface-container-low border-b border-outline-variant py-4 px-2 focus:border-primary outline-none transition-colors text-on-surface resize-none"
@@ -74,6 +74,7 @@ const Contact = () => {
             </div>
 
             <div className="flex flex-col gap-4">
+              <input type="hidden" name="_next" value={window.location.origin + "/success"} />
               <button 
                 type="submit" 
                 className="inline-flex items-center gap-4 bg-primary text-on-primary px-12 py-5 font-label-sm uppercase tracking-[0.2em] hover:bg-secondary transition-all"
