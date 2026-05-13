@@ -59,28 +59,28 @@ const Home = () => {
             <div className="pt-8 max-w-4xl">
               <div className="space-y-6">
                 <h4 className="font-label-sm text-on-surface-variant border-b border-outline-variant/30 pb-2">תערוכות נבחרות</h4>
-                <ul className="font-body-md grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-6">
-                  <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-2">
+                <ul className="font-body-md grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-3">
+                  <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1">
                     <Link to="/gallery/gallery_3" className="text-primary font-medium hover:text-secondary transition-colors">ש.ב.ר רמות מנשה גלריה לאומנות</Link>
                     <span className="text-on-surface-variant text-sm tabular-nums">2026</span>
                   </li>
-                  <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-2">
+                  <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1">
                     <Link to="/gallery/transparent" className="text-primary font-medium hover:text-secondary transition-colors">שקופים</Link>
                     <span className="text-on-surface-variant text-sm tabular-nums">2020</span>
                   </li>
-                  <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-2">
+                  <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1">
                     <Link to="/gallery/gallery_7" className="text-primary font-medium hover:text-secondary transition-colors">וריאציות על נושא</Link>
                     <span className="text-on-surface-variant text-sm tabular-nums">1995</span>
                   </li>
-                  <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-2">
+                  <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1">
                     <Link to="/gallery/gallery_1" className="text-primary font-medium hover:text-secondary transition-colors">מבטים של יום יום</Link>
                     <span className="text-on-surface-variant text-sm tabular-nums">2003</span>
                   </li>
-                  <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-2">
+                  <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1">
                     <Link to="/gallery/gallery_1" className="text-primary font-medium hover:text-secondary transition-colors">גלריה לאומנות קסטרא חיפה</Link>
                     <span className="text-on-surface-nums">2003</span>
                   </li>
-                  <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-2">
+                  <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1">
                     <Link to="/gallery/silver" className="text-primary font-medium hover:text-secondary transition-colors">כסף</Link>
                     <span className="text-on-surface-variant text-sm tabular-nums">2026</span>
                   </li>
