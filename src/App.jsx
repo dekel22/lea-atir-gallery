@@ -7,6 +7,7 @@ import Gallery from './pages/Gallery';
 import Galleries from './pages/Galleries';
 import Contact from './pages/Contact';
 import Success from './pages/Success';
+import About from './pages/About';
 
 function App() {
   return (
