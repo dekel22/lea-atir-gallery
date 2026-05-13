@@ -65,24 +65,24 @@ const Home = () => {
                     <span className="text-on-surface-variant text-sm tabular-nums">2026</span>
                   </li>
                   <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1">
-                    <Link to="/gallery/transparent" className="text-primary font-medium hover:text-secondary transition-colors">שקופים</Link>
+                    <Link to="/gallery/silver" className="text-primary font-medium hover:text-secondary transition-colors">כסף</Link>
+                    <span className="text-on-surface-variant text-sm tabular-nums">2026</span>
+                  </li>
+                  <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1">
+                    <Link to="/gallery/transparent" className="text-primary font-medium hover:text-secondary transition-colors">שקר השקיפות</Link>
                     <span className="text-on-surface-variant text-sm tabular-nums">2020</span>
                   </li>
                   <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1">
-                    <Link to="/gallery/gallery_7" className="text-primary font-medium hover:text-secondary transition-colors">וריאציות על נושא</Link>
-                    <span className="text-on-surface-variant text-sm tabular-nums">1995</span>
+                    <Link to="/gallery/gallery_0" className="text-primary font-medium hover:text-secondary transition-colors">רישום ואני</Link>
+                    <span className="text-on-surface-variant text-sm tabular-nums">1998</span>
                   </li>
                   <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1">
                     <Link to="/gallery/gallery_1" className="text-primary font-medium hover:text-secondary transition-colors">מבטים של יום יום</Link>
                     <span className="text-on-surface-variant text-sm tabular-nums">2003</span>
                   </li>
                   <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1">
-                    <Link to="/gallery/gallery_1" className="text-primary font-medium hover:text-secondary transition-colors">גלריה לאומנות קסטרא חיפה</Link>
-                    <span className="text-on-surface-nums">2003</span>
-                  </li>
-                  <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1">
-                    <Link to="/gallery/silver" className="text-primary font-medium hover:text-secondary transition-colors">כסף</Link>
-                    <span className="text-on-surface-variant text-sm tabular-nums">2026</span>
+                    <Link to="/gallery/gallery_7" className="text-primary font-medium hover:text-secondary transition-colors">וריאציות על נושא</Link>
+                    <span className="text-on-surface-variant text-sm tabular-nums">1995</span>
                   </li>
                 </ul>
               </div>
