@@ -10,11 +10,6 @@ export const galleries = [
     "coverImage": "/galleries/ברוש/ברוש טבעון17.jpg",
     "images": [
       {
-        "id": "brosh_0",
-        "url": "/galleries/ברוש/ברוש טבעון10.jpg",
-        "alt": "ברוש טבעון10"
-      },
-      {
         "id": "brosh_1",
         "url": "/galleries/ברוש/ברוש טבעון11.jpg",
         "alt": "ברוש טבעון11"
@@ -23,6 +18,11 @@ export const galleries = [
         "id": "brosh_2",
         "url": "/galleries/ברוש/ברוש טבעון12.jpg",
         "alt": "ברוש טבעון12"
+      },
+      {
+        "id": "brosh_0",
+        "url": "/galleries/ברוש/ברוש טבעון10.jpg",
+        "alt": "ברוש טבעון10"
       },
       {
         "id": "brosh_3",
