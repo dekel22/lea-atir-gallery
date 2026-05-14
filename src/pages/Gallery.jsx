@@ -104,9 +104,7 @@ const Gallery = () => {
                       onClick={() => openLightbox(originalIndex)}
                     >
                       <img src={img.url} alt={img.alt} loading="lazy" />
-                      <div className="item-overlay">
-                        <span className="view-text">הגדלה</span>
-                      </div>
+
                     </div>
                   );
                 })}
