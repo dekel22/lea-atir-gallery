@@ -1465,33 +1465,33 @@ export const galleries = [
       },
       {
         "id": "gallery_1_20",
-        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים24.jpg",
-        "alt": "מבטים24",
-        "orientation": "portrait"
-      },
-      {
-        "id": "gallery_1_21",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים21.jpg",
         "alt": "מבטים21",
         "orientation": "landscape"
       },
       {
+        "id": "gallery_1_21",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים24.jpg",
+        "alt": "מבטים24",
+        "orientation": "portrait"
+      },
+      {
         "id": "gallery_1_22",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים22.jpg",
+        "alt": "מבטים22",
+        "orientation": "landscape"
+      },
+      {
+        "id": "gallery_1_23",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים25.jpg",
         "alt": "מבטים25",
         "orientation": "portrait"
       },
       {
-        "id": "gallery_1_23",
+        "id": "gallery_1_24",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים26.jpg",
         "alt": "מבטים26",
         "orientation": "portrait"
-      },
-      {
-        "id": "gallery_1_24",
-        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים22.jpg",
-        "alt": "מבטים22",
-        "orientation": "landscape"
       },
       {
         "id": "gallery_1_25",
