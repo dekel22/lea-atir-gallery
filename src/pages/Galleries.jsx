@@ -15,7 +15,7 @@ const Galleries = () => {
           <div className="w-12 h-px bg-outline-variant"></div>
           <span className="font-label-sm text-primary uppercase tracking-widest">אוספים וגלריות</span>
         </div>
-        <h1 className="font-h1 text-5xl lg:text-6xl text-primary mb-6">העבודות</h1>
+        <h1 className="font-h1 text-5xl lg:text-6xl text-primary mb-6">גלריות</h1>
         <p className="font-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
           מבחר מתוך עשרות שנות יצירה, החל מרישומי פחם ועד לתפאורות במה. כל גלריה מייצגת פרק אחר במסע האמנותי.
         </p>
