@@ -2232,5 +2232,577 @@ export const galleries = [
         "orientation": "landscape"
       }
     ]
+  },
+  {
+    "id": "nude-museum",
+    "title": "עירום מהמוזיאון",
+    "description": "רישומי עירום מהמוזיאון.",
+    "coverImage": "/galleries/עירום מהמוזיאון/20200915_143827.jpg",
+    "images": [
+      {
+        "id": "nude-museum_0",
+        "url": "/galleries/עירום מהמוזיאון/20200915_143827.jpg",
+        "alt": "20200915_143827",
+        "orientation": "portrait"
+      },
+      {
+        "id": "nude-museum_1",
+        "url": "/galleries/עירום מהמוזיאון/20200915_143901.jpg",
+        "alt": "20200915_143901",
+        "orientation": "portrait"
+      },
+      {
+        "id": "nude-museum_2",
+        "url": "/galleries/עירום מהמוזיאון/20200915_144616.jpg",
+        "alt": "20200915_144616",
+        "orientation": "portrait"
+      },
+      {
+        "id": "nude-museum_3",
+        "url": "/galleries/עירום מהמוזיאון/20200915_144641.jpg",
+        "alt": "20200915_144641",
+        "orientation": "landscape"
+      },
+      {
+        "id": "nude-museum_4",
+        "url": "/galleries/עירום מהמוזיאון/20200915_145012.jpg",
+        "alt": "20200915_145012",
+        "orientation": "portrait"
+      },
+      {
+        "id": "nude-museum_5",
+        "url": "/galleries/עירום מהמוזיאון/20200915_145039.jpg",
+        "alt": "20200915_145039",
+        "orientation": "portrait"
+      },
+      {
+        "id": "nude-museum_6",
+        "url": "/galleries/עירום מהמוזיאון/20200915_145059.jpg",
+        "alt": "20200915_145059",
+        "orientation": "portrait"
+      },
+      {
+        "id": "nude-museum_7",
+        "url": "/galleries/עירום מהמוזיאון/20200915_145211.jpg",
+        "alt": "20200915_145211",
+        "orientation": "landscape"
+      },
+      {
+        "id": "nude-museum_8",
+        "url": "/galleries/עירום מהמוזיאון/20200915_145454.jpg",
+        "alt": "20200915_145454",
+        "orientation": "landscape"
+      },
+      {
+        "id": "nude-museum_9",
+        "url": "/galleries/עירום מהמוזיאון/גבר עירום  על הגב בעיפרון.jpg",
+        "alt": "גבר עירום על הגב בעיפרון",
+        "orientation": "landscape"
+      },
+      {
+        "id": "nude-museum_10",
+        "url": "/galleries/עירום מהמוזיאון/גבר עירום עם רגל על השולחן.jpg",
+        "alt": "גבר עירום עם רגל על השולחן",
+        "orientation": "landscape"
+      },
+      {
+        "id": "nude-museum_11",
+        "url": "/galleries/עירום מהמוזיאון/מהגב על ניר חום.jpg",
+        "alt": "מהגב על ניר חום",
+        "orientation": "portrait"
+      },
+      {
+        "id": "nude-museum_12",
+        "url": "/galleries/עירום מהמוזיאון/מהצד על ניר חום.jpg",
+        "alt": "מהצד על ניר חום",
+        "orientation": "portrait"
+      },
+      {
+        "id": "nude-museum_13",
+        "url": "/galleries/עירום מהמוזיאון/מוזיאון8.JPG",
+        "alt": "מוזיאון8",
+        "orientation": "portrait"
+      },
+      {
+        "id": "nude-museum_14",
+        "url": "/galleries/עירום מהמוזיאון/מוזיאון9.JPG",
+        "alt": "מוזיאון9",
+        "orientation": "portrait"
+      },
+      {
+        "id": "nude-museum_15",
+        "url": "/galleries/עירום מהמוזיאון/עירום יושב.jpg",
+        "alt": "עירום יושב",
+        "orientation": "portrait"
+      },
+      {
+        "id": "nude-museum_16",
+        "url": "/galleries/עירום מהמוזיאון/על הגב טורסו ורגליים בעיפרון.jpg",
+        "alt": "על הגב טורסו ורגליים בעיפרון",
+        "orientation": "landscape"
+      },
+      {
+        "id": "nude-museum_17",
+        "url": "/galleries/עירום מהמוזיאון/על הצד בסגול.jpg",
+        "alt": "על הצד בסגול",
+        "orientation": "landscape"
+      }
+    ]
+  },
+  {
+    "id": "war-diary",
+    "title": "יומן מלחמה",
+    "description": "יומן מלחמה - עבודות המתעדות את התקופה.",
+    "coverImage": "/galleries/יומן מלחמה/יומן מלחמה מגן דוד.jpg",
+    "images": [
+      {
+        "id": "war-diary_0",
+        "url": "/galleries/יומן מלחמה/יומן מלחמה מגן דוד.jpg",
+        "alt": "יומן מלחמה מגן דוד",
+        "orientation": "landscape"
+      },
+      {
+        "id": "war-diary_1",
+        "url": "/galleries/יומן מלחמה/יומן מלחמה1.jpg",
+        "alt": "יומן מלחמה1",
+        "orientation": "portrait"
+      },
+      {
+        "id": "war-diary_2",
+        "url": "/galleries/יומן מלחמה/יומן מלחמה10.jpg",
+        "alt": "יומן מלחמה10",
+        "orientation": "landscape"
+      },
+      {
+        "id": "war-diary_3",
+        "url": "/galleries/יומן מלחמה/יומן מלחמה11.jpg",
+        "alt": "יומן מלחמה11",
+        "orientation": "portrait"
+      },
+      {
+        "id": "war-diary_4",
+        "url": "/galleries/יומן מלחמה/יומן מלחמה12.jpg",
+        "alt": "יומן מלחמה12",
+        "orientation": "landscape"
+      },
+      {
+        "id": "war-diary_5",
+        "url": "/galleries/יומן מלחמה/יומן מלחמה13.jpg",
+        "alt": "יומן מלחמה13",
+        "orientation": "portrait"
+      },
+      {
+        "id": "war-diary_6",
+        "url": "/galleries/יומן מלחמה/יומן מלחמה14.jpg",
+        "alt": "יומן מלחמה14",
+        "orientation": "landscape"
+      },
+      {
+        "id": "war-diary_7",
+        "url": "/galleries/יומן מלחמה/יומן מלחמה16.jpg",
+        "alt": "יומן מלחמה16",
+        "orientation": "landscape"
+      },
+      {
+        "id": "war-diary_8",
+        "url": "/galleries/יומן מלחמה/יומן מלחמה17.jpg",
+        "alt": "יומן מלחמה17",
+        "orientation": "portrait"
+      },
+      {
+        "id": "war-diary_9",
+        "url": "/galleries/יומן מלחמה/יומן מלחמה18.jpg",
+        "alt": "יומן מלחמה18",
+        "orientation": "portrait"
+      },
+      {
+        "id": "war-diary_10",
+        "url": "/galleries/יומן מלחמה/יומן מלחמה19.jpg",
+        "alt": "יומן מלחמה19",
+        "orientation": "portrait"
+      },
+      {
+        "id": "war-diary_11",
+        "url": "/galleries/יומן מלחמה/יומן מלחמה2.jpg",
+        "alt": "יומן מלחמה2",
+        "orientation": "portrait"
+      },
+      {
+        "id": "war-diary_12",
+        "url": "/galleries/יומן מלחמה/יומן מלחמה21.jpg",
+        "alt": "יומן מלחמה21",
+        "orientation": "portrait"
+      },
+      {
+        "id": "war-diary_13",
+        "url": "/galleries/יומן מלחמה/יומן מלחמה22.jpg",
+        "alt": "יומן מלחמה22",
+        "orientation": "landscape"
+      },
+      {
+        "id": "war-diary_14",
+        "url": "/galleries/יומן מלחמה/יומן מלחמה3.jpg",
+        "alt": "יומן מלחמה3",
+        "orientation": "portrait"
+      },
+      {
+        "id": "war-diary_15",
+        "url": "/galleries/יומן מלחמה/יומן מלחמה4.jpg",
+        "alt": "יומן מלחמה4",
+        "orientation": "portrait"
+      },
+      {
+        "id": "war-diary_16",
+        "url": "/galleries/יומן מלחמה/יומן מלחמה5.jpg",
+        "alt": "יומן מלחמה5",
+        "orientation": "landscape"
+      },
+      {
+        "id": "war-diary_17",
+        "url": "/galleries/יומן מלחמה/יומן מלחמה6.jpg",
+        "alt": "יומן מלחמה6",
+        "orientation": "portrait"
+      },
+      {
+        "id": "war-diary_18",
+        "url": "/galleries/יומן מלחמה/יומן מלחמה8.jpg",
+        "alt": "יומן מלחמה8",
+        "orientation": "landscape"
+      },
+      {
+        "id": "war-diary_19",
+        "url": "/galleries/יומן מלחמה/יומןמלחמה מגן דוד.jpg",
+        "alt": "יומןמלחמה מגן דוד",
+        "orientation": "landscape"
+      },
+      {
+        "id": "war-diary_20",
+        "url": "/galleries/יומן מלחמה/יונן מלחמה15.jpg",
+        "alt": "יונן מלחמה15",
+        "orientation": "landscape"
+      },
+      {
+        "id": "war-diary_21",
+        "url": "/galleries/יומן מלחמה/קיר יומן מלחמה בתערוכה.jpg",
+        "alt": "קיר יומן מלחמה בתערוכה",
+        "orientation": "landscape"
+      },
+      {
+        "id": "war-diary_22",
+        "url": "/galleries/יומן מלחמה/קיר יומן מלחמה2.jpg",
+        "alt": "קיר יומן מלחמה2",
+        "orientation": "landscape"
+      }
+    ]
+  },
+  {
+    "id": "scenery-pieces",
+    "title": "פיסות נוף",
+    "description": "עבודות שמן וגרפית על נוף.",
+    "coverImage": "/galleries/פיסות נוף/פיסות נוף8.jpg",
+    "images": [
+      {
+        "id": "scenery-pieces_0",
+        "url": "/galleries/פיסות נוף/פיסות נוף10.JPG",
+        "alt": "פיסות נוף10",
+        "orientation": "landscape"
+      },
+      {
+        "id": "scenery-pieces_1",
+        "url": "/galleries/פיסות נוף/פיסות נוף11.JPG",
+        "alt": "פיסות נוף11",
+        "orientation": "landscape"
+      },
+      {
+        "id": "scenery-pieces_2",
+        "url": "/galleries/פיסות נוף/פיסות נוף12.JPG",
+        "alt": "פיסות נוף12",
+        "orientation": "landscape"
+      },
+      {
+        "id": "scenery-pieces_3",
+        "url": "/galleries/פיסות נוף/פיסות נוף14.jpg",
+        "alt": "פיסות נוף14",
+        "orientation": "portrait"
+      },
+      {
+        "id": "scenery-pieces_4",
+        "url": "/galleries/פיסות נוף/פיסות נוף16.jpg",
+        "alt": "פיסות נוף16",
+        "orientation": "landscape"
+      },
+      {
+        "id": "scenery-pieces_5",
+        "url": "/galleries/פיסות נוף/פיסות נוף17.jpg",
+        "alt": "פיסות נוף17",
+        "orientation": "landscape"
+      },
+      {
+        "id": "scenery-pieces_6",
+        "url": "/galleries/פיסות נוף/פיסות נוף18.JPG",
+        "alt": "פיסות נוף18",
+        "orientation": "landscape"
+      },
+      {
+        "id": "scenery-pieces_7",
+        "url": "/galleries/פיסות נוף/פיסות נוף19.JPG",
+        "alt": "פיסות נוף19",
+        "orientation": "landscape"
+      },
+      {
+        "id": "scenery-pieces_8",
+        "url": "/galleries/פיסות נוף/פיסות נוף2.jpg",
+        "alt": "פיסות נוף2",
+        "orientation": "portrait"
+      },
+      {
+        "id": "scenery-pieces_9",
+        "url": "/galleries/פיסות נוף/פיסות נוף20.JPG",
+        "alt": "פיסות נוף20",
+        "orientation": "landscape"
+      },
+      {
+        "id": "scenery-pieces_10",
+        "url": "/galleries/פיסות נוף/פיסות נוף21.JPG",
+        "alt": "פיסות נוף21",
+        "orientation": "landscape"
+      },
+      {
+        "id": "scenery-pieces_11",
+        "url": "/galleries/פיסות נוף/פיסות נוף3.JPG",
+        "alt": "פיסות נוף3",
+        "orientation": "landscape"
+      },
+      {
+        "id": "scenery-pieces_12",
+        "url": "/galleries/פיסות נוף/פיסות נוף4.JPG",
+        "alt": "פיסות נוף4",
+        "orientation": "landscape"
+      },
+      {
+        "id": "scenery-pieces_13",
+        "url": "/galleries/פיסות נוף/פיסות נוף5.JPG",
+        "alt": "פיסות נוף5",
+        "orientation": "landscape"
+      },
+      {
+        "id": "scenery-pieces_14",
+        "url": "/galleries/פיסות נוף/פיסות נוף6.JPG",
+        "alt": "פיסות נוף6",
+        "orientation": "portrait"
+      },
+      {
+        "id": "scenery-pieces_15",
+        "url": "/galleries/פיסות נוף/פיסות נוף8 (2).JPG",
+        "alt": "פיסות נוף8 (2)",
+        "orientation": "landscape"
+      },
+      {
+        "id": "scenery-pieces_16",
+        "url": "/galleries/פיסות נוף/פיסות נוף8.jpg",
+        "alt": "פיסות נוף8",
+        "orientation": "landscape"
+      },
+      {
+        "id": "scenery-pieces_17",
+        "url": "/galleries/פיסות נוף/פיסות נוף9.jpg",
+        "alt": "פיסות נוף9",
+        "orientation": "landscape"
+      }
+    ]
+  },
+  {
+    "id": "between-between",
+    "title": "בין לבין",
+    "description": "עבודות בטכניקה מעורבת.",
+    "coverImage": "/galleries/בין לבין/בין לבין10.JPG",
+    "images": [
+      {
+        "id": "between-between_0",
+        "url": "/galleries/בין לבין/בין לבין10.JPG",
+        "alt": "בין לבין10",
+        "orientation": "landscape"
+      },
+      {
+        "id": "between-between_1",
+        "url": "/galleries/בין לבין/בין לבין11.jpg",
+        "alt": "בין לבין11",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_2",
+        "url": "/galleries/בין לבין/בין לבין12.jpg",
+        "alt": "בין לבין12",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_3",
+        "url": "/galleries/בין לבין/בין לבין13.jpg",
+        "alt": "בין לבין13",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_4",
+        "url": "/galleries/בין לבין/בין לבין14.jpg",
+        "alt": "בין לבין14",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_5",
+        "url": "/galleries/בין לבין/בין לבין15.jpg",
+        "alt": "בין לבין15",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_6",
+        "url": "/galleries/בין לבין/בין לבין16.jpg",
+        "alt": "בין לבין16",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_7",
+        "url": "/galleries/בין לבין/בין לבין17.jpg",
+        "alt": "בין לבין17",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_8",
+        "url": "/galleries/בין לבין/בין לבין18.jpg",
+        "alt": "בין לבין18",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_9",
+        "url": "/galleries/בין לבין/בין לבין19.jpg",
+        "alt": "בין לבין19",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_10",
+        "url": "/galleries/בין לבין/בין לבין2.jpg",
+        "alt": "בין לבין2",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_11",
+        "url": "/galleries/בין לבין/בין לבין20.jpg",
+        "alt": "בין לבין20",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_12",
+        "url": "/galleries/בין לבין/בין לבין21.jpg",
+        "alt": "בין לבין21",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_13",
+        "url": "/galleries/בין לבין/בין לבין23.jpg",
+        "alt": "בין לבין23",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_14",
+        "url": "/galleries/בין לבין/בין לבין24.jpg",
+        "alt": "בין לבין24",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_15",
+        "url": "/galleries/בין לבין/בין לבין26.JPG",
+        "alt": "בין לבין26",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_16",
+        "url": "/galleries/בין לבין/בין לבין27.jpg",
+        "alt": "בין לבין27",
+        "orientation": "landscape"
+      },
+      {
+        "id": "between-between_17",
+        "url": "/galleries/בין לבין/בין לבין28.jpg",
+        "alt": "בין לבין28",
+        "orientation": "landscape"
+      },
+      {
+        "id": "between-between_18",
+        "url": "/galleries/בין לבין/בין לבין29.jpg",
+        "alt": "בין לבין29",
+        "orientation": "landscape"
+      },
+      {
+        "id": "between-between_19",
+        "url": "/galleries/בין לבין/בין לבין3.jpg",
+        "alt": "בין לבין3",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_20",
+        "url": "/galleries/בין לבין/בין לבין30.jpg",
+        "alt": "בין לבין30",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_21",
+        "url": "/galleries/בין לבין/בין לבין31.jpg",
+        "alt": "בין לבין31",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_22",
+        "url": "/galleries/בין לבין/בין לבין32.jpg",
+        "alt": "בין לבין32",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_23",
+        "url": "/galleries/בין לבין/בין לבין33.jpg",
+        "alt": "בין לבין33",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_24",
+        "url": "/galleries/בין לבין/בין לבין4.jpg",
+        "alt": "בין לבין4",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_25",
+        "url": "/galleries/בין לבין/בין לבין6.JPG",
+        "alt": "בין לבין6",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_26",
+        "url": "/galleries/בין לבין/בין לבין7.jpg",
+        "alt": "בין לבין7",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_27",
+        "url": "/galleries/בין לבין/בין לבין8.jpg",
+        "alt": "בין לבין8",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_28",
+        "url": "/galleries/בין לבין/בין לבין9.jpg",
+        "alt": "בין לבין9",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_29",
+        "url": "/galleries/בין לבין/ביןלבין25.jpg",
+        "alt": "ביןלבין25",
+        "orientation": "portrait"
+      },
+      {
+        "id": "between-between_30",
+        "url": "/galleries/בין לבין/קנאה.JPG",
+        "alt": "קנאה",
+        "orientation": "portrait"
+      }
+    ]
   }
 ];
