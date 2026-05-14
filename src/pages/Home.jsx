@@ -104,7 +104,7 @@ const Home = () => {
           <div className="lg:col-span-4 flex flex-col justify-center p-8 lg:p-12 bg-black text-white">
 
             <h3 className="font-h2 text-h2 text-white mb-6">תהליך היצירה</h3>
-            <p className="font-body-md text-white/80 mb-6">יצירה היא משהו שניבנה עם עשייתה, גם אם ידוע וברור לי במחשבה מה אני הולכת לעשות תמיד קיים "פער היצירה", זהו התהליך בין ההתחלה לתוצאה.. לכן יצירה היא תהליך לא ידוע מראש.</p>
+            <p className="text-lg lg:text-xl text-white mb-8 leading-relaxed">יצירה היא משהו שניבנה עם עשייתה, גם אם ידוע וברור לי במחשבה מה אני הולכת לעשות תמיד קיים "פער היצירה", זהו התהליך בין ההתחלה לתוצאה.. לכן יצירה היא תהליך לא ידוע מראש.</p>
             <Link to="/galleries" className="inline-flex items-center gap-4 font-label-sm uppercase tracking-[0.2em] group border-b border-white/20 pb-2 w-fit hover:border-white transition-all text-white">
               לצפייה בגלריות
               <span className="material-symbols-outlined text-lg group-hover:-translate-x-2 transition-transform" data-icon="arrow_back">arrow_back</span>
