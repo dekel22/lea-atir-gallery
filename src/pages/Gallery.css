@@ -158,6 +158,14 @@
   display: block;
 }
 
+.gallery-footer-nav {
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--outline-variant);
+  display: flex;
+  justify-content: flex-start;
+}
+
 /* Lightbox Styles */
 .lightbox-overlay {
   position: fixed;

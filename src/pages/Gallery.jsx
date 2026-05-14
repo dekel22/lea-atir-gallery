@@ -111,6 +111,9 @@ const Gallery = () => {
             </div>
           ))}
         </div>
+        <div className="gallery-footer-nav">
+          <Link to="/galleries" className="back-link"><ArrowRight size={18} /> חזרה לגלריות</Link>
+        </div>
       </div>
 
       {/* Lightbox Modal via Portal */}
