@@ -129,7 +129,7 @@ export const galleries = [
     "id": "scenery",
     "title": "תפאורות להצגות",
     "description": "אוסף תפאורות להצגות שונות.",
-    "coverImage": "/galleries/תפאורות להצגות/איי לייק מייק.JPG",
+    "coverImage": "/galleries/תפאורות להצגות/חיים בסרט2.jpg",
     "images": [
       {
         "id": "scenery_0",
