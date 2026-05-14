@@ -18,8 +18,22 @@ const Home = () => {
             <span className="font-label-sm text-primary uppercase tracking-widest">דף הבית</span>
           </div>
         </div>
+        {/* Profile Illustration */}
+        <div className="lg:col-span-4 lg:sticky lg:top-32 pr-0 lg:pr-12 mb-8 lg:mb-0">
+          <div className="relative overflow-hidden aspect-[3/4] w-1/2 lg:w-full mx-auto lg:mx-0 bg-surface-container-low group reveal-image">
+            <img 
+              alt="לאה עתיר" 
+              className="object-cover w-full h-full transition-all duration-[2000ms] ease-out scale-105 group-hover:scale-100" 
+              src="/about-portrait.jpg"
+            />
+          </div>
+          <div className="mt-8 text-center lg:text-right">
+            <p className="font-label-sm text-on-surface-variant/60 uppercase italic">דיוקן עצמי, פחם על נייר, 2020</p>
+          </div>
+        </div>
+
         {/* Narrative Content */}
-        <div className="lg:col-span-8 mt-4 lg:mt-0 pr-0 lg:pr-12">
+        <div className="lg:col-span-8 mt-4 lg:mt-0 pl-0 lg:pl-12">
           <h2 className="font-h1 text-4xl lg:text-5xl text-primary mb-8 leading-[1.05]">לאה עתיר <br/>מעל 50 שנים של יצירה</h2>
           <div className="space-y-6 text-on-surface">
             <p className="font-body-lg text-body-lg leading-relaxed">
@@ -65,7 +79,7 @@ const Home = () => {
                   </li>
                   <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1">
                     <Link to="/gallery/gallery_1" className="text-primary font-medium hover:text-secondary transition-colors">מבטים של יום יום</Link>
-                    <span className="text-on-surface-variant text-sm tabular-nums">2003</span>
+                    <span className="text-sm tabular-nums">2003</span>
                   </li>
                   <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1">
                     <Link to="/gallery/gallery_7" className="text-primary font-medium hover:text-secondary transition-colors">וריאציות על נושא</Link>
@@ -74,20 +88,6 @@ const Home = () => {
                 </ul>
               </div>
             </div>
-          </div>
-        </div>
-
-        {/* Profile Illustration */}
-        <div className="lg:col-span-4 lg:sticky lg:top-32 pl-0 lg:pl-12 mb-8 lg:mb-0">
-          <div className="relative overflow-hidden aspect-[3/4] w-1/2 lg:w-full mx-auto lg:mx-0 bg-surface-container-low group reveal-image">
-            <img 
-              alt="לאה עתיר" 
-              className="object-cover w-full h-full transition-all duration-[2000ms] ease-out scale-105 group-hover:scale-100" 
-              src="/about-portrait.jpg"
-            />
-          </div>
-          <div className="mt-8 text-right">
-            <p className="font-label-sm text-on-surface-variant/60 uppercase italic">דיוקן עצמי, פחם על נייר, 2020</p>
           </div>
         </div>
       </section>

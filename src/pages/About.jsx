@@ -17,6 +17,16 @@ const About = () => {
       </header>
 
       <section className="grid grid-cols-1 lg:grid-cols-12 gap-16">
+        <div className="lg:col-span-4">
+          <div className="aspect-[3/4] bg-surface-container-low reveal-image">
+            <img 
+              src="/about-portrait.jpg" 
+              alt="לאה עתיר" 
+              className="w-full h-full object-cover grayscale-0"
+            />
+          </div>
+        </div>
+        
         <div className="lg:col-span-8 space-y-8 text-on-surface">
           <div className="space-y-6">
             <h2 className="font-h2 text-3xl text-secondary">חיים של אמנות ויצירה</h2>
@@ -46,16 +56,6 @@ const About = () => {
                 אני אמנית, מורה לאמנות, אמא לשלושה וסבתא לשמונה. את הכשרתי המקצועית רכשתי בארבע שנות לימוד בבית הספר הגבוה לציור ע"ש מרגושילסקי (קלישר), ובהמשך בהשתלמות באמנות הרנסנס בפירנצה, איטליה. משנת 1975 אני חברה באגודת האמנים הארצית. לאורך השנים הצגתי את עבודותיי ב-20 תערוכות יחיד ובתערוכות משותפות בארץ ובגרמניה, ולצד הציור אני עוסקת בעיצוב תפאורות לתיאטרון, פיסול ואוצרות. הוראת האמנות היא שליחות חיים עבורי. מאז 1971 ועד היום אני זוכה ללמד ולשנות חיים דרך יצירה. הרקע המקצועי שלי כולל שני עשורים כמורה לאמנות בחטיבת הביניים "דפנה", הנחיית השתלמויות מורים ברשת אורט, חוגי בוגרים ואוצרות תערוכות לתלמידיי. מתוך אמונה בכוחה המרפא של האמנות, אני מתנדבת לאורך השנים בהוראת אמנות לקבוצות עם מוגבלויות ובמסגרת ארגון "בני ברית".
               </p>
             </div>
-          </div>
-        </div>
-
-        <div className="lg:col-span-4">
-          <div className="aspect-[3/4] bg-surface-container-low reveal-image">
-            <img 
-              src="/about-portrait.jpg" 
-              alt="לאה עתיר" 
-              className="w-full h-full object-cover grayscale-0"
-            />
           </div>
         </div>
       </section>
