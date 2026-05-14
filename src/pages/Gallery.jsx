@@ -74,7 +74,7 @@ const Gallery = () => {
     <div className="gallery-page animate-fade-in">
       <div className="gallery-header">
         <div className="container">
-          <Link to="/" className="back-link"><ArrowRight size={18} /> חזרה לגלריות</Link>
+          <Link to="/galleries" className="back-link"><ArrowRight size={18} /> חזרה לגלריות</Link>
           <h1 className="animate-delay-1">{gallery.title}</h1>
           <p className="gallery-description animate-delay-2">{gallery.description}</p>
           {gallery.longDescription && (
