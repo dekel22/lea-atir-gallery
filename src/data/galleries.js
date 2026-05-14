@@ -12,97 +12,116 @@ export const galleries = [
       {
         "id": "brosh_1",
         "url": "/galleries/ברוש/ברוש טבעון11.jpg",
-        "alt": "ברוש טבעון11"
+        "alt": "ברוש טבעון11",
+        "orientation": "portrait"
       },
       {
         "id": "brosh_2",
         "url": "/galleries/ברוש/ברוש טבעון12.jpg",
-        "alt": "ברוש טבעון12"
+        "alt": "ברוש טבעון12",
+        "orientation": "portrait"
       },
       {
         "id": "brosh_0",
         "url": "/galleries/ברוש/ברוש טבעון10.jpg",
-        "alt": "ברוש טבעון10"
+        "alt": "ברוש טבעון10",
+        "orientation": "landscape"
       },
       {
         "id": "brosh_3",
         "url": "/galleries/ברוש/ברוש טבעון15.jpg",
-        "alt": "ברוש טבעון15"
+        "alt": "ברוש טבעון15",
+        "orientation": "landscape"
       },
       {
         "id": "brosh_4",
         "url": "/galleries/ברוש/ברוש טבעון16.jpg",
-        "alt": "ברוש טבעון16"
+        "alt": "ברוש טבעון16",
+        "orientation": "landscape"
       },
       {
         "id": "brosh_5",
         "url": "/galleries/ברוש/ברוש טבעון17.jpg",
-        "alt": "ברוש טבעון17"
+        "alt": "ברוש טבעון17",
+        "orientation": "landscape"
       },
       {
         "id": "brosh_6",
         "url": "/galleries/ברוש/ברוש טבעון19.jpg",
-        "alt": "ברוש טבעון19"
+        "alt": "ברוש טבעון19",
+        "orientation": "landscape"
       },
       {
         "id": "brosh_7",
         "url": "/galleries/ברוש/ברוש טבעון2.jpg",
-        "alt": "ברוש טבעון2"
+        "alt": "ברוש טבעון2",
+        "orientation": "portrait"
       },
       {
         "id": "brosh_8",
         "url": "/galleries/ברוש/ברוש טבעון21.jpg",
-        "alt": "ברוש טבעון21"
+        "alt": "ברוש טבעון21",
+        "orientation": "landscape"
       },
       {
         "id": "brosh_9",
         "url": "/galleries/ברוש/ברוש טבעון23.jpg",
-        "alt": "ברוש טבעון23"
+        "alt": "ברוש טבעון23",
+        "orientation": "landscape"
       },
       {
         "id": "brosh_10",
         "url": "/galleries/ברוש/ברוש טבעון24.jpg",
-        "alt": "ברוש טבעון24"
+        "alt": "ברוש טבעון24",
+        "orientation": "landscape"
       },
       {
         "id": "brosh_11",
         "url": "/galleries/ברוש/ברוש טבעון26.jpg",
-        "alt": "ברוש טבעון26"
+        "alt": "ברוש טבעון26",
+        "orientation": "portrait"
       },
       {
         "id": "brosh_12",
         "url": "/galleries/ברוש/ברוש טבעון27.jpg",
-        "alt": "ברוש טבעון27"
+        "alt": "ברוש טבעון27",
+        "orientation": "landscape"
       },
       {
         "id": "brosh_13",
         "url": "/galleries/ברוש/ברוש טבעון28.jpg",
-        "alt": "ברוש טבעון28"
+        "alt": "ברוש טבעון28",
+        "orientation": "portrait"
       },
       {
         "id": "brosh_14",
         "url": "/galleries/ברוש/ברוש טבעון5.jpg",
-        "alt": "ברוש טבעון5"
+        "alt": "ברוש טבעון5",
+        "orientation": "landscape"
       },
       {
         "id": "brosh_15",
         "url": "/galleries/ברוש/ברוש טבעון6.JPG",
-        "alt": "ברוש טבעון6"
+        "alt": "ברוש טבעון6",
+        "orientation": "portrait"
       },
       {
         "id": "brosh_16",
         "url": "/galleries/ברוש/ברוש טבעון7.jpg",
-        "alt": "ברוש טבעון7"
+        "alt": "ברוש טבעון7",
+        "orientation": "portrait"
       },
       {
         "id": "brosh_17",
         "url": "/galleries/ברוש/ברוש טבעון8.jpg",
-        "alt": "ברוש טבעון8"
+        "alt": "ברוש טבעון8",
+        "orientation": "portrait"
       },
       {
         "id": "brosh_18",
         "url": "/galleries/ברוש/ברוש טבעון9.jpg",
-        "alt": "ברוש טבעון9"
+        "alt": "ברוש טבעון9",
+        "orientation": "portrait"
       }
     ]
   },
@@ -115,432 +134,518 @@ export const galleries = [
       {
         "id": "scenery_0",
         "url": "/galleries/תפאורות להצגות/איי לייק מייק.JPG",
-        "alt": "איי לייק מייק"
+        "alt": "איי לייק מייק",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_1",
         "url": "/galleries/תפאורות להצגות/אריק איינשטיין תפאורות.jpg",
-        "alt": "אריק איינשטיין תפאורות"
+        "alt": "אריק איינשטיין תפאורות",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_2",
         "url": "/galleries/תפאורות להצגות/אריק איינשטיין.JPG",
-        "alt": "אריק איינשטיין"
+        "alt": "אריק איינשטיין",
+        "orientation": "portrait"
       },
       {
         "id": "scenery_3",
         "url": "/galleries/תפאורות להצגות/אריק אינשטיין4.JPG",
-        "alt": "אריק אינשטיין4"
+        "alt": "אריק אינשטיין4",
+        "orientation": "portrait"
       },
       {
         "id": "scenery_4",
         "url": "/galleries/תפאורות להצגות/אריק אינשטיין6.JPG",
-        "alt": "אריק אינשטיין6"
+        "alt": "אריק אינשטיין6",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_5",
         "url": "/galleries/תפאורות להצגות/במעברה (2).jpg",
-        "alt": "במעברה (2)"
+        "alt": "במעברה (2)",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_6",
         "url": "/galleries/תפאורות להצגות/במעברה.JPG",
-        "alt": "במעברה"
+        "alt": "במעברה",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_7",
         "url": "/galleries/תפאורות להצגות/בשוק1.jpg",
-        "alt": "בשוק1"
+        "alt": "בשוק1",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_8",
         "url": "/galleries/תפאורות להצגות/בשוק2.jpg",
-        "alt": "בשוק2"
+        "alt": "בשוק2",
+        "orientation": "portrait"
       },
       {
         "id": "scenery_9",
         "url": "/galleries/תפאורות להצגות/דוד.JPG",
-        "alt": "דוד"
+        "alt": "דוד",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_10",
         "url": "/galleries/תפאורות להצגות/דוד1.jpg",
-        "alt": "דוד1"
+        "alt": "דוד1",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_11",
         "url": "/galleries/תפאורות להצגות/דוד3.JPG",
-        "alt": "דוד3"
+        "alt": "דוד3",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_12",
         "url": "/galleries/תפאורות להצגות/דוד4.JPG",
-        "alt": "דוד4"
+        "alt": "דוד4",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_13",
         "url": "/galleries/תפאורות להצגות/דוד5.JPG",
-        "alt": "דוד5"
+        "alt": "דוד5",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_14",
         "url": "/galleries/תפאורות להצגות/דוד7.JPG",
-        "alt": "דוד7"
+        "alt": "דוד7",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_15",
         "url": "/galleries/תפאורות להצגות/הארכיון והקהילה.jpg",
-        "alt": "הארכיון והקהילה"
+        "alt": "הארכיון והקהילה",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_16",
         "url": "/galleries/תפאורות להצגות/הופעה של האטיופים.JPG",
-        "alt": "הופעה של האטיופים"
+        "alt": "הופעה של האטיופים",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_17",
         "url": "/galleries/תפאורות להצגות/הילד הזה הוא אני.jpg",
-        "alt": "הילד הזה הוא אני"
+        "alt": "הילד הזה הוא אני",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_18",
         "url": "/galleries/תפאורות להצגות/זהירות בדרכים 2.JPG",
-        "alt": "זהירות בדרכים 2"
+        "alt": "זהירות בדרכים 2",
+        "orientation": "portrait"
       },
       {
         "id": "scenery_19",
         "url": "/galleries/תפאורות להצגות/זהירות בדרכים2.JPG",
-        "alt": "זהירות בדרכים2"
+        "alt": "זהירות בדרכים2",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_20",
         "url": "/galleries/תפאורות להצגות/זהירות בדרכים3.JPG",
-        "alt": "זהירות בדרכים3"
+        "alt": "זהירות בדרכים3",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_21",
         "url": "/galleries/תפאורות להצגות/זהירות בדרכים4.JPG",
-        "alt": "זהירות בדרכים4"
+        "alt": "זהירות בדרכים4",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_22",
         "url": "/galleries/תפאורות להצגות/זהירות בדרכים7.JPG",
-        "alt": "זהירות בדרכים7"
+        "alt": "זהירות בדרכים7",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_23",
         "url": "/galleries/תפאורות להצגות/זהירות בדרכים8.JPG",
-        "alt": "זהירות בדרכים8"
+        "alt": "זהירות בדרכים8",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_24",
         "url": "/galleries/תפאורות להצגות/חוות החיות (2).JPG",
-        "alt": "חוות החיות (2)"
+        "alt": "חוות החיות (2)",
+        "orientation": "portrait"
       },
       {
         "id": "scenery_25",
         "url": "/galleries/תפאורות להצגות/חוות החיות (3).JPG",
-        "alt": "חוות החיות (3)"
+        "alt": "חוות החיות (3)",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_26",
         "url": "/galleries/תפאורות להצגות/חוות החיות במקלט דפנה.jpg",
-        "alt": "חוות החיות במקלט דפנה"
+        "alt": "חוות החיות במקלט דפנה",
+        "orientation": "portrait"
       },
       {
         "id": "scenery_27",
         "url": "/galleries/תפאורות להצגות/חוות החיות במקלט.jpg",
-        "alt": "חוות החיות במקלט"
+        "alt": "חוות החיות במקלט",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_28",
         "url": "/galleries/תפאורות להצגות/חוות החיות דפנה.jpg",
-        "alt": "חוות החיות דפנה"
+        "alt": "חוות החיות דפנה",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_29",
         "url": "/galleries/תפאורות להצגות/חוות החיות קיר נוסף.jpg",
-        "alt": "חוות החיות קיר נוסף"
+        "alt": "חוות החיות קיר נוסף",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_30",
         "url": "/galleries/תפאורות להצגות/חוות החיות.JPG",
-        "alt": "חוות החיות"
+        "alt": "חוות החיות",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_31",
         "url": "/galleries/תפאורות להצגות/חוות החיות9.JPG",
-        "alt": "חוות החיות9"
+        "alt": "חוות החיות9",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_32",
         "url": "/galleries/תפאורות להצגות/חזון1 (2).JPG",
-        "alt": "חזון1 (2)"
+        "alt": "חזון1 (2)",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_33",
         "url": "/galleries/תפאורות להצגות/חזון2.JPG",
-        "alt": "חזון2"
+        "alt": "חזון2",
+        "orientation": "portrait"
       },
       {
         "id": "scenery_34",
         "url": "/galleries/תפאורות להצגות/חזון4.JPG",
-        "alt": "חזון4"
+        "alt": "חזון4",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_35",
         "url": "/galleries/תפאורות להצגות/חיים בסרט.JPG",
-        "alt": "חיים בסרט"
+        "alt": "חיים בסרט",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_36",
         "url": "/galleries/תפאורות להצגות/חיים בסרט1.jpg",
-        "alt": "חיים בסרט1"
+        "alt": "חיים בסרט1",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_37",
         "url": "/galleries/תפאורות להצגות/חיים בסרט2.jpg",
-        "alt": "חיים בסרט2"
+        "alt": "חיים בסרט2",
+        "orientation": "portrait"
       },
       {
         "id": "scenery_38",
         "url": "/galleries/תפאורות להצגות/חיים בסרט4.jpg",
-        "alt": "חיים בסרט4"
+        "alt": "חיים בסרט4",
+        "orientation": "portrait"
       },
       {
         "id": "scenery_39",
         "url": "/galleries/תפאורות להצגות/חלק מחוות החיות.JPG",
-        "alt": "חלק מחוות החיות"
+        "alt": "חלק מחוות החיות",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_40",
         "url": "/galleries/תפאורות להצגות/חתול רחוב1.JPG",
-        "alt": "חתול רחוב1"
+        "alt": "חתול רחוב1",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_41",
         "url": "/galleries/תפאורות להצגות/חתול רחוב2.JPG",
-        "alt": "חתול רחוב2"
+        "alt": "חתול רחוב2",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_42",
         "url": "/galleries/תפאורות להצגות/יוסי אריה ומיקי מרכיבים את התפאורה.jpg",
-        "alt": "יוסי אריה ומיקי מרכיבים את התפאורה"
+        "alt": "יוסי אריה ומיקי מרכיבים את התפאורה",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_43",
         "url": "/galleries/תפאורות להצגות/ירושליים מדרגות 3 אמיתיות והשאר ציור.jpg",
-        "alt": "ירושליים מדרגות 3 אמיתיות והשאר ציור"
+        "alt": "ירושליים מדרגות 3 אמיתיות והשאר ציור",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_44",
         "url": "/galleries/תפאורות להצגות/כל הבמה כולל חלק קדמי של הקוביות.JPG",
-        "alt": "כל הבמה כולל חלק קדמי של הקוביות"
+        "alt": "כל הבמה כולל חלק קדמי של הקוביות",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_45",
         "url": "/galleries/תפאורות להצגות/כל הבמה כנר על הגג.jpg",
-        "alt": "כל הבמה כנר על הגג"
+        "alt": "כל הבמה כנר על הגג",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_46",
         "url": "/galleries/תפאורות להצגות/כל הבמה.jpg",
-        "alt": "כל הבמה"
+        "alt": "כל הבמה",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_47",
         "url": "/galleries/תפאורות להצגות/לא זכור לי שם ההצגה.jpg",
-        "alt": "לא זכור לי שם ההצגה"
+        "alt": "לא זכור לי שם ההצגה",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_48",
         "url": "/galleries/תפאורות להצגות/מישהו לרוץ איתו.jpg",
-        "alt": "מישהו לרוץ איתו"
+        "alt": "מישהו לרוץ איתו",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_49",
         "url": "/galleries/תפאורות להצגות/מנהיגות1.JPG",
-        "alt": "מנהיגות1"
+        "alt": "מנהיגות1",
+        "orientation": "portrait"
       },
       {
         "id": "scenery_50",
         "url": "/galleries/תפאורות להצגות/מנהיגות2.JPG",
-        "alt": "מנהיגות2"
+        "alt": "מנהיגות2",
+        "orientation": "portrait"
       },
       {
         "id": "scenery_51",
         "url": "/galleries/תפאורות להצגות/מנהיגות3.JPG",
-        "alt": "מנהיגות3"
+        "alt": "מנהיגות3",
+        "orientation": "portrait"
       },
       {
         "id": "scenery_52",
         "url": "/galleries/תפאורות להצגות/מנהיגות5.JPG",
-        "alt": "מנהיגות5"
+        "alt": "מנהיגות5",
+        "orientation": "portrait"
       },
       {
         "id": "scenery_53",
         "url": "/galleries/תפאורות להצגות/מנהיגות7.JPG",
-        "alt": "מנהיגות7"
+        "alt": "מנהיגות7",
+        "orientation": "portrait"
       },
       {
         "id": "scenery_54",
         "url": "/galleries/תפאורות להצגות/מנהיגות8.JPG",
-        "alt": "מנהיגות8"
+        "alt": "מנהיגות8",
+        "orientation": "portrait"
       },
       {
         "id": "scenery_55",
         "url": "/galleries/תפאורות להצגות/מנהיגות9.JPG",
-        "alt": "מנהיגות9"
+        "alt": "מנהיגות9",
+        "orientation": "portrait"
       },
       {
         "id": "scenery_56",
         "url": "/galleries/תפאורות להצגות/מעברה.JPG",
-        "alt": "מעברה"
+        "alt": "מעברה",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_57",
         "url": "/galleries/תפאורות להצגות/מעברה2.JPG",
-        "alt": "מעברה2"
+        "alt": "מעברה2",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_58",
         "url": "/galleries/תפאורות להצגות/מצלמה אייפון 5.2015 056.JPG",
-        "alt": "מצלמה אייפון 5.2015 056"
+        "alt": "מצלמה אייפון 5.2015 056",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_59",
         "url": "/galleries/תפאורות להצגות/על ארגזי סעף ליד הספריה בקרית ביאליק.jpg",
-        "alt": "על ארגזי סעף ליד הספריה בקרית ביאליק"
+        "alt": "על ארגזי סעף ליד הספריה בקרית ביאליק",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_60",
         "url": "/galleries/תפאורות להצגות/עם שחקנים דפנה.jpg",
-        "alt": "עם שחקנים דפנה"
+        "alt": "עם שחקנים דפנה",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_61",
         "url": "/galleries/תפאורות להצגות/עם שחקנים ותאורה.jpg",
-        "alt": "עם שחקנים ותאורה"
+        "alt": "עם שחקנים ותאורה",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_62",
         "url": "/galleries/תפאורות להצגות/עם שחקנים.jpg",
-        "alt": "עם שחקנים"
+        "alt": "עם שחקנים",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_63",
         "url": "/galleries/תפאורות להצגות/צד ימין במה.jpg",
-        "alt": "צד ימין במה"
+        "alt": "צד ימין במה",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_64",
         "url": "/galleries/תפאורות להצגות/צד ימין.jpg",
-        "alt": "צד ימין"
+        "alt": "צד ימין",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_65",
         "url": "/galleries/תפאורות להצגות/צד שמאל במה.jpg",
-        "alt": "צד שמאל במה"
+        "alt": "צד שמאל במה",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_66",
         "url": "/galleries/תפאורות להצגות/צד שמאל.jpg",
-        "alt": "צד שמאל"
+        "alt": "צד שמאל",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_67",
         "url": "/galleries/תפאורות להצגות/קפה מילה עם תומר רוסו.jpg",
-        "alt": "קפה מילה עם תומר רוסו"
+        "alt": "קפה מילה עם תומר רוסו",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_68",
         "url": "/galleries/תפאורות להצגות/קפה מילה צד ימין.jpg",
-        "alt": "קפה מילה צד ימין"
+        "alt": "קפה מילה צד ימין",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_69",
         "url": "/galleries/תפאורות להצגות/קרקס ישראלי בחצר דפנה.jpg",
-        "alt": "קרקס ישראלי בחצר דפנה"
+        "alt": "קרקס ישראלי בחצר דפנה",
+        "orientation": "portrait"
       },
       {
         "id": "scenery_70",
         "url": "/galleries/תפאורות להצגות/קרקס ישראלי דפנה.jpg",
-        "alt": "קרקס ישראלי דפנה"
+        "alt": "קרקס ישראלי דפנה",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_71",
         "url": "/galleries/תפאורות להצגות/קרקס ישראלי רקע.jpg",
-        "alt": "קרקס ישראלי רקע"
+        "alt": "קרקס ישראלי רקע",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_72",
         "url": "/galleries/תפאורות להצגות/קרקס ישראלי.jpg",
-        "alt": "קרקס ישראלי"
+        "alt": "קרקס ישראלי",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_73",
         "url": "/galleries/תפאורות להצגות/ראש חמור שעשיתי לחלום לייל קיץ.jpg",
-        "alt": "ראש חמור שעשיתי לחלום לייל קיץ"
+        "alt": "ראש חמור שעשיתי לחלום לייל קיץ",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_74",
         "url": "/galleries/תפאורות להצגות/רומא 067.JPG",
-        "alt": "רומא 067"
+        "alt": "רומא 067",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_75",
         "url": "/galleries/תפאורות להצגות/תל אביב עם תאורה.JPG",
-        "alt": "תל אביב עם תאורה"
+        "alt": "תל אביב עם תאורה",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_76",
         "url": "/galleries/תפאורות להצגות/תמונות מהנייד 8.2012 068.JPG",
-        "alt": "תמונות מהנייד 8.2012 068"
+        "alt": "תמונות מהנייד 8.2012 068",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_77",
         "url": "/galleries/תפאורות להצגות/תמונות מהנייד 8.2012 072.JPG",
-        "alt": "תמונות מהנייד 8.2012 072"
+        "alt": "תמונות מהנייד 8.2012 072",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_78",
         "url": "/galleries/תפאורות להצגות/תמונות מהנייד 8.2012 073.JPG",
-        "alt": "תמונות מהנייד 8.2012 073"
+        "alt": "תמונות מהנייד 8.2012 073",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_79",
         "url": "/galleries/תפאורות להצגות/תמונות מהנייד 8.2012 076.JPG",
-        "alt": "תמונות מהנייד 8.2012 076"
+        "alt": "תמונות מהנייד 8.2012 076",
+        "orientation": "portrait"
       },
       {
         "id": "scenery_80",
         "url": "/galleries/תפאורות להצגות/תפאורה דפנה 2013.JPG",
-        "alt": "תפאורה דפנה 2013"
+        "alt": "תפאורה דפנה 2013",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_81",
         "url": "/galleries/תפאורות להצגות/תפאורות2.JPG",
-        "alt": "תפאורות2"
+        "alt": "תפאורות2",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_82",
         "url": "/galleries/תפאורות להצגות/תפאורות3.JPG",
-        "alt": "תפאורות3"
+        "alt": "תפאורות3",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_83",
         "url": "/galleries/תפאורות להצגות/תפאורות5.JPG",
-        "alt": "תפאורות5"
+        "alt": "תפאורות5",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_84",
         "url": "/galleries/תפאורות להצגות/תפאורות6.JPG",
-        "alt": "תפאורות6"
+        "alt": "תפאורות6",
+        "orientation": "landscape"
       },
       {
         "id": "scenery_85",
         "url": "/galleries/תפאורות להצגות/תפאורות7.JPG",
-        "alt": "תפאורות7"
+        "alt": "תפאורות7",
+        "orientation": "landscape"
       }
     ]
   },
@@ -554,67 +659,80 @@ export const galleries = [
       {
         "id": "nude_0",
         "url": "/galleries/עירום לאורך השנים/20200919_095541.jpg",
-        "alt": "20200919_095541"
+        "alt": "20200919_095541",
+        "orientation": "portrait"
       },
       {
         "id": "nude_1",
         "url": "/galleries/עירום לאורך השנים/בעירום1.jpg",
-        "alt": "בעירום1"
+        "alt": "בעירום1",
+        "orientation": "portrait"
       },
       {
         "id": "nude_2",
         "url": "/galleries/עירום לאורך השנים/בעירום10.jpg",
-        "alt": "בעירום10"
+        "alt": "בעירום10",
+        "orientation": "landscape"
       },
       {
         "id": "nude_3",
         "url": "/galleries/עירום לאורך השנים/בעירום12.jpg",
-        "alt": "בעירום12"
+        "alt": "בעירום12",
+        "orientation": "portrait"
       },
       {
         "id": "nude_4",
         "url": "/galleries/עירום לאורך השנים/בעירום14.jpg",
-        "alt": "בעירום14"
+        "alt": "בעירום14",
+        "orientation": "landscape"
       },
       {
         "id": "nude_5",
         "url": "/galleries/עירום לאורך השנים/בעירום17.jpg",
-        "alt": "בעירום17"
+        "alt": "בעירום17",
+        "orientation": "portrait"
       },
       {
         "id": "nude_6",
         "url": "/galleries/עירום לאורך השנים/בעירום19.jpg",
-        "alt": "בעירום19"
+        "alt": "בעירום19",
+        "orientation": "landscape"
       },
       {
         "id": "nude_7",
         "url": "/galleries/עירום לאורך השנים/בעירום2.jpg",
-        "alt": "בעירום2"
+        "alt": "בעירום2",
+        "orientation": "portrait"
       },
       {
         "id": "nude_8",
         "url": "/galleries/עירום לאורך השנים/בעירום3.jpg",
-        "alt": "בעירום3"
+        "alt": "בעירום3",
+        "orientation": "portrait"
       },
       {
         "id": "nude_9",
         "url": "/galleries/עירום לאורך השנים/בעירום4.JPG",
-        "alt": "בעירום4"
+        "alt": "בעירום4",
+        "orientation": "portrait"
       },
       {
         "id": "nude_10",
         "url": "/galleries/עירום לאורך השנים/בעירום5.jpg",
-        "alt": "בעירום5"
+        "alt": "בעירום5",
+        "orientation": "portrait"
       },
       {
         "id": "nude_11",
         "url": "/galleries/עירום לאורך השנים/בעירום6.jpg",
-        "alt": "בעירום6"
+        "alt": "בעירום6",
+        "orientation": "landscape"
       },
       {
         "id": "nude_12",
         "url": "/galleries/עירום לאורך השנים/בעירום8.jpg",
-        "alt": "בעירום8"
+        "alt": "בעירום8",
+        "orientation": "portrait"
       }
     ]
   },
@@ -628,107 +746,128 @@ export const galleries = [
       {
         "id": "transparent_0",
         "url": "/galleries/שקופים/שקופים1.jpg",
-        "alt": "שקופים1"
+        "alt": "שקופים1",
+        "orientation": "landscape"
       },
       {
         "id": "transparent_1",
         "url": "/galleries/שקופים/שקופים10.jpg",
-        "alt": "שקופים10"
+        "alt": "שקופים10",
+        "orientation": "portrait"
       },
       {
         "id": "transparent_2",
         "url": "/galleries/שקופים/שקופים11.JPG",
-        "alt": "שקופים11"
+        "alt": "שקופים11",
+        "orientation": "landscape"
       },
       {
         "id": "transparent_3",
         "url": "/galleries/שקופים/שקופים12.jpg",
-        "alt": "שקופים12"
+        "alt": "שקופים12",
+        "orientation": "landscape"
       },
       {
         "id": "transparent_4",
         "url": "/galleries/שקופים/שקופים13.jpg",
-        "alt": "שקופים13"
+        "alt": "שקופים13",
+        "orientation": "portrait"
       },
       {
         "id": "transparent_5",
         "url": "/galleries/שקופים/שקופים14.jpg",
-        "alt": "שקופים14"
+        "alt": "שקופים14",
+        "orientation": "portrait"
       },
       {
         "id": "transparent_6",
         "url": "/galleries/שקופים/שקופים16.jpg",
-        "alt": "שקופים16"
+        "alt": "שקופים16",
+        "orientation": "portrait"
       },
       {
         "id": "transparent_7",
         "url": "/galleries/שקופים/שקופים17.JPG",
-        "alt": "שקופים17"
+        "alt": "שקופים17",
+        "orientation": "portrait"
       },
       {
         "id": "transparent_8",
         "url": "/galleries/שקופים/שקופים18.jpg",
-        "alt": "שקופים18"
+        "alt": "שקופים18",
+        "orientation": "portrait"
       },
       {
         "id": "transparent_9",
         "url": "/galleries/שקופים/שקופים19.jpg",
-        "alt": "שקופים19"
+        "alt": "שקופים19",
+        "orientation": "portrait"
       },
       {
         "id": "transparent_10",
         "url": "/galleries/שקופים/שקופים2.jpg",
-        "alt": "שקופים2"
+        "alt": "שקופים2",
+        "orientation": "landscape"
       },
       {
         "id": "transparent_11",
         "url": "/galleries/שקופים/שקופים20.JPG",
-        "alt": "שקופים20"
+        "alt": "שקופים20",
+        "orientation": "portrait"
       },
       {
         "id": "transparent_12",
         "url": "/galleries/שקופים/שקופים21.jpg",
-        "alt": "שקופים21"
+        "alt": "שקופים21",
+        "orientation": "portrait"
       },
       {
         "id": "transparent_13",
         "url": "/galleries/שקופים/שקופים3.JPG",
-        "alt": "שקופים3"
+        "alt": "שקופים3",
+        "orientation": "portrait"
       },
       {
         "id": "transparent_14",
         "url": "/galleries/שקופים/שקופים4.JPG",
-        "alt": "שקופים4"
+        "alt": "שקופים4",
+        "orientation": "portrait"
       },
       {
         "id": "transparent_15",
         "url": "/galleries/שקופים/שקופים5.jpg",
-        "alt": "שקופים5"
+        "alt": "שקופים5",
+        "orientation": "portrait"
       },
       {
         "id": "transparent_16",
         "url": "/galleries/שקופים/שקופים6.jpg",
-        "alt": "שקופים6"
+        "alt": "שקופים6",
+        "orientation": "portrait"
       },
       {
         "id": "transparent_17",
         "url": "/galleries/שקופים/שקופים7.jpg",
-        "alt": "שקופים7"
+        "alt": "שקופים7",
+        "orientation": "portrait"
       },
       {
         "id": "transparent_18",
         "url": "/galleries/שקופים/שקופים8.jpg",
-        "alt": "שקופים8"
+        "alt": "שקופים8",
+        "orientation": "landscape"
       },
       {
         "id": "transparent_19",
         "url": "/galleries/שקופים/שקופים9.JPG",
-        "alt": "שקופים9"
+        "alt": "שקופים9",
+        "orientation": "portrait"
       },
       {
         "id": "transparent_20",
         "url": "/galleries/שקופים/שקר השקיפות2.JPG",
-        "alt": "שקר השקיפות2"
+        "alt": "שקר השקיפות2",
+        "orientation": "portrait"
       }
     ]
   },
@@ -742,67 +881,80 @@ export const galleries = [
       {
         "id": "chemnitz_0",
         "url": "/galleries/קמניץ גרמניה עם אוסמר אוסטן/IMG_20260403_164144.jpg",
-        "alt": "IMG_20260403_164144"
+        "alt": "IMG_20260403_164144",
+        "orientation": "landscape"
       },
       {
         "id": "chemnitz_1",
         "url": "/galleries/קמניץ גרמניה עם אוסמר אוסטן/קמניץ1.jpg",
-        "alt": "קמניץ1"
+        "alt": "קמניץ1",
+        "orientation": "landscape"
       },
       {
         "id": "chemnitz_2",
         "url": "/galleries/קמניץ גרמניה עם אוסמר אוסטן/קמניץ10.jpg",
-        "alt": "קמניץ10"
+        "alt": "קמניץ10",
+        "orientation": "portrait"
       },
       {
         "id": "chemnitz_3",
         "url": "/galleries/קמניץ גרמניה עם אוסמר אוסטן/קמניץ12.JPG",
-        "alt": "קמניץ12"
+        "alt": "קמניץ12",
+        "orientation": "portrait"
       },
       {
         "id": "chemnitz_4",
         "url": "/galleries/קמניץ גרמניה עם אוסמר אוסטן/קמניץ14.JPG",
-        "alt": "קמניץ14"
+        "alt": "קמניץ14",
+        "orientation": "portrait"
       },
       {
         "id": "chemnitz_5",
         "url": "/galleries/קמניץ גרמניה עם אוסמר אוסטן/קמניץ16.jpg",
-        "alt": "קמניץ16"
+        "alt": "קמניץ16",
+        "orientation": "portrait"
       },
       {
         "id": "chemnitz_6",
         "url": "/galleries/קמניץ גרמניה עם אוסמר אוסטן/קמניץ17.jpg",
-        "alt": "קמניץ17"
+        "alt": "קמניץ17",
+        "orientation": "portrait"
       },
       {
         "id": "chemnitz_7",
         "url": "/galleries/קמניץ גרמניה עם אוסמר אוסטן/קמניץ18.JPG",
-        "alt": "קמניץ18"
+        "alt": "קמניץ18",
+        "orientation": "landscape"
       },
       {
         "id": "chemnitz_8",
         "url": "/galleries/קמניץ גרמניה עם אוסמר אוסטן/קמניץ2.JPG",
-        "alt": "קמניץ2"
+        "alt": "קמניץ2",
+        "orientation": "landscape"
       },
       {
         "id": "chemnitz_9",
         "url": "/galleries/קמניץ גרמניה עם אוסמר אוסטן/קמניץ4.JPG",
-        "alt": "קמניץ4"
+        "alt": "קמניץ4",
+        "orientation": "landscape"
       },
       {
         "id": "chemnitz_10",
         "url": "/galleries/קמניץ גרמניה עם אוסמר אוסטן/קמניץ7.jpg",
-        "alt": "קמניץ7"
+        "alt": "קמניץ7",
+        "orientation": "portrait"
       },
       {
         "id": "chemnitz_11",
         "url": "/galleries/קמניץ גרמניה עם אוסמר אוסטן/קמניץ8.jpg",
-        "alt": "קמניץ8"
+        "alt": "קמניץ8",
+        "orientation": "portrait"
       },
       {
         "id": "chemnitz_12",
         "url": "/galleries/קמניץ גרמניה עם אוסמר אוסטן/קמניץ9.jpg",
-        "alt": "קמניץ9"
+        "alt": "קמניץ9",
+        "orientation": "portrait"
       }
     ]
   },
@@ -816,87 +968,104 @@ export const galleries = [
       {
         "id": "miki_0",
         "url": "/galleries/מיקי/מיקי10.jpg",
-        "alt": "מיקי10"
+        "alt": "מיקי10",
+        "orientation": "portrait"
       },
       {
         "id": "miki_1",
         "url": "/galleries/מיקי/מיקי12.jpg",
-        "alt": "מיקי12"
+        "alt": "מיקי12",
+        "orientation": "landscape"
       },
       {
         "id": "miki_2",
         "url": "/galleries/מיקי/מיקי14.jpg",
-        "alt": "מיקי14"
+        "alt": "מיקי14",
+        "orientation": "landscape"
       },
       {
         "id": "miki_3",
         "url": "/galleries/מיקי/מיקי15.jpg",
-        "alt": "מיקי15"
+        "alt": "מיקי15",
+        "orientation": "portrait"
       },
       {
         "id": "miki_4",
         "url": "/galleries/מיקי/מיקי16.jpg",
-        "alt": "מיקי16"
+        "alt": "מיקי16",
+        "orientation": "portrait"
       },
       {
         "id": "miki_5",
         "url": "/galleries/מיקי/מיקי17.jpg",
-        "alt": "מיקי17"
+        "alt": "מיקי17",
+        "orientation": "portrait"
       },
       {
         "id": "miki_6",
         "url": "/galleries/מיקי/מיקי18.jpg",
-        "alt": "מיקי18"
+        "alt": "מיקי18",
+        "orientation": "landscape"
       },
       {
         "id": "miki_7",
         "url": "/galleries/מיקי/מיקי2.jpg",
-        "alt": "מיקי2"
+        "alt": "מיקי2",
+        "orientation": "portrait"
       },
       {
         "id": "miki_8",
         "url": "/galleries/מיקי/מיקי20.jpg",
-        "alt": "מיקי20"
+        "alt": "מיקי20",
+        "orientation": "landscape"
       },
       {
         "id": "miki_9",
         "url": "/galleries/מיקי/מיקי22.jpg",
-        "alt": "מיקי22"
+        "alt": "מיקי22",
+        "orientation": "portrait"
       },
       {
         "id": "miki_10",
         "url": "/galleries/מיקי/מיקי23.jpg",
-        "alt": "מיקי23"
+        "alt": "מיקי23",
+        "orientation": "portrait"
       },
       {
         "id": "miki_11",
         "url": "/galleries/מיקי/מיקי24.jpg",
-        "alt": "מיקי24"
+        "alt": "מיקי24",
+        "orientation": "landscape"
       },
       {
         "id": "miki_12",
         "url": "/galleries/מיקי/מיקי4.jpg",
-        "alt": "מיקי4"
+        "alt": "מיקי4",
+        "orientation": "landscape"
       },
       {
         "id": "miki_13",
         "url": "/galleries/מיקי/מיקי5.jpg",
-        "alt": "מיקי5"
+        "alt": "מיקי5",
+        "orientation": "portrait"
       },
       {
         "id": "miki_14",
         "url": "/galleries/מיקי/מיקי7.jpg",
-        "alt": "מיקי7"
+        "alt": "מיקי7",
+        "orientation": "landscape"
       },
       {
         "id": "miki_15",
         "url": "/galleries/מיקי/מיקי8.jpg",
-        "alt": "מיקי8"
+        "alt": "מיקי8",
+        "orientation": "landscape"
       },
       {
         "id": "miki_16",
         "url": "/galleries/מיקי/מיקי9.jpg",
-        "alt": "מיקי9"
+        "alt": "מיקי9",
+        "orientation": "landscape"
       }
     ]
   },
@@ -910,62 +1079,74 @@ export const galleries = [
       {
         "id": "silver_0",
         "url": "/galleries/כסף/כסף1 (2).jpg",
-        "alt": "כסף1 (2)"
+        "alt": "כסף1 (2)",
+        "orientation": "portrait"
       },
       {
         "id": "silver_1",
         "url": "/galleries/כסף/כסף1.jpg",
-        "alt": "כסף1"
+        "alt": "כסף1",
+        "orientation": "portrait"
       },
       {
         "id": "silver_2",
         "url": "/galleries/כסף/כסף10.jpg",
-        "alt": "כסף10"
+        "alt": "כסף10",
+        "orientation": "portrait"
       },
       {
         "id": "silver_3",
         "url": "/galleries/כסף/כסף11.jpg",
-        "alt": "כסף11"
+        "alt": "כסף11",
+        "orientation": "portrait"
       },
       {
         "id": "silver_4",
         "url": "/galleries/כסף/כסף12.jpg",
-        "alt": "כסף12"
+        "alt": "כסף12",
+        "orientation": "portrait"
       },
       {
         "id": "silver_5",
         "url": "/galleries/כסף/כסף3.jpg",
-        "alt": "כסף3"
+        "alt": "כסף3",
+        "orientation": "portrait"
       },
       {
         "id": "silver_6",
         "url": "/galleries/כסף/כסף4.jpg",
-        "alt": "כסף4"
+        "alt": "כסף4",
+        "orientation": "portrait"
       },
       {
         "id": "silver_7",
         "url": "/galleries/כסף/כסף5.jpg",
-        "alt": "כסף5"
+        "alt": "כסף5",
+        "orientation": "portrait"
       },
       {
         "id": "silver_8",
         "url": "/galleries/כסף/כסף6.jpg",
-        "alt": "כסף6"
+        "alt": "כסף6",
+        "orientation": "portrait"
       },
       {
         "id": "silver_9",
         "url": "/galleries/כסף/כסף7.jpg",
-        "alt": "כסף7"
+        "alt": "כסף7",
+        "orientation": "portrait"
       },
       {
         "id": "silver_10",
         "url": "/galleries/כסף/כסף8.JPG",
-        "alt": "כסף8"
+        "alt": "כסף8",
+        "orientation": "portrait"
       },
       {
         "id": "silver_11",
         "url": "/galleries/כסף/כסף9.JPG",
-        "alt": "כסף9"
+        "alt": "כסף9",
+        "orientation": "landscape"
       }
     ]
   },
@@ -979,57 +1160,68 @@ export const galleries = [
       {
         "id": "almost-black-and-white_0",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן10.JPG",
-        "alt": "כמעט שחור לבן10"
+        "alt": "כמעט שחור לבן10",
+        "orientation": "landscape"
       },
       {
         "id": "almost-black-and-white_1",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן11.JPG",
-        "alt": "כמעט שחור לבן11"
+        "alt": "כמעט שחור לבן11",
+        "orientation": "landscape"
       },
       {
         "id": "almost-black-and-white_2",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן12.JPG",
-        "alt": "כמעט שחור לבן12"
+        "alt": "כמעט שחור לבן12",
+        "orientation": "landscape"
       },
       {
         "id": "almost-black-and-white_3",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן13.JPG",
-        "alt": "כמעט שחור לבן13"
+        "alt": "כמעט שחור לבן13",
+        "orientation": "landscape"
       },
       {
         "id": "almost-black-and-white_4",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן14.JPG",
-        "alt": "כמעט שחור לבן14"
+        "alt": "כמעט שחור לבן14",
+        "orientation": "landscape"
       },
       {
         "id": "almost-black-and-white_5",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן15.JPG",
-        "alt": "כמעט שחור לבן15"
+        "alt": "כמעט שחור לבן15",
+        "orientation": "landscape"
       },
       {
         "id": "almost-black-and-white_6",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן3.JPG",
-        "alt": "כמעט שחור לבן3"
+        "alt": "כמעט שחור לבן3",
+        "orientation": "landscape"
       },
       {
         "id": "almost-black-and-white_7",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן5 (2).JPG",
-        "alt": "כמעט שחור לבן5 (2)"
+        "alt": "כמעט שחור לבן5 (2)",
+        "orientation": "portrait"
       },
       {
         "id": "almost-black-and-white_8",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן6.JPG",
-        "alt": "כמעט שחור לבן6"
+        "alt": "כמעט שחור לבן6",
+        "orientation": "landscape"
       },
       {
         "id": "almost-black-and-white_9",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן7.jpg",
-        "alt": "כמעט שחור לבן7"
+        "alt": "כמעט שחור לבן7",
+        "orientation": "landscape"
       },
       {
         "id": "almost-black-and-white_10",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן8.jpg",
-        "alt": "כמעט שחור לבן8"
+        "alt": "כמעט שחור לבן8",
+        "orientation": "landscape"
       }
     ]
   },
@@ -1043,87 +1235,104 @@ export const galleries = [
       {
         "id": "gallery_0_0",
         "url": "/galleries/רישום ואני 12-09-1998/IMG_20240525_112151 (1).jpg",
-        "alt": "IMG_20240525_112151 (1)"
+        "alt": "IMG_20240525_112151 (1)",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_0_1",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני1 הזמנה.jpg",
-        "alt": "רישום ואני1 הזמנה"
+        "alt": "רישום ואני1 הזמנה",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_0_2",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני10.jpg",
-        "alt": "רישום ואני10"
+        "alt": "רישום ואני10",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_0_3",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני11.jpg",
-        "alt": "רישום ואני11"
+        "alt": "רישום ואני11",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_0_4",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני12.jpg",
-        "alt": "רישום ואני12"
+        "alt": "רישום ואני12",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_0_5",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני13.jpg",
-        "alt": "רישום ואני13"
+        "alt": "רישום ואני13",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_0_6",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני14.jpg",
-        "alt": "רישום ואני14"
+        "alt": "רישום ואני14",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_0_7",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני15.jpg",
-        "alt": "רישום ואני15"
+        "alt": "רישום ואני15",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_0_8",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני16.jpg",
-        "alt": "רישום ואני16"
+        "alt": "רישום ואני16",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_0_9",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני17.jpg",
-        "alt": "רישום ואני17"
+        "alt": "רישום ואני17",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_0_10",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני3.jpg",
-        "alt": "רישום ואני3"
+        "alt": "רישום ואני3",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_0_11",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני4.jpg",
-        "alt": "רישום ואני4"
+        "alt": "רישום ואני4",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_0_12",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני5.jpg",
-        "alt": "רישום ואני5"
+        "alt": "רישום ואני5",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_0_13",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני6.jpg",
-        "alt": "רישום ואני6"
+        "alt": "רישום ואני6",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_0_14",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני7.jpg",
-        "alt": "רישום ואני7"
+        "alt": "רישום ואני7",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_0_15",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני8a.jpg",
-        "alt": "רישום ואני8a"
+        "alt": "רישום ואני8a",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_0_16",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני9.jpg",
-        "alt": "רישום ואני9"
+        "alt": "רישום ואני9",
+        "orientation": "portrait"
       }
     ]
   },
@@ -1134,137 +1343,163 @@ export const galleries = [
     "longDescription": "תערוכה מספר 16 היא התחברות לשגרת חיי. הדברים והחפצים, אלו שעברתי לידם אין ספור פעמים בלי להתייחס אליהם, מקבלים מקום.\nיצירה ושגרת חיים - בזה דנה תערוכה זו. \nבעבודתי הפעם לא חיפשתי נושאים, פשוט נתקלתי בהם, מתוך המציאות בסביבתם הטבעית, צוירו כמעט בלי לשנות דבר. \nעברתי לעבודה בצבעי שמן ובגישה ריאלית, לאחר הרבה שנים של התמקדות ברישום וצבעי מים. כל דרך יצירה והזמן המתאים לה. השתנות, באה באופן טבעי והדרגתי עם השתנות האישיות, למרות התפנית לגישה ריאלית, והמעבר לצבע, עדיין, מה להדגיש, ארגון השטח, בחירת צבעים, אוירה, רמת דיוק, כמה לקחת מתוך הנושא, ועוד הרבה החלטות אחרות נתונות בידי, כמו שהן נתונות בידי כל אמן.\nכיצד לסמל שיגרה? משהו שחוזר על עצמו כמו יום אחרי יום? החלטתי לקחת בכל העבודות פורמט של גיליון ניר 100x70 כדי להכניס מוטיב זהה בכל העבודות.\nעל כתב היד שלי לא ויתרתי בשלב זה, היה חשוב לי לשמור על הנחת צבע קלילה ואוורירית, שמשיכות המכחול תיראינה, ששכבות העבודה תיראינה, בשילוב ראיה אקוורלית, עם הרבה לבנים.\nנושאים כמו כלים המונחים על השיש או בכיור, מגבות מטבח על השיש, נושאים שנוצרו מתוך פעילות שגרתית בבית כמו כביסה תלויה על חבל, או כריות על המיטה וכו'. כמעט הרגשתי לא בנוח על שהדברים כל כך קלים התהליך הנוכחי היה בין הרגועים, הנעימים, הזורמים בהשוואה לתהליכים עד היום.\nדבר חשוב בעבודה על מבטים הייתה תשומת הלב לחומרים שונים כמו פלסטיק, מתכת, זכוכית, עץ שהובילו להמשך של שקר השקיפות.",
     "coverImage": "/galleries/מבטים של יום יום 6-11-2003/מבטים3.jpg",
     "images": [
-  {
-    "id": "gallery_1_0",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים1.jpg",
-    "alt": "מבטים1"
-  },
-  {
-    "id": "gallery_1_1",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים7.jpg",
-    "alt": "מבטים7"
-  },
-  {
-    "id": "gallery_1_2",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים3.jpg",
-    "alt": "מבטים3"
-  },
-  {
-    "id": "gallery_1_3",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים10.jpg",
-    "alt": "מבטים10"
-  },
-  {
-    "id": "gallery_1_4",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים4.jpg",
-    "alt": "מבטים4"
-  },
-  {
-    "id": "gallery_1_5",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים11.jpg",
-    "alt": "מבטים11"
-  },
-  {
-    "id": "gallery_1_6",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים13.jpg",
-    "alt": "מבטים13"
-  },
-  {
-    "id": "gallery_1_7",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים5.jpg",
-    "alt": "מבטים5"
-  },
-  {
-    "id": "gallery_1_8",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים12.jpg",
-    "alt": "מבטים12"
-  },
-  {
-    "id": "gallery_1_9",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים14.jpg",
-    "alt": "מבטים14"
-  },
-  {
-    "id": "gallery_1_10",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים6.jpg",
-    "alt": "מבטים6"
-  },
-  {
-    "id": "gallery_1_11",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים15.jpg",
-    "alt": "מבטים15"
-  },
-  {
-    "id": "gallery_1_12",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים16.jpg",
-    "alt": "מבטים16"
-  },
-  {
-    "id": "gallery_1_13",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים8.jpg",
-    "alt": "מבטים8"
-  },
-  {
-    "id": "gallery_1_14",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים17.jpg",
-    "alt": "מבטים17"
-  },
-  {
-    "id": "gallery_1_15",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים18.jpg",
-    "alt": "מבטים18"
-  },
-  {
-    "id": "gallery_1_16",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים9.jpg",
-    "alt": "מבטים9"
-  },
-  {
-    "id": "gallery_1_17",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים20.jpg",
-    "alt": "מבטים20"
-  },
-  {
-    "id": "gallery_1_18",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים19.jpg",
-    "alt": "מבטים19"
-  },
-  {
-    "id": "gallery_1_19",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים23.jpg",
-    "alt": "מבטים23"
-  },
-  {
-    "id": "gallery_1_20",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים24.jpg",
-    "alt": "מבטים24"
-  },
-  {
-    "id": "gallery_1_21",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים21.jpg",
-    "alt": "מבטים21"
-  },
-  {
-    "id": "gallery_1_22",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים25.jpg",
-    "alt": "מבטים25"
-  },
-  {
-    "id": "gallery_1_23",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים26.jpg",
-    "alt": "מבטים26"
-  },
-  {
-    "id": "gallery_1_24",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים22.jpg",
-    "alt": "מבטים22"
-  },
-  {
-    "id": "gallery_1_25",
-    "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים27.jpg",
-    "alt": "מבטים27"
-  }
-]
+      {
+        "id": "gallery_1_0",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים1.jpg",
+        "alt": "מבטים1",
+        "orientation": "portrait"
+      },
+      {
+        "id": "gallery_1_1",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים7.jpg",
+        "alt": "מבטים7",
+        "orientation": "landscape"
+      },
+      {
+        "id": "gallery_1_2",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים3.jpg",
+        "alt": "מבטים3",
+        "orientation": "portrait"
+      },
+      {
+        "id": "gallery_1_3",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים10.jpg",
+        "alt": "מבטים10",
+        "orientation": "landscape"
+      },
+      {
+        "id": "gallery_1_4",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים4.jpg",
+        "alt": "מבטים4",
+        "orientation": "portrait"
+      },
+      {
+        "id": "gallery_1_5",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים11.jpg",
+        "alt": "מבטים11",
+        "orientation": "portrait"
+      },
+      {
+        "id": "gallery_1_6",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים13.jpg",
+        "alt": "מבטים13",
+        "orientation": "landscape"
+      },
+      {
+        "id": "gallery_1_7",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים5.jpg",
+        "alt": "מבטים5",
+        "orientation": "portrait"
+      },
+      {
+        "id": "gallery_1_8",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים12.jpg",
+        "alt": "מבטים12",
+        "orientation": "portrait"
+      },
+      {
+        "id": "gallery_1_9",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים14.jpg",
+        "alt": "מבטים14",
+        "orientation": "landscape"
+      },
+      {
+        "id": "gallery_1_10",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים6.jpg",
+        "alt": "מבטים6",
+        "orientation": "portrait"
+      },
+      {
+        "id": "gallery_1_11",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים15.jpg",
+        "alt": "מבטים15",
+        "orientation": "portrait"
+      },
+      {
+        "id": "gallery_1_12",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים16.jpg",
+        "alt": "מבטים16",
+        "orientation": "landscape"
+      },
+      {
+        "id": "gallery_1_13",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים8.jpg",
+        "alt": "מבטים8",
+        "orientation": "portrait"
+      },
+      {
+        "id": "gallery_1_14",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים17.jpg",
+        "alt": "מבטים17",
+        "orientation": "portrait"
+      },
+      {
+        "id": "gallery_1_15",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים18.jpg",
+        "alt": "מבטים18",
+        "orientation": "landscape"
+      },
+      {
+        "id": "gallery_1_16",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים9.jpg",
+        "alt": "מבטים9",
+        "orientation": "portrait"
+      },
+      {
+        "id": "gallery_1_17",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים20.jpg",
+        "alt": "מבטים20",
+        "orientation": "portrait"
+      },
+      {
+        "id": "gallery_1_18",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים19.jpg",
+        "alt": "מבטים19",
+        "orientation": "landscape"
+      },
+      {
+        "id": "gallery_1_19",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים23.jpg",
+        "alt": "מבטים23",
+        "orientation": "portrait"
+      },
+      {
+        "id": "gallery_1_20",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים24.jpg",
+        "alt": "מבטים24",
+        "orientation": "portrait"
+      },
+      {
+        "id": "gallery_1_21",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים21.jpg",
+        "alt": "מבטים21",
+        "orientation": "landscape"
+      },
+      {
+        "id": "gallery_1_22",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים25.jpg",
+        "alt": "מבטים25",
+        "orientation": "portrait"
+      },
+      {
+        "id": "gallery_1_23",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים26.jpg",
+        "alt": "מבטים26",
+        "orientation": "portrait"
+      },
+      {
+        "id": "gallery_1_24",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים22.jpg",
+        "alt": "מבטים22",
+        "orientation": "landscape"
+      },
+      {
+        "id": "gallery_1_25",
+        "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים27.jpg",
+        "alt": "מבטים27",
+        "orientation": "portrait"
+      }
+    ]
   },
   {
     "id": "gallery_2",
@@ -1276,47 +1511,56 @@ export const galleries = [
       {
         "id": "gallery_2_4",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים2.JPG",
-        "alt": "גן הדובדבנים2"
+        "alt": "גן הדובדבנים2",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_2_5",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים3.JPG",
-        "alt": "גן הדובדבנים3"
+        "alt": "גן הדובדבנים3",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_2_0",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/IMG_20200214_180045_400.jpg",
-        "alt": "IMG_20200214_180045_400"
+        "alt": "IMG_20200214_180045_400",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_2_1",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים10.JPG",
-        "alt": "גן הדובדבנים10"
+        "alt": "גן הדובדבנים10",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_2_6",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים5.JPG",
-        "alt": "גן הדובדבנים5"
+        "alt": "גן הדובדבנים5",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_2_7",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים6.jpg",
-        "alt": "גן הדובדבנים6"
+        "alt": "גן הדובדבנים6",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_2_8",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים7.JPG",
-        "alt": "גן הדובדבנים7"
+        "alt": "גן הדובדבנים7",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_2_9",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים8.JPG",
-        "alt": "גן הדובדבנים8"
+        "alt": "גן הדובדבנים8",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_2_10",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים9.JPG",
-        "alt": "גן הדובדבנים9"
+        "alt": "גן הדובדבנים9",
+        "orientation": "portrait"
       }
     ]
   },
@@ -1330,77 +1574,92 @@ export const galleries = [
       {
         "id": "gallery_3_0",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/הזמנה של ש.ב.ר.jpg",
-        "alt": "הזמנה של ש.ב.ר"
+        "alt": "הזמנה של ש.ב.ר",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_3_1",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר1.jpg",
-        "alt": "שבר1"
+        "alt": "שבר1",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_3_2",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר11.jpg",
-        "alt": "שבר11"
+        "alt": "שבר11",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_3_3",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר12 נעקרת.jpg",
-        "alt": "שבר12 נעקרת"
+        "alt": "שבר12 נעקרת",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_3_4",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר13 נעקרת.jpg",
-        "alt": "שבר13 נעקרת"
+        "alt": "שבר13 נעקרת",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_3_5",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר14 נעקרת.jpg",
-        "alt": "שבר14 נעקרת"
+        "alt": "שבר14 נעקרת",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_3_6",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר15 נעקרת.jpg",
-        "alt": "שבר15 נעקרת"
+        "alt": "שבר15 נעקרת",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_3_7",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר16 נעקרת.jpg",
-        "alt": "שבר16 נעקרת"
+        "alt": "שבר16 נעקרת",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_3_8",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר17.jpg",
-        "alt": "שבר17"
+        "alt": "שבר17",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_3_9",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר4ביביסטים 5 מערכות בחירות.jpg",
-        "alt": "שבר4ביביסטים 5 מערכות בחירות"
+        "alt": "שבר4ביביסטים 5 מערכות בחירות",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_3_10",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר5 יום שחור לדמוקרטיה הישראלית.jpg",
-        "alt": "שבר5 יום שחור לדמוקרטיה הישראלית"
+        "alt": "שבר5 יום שחור לדמוקרטיה הישראלית",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_3_11",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר6 לאה עתיר_תדע כל אם עבריה_שמן על בד_2023 (1).jpg",
-        "alt": "שבר6 לאה עתיר_תדע כל אם עבריה_שמן על בד_2023 (1)"
+        "alt": "שבר6 לאה עתיר_תדע כל אם עבריה_שמן על בד_2023 (1)",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_3_12",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר7מר הפקרה.jpg",
-        "alt": "שבר7מר הפקרה"
+        "alt": "שבר7מר הפקרה",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_3_13",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר8 שבר האומנות שלי.jpg",
-        "alt": "שבר8 שבר האומנות שלי"
+        "alt": "שבר8 שבר האומנות שלי",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_3_14",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שלושה שעמדו.jpg",
-        "alt": "שלושה שעמדו"
+        "alt": "שלושה שעמדו",
+        "orientation": "portrait"
       }
     ]
   },
@@ -1414,52 +1673,62 @@ export const galleries = [
       {
         "id": "gallery_4_0",
         "url": "/galleries/אדם וריבוע/אדם וריבוע/IMG_20260403_164144.jpg",
-        "alt": "IMG_20260403_164144"
+        "alt": "IMG_20260403_164144",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_4_1",
         "url": "/galleries/אדם וריבוע/אדם וריבוע/אדם וריבוע רישומים10.JPG",
-        "alt": "אדם וריבוע רישומים10"
+        "alt": "אדם וריבוע רישומים10",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_4_2",
         "url": "/galleries/אדם וריבוע/אדם וריבוע/אדם וריבוע רישומים2.JPG",
-        "alt": "אדם וריבוע רישומים2"
+        "alt": "אדם וריבוע רישומים2",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_4_3",
         "url": "/galleries/אדם וריבוע/אדם וריבוע/אדם וריבוע רישומים3.JPG",
-        "alt": "אדם וריבוע רישומים3"
+        "alt": "אדם וריבוע רישומים3",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_4_4",
         "url": "/galleries/אדם וריבוע/אדם וריבוע/אדם וריבוע רישומים4.JPG",
-        "alt": "אדם וריבוע רישומים4"
+        "alt": "אדם וריבוע רישומים4",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_4_5",
         "url": "/galleries/אדם וריבוע/אדם וריבוע/אדם וריבוע רישומים5.JPG",
-        "alt": "אדם וריבוע רישומים5"
+        "alt": "אדם וריבוע רישומים5",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_4_6",
         "url": "/galleries/אדם וריבוע/אדם וריבוע/אדם וריבוע רישומים6.JPG",
-        "alt": "אדם וריבוע רישומים6"
+        "alt": "אדם וריבוע רישומים6",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_4_7",
         "url": "/galleries/אדם וריבוע/אדם וריבוע/אדם וריבוע רישומים7.JPG",
-        "alt": "אדם וריבוע רישומים7"
+        "alt": "אדם וריבוע רישומים7",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_4_8",
         "url": "/galleries/אדם וריבוע/אדם וריבוע/אדם וריבוע רישומים8.JPG",
-        "alt": "אדם וריבוע רישומים8"
+        "alt": "אדם וריבוע רישומים8",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_4_9",
         "url": "/galleries/אדם וריבוע/אדם וריבוע/אדם וריבוע רישומים9.JPG",
-        "alt": "אדם וריבוע רישומים9"
+        "alt": "אדם וריבוע רישומים9",
+        "orientation": "portrait"
       }
     ]
   },
@@ -1473,371 +1742,443 @@ export const galleries = [
       {
         "id": "gallery_5_0",
         "url": "/galleries/באקוורל/באקוורל/אקוורל10.JPG",
-        "alt": "אקוורל10"
+        "alt": "אקוורל10",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_1",
         "url": "/galleries/באקוורל/באקוורל/אקוורל11.jpg",
-        "alt": "אקוורל11"
+        "alt": "אקוורל11",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_2",
         "url": "/galleries/באקוורל/באקוורל/אקוורל12.jpg",
-        "alt": "אקוורל12"
+        "alt": "אקוורל12",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_5_3",
         "url": "/galleries/באקוורל/באקוורל/אקוורל13.jpg",
-        "alt": "אקוורל13"
+        "alt": "אקוורל13",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_5_4",
         "url": "/galleries/באקוורל/באקוורל/אקוורל14.JPG",
-        "alt": "אקוורל14"
+        "alt": "אקוורל14",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_5",
         "url": "/galleries/באקוורל/באקוורל/אקוורל15.jpg",
-        "alt": "אקוורל15"
+        "alt": "אקוורל15",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_5_6",
         "url": "/galleries/באקוורל/באקוורל/אקוורל16.JPG",
-        "alt": "אקוורל16"
+        "alt": "אקוורל16",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_5_7",
         "url": "/galleries/באקוורל/באקוורל/אקוורל17.JPG",
-        "alt": "אקוורל17"
+        "alt": "אקוורל17",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_5_8",
         "url": "/galleries/באקוורל/באקוורל/אקוורל18.JPG",
-        "alt": "אקוורל18"
+        "alt": "אקוורל18",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_9",
         "url": "/galleries/באקוורל/באקוורל/אקוורל19.JPG",
-        "alt": "אקוורל19"
+        "alt": "אקוורל19",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_10",
         "url": "/galleries/באקוורל/באקוורל/אקוורל2.JPG",
-        "alt": "אקוורל2"
+        "alt": "אקוורל2",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_11",
         "url": "/galleries/באקוורל/באקוורל/אקוורל20.JPG",
-        "alt": "אקוורל20"
+        "alt": "אקוורל20",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_12",
         "url": "/galleries/באקוורל/באקוורל/אקוורל21.JPG",
-        "alt": "אקוורל21"
+        "alt": "אקוורל21",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_13",
         "url": "/galleries/באקוורל/באקוורל/אקוורל22.JPG",
-        "alt": "אקוורל22"
+        "alt": "אקוורל22",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_5_14",
         "url": "/galleries/באקוורל/באקוורל/אקוורל23.JPG",
-        "alt": "אקוורל23"
+        "alt": "אקוורל23",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_15",
         "url": "/galleries/באקוורל/באקוורל/אקוורל24.JPG",
-        "alt": "אקוורל24"
+        "alt": "אקוורל24",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_16",
         "url": "/galleries/באקוורל/באקוורל/אקוורל25.jpg",
-        "alt": "אקוורל25"
+        "alt": "אקוורל25",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_17",
         "url": "/galleries/באקוורל/באקוורל/אקוורל26.jpg",
-        "alt": "אקוורל26"
+        "alt": "אקוורל26",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_5_18",
         "url": "/galleries/באקוורל/באקוורל/אקוורל27.JPG",
-        "alt": "אקוורל27"
+        "alt": "אקוורל27",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_5_19",
         "url": "/galleries/באקוורל/באקוורל/אקוורל28.jpg",
-        "alt": "אקוורל28"
+        "alt": "אקוורל28",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_20",
         "url": "/galleries/באקוורל/באקוורל/אקוורל29.jpg",
-        "alt": "אקוורל29"
+        "alt": "אקוורל29",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_5_21",
         "url": "/galleries/באקוורל/באקוורל/אקוורל3.jpg",
-        "alt": "אקוורל3"
+        "alt": "אקוורל3",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_22",
         "url": "/galleries/באקוורל/באקוורל/אקוורל30.JPG",
-        "alt": "אקוורל30"
+        "alt": "אקוורל30",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_23",
         "url": "/galleries/באקוורל/באקוורל/אקוורל39.jpg",
-        "alt": "אקוורל39"
+        "alt": "אקוורל39",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_5_24",
         "url": "/galleries/באקוורל/באקוורל/אקוורל4.jpg",
-        "alt": "אקוורל4"
+        "alt": "אקוורל4",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_5_25",
         "url": "/galleries/באקוורל/באקוורל/אקוורל5.JPG",
-        "alt": "אקוורל5"
+        "alt": "אקוורל5",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_26",
         "url": "/galleries/באקוורל/באקוורל/אקוורל6.jpg",
-        "alt": "אקוורל6"
+        "alt": "אקוורל6",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_27",
         "url": "/galleries/באקוורל/באקוורל/אקוורל7.jpg",
-        "alt": "אקוורל7"
+        "alt": "אקוורל7",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_28",
         "url": "/galleries/באקוורל/באקוורל/אקוורל8.JPG",
-        "alt": "אקוורל8"
+        "alt": "אקוורל8",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_5_29",
         "url": "/galleries/באקוורל/באקוורל/אקוורל9.JPG",
-        "alt": "אקוורל9"
+        "alt": "אקוורל9",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_5_30",
         "url": "/galleries/באקוורל/באקוורל/באקוורל30.jpg",
-        "alt": "באקוורל30"
+        "alt": "באקוורל30",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_5_31",
         "url": "/galleries/באקוורל/באקוורל/באקוורל34.jpg",
-        "alt": "באקוורל34"
+        "alt": "באקוורל34",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_32",
         "url": "/galleries/באקוורל/באקוורל/באקוורל35.jpg",
-        "alt": "באקוורל35"
+        "alt": "באקוורל35",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_5_33",
         "url": "/galleries/באקוורל/באקוורל/באקוורל36.jpg",
-        "alt": "באקוורל36"
+        "alt": "באקוורל36",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_34",
         "url": "/galleries/באקוורל/באקוורל/באקוורל37.jpg",
-        "alt": "באקוורל37"
+        "alt": "באקוורל37",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_5_35",
         "url": "/galleries/באקוורל/באקוורל/באקוורל38.jpg",
-        "alt": "באקוורל38"
+        "alt": "באקוורל38",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_5_36",
         "url": "/galleries/באקוורל/באקוורל/באקוורל49.jpg",
-        "alt": "באקוורל49"
+        "alt": "באקוורל49",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_37",
         "url": "/galleries/באקוורל/באקוורל/נוף באקוורל.JPG",
-        "alt": "נוף באקוורל"
+        "alt": "נוף באקוורל",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_38",
         "url": "/galleries/באקוורל/באקוורל/נוף בכחול וסגול באקוורל.JPG",
-        "alt": "נוף בכחול וסגול באקוורל"
+        "alt": "נוף בכחול וסגול באקוורל",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_39",
         "url": "/galleries/באקוורל/באקוורל/נוף כביש אדום.JPG",
-        "alt": "נוף כביש אדום"
+        "alt": "נוף כביש אדום",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_40",
         "url": "/galleries/באקוורל/באקוורל/נוף מהמרפסת.jpg",
-        "alt": "נוף מהמרפסת"
+        "alt": "נוף מהמרפסת",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_41",
         "url": "/galleries/באקוורל/באקוורל/נוף קטן באקוורל.jpg",
-        "alt": "נוף קטן באקוורל"
+        "alt": "נוף קטן באקוורל",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_5_42",
         "url": "/galleries/באקוורל/באקוורל/סירות בקישון.jpg",
-        "alt": "סירות בקישון"
+        "alt": "סירות בקישון",
+        "orientation": "landscape"
       }
     ]
   },
   {
     "id": "gallery_6",
-    "title": "דיוקן קןרונה ברישום ואקוורל",
-    "description": "סדרת ציורים: דיוקן קןרונה ברישום ואקוורל",
+    "title": "דיוקן קורונה ברישום ואקוורל",
+    "description": "סדרת ציורים: דיוקן קורונה ברישום ואקוורל",
     "longDescription": "דיוקן קורונה \n\nברישום ואקוורל מרץ 2020\n\n זו השנה שהצגתי תערוכה בבית האומנים בתל אביב. \"שקר השקיפות\". היא הוצגה 3 חדשים עם קהל במסכות, בתקופה זו שלא איפשרו לנו חופש ונשארנו לרוב בבית, התחלתי שוב לרשום את עצמי. \n\nכאשר חולפות כמה שנים ואני חוזרת לרשום את עצמי, זה תמיד שונה ואחר. חזרתי כמובן לחומרים של רישום, שזה מה שקורה כאשר אני מתחילה שלב חדש של חיפוש. בד בבד חזרתי לאקוורל וגם כאן אחרי מספר שנים העבודה משתנה, גם כאן לקחתי את עצמי למודל. ראיתי איך הזדקנתי ומה עושה הזמן. גם הרישום וגם אקוורל הן שתי טכניקות שאני אוהבת ואני מביאה חלק מהן כאן.",
     "coverImage": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה10.jpg",
     "images": [
       {
         "id": "gallery_6_0",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה10.jpg",
-        "alt": "דיוקן קורונה10"
+        "alt": "דיוקן קורונה10",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_1",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה11.jpg",
-        "alt": "דיוקן קורונה11"
+        "alt": "דיוקן קורונה11",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_2",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה12.jpg",
-        "alt": "דיוקן קורונה12"
+        "alt": "דיוקן קורונה12",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_3",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה13.jpg",
-        "alt": "דיוקן קורונה13"
+        "alt": "דיוקן קורונה13",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_4",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה14.jpg",
-        "alt": "דיוקן קורונה14"
+        "alt": "דיוקן קורונה14",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_5",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה15.jpg",
-        "alt": "דיוקן קורונה15"
+        "alt": "דיוקן קורונה15",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_6",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה16.jpg",
-        "alt": "דיוקן קורונה16"
+        "alt": "דיוקן קורונה16",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_7",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה17.jpg",
-        "alt": "דיוקן קורונה17"
+        "alt": "דיוקן קורונה17",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_8",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה18.jpg",
-        "alt": "דיוקן קורונה18"
+        "alt": "דיוקן קורונה18",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_9",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה19.jpg",
-        "alt": "דיוקן קורונה19"
+        "alt": "דיוקן קורונה19",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_10",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה2 (2).jpg",
-        "alt": "דיוקן קורונה2 (2)"
+        "alt": "דיוקן קורונה2 (2)",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_11",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה20.jpg",
-        "alt": "דיוקן קורונה20"
+        "alt": "דיוקן קורונה20",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_12",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה21.jpg",
-        "alt": "דיוקן קורונה21"
+        "alt": "דיוקן קורונה21",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_13",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה23.jpg",
-        "alt": "דיוקן קורונה23"
+        "alt": "דיוקן קורונה23",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_14",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה25.jpg",
-        "alt": "דיוקן קורונה25"
+        "alt": "דיוקן קורונה25",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_15",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה26.jpg",
-        "alt": "דיוקן קורונה26"
+        "alt": "דיוקן קורונה26",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_16",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה28.jpg",
-        "alt": "דיוקן קורונה28"
+        "alt": "דיוקן קורונה28",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_17",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה29.jpg",
-        "alt": "דיוקן קורונה29"
+        "alt": "דיוקן קורונה29",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_18",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה3.jpg",
-        "alt": "דיוקן קורונה3"
+        "alt": "דיוקן קורונה3",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_19",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה4.jpg",
-        "alt": "דיוקן קורונה4"
+        "alt": "דיוקן קורונה4",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_20",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה5.jpg",
-        "alt": "דיוקן קורונה5"
+        "alt": "דיוקן קורונה5",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_21",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה6.jpg",
-        "alt": "דיוקן קורונה6"
+        "alt": "דיוקן קורונה6",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_22",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה7.jpg",
-        "alt": "דיוקן קורונה7"
+        "alt": "דיוקן קורונה7",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_23",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה8.jpg",
-        "alt": "דיוקן קורונה8"
+        "alt": "דיוקן קורונה8",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_24",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה9.jpg",
-        "alt": "דיוקן קורונה9"
+        "alt": "דיוקן קורונה9",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_25",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקןקורונה19.jpg",
-        "alt": "דיוקןקורונה19"
+        "alt": "דיוקןקורונה19",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_26",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקןקוררונה27.jpg",
-        "alt": "דיוקןקוררונה27"
+        "alt": "דיוקןקוררונה27",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_6_27",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/קורונה באקוורל.jpg",
-        "alt": "קורונה באקוורל"
+        "alt": "קורונה באקוורל",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_6_28",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/קורונה באקוורל2.jpg",
-        "alt": "קורונה באקוורל2"
+        "alt": "קורונה באקוורל2",
+        "orientation": "portrait"
       }
     ]
   },
@@ -1851,42 +2192,50 @@ export const galleries = [
       {
         "id": "gallery_7_0",
         "url": "/galleries/וריאציות על נושא/DSCN9023a.jpg",
-        "alt": "DSCN9023a"
+        "alt": "DSCN9023a",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_7_1",
         "url": "/galleries/וריאציות על נושא/וריאציות על נושא4a.jpg",
-        "alt": "וריאציות על נושא4a"
+        "alt": "וריאציות על נושא4a",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_7_2",
         "url": "/galleries/וריאציות על נושא/וריאציות על נושא6a.jpg",
-        "alt": "וריאציות על נושא6a"
+        "alt": "וריאציות על נושא6a",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_7_3",
         "url": "/galleries/וריאציות על נושא/וריאציות על נושא7.JPG",
-        "alt": "וריאציות על נושא7"
+        "alt": "וריאציות על נושא7",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_7_4",
         "url": "/galleries/וריאציות על נושא/כמעט שחור לבן5.JPG",
-        "alt": "כמעט שחור לבן5"
+        "alt": "כמעט שחור לבן5",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_7_5",
         "url": "/galleries/וריאציות על נושא/כמעט שחור לבן6.JPG",
-        "alt": "כמעט שחור לבן6"
+        "alt": "כמעט שחור לבן6",
+        "orientation": "landscape"
       },
       {
         "id": "gallery_7_6",
         "url": "/galleries/וריאציות על נושא/מקור.jpeg",
-        "alt": "מקור"
+        "alt": "מקור",
+        "orientation": "portrait"
       },
       {
         "id": "gallery_7_7",
         "url": "/galleries/וריאציות על נושא/‏‏a - עותק.jpg",
-        "alt": "‏‏a - עותק"
+        "alt": "‏‏a - עותק",
+        "orientation": "landscape"
       }
     ]
   }

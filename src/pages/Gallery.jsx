@@ -88,17 +88,28 @@ const Gallery = () => {
       </div>
 
       <div className="container section">
-        <div className="masonry-grid animate-fade-in animate-delay-3">
-          {gallery.images.map((img, index) => (
-            <div 
-              key={img.id} 
-              className="masonry-item" 
-              onClick={() => openLightbox(index)}
-            >
-              <img src={img.url} alt={img.alt} loading="lazy" />
-              <div className="masonry-item-overlay">
-                <span>הגדל</span>
-              </div>
+        <div className="masonry-grid">
+          {[0, 1, 2].map((colIndex) => (
+            <div key={colIndex} className="masonry-column">
+              {gallery.images
+                .filter((_, index) => {
+                  return index % 3 === colIndex;
+                })
+                .map((img) => {
+                  const originalIndex = gallery.images.findIndex(i => i.id === img.id);
+                  return (
+                    <div 
+                      key={img.id} 
+                      className={`masonry-item ${img.orientation || 'portrait'}`} 
+                      onClick={() => openLightbox(originalIndex)}
+                    >
+                      <img src={img.url} alt={img.alt} loading="lazy" />
+                      <div className="item-overlay">
+                        <span className="view-text">הגדלה</span>
+                      </div>
+                    </div>
+                  );
+                })}
             </div>
           ))}
         </div>

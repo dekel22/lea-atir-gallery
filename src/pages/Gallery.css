@@ -107,24 +107,55 @@
   transform: translateY(0);
 }
 
-/* Masonry Layout - Column Flow */
+/* Masonry Layout - Flexbox Columns */
 .masonry-grid {
+  display: flex;
+  gap: var(--spacing-lg);
+  align-items: flex-start;
+}
+
+.masonry-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+@media (max-width: 1024px) {
+  /* On tablets, we might want 2 columns, but let's keep 3 for now or hide the 3rd */
+  .masonry-grid {
+    gap: var(--spacing-md);
+  }
+  .masonry-column {
+    gap: var(--spacing-md);
+  }
+}
+
+@media (max-width: 640px) {
+  /* On mobile, stack columns into one */
+  .masonry-grid {
+    flex-direction: column;
+  }
+}
+
+.masonry-item {
+  width: 100%;
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--surface-container-low);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.masonry-item:hover {
+  transform: scale(1.02);
+}
+
+.masonry-item img {
+  width: 100%;
+  height: auto;
   display: block;
-  column-count: 1;
-  column-gap: var(--spacing-lg);
-}
-
-@media (min-width: 768px) {
-  .masonry-grid {
-    column-count: 2;
-  }
-}
-
-@media (min-width: 1200px) {
-  .masonry-grid {
-    column-count: 3;
-    column-gap: var(--spacing-xl);
-  }
 }
 
 /* Lightbox Styles */
