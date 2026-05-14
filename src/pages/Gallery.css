@@ -53,13 +53,6 @@
 }
 
 /* Masonry Layout Approximation */
-.masonry-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: var(--spacing-lg);
-  align-items: start;
-}
-
 .masonry-item {
   position: relative;
   width: 100%;
@@ -114,18 +107,23 @@
   transform: translateY(0);
 }
 
+/* Masonry Layout Approximation - Responsive Grid */
+.masonry-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: var(--spacing-lg);
+  align-items: start;
+}
+
 @media (min-width: 768px) {
   .masonry-grid {
-    display: block;
-    column-count: 2;
-    column-gap: var(--spacing-lg);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1200px) {
   .masonry-grid {
-    column-count: 3;
-    column-gap: var(--spacing-xl);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
