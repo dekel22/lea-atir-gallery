@@ -25,6 +25,9 @@ const About = () => {
               className="w-full h-full object-cover grayscale-0"
             />
           </div>
+          <div className="mt-4 text-center lg:text-right">
+            <p className="font-label-sm text-on-surface-variant/60 uppercase italic">דיוקן עצמי, פחם על נייר, 2020</p>
+          </div>
         </div>
         
         <div className="lg:col-span-8 space-y-8 text-on-surface">
