@@ -82,7 +82,10 @@ const Gallery = () => {
               {gallery.longDescription.split('\n').map((line, i) => {
                 const isSubtitle = line.trim().startsWith('#');
                 const isRight = line.trim().startsWith('*');
-                const cleanLine = isSubtitle ? line.trim().substring(1).trim() : line;
+                let cleanLine = isSubtitle ? line.trim().substring(1).trim() : line;
+                if (isRight) {
+                  cleanLine = cleanLine.trim().substring(1).trim();
+                }
                 
                 return (
                   <p 
