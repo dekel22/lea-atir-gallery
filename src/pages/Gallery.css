@@ -39,6 +39,14 @@
   text-align: right;
 }
 
+.gallery-long-description p.gallery-subtitle {
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: var(--color-primary);
+  margin-top: var(--spacing-lg);
+  margin-bottom: var(--spacing-xs);
+}
+
 .back-link {
   display: inline-flex;
   align-items: center;

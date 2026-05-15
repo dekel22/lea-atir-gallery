@@ -79,11 +79,20 @@ const Gallery = () => {
           <p className="gallery-description animate-delay-2">{gallery.description}</p>
           {gallery.longDescription && (
             <div className="gallery-long-description animate-delay-2">
-              {gallery.longDescription.split('\n').map((line, i) => (
-                <p key={i} className={line.trim().startsWith('*') ? 'text-right' : ''}>
-                  {line}
-                </p>
-              ))}
+              {gallery.longDescription.split('\n').map((line, i) => {
+                const isSubtitle = line.trim().startsWith('#');
+                const isRight = line.trim().startsWith('*');
+                const cleanLine = isSubtitle ? line.trim().substring(1).trim() : line;
+                
+                return (
+                  <p 
+                    key={i} 
+                    className={`${isSubtitle ? 'gallery-subtitle' : ''} ${isRight ? 'text-right' : ''}`}
+                  >
+                    {cleanLine}
+                  </p>
+                );
+              })}
             </div>
           )}
         </div>
