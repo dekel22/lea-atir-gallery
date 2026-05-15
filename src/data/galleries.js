@@ -2353,7 +2353,7 @@ export const galleries = [
     "id": "war-diary",
     "title": "יומן מלחמה",
     "description": "יומן מלחמה - עבודות המתעדות את התקופה.",
-    "coverImage": "/galleries/יומן מלחמה/יומן מלחמה מגן דוד.jpg",
+    "coverImage": "/galleries/יומן מלחמה/יומן מלחמה1.jpg",
     "images": [
       {
         "id": "war-diary_0",
