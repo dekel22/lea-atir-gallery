@@ -2615,7 +2615,7 @@ export const galleries = [
     "id": "between-between",
     "title": "בין לבין",
     "description": "עבודות בטכניקה מעורבת.",
-    "coverImage": "/galleries/בין לבין/בין לבין10.JPG",
+    "coverImage": "/galleries/בין לבין/בין לבין8.jpg",
     "images": [
       {
         "id": "between-between_0",
