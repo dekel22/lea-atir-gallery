@@ -2499,7 +2499,7 @@ export const galleries = [
     "id": "scenery-pieces",
     "title": "פיסות נוף",
     "description": "עבודות שמן וגרפית על נוף.",
-    "coverImage": "/galleries/פיסות נוף/פיסות נוף8.jpg",
+    "coverImage": "/galleries/פיסות נוף/פיסות נוף4.JPG",
     "images": [
       {
         "id": "scenery-pieces_0",
