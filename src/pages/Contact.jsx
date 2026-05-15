@@ -50,7 +50,7 @@ const Contact = () => {
 
           <div className="pt-12 border-t border-surface-variant/30">
             <p className="font-h3 italic text-secondary/40 text-3xl">
-              "האמנות היא גשר בין אנשים"
+              "האומנות היא שפה וגשר בין אנשים"
             </p>
           </div>
         </div>
