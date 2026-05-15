@@ -35,6 +35,10 @@
   margin-bottom: var(--spacing-sm);
 }
 
+.gallery-long-description p.text-right {
+  text-align: right;
+}
+
 .back-link {
   display: inline-flex;
   align-items: center;

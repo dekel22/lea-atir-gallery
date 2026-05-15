@@ -80,7 +80,9 @@ const Gallery = () => {
           {gallery.longDescription && (
             <div className="gallery-long-description animate-delay-2">
               {gallery.longDescription.split('\n').map((line, i) => (
-                <p key={i}>{line}</p>
+                <p key={i} className={line.trim().startsWith('*') ? 'text-right' : ''}>
+                  {line}
+                </p>
               ))}
             </div>
           )}
