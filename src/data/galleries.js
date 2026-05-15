@@ -128,7 +128,7 @@ export const galleries = [
   {
     "id": "scenery",
     "title": "תפאורות להצגות",
-    "description": "אוסף תפאורות להצגות שונות.",
+    "description": "אוסף תפאורות מהצגות שונות.",
     "coverImage": "/galleries/תפאורות להצגות/חיים בסרט2.jpg",
     "images": [
       {
