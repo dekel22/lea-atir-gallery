@@ -2505,6 +2505,12 @@ export const galleries = [
     "coverImage": "/galleries/פיסות נוף/פיסות נוף4.JPG",
     "images": [
       {
+        "id": "scenery-pieces_explanation",
+        "url": "/galleries/פיסות נוף/פיסות נוף תמונת הסבר.PNG",
+        "alt": "פיסות נוף תמונת הסבר",
+        "orientation": "landscape"
+      },
+      {
         "id": "scenery-pieces_0",
         "url": "/galleries/פיסות נוף/פיסות נוף10.JPG",
         "alt": "פיסות נוף10",
