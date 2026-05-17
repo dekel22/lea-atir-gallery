@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowRight, X, ChevronRight, ChevronLeft } from 'lucide-react';
@@ -23,15 +23,33 @@ const Gallery = () => {
     };
   }, [id, gallery]);
 
+  const closeLightbox = () => {
+    setSelectedImageIndex(null);
+  };
+
+  const openLightbox = (index) => {
+    setSelectedImageIndex(index);
+  };
+
+  const nextImage = (e) => {
+    if (e) e.stopPropagation();
+    setSelectedImageIndex((prev) => (prev === gallery.images.length - 1 ? 0 : prev + 1));
+  };
+
+  const prevImage = (e) => {
+    if (e) e.stopPropagation();
+    setSelectedImageIndex((prev) => (prev === 0 ? gallery.images.length - 1 : prev - 1));
+  };
+
   // Keyboard navigation
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (selectedImageIndex === null) return;
       
       if (e.key === 'ArrowRight') {
-        setSelectedImageIndex((prev) => (prev === 0 ? gallery.images.length - 1 : prev - 1));
+        prevImage();
       } else if (e.key === 'ArrowLeft') {
-        setSelectedImageIndex((prev) => (prev === gallery.images.length - 1 ? 0 : prev + 1));
+        nextImage();
       } else if (e.key === 'Escape') {
         closeLightbox();
       }
@@ -39,7 +57,21 @@ const Gallery = () => {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedImageIndex, gallery]);
+
+  // Handle body scroll locking
+  useEffect(() => {
+    if (selectedImageIndex !== null) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+    
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [selectedImageIndex]);
 
   if (!gallery) {
     return (
@@ -50,25 +82,7 @@ const Gallery = () => {
     );
   }
 
-  const openLightbox = (index) => {
-    setSelectedImageIndex(index);
-    document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
-  };
 
-  const closeLightbox = () => {
-    setSelectedImageIndex(null);
-    document.body.style.overflow = 'auto';
-  };
-
-  const nextImage = (e) => {
-    e.stopPropagation();
-    setSelectedImageIndex((prev) => (prev === gallery.images.length - 1 ? 0 : prev + 1));
-  };
-
-  const prevImage = (e) => {
-    e.stopPropagation();
-    setSelectedImageIndex((prev) => (prev === 0 ? gallery.images.length - 1 : prev - 1));
-  };
 
   return (
     <div className="gallery-page animate-fade-in">
