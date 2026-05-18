@@ -207,9 +207,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(250, 249, 246, 0.95); /* Light elegant overlay instead of black */
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background-color: #ffffff;
   z-index: 1000;
   display: flex;
   justify-content: center;
@@ -239,11 +237,6 @@
   }
   .lightbox-content img {
     max-width: 95vw; /* On mobile we can use full width since there are no arrows */
-  }
-  .lightbox-overlay {
-    background-color: #ffffff;
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
   }
 }
 
