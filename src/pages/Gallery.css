@@ -279,19 +279,19 @@
 
 @media (max-width: 640px) {
   .lightbox-overlay {
-    align-items: flex-start;
-    padding-top: 5vh;
+    align-items: center;
+    padding-top: 0;
   }
   .lightbox-content {
-    height: 75vh;
+    height: auto;
   }
   .lightbox-content img {
-    max-width: 95vw;
-    max-height: 75vh;
+    max-width: 100vw;
+    max-height: calc(100vh - 160px); /* Guarantees exactly 80px of clear white space at the bottom for arrows */
   }
   .lightbox-nav {
     top: auto !important;
-    bottom: 5vh !important;
+    bottom: 10px !important;
     transform: none !important;
     padding: 10px;
     opacity: 0.8;
