@@ -231,32 +231,6 @@
   box-shadow: 0 20px 60px rgba(0,0,0,0.15); /* Slightly stronger shadow for larger image */
 }
 
-@media (max-width: 640px) {
-  .lightbox-overlay {
-    align-items: flex-start;
-    padding-top: 5vh;
-  }
-  .lightbox-content {
-    height: 75vh;
-  }
-  .lightbox-content img {
-    max-width: 95vw;
-    max-height: 75vh;
-  }
-  .lightbox-nav {
-    top: auto;
-    bottom: 5vh;
-    transform: none;
-    padding: 10px;
-    opacity: 0.8;
-  }
-  .lightbox-prev {
-    right: 20vw;
-  }
-  .lightbox-next {
-    left: 20vw;
-  }
-}
 
 .lightbox-close {
   position: absolute;
@@ -301,4 +275,31 @@
 
 .lightbox-next {
   left: 2vw;
+}
+
+@media (max-width: 640px) {
+  .lightbox-overlay {
+    align-items: flex-start;
+    padding-top: 5vh;
+  }
+  .lightbox-content {
+    height: 75vh;
+  }
+  .lightbox-content img {
+    max-width: 95vw;
+    max-height: 75vh;
+  }
+  .lightbox-nav {
+    top: auto !important;
+    bottom: 5vh !important;
+    transform: none !important;
+    padding: 10px;
+    opacity: 0.8;
+  }
+  .lightbox-prev {
+    right: 20vw !important;
+  }
+  .lightbox-next {
+    left: 20vw !important;
+  }
 }
