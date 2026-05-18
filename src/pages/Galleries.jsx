@@ -22,9 +22,13 @@ const Galleries = () => {
       </header>
 
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-        {galleries
-          .filter(gallery => gallery.title !== 'אדם וריבוע')
-          .map((gallery, index) => (
+        {(() => {
+          const visibleGalleries = galleries.filter(g => g.title !== 'אדם וריבוע');
+          const theaterGallery = visibleGalleries.find(g => g.title === 'תפאורות להצגות');
+          const otherGalleries = visibleGalleries.filter(g => g.title !== 'תפאורות להצגות');
+          const reorderedGalleries = theaterGallery ? [...otherGalleries, theaterGallery] : visibleGalleries;
+          
+          return reorderedGalleries.map((gallery, index) => (
           <Link 
             key={gallery.id} 
             to={`/gallery/${gallery.id}`}
@@ -48,7 +52,8 @@ const Galleries = () => {
               </div>
             </div>
           </Link>
-        ))}
+          ));
+        })()}
       </section>
     </main>
   );
