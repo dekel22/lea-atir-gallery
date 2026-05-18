@@ -183,11 +183,11 @@ const Gallery = () => {
           onTouchEnd={onTouchEnd}
         >
           <button className="lightbox-close" onClick={closeLightbox}>
-            <X size={40} strokeWidth={1.5} />
+            <X className="w-8 h-8 sm:w-10 sm:h-10" strokeWidth={1.5} />
           </button>
           
           <button className="lightbox-nav lightbox-prev" onClick={prevImage}>
-            <ChevronRight size={48} strokeWidth={1.5} />
+            <ChevronRight className="w-10 h-10 sm:w-12 sm:h-12" strokeWidth={1.5} />
           </button>
           
           <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
@@ -210,7 +210,7 @@ const Gallery = () => {
           </div>
 
           <button className="lightbox-nav lightbox-next" onClick={nextImage}>
-            <ChevronLeft size={48} strokeWidth={1.5} />
+            <ChevronLeft className="w-10 h-10 sm:w-12 sm:h-12" strokeWidth={1.5} />
           </button>
         </div>,
         document.body

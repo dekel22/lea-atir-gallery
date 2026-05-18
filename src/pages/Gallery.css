@@ -232,11 +232,22 @@
 }
 
 @media (max-width: 640px) {
-  .lightbox-nav {
-    display: none;
-  }
   .lightbox-content img {
-    max-width: 95vw; /* On mobile we can use full width since there are no arrows */
+    max-width: 95vw;
+    max-height: 85vh; /* Leave room at the bottom for arrows */
+  }
+  .lightbox-nav {
+    top: auto;
+    bottom: 20px;
+    transform: none;
+    padding: 10px;
+    opacity: 0.6;
+  }
+  .lightbox-prev {
+    right: 30vw;
+  }
+  .lightbox-next {
+    left: 30vw;
   }
 }
 
