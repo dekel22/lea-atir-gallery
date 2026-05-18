@@ -22,7 +22,9 @@ const Galleries = () => {
       </header>
 
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-        {galleries.map((gallery, index) => (
+        {galleries
+          .filter(gallery => gallery.title !== 'אדם וריבוע')
+          .map((gallery, index) => (
           <Link 
             key={gallery.id} 
             to={`/gallery/${gallery.id}`}
