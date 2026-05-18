@@ -232,22 +232,29 @@
 }
 
 @media (max-width: 640px) {
+  .lightbox-overlay {
+    align-items: flex-start;
+    padding-top: 5vh;
+  }
+  .lightbox-content {
+    height: 75vh;
+  }
   .lightbox-content img {
     max-width: 95vw;
-    max-height: 85vh; /* Leave room at the bottom for arrows */
+    max-height: 75vh;
   }
   .lightbox-nav {
     top: auto;
-    bottom: 20px;
+    bottom: 5vh;
     transform: none;
     padding: 10px;
-    opacity: 0.6;
+    opacity: 0.8;
   }
   .lightbox-prev {
-    right: 30vw;
+    right: 20vw;
   }
   .lightbox-next {
-    left: 30vw;
+    left: 20vw;
   }
 }
 
