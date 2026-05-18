@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
+import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 import { useParams, Link } from 'react-router-dom';
 import { ArrowRight, X, ChevronRight, ChevronLeft } from 'lucide-react';
 import { galleries } from '../data/galleries';
@@ -190,10 +191,22 @@ const Gallery = () => {
           </button>
           
           <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
-            <img 
-              src={gallery.images[selectedImageIndex].url} 
-              alt={gallery.images[selectedImageIndex].alt} 
-            />
+            <TransformWrapper
+              initialScale={1}
+              initialPositionX={0}
+              initialPositionY={0}
+              wheel={{ step: 0.1 }}
+              doubleClick={{ step: 0.5 }}
+              pinch={{ step: 5 }}
+              panning={{ velocityDisabled: true }}
+            >
+              <TransformComponent wrapperStyle={{ width: "100%", height: "100%" }} contentStyle={{ width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                <img 
+                  src={gallery.images[selectedImageIndex].url} 
+                  alt={gallery.images[selectedImageIndex].alt} 
+                />
+              </TransformComponent>
+            </TransformWrapper>
           </div>
 
           <button className="lightbox-nav lightbox-next" onClick={nextImage}>
