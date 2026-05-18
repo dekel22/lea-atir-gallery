@@ -227,10 +227,19 @@
 }
 
 .lightbox-content img {
-  max-width: 100%;
+  max-width: 80vw; /* Prevent overlap with arrows on desktop */
   max-height: 95vh;
   object-fit: contain;
   box-shadow: 0 20px 60px rgba(0,0,0,0.15); /* Slightly stronger shadow for larger image */
+}
+
+@media (max-width: 768px) {
+  .lightbox-nav {
+    display: none;
+  }
+  .lightbox-content img {
+    max-width: 95vw; /* On mobile we can use full width since there are no arrows */
+  }
 }
 
 .lightbox-close {
