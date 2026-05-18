@@ -9,6 +9,8 @@ const Gallery = () => {
   const { id } = useParams();
   const gallery = galleries.find(g => g.id === id);
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
+  const [touchStartX, setTouchStartX] = useState(null);
+  const [touchEndX, setTouchEndX] = useState(null);
 
   // Scroll to top and set page title when gallery opens
   useEffect(() => {
@@ -39,6 +41,32 @@ const Gallery = () => {
   const prevImage = (e) => {
     if (e) e.stopPropagation();
     setSelectedImageIndex((prev) => (prev === 0 ? gallery.images.length - 1 : prev - 1));
+  };
+
+  const minSwipeDistance = 50;
+
+  const onTouchStart = (e) => {
+    setTouchEndX(null);
+    setTouchStartX(e.targetTouches[0].clientX);
+  };
+
+  const onTouchMove = (e) => {
+    setTouchEndX(e.targetTouches[0].clientX);
+  };
+
+  const onTouchEnd = () => {
+    if (!touchStartX || !touchEndX) return;
+    const distance = touchStartX - touchEndX;
+    const isLeftSwipe = distance > minSwipeDistance;
+    const isRightSwipe = distance < -minSwipeDistance;
+
+    if (isLeftSwipe) {
+      // Swiping left brings content from the right (prevImage in RTL)
+      prevImage();
+    } else if (isRightSwipe) {
+      // Swiping right brings content from the left (nextImage in RTL)
+      nextImage();
+    }
   };
 
   // Keyboard navigation
@@ -146,7 +174,13 @@ const Gallery = () => {
 
       {/* Lightbox Modal via Portal */}
       {selectedImageIndex !== null && createPortal(
-        <div className="lightbox-overlay" onClick={closeLightbox}>
+        <div 
+          className="lightbox-overlay" 
+          onClick={closeLightbox}
+          onTouchStart={onTouchStart}
+          onTouchMove={onTouchMove}
+          onTouchEnd={onTouchEnd}
+        >
           <button className="lightbox-close" onClick={closeLightbox}>
             <X size={40} strokeWidth={1.5} />
           </button>
