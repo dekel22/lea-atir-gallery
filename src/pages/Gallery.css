@@ -240,6 +240,11 @@
   .lightbox-content img {
     max-width: 95vw; /* On mobile we can use full width since there are no arrows */
   }
+  .lightbox-overlay {
+    background-color: #ffffff;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
 }
 
 .lightbox-close {
