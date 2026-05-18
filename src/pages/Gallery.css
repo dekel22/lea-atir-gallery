@@ -233,7 +233,7 @@
   box-shadow: 0 20px 60px rgba(0,0,0,0.15); /* Slightly stronger shadow for larger image */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .lightbox-nav {
     display: none;
   }
