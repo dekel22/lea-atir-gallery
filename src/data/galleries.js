@@ -229,157 +229,183 @@ export const galleries = [
         "id": "gallery_1_0",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים1.jpg",
         "alt": "מבטים1",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "הזמנה לתערוכה"
       },
       {
         "id": "gallery_1_1",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים7.jpg",
         "alt": "מבטים7",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_2",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים3.jpg",
         "alt": "מבטים3",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "80x80 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_3",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים10.jpg",
         "alt": "מבטים10",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_4",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים4.jpg",
         "alt": "מבטים4",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_5",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים11.jpg",
         "alt": "מבטים11",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_6",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים13.jpg",
         "alt": "מבטים13",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_7",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים5.jpg",
         "alt": "מבטים5",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_8",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים12.jpg",
         "alt": "מבטים12",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_9",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים14.jpg",
         "alt": "מבטים14",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_10",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים6.jpg",
         "alt": "מבטים6",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_11",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים15.jpg",
         "alt": "מבטים15",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_12",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים16.jpg",
         "alt": "מבטים16",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_13",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים8.jpg",
         "alt": "מבטים8",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_14",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים17.jpg",
         "alt": "מבטים17",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_15",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים18.jpg",
         "alt": "מבטים18",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_16",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים9.jpg",
         "alt": "מבטים9",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_17",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים20.jpg",
         "alt": "מבטים20",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_18",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים19.jpg",
         "alt": "מבטים19",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "70x50 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_19",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים23.jpg",
         "alt": "מבטים23",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_20",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים21.jpg",
         "alt": "מבטים21",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_21",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים24.jpg",
         "alt": "מבטים24",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_22",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים22.jpg",
         "alt": "מבטים22",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_23",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים25.jpg",
         "alt": "מבטים25",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_24",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים26.jpg",
         "alt": "מבטים26",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_1_25",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים27.jpg",
         "alt": "מבטים27",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       }
     ]
   },
@@ -394,115 +420,134 @@ export const galleries = [
         "id": "brosh_1",
         "url": "/galleries/ברוש/ברוש טבעון11.jpg",
         "alt": "ברוש טבעון11",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
       },
       {
         "id": "brosh_2",
         "url": "/galleries/ברוש/ברוש טבעון12.jpg",
         "alt": "ברוש טבעון12",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
       },
       {
         "id": "brosh_0",
         "url": "/galleries/ברוש/ברוש טבעון10.jpg",
         "alt": "ברוש טבעון10",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
       },
       {
         "id": "brosh_3",
         "url": "/galleries/ברוש/ברוש טבעון15.jpg",
         "alt": "ברוש טבעון15",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
       },
       {
         "id": "brosh_4",
         "url": "/galleries/ברוש/ברוש טבעון16.jpg",
         "alt": "ברוש טבעון16",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית"
       },
       {
         "id": "brosh_5",
         "url": "/galleries/ברוש/ברוש טבעון17.jpg",
         "alt": "ברוש טבעון17",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית"
       },
       {
         "id": "brosh_6",
         "url": "/galleries/ברוש/ברוש טבעון19.jpg",
         "alt": "ברוש טבעון19",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית"
       },
       {
         "id": "brosh_7",
         "url": "/galleries/ברוש/ברוש טבעון2.jpg",
         "alt": "ברוש טבעון2",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
       },
       {
         "id": "brosh_8",
         "url": "/galleries/ברוש/ברוש טבעון21.jpg",
         "alt": "ברוש טבעון21",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית"
       },
       {
         "id": "brosh_9",
         "url": "/galleries/ברוש/ברוש טבעון23.jpg",
         "alt": "ברוש טבעון23",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית"
       },
       {
         "id": "brosh_10",
         "url": "/galleries/ברוש/ברוש טבעון24.jpg",
         "alt": "ברוש טבעון24",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית"
       },
       {
         "id": "brosh_11",
         "url": "/galleries/ברוש/ברוש טבעון26.jpg",
         "alt": "ברוש טבעון26",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית"
       },
       {
         "id": "brosh_12",
         "url": "/galleries/ברוש/ברוש טבעון27.jpg",
         "alt": "ברוש טבעון27",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית"
       },
       {
         "id": "brosh_13",
         "url": "/galleries/ברוש/ברוש טבעון28.jpg",
         "alt": "ברוש טבעון28",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
       },
       {
         "id": "brosh_14",
         "url": "/galleries/ברוש/ברוש טבעון5.jpg",
         "alt": "ברוש טבעון5",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
       },
       {
         "id": "brosh_15",
         "url": "/galleries/ברוש/ברוש טבעון6.JPG",
         "alt": "ברוש טבעון6",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
       },
       {
         "id": "brosh_16",
         "url": "/galleries/ברוש/ברוש טבעון7.jpg",
         "alt": "ברוש טבעון7",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
       },
       {
         "id": "brosh_17",
         "url": "/galleries/ברוש/ברוש טבעון8.jpg",
         "alt": "ברוש טבעון8",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
       },
       {
         "id": "brosh_18",
         "url": "/galleries/ברוש/ברוש טבעון9.jpg",
         "alt": "ברוש טבעון9",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
       }
     ]
   },
