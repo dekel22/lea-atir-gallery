@@ -862,73 +862,85 @@ export const galleries = [
         "id": "gallery_3_2",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר11.jpg",
         "alt": "שבר11",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: פחם סינטטי שחור"
       },
       {
         "id": "gallery_3_3",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר12 נעקרת.jpg",
         "alt": "שבר12 נעקרת",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: פחם סינטטי שחור"
       },
       {
         "id": "gallery_3_4",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר13 נעקרת.jpg",
         "alt": "שבר13 נעקרת",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: פחם סינטטי שחור"
       },
       {
         "id": "gallery_3_5",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר14 נעקרת.jpg",
         "alt": "שבר14 נעקרת",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: פחם סינטטי שחור"
       },
       {
         "id": "gallery_3_6",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר15 נעקרת.jpg",
         "alt": "שבר15 נעקרת",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: פחם סינטטי שחור"
       },
       {
         "id": "gallery_3_7",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר16 נעקרת.jpg",
         "alt": "שבר16 נעקרת",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: פחם סינטטי שחור"
       },
       {
         "id": "gallery_3_8",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר17.jpg",
         "alt": "שבר17",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: פחם סינטטי שחור"
       },
       {
         "id": "gallery_3_9",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר4ביביסטים 5 מערכות בחירות.jpg",
         "alt": "שבר4ביביסטים 5 מערכות בחירות",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "80x100 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_3_10",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר5 יום שחור לדמוקרטיה הישראלית.jpg",
         "alt": "שבר5 יום שחור לדמוקרטיה הישראלית",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_3_11",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר6 לאה עתיר_תדע כל אם עבריה_שמן על בד_2023 (1).jpg",
         "alt": "שבר6 לאה עתיר_תדע כל אם עבריה_שמן על בד_2023 (1)",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_3_12",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר7מר הפקרה.jpg",
         "alt": "שבר7מר הפקרה",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_3_13",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר8 שבר האומנות שלי.jpg",
         "alt": "שבר8 שבר האומנות שלי",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_3_14",
