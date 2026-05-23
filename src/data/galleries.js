@@ -2102,6 +2102,12 @@ export const galleries = [
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים9.JPG",
         "alt": "גן הדובדבנים9",
         "orientation": "portrait"
+      },
+      {
+        "id": "gallery_2_11",
+        "url": "/galleries/כסף/כסף1 (2).jpg",
+        "alt": "כסף1 (2)",
+        "orientation": "portrait"
       }
     ]
   },
