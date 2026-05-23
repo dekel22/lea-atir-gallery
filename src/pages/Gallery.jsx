@@ -161,7 +161,11 @@ const Gallery = () => {
                       onClick={() => openLightbox(originalIndex)}
                     >
                       <img src={img.url} alt={img.alt} loading="lazy" />
-
+                      {img.caption && (
+                        <div className="image-caption">
+                          {img.caption}
+                        </div>
+                      )}
                     </div>
                   );
                 })}
@@ -208,6 +212,12 @@ const Gallery = () => {
               </TransformComponent>
             </TransformWrapper>
           </div>
+
+          {gallery.images[selectedImageIndex].caption && (
+            <div className="lightbox-caption">
+              {gallery.images[selectedImageIndex].caption}
+            </div>
+          )}
 
           <button className="lightbox-nav lightbox-next" onClick={nextImage}>
             <ChevronLeft className="w-10 h-10 sm:w-12 sm:h-12" strokeWidth={1.5} />

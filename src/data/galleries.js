@@ -2053,13 +2053,15 @@ export const galleries = [
         "id": "gallery_2_4",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים2.JPG",
         "alt": "גן הדובדבנים2",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_2_5",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים3.JPG",
         "alt": "גן הדובדבנים3",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_2_0",
@@ -2071,43 +2073,50 @@ export const galleries = [
         "id": "gallery_2_1",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים10.JPG",
         "alt": "גן הדובדבנים10",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "50x70 ס\"מ | טכניקה: דיו"
       },
       {
         "id": "gallery_2_6",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים5.JPG",
         "alt": "גן הדובדבנים5",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן על קרטון"
       },
       {
         "id": "gallery_2_7",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים6.jpg",
         "alt": "גן הדובדבנים6",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "50x70 ס\"מ | טכניקה: ארבע תמונות בצבעי שמן"
       },
       {
         "id": "gallery_2_8",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים7.JPG",
         "alt": "גן הדובדבנים7",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "50x70 ס\"מ | טכניקה: דיו"
       },
       {
         "id": "gallery_2_9",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים8.JPG",
         "alt": "גן הדובדבנים8",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "50x70 ס\"מ | טכניקה: דיו"
       },
       {
         "id": "gallery_2_10",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים9.JPG",
         "alt": "גן הדובדבנים9",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "50x70 ס\"מ | טכניקה: דיו"
       },
       {
         "id": "gallery_2_11",
         "url": "/galleries/כסף/כסף1 (2).jpg",
         "alt": "כסף1 (2)",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
       }
     ]
   },
