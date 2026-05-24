@@ -2313,109 +2313,127 @@ export const galleries = [
         "id": "nude-museum_0",
         "url": "/galleries/עירום מהמוזיאון/20200915_143827.jpg",
         "alt": "20200915_143827",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: גרפית | מצע: נייר"
       },
       {
         "id": "nude-museum_1",
         "url": "/galleries/עירום מהמוזיאון/20200915_143901.jpg",
         "alt": "20200915_143901",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: גרפית | מצע: נייר"
       },
       {
         "id": "nude-museum_2",
         "url": "/galleries/עירום מהמוזיאון/20200915_144616.jpg",
         "alt": "20200915_144616",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
       },
       {
         "id": "nude-museum_3",
         "url": "/galleries/עירום מהמוזיאון/20200915_144641.jpg",
         "alt": "20200915_144641",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
       },
       {
         "id": "nude-museum_4",
         "url": "/galleries/עירום מהמוזיאון/20200915_145012.jpg",
         "alt": "20200915_145012",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית"
       },
       {
         "id": "nude-museum_5",
         "url": "/galleries/עירום מהמוזיאון/20200915_145039.jpg",
         "alt": "20200915_145039",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
       },
       {
         "id": "nude-museum_6",
         "url": "/galleries/עירום מהמוזיאון/20200915_145059.jpg",
         "alt": "20200915_145059",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "70x50 ס\"מ | טכניקה: אקריליק וגרפית"
       },
       {
         "id": "nude-museum_7",
         "url": "/galleries/עירום מהמוזיאון/20200915_145211.jpg",
         "alt": "20200915_145211",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
       },
       {
         "id": "nude-museum_8",
         "url": "/galleries/עירום מהמוזיאון/20200915_145454.jpg",
         "alt": "20200915_145454",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
       },
       {
         "id": "nude-museum_9",
         "url": "/galleries/עירום מהמוזיאון/גבר עירום  על הגב בעיפרון.jpg",
         "alt": "גבר עירום על הגב בעיפרון",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: עיפרון גרפית"
       },
       {
         "id": "nude-museum_10",
         "url": "/galleries/עירום מהמוזיאון/גבר עירום עם רגל על השולחן.jpg",
         "alt": "גבר עירום עם רגל על השולחן",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "70x50 ס\"מ | טכניקה: עיפרון גרפית"
       },
       {
         "id": "nude-museum_11",
         "url": "/galleries/עירום מהמוזיאון/מהגב על ניר חום.jpg",
         "alt": "מהגב על ניר חום",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגיר לבן"
       },
       {
         "id": "nude-museum_12",
         "url": "/galleries/עירום מהמוזיאון/מהצד על ניר חום.jpg",
         "alt": "מהצד על ניר חום",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: גירים | מצע: נייר חום"
       },
       {
         "id": "nude-museum_13",
         "url": "/galleries/עירום מהמוזיאון/מוזיאון8.JPG",
         "alt": "מוזיאון8",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "50x70 ס\"מ | טכניקה: אקריליק"
       },
       {
         "id": "nude-museum_14",
         "url": "/galleries/עירום מהמוזיאון/מוזיאון9.JPG",
         "alt": "מוזיאון9",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "70x50 ס\"מ | טכניקה: אקריליק"
       },
       {
         "id": "nude-museum_15",
         "url": "/galleries/עירום מהמוזיאון/עירום יושב.jpg",
         "alt": "עירום יושב",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: עיפרון גרפית"
       },
       {
         "id": "nude-museum_16",
         "url": "/galleries/עירום מהמוזיאון/על הגב טורסו ורגליים בעיפרון.jpg",
         "alt": "על הגב טורסו ורגליים בעיפרון",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: עיפרון גרפית"
       },
       {
         "id": "nude-museum_17",
         "url": "/galleries/עירום מהמוזיאון/על הצד בסגול.jpg",
         "alt": "על הצד בסגול",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "70x50 ס\"מ | טכניקה: אקריליק"
       }
     ]
   },
