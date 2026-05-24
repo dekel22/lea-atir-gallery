@@ -1796,193 +1796,224 @@ export const galleries = [
     "longDescription": "\"בין לבין\" הוא מרחב של אי-ודאות, פתוח, מקום של אפשרויות. לרוב זהו מצב של סיום אמירה, תוכן כלשהו או סיכום עבודה בתערוכה.\n\nמצב ביניים, לאחר סיום של פרק אחד ומעבר לפרק אחר. זה לא מצב של חוסר עשייה - זהו מצב פעיל של חשיבה, חיפוש והקשבה. שום עבודה היא לא לחינם. בין לבין הוא תמיד מלא בתוכן.\n\nיצאתי הפעם מתוך סקיצות מהירות קטנות שאני רושמת כל הזמן כמהלך שגרתי, ומשמשות לי תבנית לווריאציה או אלתור כמו במוזיקה.",
     "coverImage": "/galleries/בין לבין/בין לבין8.jpg",
     "images": [
-      {
-        "id": "between-between_0",
-        "url": "/galleries/בין לבין/בין לבין10.JPG",
-        "alt": "בין לבין10",
-        "orientation": "landscape"
-      },
-      {
-        "id": "between-between_1",
-        "url": "/galleries/בין לבין/בין לבין11.jpg",
-        "alt": "בין לבין11",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_2",
-        "url": "/galleries/בין לבין/בין לבין12.jpg",
-        "alt": "בין לבין12",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_3",
-        "url": "/galleries/בין לבין/בין לבין13.jpg",
-        "alt": "בין לבין13",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_4",
-        "url": "/galleries/בין לבין/בין לבין14.jpg",
-        "alt": "בין לבין14",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_5",
-        "url": "/galleries/בין לבין/בין לבין15.jpg",
-        "alt": "בין לבין15",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_6",
-        "url": "/galleries/בין לבין/בין לבין16.jpg",
-        "alt": "בין לבין16",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_7",
-        "url": "/galleries/בין לבין/בין לבין17.jpg",
-        "alt": "בין לבין17",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_8",
-        "url": "/galleries/בין לבין/בין לבין18.jpg",
-        "alt": "בין לבין18",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_9",
-        "url": "/galleries/בין לבין/בין לבין19.jpg",
-        "alt": "בין לבין19",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_10",
-        "url": "/galleries/בין לבין/בין לבין2.jpg",
-        "alt": "בין לבין2",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_11",
-        "url": "/galleries/בין לבין/בין לבין20.jpg",
-        "alt": "בין לבין20",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_12",
-        "url": "/galleries/בין לבין/בין לבין21.jpg",
-        "alt": "בין לבין21",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_13",
-        "url": "/galleries/בין לבין/בין לבין23.jpg",
-        "alt": "בין לבין23",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_14",
-        "url": "/galleries/בין לבין/בין לבין24.jpg",
-        "alt": "בין לבין24",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_15",
-        "url": "/galleries/בין לבין/בין לבין26.JPG",
-        "alt": "בין לבין26",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_16",
-        "url": "/galleries/בין לבין/בין לבין27.jpg",
-        "alt": "בין לבין27",
-        "orientation": "landscape"
-      },
-      {
-        "id": "between-between_17",
-        "url": "/galleries/בין לבין/בין לבין28.jpg",
-        "alt": "בין לבין28",
-        "orientation": "landscape"
-      },
-      {
-        "id": "between-between_18",
-        "url": "/galleries/בין לבין/בין לבין29.jpg",
-        "alt": "בין לבין29",
-        "orientation": "landscape"
-      },
-      {
-        "id": "between-between_19",
-        "url": "/galleries/בין לבין/בין לבין3.jpg",
-        "alt": "בין לבין3",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_20",
-        "url": "/galleries/בין לבין/בין לבין30.jpg",
-        "alt": "בין לבין30",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_21",
-        "url": "/galleries/בין לבין/בין לבין31.jpg",
-        "alt": "בין לבין31",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_22",
-        "url": "/galleries/בין לבין/בין לבין32.jpg",
-        "alt": "בין לבין32",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_23",
-        "url": "/galleries/בין לבין/בין לבין33.jpg",
-        "alt": "בין לבין33",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_24",
-        "url": "/galleries/בין לבין/בין לבין4.jpg",
-        "alt": "בין לבין4",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_25",
-        "url": "/galleries/בין לבין/בין לבין6.JPG",
-        "alt": "בין לבין6",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_26",
-        "url": "/galleries/בין לבין/בין לבין7.jpg",
-        "alt": "בין לבין7",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_27",
-        "url": "/galleries/בין לבין/בין לבין8.jpg",
-        "alt": "בין לבין8",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_28",
-        "url": "/galleries/בין לבין/בין לבין9.jpg",
-        "alt": "בין לבין9",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_29",
-        "url": "/galleries/בין לבין/ביןלבין25.jpg",
-        "alt": "ביןלבין25",
-        "orientation": "portrait"
-      },
-      {
-        "id": "between-between_30",
-        "url": "/galleries/בין לבין/קנאה.JPG",
-        "alt": "קנאה",
-        "orientation": "portrait"
-      }
-    ]
+          {
+                  "id": "between-between_0",
+                  "url": "/galleries/בין לבין/בין לבין10.JPG",
+                  "alt": "בין לבין10",
+                  "orientation": "landscape",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_1",
+                  "url": "/galleries/בין לבין/בין לבין11.jpg",
+                  "alt": "בין לבין11",
+                  "orientation": "portrait",
+                  "caption": "30x40 ס\"מ | טכניקה: עיפרון רך"
+          },
+          {
+                  "id": "between-between_2",
+                  "url": "/galleries/בין לבין/בין לבין12.jpg",
+                  "alt": "בין לבין12",
+                  "orientation": "portrait",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_3",
+                  "url": "/galleries/בין לבין/בין לבין13.jpg",
+                  "alt": "בין לבין13",
+                  "orientation": "portrait",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_4",
+                  "url": "/galleries/בין לבין/בין לבין14.jpg",
+                  "alt": "בין לבין14",
+                  "orientation": "portrait",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_5",
+                  "url": "/galleries/בין לבין/בין לבין15.jpg",
+                  "alt": "בין לבין15",
+                  "orientation": "portrait",
+                  "caption": "30x40 ס\"מ | טכניקה: עיפרון רך"
+          },
+          {
+                  "id": "between-between_6",
+                  "url": "/galleries/בין לבין/בין לבין16.jpg",
+                  "alt": "בין לבין16",
+                  "orientation": "portrait",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_7",
+                  "url": "/galleries/בין לבין/בין לבין17.jpg",
+                  "alt": "בין לבין17",
+                  "orientation": "portrait",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_8",
+                  "url": "/galleries/בין לבין/בין לבין18.jpg",
+                  "alt": "בין לבין18",
+                  "orientation": "portrait",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_9",
+                  "url": "/galleries/בין לבין/בין לבין19.jpg",
+                  "alt": "בין לבין19",
+                  "orientation": "portrait",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_10",
+                  "url": "/galleries/בין לבין/בין לבין2.jpg",
+                  "alt": "בין לבין2",
+                  "orientation": "portrait",
+                  "caption": "30x40 ס\"מ | טכניקה: עיפרון רך"
+          },
+          {
+                  "id": "between-between_11",
+                  "url": "/galleries/בין לבין/בין לבין20.jpg",
+                  "alt": "בין לבין20",
+                  "orientation": "portrait",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_12",
+                  "url": "/galleries/בין לבין/בין לבין21.jpg",
+                  "alt": "בין לבין21",
+                  "orientation": "portrait",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_13",
+                  "url": "/galleries/בין לבין/בין לבין23.jpg",
+                  "alt": "בין לבין23",
+                  "orientation": "portrait",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_14",
+                  "url": "/galleries/בין לבין/בין לבין24.jpg",
+                  "alt": "בין לבין24",
+                  "orientation": "portrait",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_15",
+                  "url": "/galleries/בין לבין/בין לבין26.JPG",
+                  "alt": "בין לבין26",
+                  "orientation": "portrait",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_16",
+                  "url": "/galleries/בין לבין/בין לבין27.jpg",
+                  "alt": "בין לבין27",
+                  "orientation": "landscape",
+                  "caption": "30x40 ס\"מ | טכניקה: עיפרון רך"
+          },
+          {
+                  "id": "between-between_17",
+                  "url": "/galleries/בין לבין/בין לבין28.jpg",
+                  "alt": "בין לבין28",
+                  "orientation": "landscape",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_18",
+                  "url": "/galleries/בין לבין/בין לבין29.jpg",
+                  "alt": "בין לבין29",
+                  "orientation": "landscape",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_19",
+                  "url": "/galleries/בין לבין/בין לבין3.jpg",
+                  "alt": "בין לבין3",
+                  "orientation": "portrait",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_20",
+                  "url": "/galleries/בין לבין/בין לבין30.jpg",
+                  "alt": "בין לבין30",
+                  "orientation": "portrait",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_21",
+                  "url": "/galleries/בין לבין/בין לבין31.jpg",
+                  "alt": "בין לבין31",
+                  "orientation": "portrait",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_22",
+                  "url": "/galleries/בין לבין/בין לבין32.jpg",
+                  "alt": "בין לבין32",
+                  "orientation": "portrait",
+                  "caption": "30x40 ס\"מ | טכניקה: עיפרון רך"
+          },
+          {
+                  "id": "between-between_23",
+                  "url": "/galleries/בין לבין/בין לבין33.jpg",
+                  "alt": "בין לבין33",
+                  "orientation": "portrait",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_24",
+                  "url": "/galleries/בין לבין/בין לבין4.jpg",
+                  "alt": "בין לבין4",
+                  "orientation": "portrait",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_25",
+                  "url": "/galleries/בין לבין/בין לבין6.JPG",
+                  "alt": "בין לבין6",
+                  "orientation": "portrait",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_26",
+                  "url": "/galleries/בין לבין/בין לבין7.jpg",
+                  "alt": "בין לבין7",
+                  "orientation": "portrait",
+                  "caption": "30x40 ס\"מ | טכניקה: עיפרון רך"
+          },
+          {
+                  "id": "between-between_27",
+                  "url": "/galleries/בין לבין/בין לבין8.jpg",
+                  "alt": "בין לבין8",
+                  "orientation": "portrait",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_28",
+                  "url": "/galleries/בין לבין/בין לבין9.jpg",
+                  "alt": "בין לבין9",
+                  "orientation": "portrait",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          },
+          {
+                  "id": "between-between_29",
+                  "url": "/galleries/בין לבין/ביןלבין25.jpg",
+                  "alt": "ביןלבין25",
+                  "orientation": "portrait",
+                  "caption": "30x40 ס\"מ | טכניקה: עיפרון רך"
+          },
+          {
+                  "id": "between-between_30",
+                  "url": "/galleries/בין לבין/קנאה.JPG",
+                  "alt": "קנאה",
+                  "orientation": "portrait",
+                  "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+          }
+  ]
   },
   {
     "id": "gallery_7",
