@@ -1667,67 +1667,78 @@ export const galleries = [
         "id": "almost-black-and-white_0",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן10.JPG",
         "alt": "כמעט שחור לבן10",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "150x100 ס\"מ | טכניקה: אקריליק וגירים"
       },
       {
         "id": "almost-black-and-white_1",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן11.JPG",
         "alt": "כמעט שחור לבן11",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "140x100 ס\"מ | טכניקה: אקריליק וגירים"
       },
       {
         "id": "almost-black-and-white_2",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן12.JPG",
         "alt": "כמעט שחור לבן12",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "130x100 ס\"מ | טכניקה: אקריליק וגירים"
       },
       {
         "id": "almost-black-and-white_3",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן13.JPG",
         "alt": "כמעט שחור לבן13",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "140x100 ס\"מ | טכניקה: אקריליק וגירים"
       },
       {
         "id": "almost-black-and-white_4",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן14.JPG",
         "alt": "כמעט שחור לבן14",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "140x100 ס\"מ | טכניקה: אקריליק ופחם"
       },
       {
         "id": "almost-black-and-white_5",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן15.JPG",
         "alt": "כמעט שחור לבן15",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "120x100 ס\"מ | טכניקה: אקריליק ופחם"
       },
       {
         "id": "almost-black-and-white_6",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן3.JPG",
         "alt": "כמעט שחור לבן3",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "120x100 ס\"מ | טכניקה: פחם סינטטי"
       },
       {
         "id": "almost-black-and-white_7",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן5 (2).JPG",
         "alt": "כמעט שחור לבן5 (2)",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x100 ס\"מ | טכניקה: אקריליק וגירים"
       },
       {
         "id": "almost-black-and-white_8",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן6.JPG",
         "alt": "כמעט שחור לבן6",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "140x100 ס\"מ | טכניקה: אקריליק וגירים"
       },
       {
         "id": "almost-black-and-white_9",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן7.jpg",
         "alt": "כמעט שחור לבן7",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "130x100 ס\"מ | טכניקה: אקריליק ופחם"
       },
       {
         "id": "almost-black-and-white_10",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן8.jpg",
         "alt": "כמעט שחור לבן8",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "130x100 ס\"מ | טכניקה: צבע אקריליק ופחם"
       }
     ]
   },
