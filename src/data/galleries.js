@@ -1011,139 +1011,162 @@ export const galleries = [
         "id": "war-diary_0",
         "url": "/galleries/יומן מלחמה/יומן מלחמה מגן דוד.jpg",
         "alt": "יומן מלחמה מגן דוד",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "29x21 ס\"מ | טכניקה: פחם סינטטי שחור"
       },
       {
         "id": "war-diary_1",
         "url": "/galleries/יומן מלחמה/יומן מלחמה1.jpg",
         "alt": "יומן מלחמה1",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "תשע תמונות, כל אחת 21x29 ס\"מ | טכניקה: גרפית, אחת סנגווין"
       },
       {
         "id": "war-diary_2",
         "url": "/galleries/יומן מלחמה/יומן מלחמה10.jpg",
         "alt": "יומן מלחמה10",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "רושמת | טכניקה: סנגווין"
       },
       {
         "id": "war-diary_3",
         "url": "/galleries/יומן מלחמה/יומן מלחמה11.jpg",
         "alt": "יומן מלחמה11",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "רושמת | טכניקה: סנגווין"
       },
       {
         "id": "war-diary_4",
         "url": "/galleries/יומן מלחמה/יומן מלחמה12.jpg",
         "alt": "יומן מלחמה12",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי שחור"
       },
       {
         "id": "war-diary_5",
         "url": "/galleries/יומן מלחמה/יומן מלחמה13.jpg",
         "alt": "יומן מלחמה13",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "21x29 ס\"מ | טכניקה: סנגווין ופחם סינטטי"
       },
       {
         "id": "war-diary_6",
         "url": "/galleries/יומן מלחמה/יומן מלחמה14.jpg",
         "alt": "יומן מלחמה14",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי שחור"
       },
       {
         "id": "war-diary_7",
         "url": "/galleries/יומן מלחמה/יומן מלחמה16.jpg",
         "alt": "יומן מלחמה16",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי"
       },
       {
         "id": "war-diary_8",
         "url": "/galleries/יומן מלחמה/יומן מלחמה17.jpg",
         "alt": "יומן מלחמה17",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי"
       },
       {
         "id": "war-diary_9",
         "url": "/galleries/יומן מלחמה/יומן מלחמה18.jpg",
         "alt": "יומן מלחמה18",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי"
       },
       {
         "id": "war-diary_10",
         "url": "/galleries/יומן מלחמה/יומן מלחמה19.jpg",
         "alt": "יומן מלחמה19",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי"
       },
       {
         "id": "war-diary_11",
         "url": "/galleries/יומן מלחמה/יומן מלחמה2.jpg",
         "alt": "יומן מלחמה2",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "שתי תמונות, כל אחת 21x29 ס\"מ | טכניקה: פחם סינטטי"
       },
       {
         "id": "war-diary_12",
         "url": "/galleries/יומן מלחמה/יומן מלחמה21.jpg",
         "alt": "יומן מלחמה21",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי"
       },
       {
         "id": "war-diary_13",
         "url": "/galleries/יומן מלחמה/יומן מלחמה22.jpg",
         "alt": "יומן מלחמה22",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי"
       },
       {
         "id": "war-diary_14",
         "url": "/galleries/יומן מלחמה/יומן מלחמה3.jpg",
         "alt": "יומן מלחמה3",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "שתי תמונות, כל אחת 21x29 ס\"מ | טכניקה: פחם סינטטי"
       },
       {
         "id": "war-diary_15",
         "url": "/galleries/יומן מלחמה/יומן מלחמה4.jpg",
         "alt": "יומן מלחמה4",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "שלוש תמונות, כל אחת 21x29 ס\"מ | טכניקה: סנגווין"
       },
       {
         "id": "war-diary_16",
         "url": "/galleries/יומן מלחמה/יומן מלחמה5.jpg",
         "alt": "יומן מלחמה5",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "21x29 ס\"מ | טכניקה: סנגווין"
       },
       {
         "id": "war-diary_17",
         "url": "/galleries/יומן מלחמה/יומן מלחמה6.jpg",
         "alt": "יומן מלחמה6",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "שתי תמונות, כל אחת 21x29 ס\"מ | טכניקה: סנגווין"
       },
       {
         "id": "war-diary_18",
         "url": "/galleries/יומן מלחמה/יומן מלחמה8.jpg",
         "alt": "יומן מלחמה8",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "שתי תמונות, כל אחת 21x29 ס\"מ | טכניקה: פחם סינטטי שחור"
       },
       {
         "id": "war-diary_19",
         "url": "/galleries/יומן מלחמה/יומןמלחמה מגן דוד.jpg",
         "alt": "יומןמלחמה מגן דוד",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "29x21 ס\"מ | טכניקה: פחם סינטטי שחור"
       },
       {
         "id": "war-diary_20",
         "url": "/galleries/יומן מלחמה/יונן מלחמה15.jpg",
         "alt": "יונן מלחמה15",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "21x29 ס\"מ | טכניקה: סנגווין ופחם סינטטי"
       },
       {
         "id": "war-diary_21",
         "url": "/galleries/יומן מלחמה/קיר יומן מלחמה בתערוכה.jpg",
         "alt": "קיר יומן מלחמה בתערוכה",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "240x120 ס\"מ"
       },
       {
         "id": "war-diary_22",
         "url": "/galleries/יומן מלחמה/קיר יומן מלחמה2.jpg",
         "alt": "קיר יומן מלחמה2",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "240x120 ס\"מ"
       }
     ]
   },
