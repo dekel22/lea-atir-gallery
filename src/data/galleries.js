@@ -1227,253 +1227,294 @@ export const galleries = [
     "longDescription": "רוברט ווד סיכם את העבודה באקוורל:\" עבודה של 25 דקות עם ניסיון של 25 שנים.\"\n\nככל שהעמקתי בעבודה באקוורל כך הזדהיתי עם אותה הרגשה. כדי להצליח לבטא את העבודה באקוורל נאלצתי לגייס את כל הידע והניסיון שלי. תערוכה עשירית זו מסכמת את עבודתי באקוורל בתקופה האחרונה. התחלתי לעבוד במדיום זה בחיפוש אחר משהו חדש שיגרום לי לשינוי בחשיבה. ההתחלה הייתה די קלאסית, עבודה בשכבות עם ניצול התכונה האופיינית של אקוורל – השקיפות. את נתון השקיפות השארתי לאורך כל הדרך, העבודה בשכבות איבדה מחשיבותה די סמוך להתחלה. הרישום- הוא נקודת המוצא ובסיס העבודה שלי גם בתערוכה זו, רישום מתוך המציאות,(גם בים), תחימת המישורים, הגדרתם כצורה, מהווה גורם חשוב לתכנון הכתמים. עם הנחת כתמי הצבע הקווים נעלמים. חלק גדול מהפרטים אותם רשמתי בהתחלה, ובהמשך נראו לי לא חשובים, נמחקים ונעלמים גם הם. הנחת הכתמים, הבהירים והכהים, התלות שלהם בנושא משתנה לפי החלטתי. בתחילת העבודה אני מסמנת דרגת כהות לפי המציאות, בהמשך הנחת הכתמים היא ללא תלות בנושא. שיקולים כמו: תנועת הכתם, מיקומו במרחב, עצמת הכתמים, כהותם, האיכות הצבעונית, ביחס לצבעים שסביב, וכמובן הלבן שאותו אני בונה בתחילת העבודה, הם הגורמים המנחים. הלבן בהתחלה שרת את רעיון האור או הנתונים הבהירים, בהמשך ארגון הלבנים נעשה באופן בלתי תלוי בגורם כל שהוא, אלא לפי שיקול דעתי בלבד. ככל שעבדתי יותר ביטלתי טונים של כהות וצמצמתי גוונים עד למינימום. לא אחת חזרתי על עבודה מספר פעמים עד שהגעתי למסקנה הרצויה לי, וגם אז נישאר פתח להרבה אפשרויות נוספות. ברור לי שכאשר אחזור לעבור בכל חומר אחר, העבודה באקוורל תתבטא ותשפיע על המשך עבודתי. הנושאים שהתערוכה עוסקת בהם הן דמויות, לרוב בני ביתי, אותן רשמתי מבלי להושיב אף אחד מהאנשים במיוחד, הם בשגרת חייהם ואני רושמת כחלק משגרת חיי.",
     "coverImage": "/galleries/באקוורל/באקוורל/אקוורל2.JPG",
     "images": [
-      {
-        "id": "gallery_5_0",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל10.JPG",
-        "alt": "אקוורל10",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_1",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל11.jpg",
-        "alt": "אקוורל11",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_2",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל12.jpg",
-        "alt": "אקוורל12",
-        "orientation": "portrait"
-      },
-      {
-        "id": "gallery_5_3",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל13.jpg",
-        "alt": "אקוורל13",
-        "orientation": "portrait"
-      },
-      {
-        "id": "gallery_5_4",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל14.JPG",
-        "alt": "אקוורל14",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_5",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל15.jpg",
-        "alt": "אקוורל15",
-        "orientation": "portrait"
-      },
-      {
-        "id": "gallery_5_6",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל16.JPG",
-        "alt": "אקוורל16",
-        "orientation": "portrait"
-      },
-      {
-        "id": "gallery_5_7",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל17.JPG",
-        "alt": "אקוורל17",
-        "orientation": "portrait"
-      },
-      {
-        "id": "gallery_5_8",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל18.JPG",
-        "alt": "אקוורל18",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_9",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל19.JPG",
-        "alt": "אקוורל19",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_10",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל2.JPG",
-        "alt": "אקוורל2",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_11",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל20.JPG",
-        "alt": "אקוורל20",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_12",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל21.JPG",
-        "alt": "אקוורל21",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_13",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל22.JPG",
-        "alt": "אקוורל22",
-        "orientation": "portrait"
-      },
-      {
-        "id": "gallery_5_14",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל23.JPG",
-        "alt": "אקוורל23",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_15",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל24.JPG",
-        "alt": "אקוורל24",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_16",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל25.jpg",
-        "alt": "אקוורל25",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_17",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל26.jpg",
-        "alt": "אקוורל26",
-        "orientation": "portrait"
-      },
-      {
-        "id": "gallery_5_18",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל27.JPG",
-        "alt": "אקוורל27",
-        "orientation": "portrait"
-      },
-      {
-        "id": "gallery_5_19",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל28.jpg",
-        "alt": "אקוורל28",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_21",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל3.jpg",
-        "alt": "אקוורל3",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_22",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל30.JPG",
-        "alt": "אקוורל30",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_23",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל39.jpg",
-        "alt": "אקוורל39",
-        "orientation": "portrait"
-      },
-      {
-        "id": "gallery_5_24",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל4.jpg",
-        "alt": "אקוורל4",
-        "orientation": "portrait"
-      },
-      {
-        "id": "gallery_5_25",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל5.JPG",
-        "alt": "אקוורל5",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_26",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל6.jpg",
-        "alt": "אקוורל6",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_27",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל7.jpg",
-        "alt": "אקוורל7",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_28",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל8.JPG",
-        "alt": "אקוורל8",
-        "orientation": "portrait"
-      },
-      {
-        "id": "gallery_5_29",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל9.JPG",
-        "alt": "אקוורל9",
-        "orientation": "portrait"
-      },
-      {
-        "id": "gallery_5_30",
-        "url": "/galleries/באקוורל/באקוורל/באקוורל30.jpg",
-        "alt": "באקוורל30",
-        "orientation": "portrait"
-      },
-      {
-        "id": "gallery_5_32",
-        "url": "/galleries/באקוורל/באקוורל/באקוורל35.jpg",
-        "alt": "באקוורל35",
-        "orientation": "portrait"
-      },
-      {
-        "id": "gallery_5_33",
-        "url": "/galleries/באקוורל/באקוורל/באקוורל36.jpg",
-        "alt": "באקוורל36",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_34",
-        "url": "/galleries/באקוורל/באקוורל/באקוורל37.jpg",
-        "alt": "באקוורל37",
-        "orientation": "portrait"
-      },
-      {
-        "id": "gallery_5_35",
-        "url": "/galleries/באקוורל/באקוורל/באקוורל38.jpg",
-        "alt": "באקוורל38",
-        "orientation": "portrait"
-      },
-      {
-        "id": "gallery_5_36",
-        "url": "/galleries/באקוורל/באקוורל/באקוורל49.jpg",
-        "alt": "באקוורל49",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_37",
-        "url": "/galleries/באקוורל/באקוורל/נוף באקוורל.JPG",
-        "alt": "נוף באקוורל",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_38",
-        "url": "/galleries/באקוורל/באקוורל/נוף בכחול וסגול באקוורל.JPG",
-        "alt": "נוף בכחול וסגול באקוורל",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_39",
-        "url": "/galleries/באקוורל/באקוורל/נוף כביש אדום.JPG",
-        "alt": "נוף כביש אדום",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_40",
-        "url": "/galleries/באקוורל/באקוורל/נוף מהמרפסת.jpg",
-        "alt": "נוף מהמרפסת",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_41",
-        "url": "/galleries/באקוורל/באקוורל/נוף קטן באקוורל.jpg",
-        "alt": "נוף קטן באקוורל",
-        "orientation": "landscape"
-      },
-      {
-        "id": "gallery_5_42",
-        "url": "/galleries/באקוורל/באקוורל/סירות בקישון.jpg",
-        "alt": "סירות בקישון",
-        "orientation": "landscape"
-      }
-    ]
+          {
+                  "id": "gallery_5_0",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל10.JPG",
+                  "alt": "אקוורל10",
+                  "orientation": "landscape",
+                  "caption": "35x25 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_1",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל11.jpg",
+                  "alt": "אקוורל11",
+                  "orientation": "landscape",
+                  "caption": "35x25 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_2",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל12.jpg",
+                  "alt": "אקוורל12",
+                  "orientation": "portrait",
+                  "caption": "45x35 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_3",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל13.jpg",
+                  "alt": "אקוורל13",
+                  "orientation": "portrait",
+                  "caption": "50x70 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_4",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל14.JPG",
+                  "alt": "אקוורל14",
+                  "orientation": "landscape",
+                  "caption": "35x25 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_5",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל15.jpg",
+                  "alt": "אקוורל15",
+                  "orientation": "portrait",
+                  "caption": "50x70 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_6",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל16.JPG",
+                  "alt": "אקוורל16",
+                  "orientation": "portrait",
+                  "caption": "25x35 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_7",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל17.JPG",
+                  "alt": "אקוורל17",
+                  "orientation": "portrait",
+                  "caption": "35x25 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_8",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל18.JPG",
+                  "alt": "אקוורל18",
+                  "orientation": "landscape",
+                  "caption": "50x35 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_9",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל19.JPG",
+                  "alt": "אקוורל19",
+                  "orientation": "landscape",
+                  "caption": "50x70 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_10",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל2.JPG",
+                  "alt": "אקוורל2",
+                  "orientation": "landscape",
+                  "caption": "80x75 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_11",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל20.JPG",
+                  "alt": "אקוורל20",
+                  "orientation": "landscape",
+                  "caption": "105x70 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_12",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל21.JPG",
+                  "alt": "אקוורל21",
+                  "orientation": "landscape",
+                  "caption": "105x70 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_13",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל22.JPG",
+                  "alt": "אקוורל22",
+                  "orientation": "portrait",
+                  "caption": "35x45 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_14",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל23.JPG",
+                  "alt": "אקוורל23",
+                  "orientation": "landscape",
+                  "caption": "35x45 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_15",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל24.JPG",
+                  "alt": "אקוורל24",
+                  "orientation": "landscape",
+                  "caption": "35x25 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_16",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל25.jpg",
+                  "alt": "אקוורל25",
+                  "orientation": "landscape",
+                  "caption": "35x25 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_17",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל26.jpg",
+                  "alt": "אקוורל26",
+                  "orientation": "portrait",
+                  "caption": "25x35 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_18",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל27.JPG",
+                  "alt": "אקוורל27",
+                  "orientation": "portrait",
+                  "caption": "50x70 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_19",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל28.jpg",
+                  "alt": "אקוורל28",
+                  "orientation": "landscape",
+                  "caption": "טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_21",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל3.jpg",
+                  "alt": "אקוורל3",
+                  "orientation": "landscape",
+                  "caption": "70x50 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_22",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל30.JPG",
+                  "alt": "אקוורל30",
+                  "orientation": "landscape",
+                  "caption": "35x45 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_23",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל39.jpg",
+                  "alt": "אקוורל39",
+                  "orientation": "portrait",
+                  "caption": "25x16 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_24",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל4.jpg",
+                  "alt": "אקוורל4",
+                  "orientation": "portrait",
+                  "caption": "70x50 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_25",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל5.JPG",
+                  "alt": "אקוורל5",
+                  "orientation": "landscape",
+                  "caption": "90x60 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_26",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל6.jpg",
+                  "alt": "אקוורל6",
+                  "orientation": "landscape",
+                  "caption": "24x17 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_27",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל7.jpg",
+                  "alt": "אקוורל7",
+                  "orientation": "landscape",
+                  "caption": "24x17 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_28",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל8.JPG",
+                  "alt": "אקוורל8",
+                  "orientation": "portrait",
+                  "caption": "24x17 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_29",
+                  "url": "/galleries/באקוורל/באקוורל/אקוורל9.JPG",
+                  "alt": "אקוורל9",
+                  "orientation": "portrait",
+                  "caption": "50x70 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_30",
+                  "url": "/galleries/באקוורל/באקוורל/באקוורל30.jpg",
+                  "alt": "באקוורל30",
+                  "orientation": "portrait",
+                  "caption": "35x45 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_32",
+                  "url": "/galleries/באקוורל/באקוורל/באקוורל35.jpg",
+                  "alt": "באקוורל35",
+                  "orientation": "portrait",
+                  "caption": "35x50 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_33",
+                  "url": "/galleries/באקוורל/באקוורל/באקוורל36.jpg",
+                  "alt": "באקוורל36",
+                  "orientation": "landscape",
+                  "caption": "35x25 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_34",
+                  "url": "/galleries/באקוורל/באקוורל/באקוורל37.jpg",
+                  "alt": "באקוורל37",
+                  "orientation": "portrait",
+                  "caption": "35x45 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_35",
+                  "url": "/galleries/באקוורל/באקוורל/באקוורל38.jpg",
+                  "alt": "באקוורל38",
+                  "orientation": "portrait",
+                  "caption": "45x35 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_36",
+                  "url": "/galleries/באקוורל/באקוורל/באקוורל49.jpg",
+                  "alt": "באקוורל49",
+                  "orientation": "landscape",
+                  "caption": "50x70 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_37",
+                  "url": "/galleries/באקוורל/באקוורל/נוף באקוורל.JPG",
+                  "alt": "נוף באקוורל",
+                  "orientation": "landscape",
+                  "caption": "25x35 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_38",
+                  "url": "/galleries/באקוורל/באקוורל/נוף בכחול וסגול באקוורל.JPG",
+                  "alt": "נוף בכחול וסגול באקוורל",
+                  "orientation": "landscape",
+                  "caption": "25x35 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_39",
+                  "url": "/galleries/באקוורל/באקוורל/נוף כביש אדום.JPG",
+                  "alt": "נוף כביש אדום",
+                  "orientation": "landscape",
+                  "caption": "25x35 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_40",
+                  "url": "/galleries/באקוורל/באקוורל/נוף מהמרפסת.jpg",
+                  "alt": "נוף מהמרפסת",
+                  "orientation": "landscape",
+                  "caption": "35x25 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_41",
+                  "url": "/galleries/באקוורל/באקוורל/נוף קטן באקוורל.jpg",
+                  "alt": "נוף קטן באקוורל",
+                  "orientation": "landscape",
+                  "caption": "25x16 ס\"מ | טכניקה: אקוורל"
+          },
+          {
+                  "id": "gallery_5_42",
+                  "url": "/galleries/באקוורל/באקוורל/סירות בקישון.jpg",
+                  "alt": "סירות בקישון",
+                  "orientation": "landscape",
+                  "caption": "35x45 ס\"מ | טכניקה: אקוורל"
+          }
+  ]
   },
   {
     "id": "miki",
