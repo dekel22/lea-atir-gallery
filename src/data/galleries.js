@@ -1137,115 +1137,134 @@ export const galleries = [
         "id": "scenery-pieces_explanation",
         "url": "/galleries/פיסות נוף/פיסות נוף תמונת הסבר.PNG",
         "alt": "פיסות נוף תמונת הסבר",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "הזמנה לתערוכה"
       },
       {
         "id": "scenery-pieces_0",
         "url": "/galleries/פיסות נוף/פיסות נוף10.JPG",
         "alt": "פיסות נוף10",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
       },
       {
         "id": "scenery-pieces_1",
         "url": "/galleries/פיסות נוף/פיסות נוף11.JPG",
         "alt": "פיסות נוף11",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
       },
       {
         "id": "scenery-pieces_2",
         "url": "/galleries/פיסות נוף/פיסות נוף12.JPG",
         "alt": "פיסות נוף12",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
       },
       {
         "id": "scenery-pieces_3",
         "url": "/galleries/פיסות נוף/פיסות נוף14.jpg",
         "alt": "פיסות נוף14",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
       },
       {
         "id": "scenery-pieces_4",
         "url": "/galleries/פיסות נוף/פיסות נוף16.jpg",
         "alt": "פיסות נוף16",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
       },
       {
         "id": "scenery-pieces_5",
         "url": "/galleries/פיסות נוף/פיסות נוף17.jpg",
         "alt": "פיסות נוף17",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
       },
       {
         "id": "scenery-pieces_6",
         "url": "/galleries/פיסות נוף/פיסות נוף18.JPG",
         "alt": "פיסות נוף18",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
       },
       {
         "id": "scenery-pieces_7",
         "url": "/galleries/פיסות נוף/פיסות נוף19.JPG",
         "alt": "פיסות נוף19",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
       },
       {
         "id": "scenery-pieces_8",
         "url": "/galleries/פיסות נוף/פיסות נוף2.jpg",
         "alt": "פיסות נוף2",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
       },
       {
         "id": "scenery-pieces_9",
         "url": "/galleries/פיסות נוף/פיסות נוף20.JPG",
         "alt": "פיסות נוף20",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
       },
       {
         "id": "scenery-pieces_10",
         "url": "/galleries/פיסות נוף/פיסות נוף21.JPG",
         "alt": "פיסות נוף21",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
       },
       {
         "id": "scenery-pieces_11",
         "url": "/galleries/פיסות נוף/פיסות נוף3.JPG",
         "alt": "פיסות נוף3",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
       },
       {
         "id": "scenery-pieces_12",
         "url": "/galleries/פיסות נוף/פיסות נוף4.JPG",
         "alt": "פיסות נוף4",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
       },
       {
         "id": "scenery-pieces_13",
         "url": "/galleries/פיסות נוף/פיסות נוף5.JPG",
         "alt": "פיסות נוף5",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
       },
       {
         "id": "scenery-pieces_14",
         "url": "/galleries/פיסות נוף/פיסות נוף6.JPG",
         "alt": "פיסות נוף6",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
       },
       {
         "id": "scenery-pieces_15",
         "url": "/galleries/פיסות נוף/פיסות נוף8 (2).JPG",
         "alt": "פיסות נוף8 (2)",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
       },
       {
         "id": "scenery-pieces_16",
         "url": "/galleries/פיסות נוף/פיסות נוף8.jpg",
         "alt": "פיסות נוף8",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
       },
       {
         "id": "scenery-pieces_17",
         "url": "/galleries/פיסות נוף/פיסות נוף9.jpg",
         "alt": "פיסות נוף9",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
       }
     ]
   },
