@@ -1348,12 +1348,6 @@ export const galleries = [
         "orientation": "landscape"
       },
       {
-        "id": "gallery_5_20",
-        "url": "/galleries/באקוורל/באקוורל/אקוורל29.jpg",
-        "alt": "אקוורל29",
-        "orientation": "portrait"
-      },
-      {
         "id": "gallery_5_21",
         "url": "/galleries/באקוורל/באקוורל/אקוורל3.jpg",
         "alt": "אקוורל3",
@@ -1412,12 +1406,6 @@ export const galleries = [
         "url": "/galleries/באקוורל/באקוורל/באקוורל30.jpg",
         "alt": "באקוורל30",
         "orientation": "portrait"
-      },
-      {
-        "id": "gallery_5_31",
-        "url": "/galleries/באקוורל/באקוורל/באקוורל34.jpg",
-        "alt": "באקוורל34",
-        "orientation": "landscape"
       },
       {
         "id": "gallery_5_32",
