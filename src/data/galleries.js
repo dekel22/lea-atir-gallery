@@ -1556,103 +1556,120 @@ export const galleries = [
         "id": "miki_0",
         "url": "/galleries/מיקי/מיקי10.jpg",
         "alt": "מיקי10",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: פחמים | מצע: ג'סו על נייר"
       },
       {
         "id": "miki_1",
         "url": "/galleries/מיקי/מיקי12.jpg",
         "alt": "מיקי12",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: שמן וגרפית"
       },
       {
         "id": "miki_2",
         "url": "/galleries/מיקי/מיקי14.jpg",
         "alt": "מיקי14",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן"
       },
       {
         "id": "miki_3",
         "url": "/galleries/מיקי/מיקי15.jpg",
         "alt": "מיקי15",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית"
       },
       {
         "id": "miki_4",
         "url": "/galleries/מיקי/מיקי16.jpg",
         "alt": "מיקי16",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "24x17 ס\"מ | טכניקה: אקוורל"
       },
       {
         "id": "miki_5",
         "url": "/galleries/מיקי/מיקי17.jpg",
         "alt": "מיקי17",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "35x45 ס\"מ | טכניקה: אקוורל"
       },
       {
         "id": "miki_6",
         "url": "/galleries/מיקי/מיקי18.jpg",
         "alt": "מיקי18",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "24x17 ס\"מ | טכניקה: אקוורל"
       },
       {
         "id": "miki_7",
         "url": "/galleries/מיקי/מיקי2.jpg",
         "alt": "מיקי2",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x80 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "miki_8",
         "url": "/galleries/מיקי/מיקי20.jpg",
         "alt": "מיקי20",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "17x24 ס\"מ | טכניקה: אקוורל"
       },
       {
         "id": "miki_9",
         "url": "/galleries/מיקי/מיקי22.jpg",
         "alt": "מיקי22",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "50x70 ס\"מ | טכניקה: אקוורל"
       },
       {
         "id": "miki_10",
         "url": "/galleries/מיקי/מיקי23.jpg",
         "alt": "מיקי23",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "50x70 ס\"מ | טכניקה: אקוורל"
       },
       {
         "id": "miki_11",
         "url": "/galleries/מיקי/מיקי24.jpg",
         "alt": "מיקי24",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "25x35 ס\"מ | טכניקה: אקוורל"
       },
       {
         "id": "miki_12",
         "url": "/galleries/מיקי/מיקי4.jpg",
         "alt": "מיקי4",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "50x70 ס\"מ | טכניקה: אקוורל"
       },
       {
         "id": "miki_13",
         "url": "/galleries/מיקי/מיקי5.jpg",
         "alt": "מיקי5",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "35x45 ס\"מ | טכניקה: אקוורל"
       },
       {
         "id": "miki_14",
         "url": "/galleries/מיקי/מיקי7.jpg",
         "alt": "מיקי7",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "90x70 ס\"מ | טכניקה: אקוורל"
       },
       {
         "id": "miki_15",
         "url": "/galleries/מיקי/מיקי8.jpg",
         "alt": "מיקי8",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק | מצע: ג'סו מרוח על נייר"
       },
       {
         "id": "miki_16",
         "url": "/galleries/מיקי/מיקי9.jpg",
         "alt": "מיקי9",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: פחמים | מצע: ג'סו על נייר"
       }
     ]
   },
