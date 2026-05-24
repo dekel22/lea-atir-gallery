@@ -13,127 +13,148 @@ export const galleries = [
         "id": "transparent_0",
         "url": "/galleries/שקופים/שקופים1.jpg",
         "alt": "שקופים1",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "transparent_1",
         "url": "/galleries/שקופים/שקופים10.jpg",
         "alt": "שקופים10",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x80 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "transparent_2",
         "url": "/galleries/שקופים/שקופים11.JPG",
         "alt": "שקופים11",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "transparent_3",
         "url": "/galleries/שקופים/שקופים12.jpg",
         "alt": "שקופים12",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "transparent_4",
         "url": "/galleries/שקופים/שקופים13.jpg",
         "alt": "שקופים13",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x80 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "transparent_5",
         "url": "/galleries/שקופים/שקופים14.jpg",
         "alt": "שקופים14",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x80 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "transparent_6",
         "url": "/galleries/שקופים/שקופים16.jpg",
         "alt": "שקופים16",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "transparent_7",
         "url": "/galleries/שקופים/שקופים17.JPG",
         "alt": "שקופים17",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x80 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "transparent_8",
         "url": "/galleries/שקופים/שקופים18.jpg",
         "alt": "שקופים18",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "80x60 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "transparent_9",
         "url": "/galleries/שקופים/שקופים19.jpg",
         "alt": "שקופים19",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "transparent_10",
         "url": "/galleries/שקופים/שקופים2.jpg",
         "alt": "שקופים2",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "transparent_11",
         "url": "/galleries/שקופים/שקופים20.JPG",
         "alt": "שקופים20",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "transparent_12",
         "url": "/galleries/שקופים/שקופים21.jpg",
         "alt": "שקופים21",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "60x80 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "transparent_13",
         "url": "/galleries/שקופים/שקופים3.JPG",
         "alt": "שקופים3",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "90x45 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "transparent_14",
         "url": "/galleries/שקופים/שקופים4.JPG",
         "alt": "שקופים4",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "90x45 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "transparent_15",
         "url": "/galleries/שקופים/שקופים5.jpg",
         "alt": "שקופים5",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "transparent_16",
         "url": "/galleries/שקופים/שקופים6.jpg",
         "alt": "שקופים6",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "transparent_17",
         "url": "/galleries/שקופים/שקופים7.jpg",
         "alt": "שקופים7",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x80 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "transparent_18",
         "url": "/galleries/שקופים/שקופים8.jpg",
         "alt": "שקופים8",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "transparent_19",
         "url": "/galleries/שקופים/שקופים9.JPG",
         "alt": "שקופים9",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "transparent_20",
         "url": "/galleries/שקופים/שקר השקיפות2.JPG",
         "alt": "שקר השקיפות2",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
       }
     ]
   },
