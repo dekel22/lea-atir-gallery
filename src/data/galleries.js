@@ -801,97 +801,113 @@ export const galleries = [
         "id": "gallery_0_1",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני1 הזמנה.jpg",
         "alt": "רישום ואני1 הזמנה",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "הזמנה לתערוכה"
       },
       {
         "id": "gallery_0_2",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני10.jpg",
         "alt": "רישום ואני10",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
       },
       {
         "id": "gallery_0_3",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני11.jpg",
         "alt": "רישום ואני11",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
       },
       {
         "id": "gallery_0_4",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני12.jpg",
         "alt": "רישום ואני12",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית"
       },
       {
         "id": "gallery_0_5",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני13.jpg",
         "alt": "רישום ואני13",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
       },
       {
         "id": "gallery_0_6",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני14.jpg",
         "alt": "רישום ואני14",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
       },
       {
         "id": "gallery_0_7",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני15.jpg",
         "alt": "רישום ואני15",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
       },
       {
         "id": "gallery_0_8",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני16.jpg",
         "alt": "רישום ואני16",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית"
       },
       {
         "id": "gallery_0_9",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני17.jpg",
         "alt": "רישום ואני17",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
       },
       {
         "id": "gallery_0_10",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני3.jpg",
         "alt": "רישום ואני3",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
       },
       {
         "id": "gallery_0_11",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני4.jpg",
         "alt": "רישום ואני4",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "טכניקה: פחם סינטטי"
       },
       {
         "id": "gallery_0_12",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני5.jpg",
         "alt": "רישום ואני5",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית"
       },
       {
         "id": "gallery_0_13",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני6.jpg",
         "alt": "רישום ואני6",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: רישום וגרפית"
       },
       {
         "id": "gallery_0_14",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני7.jpg",
         "alt": "רישום ואני7",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית"
       },
       {
         "id": "gallery_0_15",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני8a.jpg",
         "alt": "רישום ואני8a",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית"
       },
       {
         "id": "gallery_0_16",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני9.jpg",
         "alt": "רישום ואני9",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית"
       }
     ]
   },
