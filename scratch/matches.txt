@@ -1,0 +1,29 @@
+﻿--- MATCHING RESULTS ---
+
+Uploaded: media__1781423132955.jpg (1024x715, landscape)
+  Match #1: דיוקןקורונה19.jpg (682x919, portrait) -> Distance: 328.24
+  Match #2: קורונה באקוורל.jpg (951x889, landscape) -> Distance: 342.2
+  Match #3: דיוקן קורונה25.jpg (524x758, portrait) -> Distance: 370.16
+  Match #4: דיוקן קורונה16.jpg (684x907, portrait) -> Distance: 373.83
+  Match #5: קורונה באקוורל2.jpg (689x919, portrait) -> Distance: 433.57
+
+Uploaded: media__1781423132957.jpg (718x1024, portrait)
+  Match #1: דיוקןקוררונה27.jpg (521x746, portrait) -> Distance: 309.61
+  Match #2: קורונה באקוורל2.jpg (689x919, portrait) -> Distance: 339.39
+  Match #3: דיוקן קורונה25.jpg (524x758, portrait) -> Distance: 353.9
+  Match #4: דיוקן קורונה23.jpg (526x758, portrait) -> Distance: 360.92
+  Match #5: קורונה באקוורל.jpg (951x889, landscape) -> Distance: 373.18
+
+Uploaded: media__1781423132956.jpg (717x1024, portrait)
+  Match #1: דיוקן קורונה23.jpg (526x758, portrait) -> Distance: 303.61
+  Match #2: קורונה באקוורל.jpg (951x889, landscape) -> Distance: 304.3
+  Match #3: קורונה באקוורל2.jpg (689x919, portrait) -> Distance: 372.73
+  Match #4: דיוקן קורונה25.jpg (524x758, portrait) -> Distance: 388.8
+  Match #5: דיוקן קורונה5.jpg (620x909, portrait) -> Distance: 391.42
+
+Uploaded: media__1781423132973.jpg (722x1024, portrait)
+  Match #1: דיוקן קורונה29.jpg (689x919, portrait) -> Distance: 497
+  Match #2: קורונה באקוורל2.jpg (689x919, portrait) -> Distance: 562.85
+  Match #3: דיוקן קורונה19.jpg (1871x2634, portrait) -> Distance: 568.81
+  Match #4: דיוקן קורונה23.jpg (526x758, portrait) -> Distance: 602.39
+  Match #5: דיוקן קורונה15.jpg (683x911, portrait) -> Distance: 624.08
