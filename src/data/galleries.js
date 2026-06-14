@@ -795,6 +795,13 @@ export const galleries = [
         "alt": "דיוקן קורונה24",
         "orientation": "portrait",
         "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+      },
+      {
+        "id": "gallery_6_31",
+        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה30.jpg",
+        "alt": "דיוקן קורונה30",
+        "orientation": "portrait",
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
       }
     ]
   },
