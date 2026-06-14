@@ -1,0 +1,229 @@
+
+Uploaded File: media__1781432287741.jpg (731x1024)
+  Match #1: orig_דיוקן קורונה11.jpg (670x915) -> Distance: 631.62
+  Match #2: orig_דיוקן קורונה25.jpg (524x758) -> Distance: 633.96
+  Match #3: orig_דיוקןקורונה19.jpg (682x919) -> Distance: 640.28
+  Match #4: orig_דיוקן קורונה5.jpg (620x909) -> Distance: 656.08
+  Match #5: orig_דיוקן קורונה7.jpg (589x826) -> Distance: 663.86
+  Match #6: orig_דיוקן קורונה21.jpg (1787x2555) -> Distance: 673.50
+  Match #7: orig_דיוקן קורונה4.jpg (652x919) -> Distance: 687.99
+  Match #8: orig_דיוקן קורונה14.jpg (618x919) -> Distance: 688.35
+
+Uploaded File: media__1781432287751.jpg (725x1024)
+  Match #1: orig_דיוקן קורונה23.jpg (717x1024) -> Distance: 614.31
+  Match #2: orig_דיוקן קורונה13.jpg (554x826) -> Distance: 628.30
+  Match #3: orig_דיוקןקורונה19.jpg (682x919) -> Distance: 640.68
+  Match #4: orig_דיוקן קורונה15.jpg (683x911) -> Distance: 654.45
+  Match #5: orig_דיוקן קורונה6.jpg (636x909) -> Distance: 654.96
+  Match #6: orig_דיוקן קורונה16.jpg (684x907) -> Distance: 664.13
+  Match #7: orig_דיוקן קורונה14.jpg (618x919) -> Distance: 671.47
+  Match #8: orig_דיוקן קורונה25.jpg (524x758) -> Distance: 693.05
+
+Uploaded File: media__1781432287772.jpg (752x1024)
+  Match #1: orig_דיוקן קורונה10.jpg (680x919) -> Distance: 575.51
+  Match #2: orig_דיוקן קורונה11.jpg (670x915) -> Distance: 615.22
+  Match #3: orig_דיוקן קורונה21.jpg (1787x2555) -> Distance: 643.63
+  Match #4: orig_דיוקן קורונה25.jpg (524x758) -> Distance: 657.44
+  Match #5: orig_דיוקן קורונה8.jpg (669x909) -> Distance: 674.60
+  Match #6: orig_דיוקן קורונה4.jpg (652x919) -> Distance: 679.21
+  Match #7: orig_דיוקןקורונה19.jpg (682x919) -> Distance: 689.29
+  Match #8: orig_דיוקן קורונה19.jpg (1871x2634) -> Distance: 691.93
+
+Uploaded File: media__1781432287825.jpg (729x1024)
+  Match #1: orig_דיוקן קורונה19.jpg (1871x2634) -> Distance: 370.50
+  Match #2: orig_דיוקןקורונה19.jpg (682x919) -> Distance: 415.56
+  Match #3: orig_דיוקן קורונה15.jpg (683x911) -> Distance: 466.28
+  Match #4: orig_דיוקן קורונה25.jpg (524x758) -> Distance: 484.80
+  Match #5: orig_קורונה באקוורל2.jpg (689x919) -> Distance: 523.42
+  Match #6: orig_דיוקן קורונה26.jpg (710x1024) -> Distance: 531.98
+  Match #7: orig_דיוקן קורונה8.jpg (669x909) -> Distance: 549.87
+  Match #8: orig_דיוקן קורונה5.jpg (620x909) -> Distance: 613.47
+
+
+=============================================================
+ASCII ART
+=============================================================
+
+=============================================================
+FILE: media__1781432287741.jpg
+=============================================================
+=== ASCII ART OF IMAGE ===
+                                           xx  x                 .   x.x.       
+                                          .  x##xx.#                 #xx        
+                                              ##.             ..     xx#        
+                       .                      ##         ##.  x.     x.         
+                                                         ##     . .    ..       
+                                                          #            .        
+                     .     .  .                  x             ..               
+                        ..        x#                          #x.               
+                                                             # x                
+             .x   #xx#.          x #x                                           
+              x # x              ..x                                            
+             .                   # x           .                                
+                               x   .#x.x      .                                 
+                       xx xx  .x .#x#x. #.                        .             
+                   .  # xx. x.. xx # .xx.xx                            x        
+                  ##x.xxxx.x# x##.   ##   ##   . xx          .# .      #        
+                ##.#.x# .   x##..      .xx. .     # .##  ##  x. #x     x        
+                xxxx. .   ...#.#.#.# #...         # x######  .         x        
+               x x.x..x   x#x. .x##    .     x      #.    .                     
+              ##  . x     #x .x..x .    .          .  x   #         .           
+             x#    x ..  ... xx##xxx.#  #        #x    xx#x      .  .           
+             .#   . xx ...x   ...x .    x          .#######   x                 
+            xx#.x..##x.x#..  . x.#     xxx  x   .         x#     xx             
+         #..  . ..xxx  xx.x ..  ..  x .x  #                xx                   
+    ..xx#..      x#...x.. .#x.  xx.  .#xx                  ##                   
+  .  #x#xx#    x x   xxxxx  .  x.x.xx##x ..               . x                   
+   . x#  x#     .# .xx.### .xxxx#.  ..x      .              x                   
+    x    x  xxxx  .. .x          .           .x                                 
+    ..  x ###       .x                                                          
+   ..  x #                     x    x                                           
+ . x   .                       x                                                
+    .                             .  .                                          
+      #                                 x#.  .                                  
+     .                                     #   .                                
+        .                                         .                             
+         .x                                                                     
+          ###.                                                                  
+      x     xxxx  .                                                             
+              x x                                                               
+                .                                                               
+
+
+=============================================================
+FILE: media__1781432287751.jpg
+=============================================================
+=== ASCII ART OF IMAGE ===
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                      .                         
+                              x.                                                
+                            x##                                                 
+                    # .   #x###x# .x#x..                    x                   
+                    #.x ###xx##x x .x. #xxx x#x# ##x##xx ##x .                  
+                    .#  .#######. x. #x.    ###.x# .##  #####                   
+                      x# ##  x .x. x####   .x x.##...#. .#### .                 
+                          # ######.####   ##x ######. x#x## ###                 
+                     x####.    ...###x###  ####xx# .  .#  ## .#                 
+                      x.###    ... .x#### #.x.#x x.        x                    
+                       .# ##x.# .#x.### ##.####   .          .                  
+                       . x#####xx.x..#   x     . .         x                    
+                       ..# x# ## #xx. ##.x#             ..                      
+                           # #.#..##xx.#  .             ## .                    
+                         #  ## # x#x . # x           x   . .x#x   ##.           
+                .########.  .x#x#                x . #.x #x#   x ..             
+                # #x#.x #x xx   x .#x       x  x   xx#. #  #    x     #         
+                   ##         x ## x .x   #x##.   .      #xxx.x                 
+         x          #xx         #xx##   .x   .    .  #.#   x #x   .             
+                       ..       #x #..# #   x    x####x.#x.                     
+                #          x# . .x#x    .# #..####x #.                          
+                               xx#.x# x     #x##. # x                           
+          .                .. .xx      . x   #  x                               
+                            #         . ##.### .                                
+    .                               xx#####.##                                  
+                                    #.#x.   ..                                  
+                                                                                
+                                              #                                 
+                                  x                                             
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+
+
+=============================================================
+FILE: media__1781432287772.jpg
+=============================================================
+=== ASCII ART OF IMAGE ===
+                                                                                
+                       .x  ...                                                  
+                    x.x# .x      .                                              
+                   .... . ..x                                                   
+                 .x.       ..x.    .                                            
+                  . .     .    ..                                               
+              .   xx..x  ..x.   ..xx x                  x                       
+               ## .##xxxx. x..    x    .x    x      x         x.#               
+               .####x#x. x#x#xx##..#.####x  .# x.#.###.# .    #x#x              
+               x########x##xx#x#x.  xx.#x  xx##xxx #x #. xxx   x...             
+                x##.x. .##.x#xx..x    #..   x###x#. ..#         #.  x.          
+                  #####x  .x. ... ...xxxx  x   xx##x#    .       x  x           
+                  #.x#xx..   #########.x..   .     #.x                          
+                 # xxx x  xxx .  ##x.  .. x  .#x xx.              ..            
+               xx  xx.#xx##xx      xx xxxx. .  x..                              
+              ## x###..x##x.   .   x#x.x#       .                               
+            .x.##x.xx####.xxxx      #   #                                       
+             .####x ..x# .##       ##   x   . .                                 
+               x#####x#x#x####.  x## x .       x                                
+         x#x##x#### ## #  x#..##   #x# #  .                                     
+        #x.  #####x xx#. # x xxx     x..                                        
+     ### . x#.##.##xx#x#xx#xx.##.     #x      x#x                               
+  x##xxx# .# ###x##### ##x ######     ###.#.##                                  
+ x.#xxxx xx ..#xxx#x#xx#xx xx##x   . #x ..                                      
+..x xxx ###x##..xx### #..x##..x..    x##xx                                      
+      x x#x#########  ##xx.x x. x..  ##x.x#                                     
+      . .##########  .####.####x  .  .##.                                       
+   .     . #######.x#.#xx######x# #### ..x                                      
+  ..x##xxxx#  ####x#x####xxx# x  .x.#.     x      .  .                          
+  . x.x###.xxxx#x##xx#xxx.x#.      #   xx                                       
+ .    x#.xxx##xx#x# # .xxxx        .x .                                         
+ x.     ..x#####...  #x x           .                                           
+       x#x######.#   . x.                                                       
+        .#.##.xx... #.             x                                            
+       ##x###xx... . x..           .                                            
+      x###x##   ..    .     x    x.                                             
+      x. #.        .    x .       . x                                           
+        ..#   #  .                                                              
+         .  . .                                                                 
+        .       .                                                               
+
+
+=============================================================
+FILE: media__1781432287825.jpg
+=============================================================
+=== ASCII ART OF IMAGE ===
+                 .                                                              
+                 x                                                              
+                  x#                                                            
+             x.    ..                                                           
+                                                                                
+                                                                                
+            .                                                                   
+            x                                                                   
+               .           #.                                                   
+              x                                                                 
+          x.                 .    x                                             
+         x                   .  .     .                                         
+                                 # ..x ..   . .                                 
+                       .    .xxx.x x       . x ##.                              
+    .        x  #..x      x. .x    .xxxx      #..x.                             
+        x       ##x#       x# ..###.xxx#x#x.  xx. .                             
+         #  .#.x#x##x.x#    ## #xxx#x   #      x                                
+       x   #.x               x.#xx.#x###         #                              
+       .    .                 ##  x####x#                                       
+      .     xx.. x.x     . .  .##. .## xxx   . #  x..                           
+        .  #.x              .xxx.x. ##x.xx.      xx                             
+     x    x x ##.x#x            #x.#x#.x. . ..#x. x    #x #.x     .             
+        x#.. x    .#     . x####.#x#x#..  .  x    #   #x###x #.## x##           
+        x##x.        .      x  xx.xx.x.     # xxx. x.  x# ..x .######    .      
+    ## x###          #x#.  . #xx#. #..x  x ##. .x x  .x...xxxx##x #   .         
+  x   .x#x x     .. #x   x##xx.. x...x    x##..x.##         #x#  x. #x          
+     # x##x       . ## ##x.xxxx .x..#. .x #x# .xx#x        x     x  ..  .  .    
+   .  x  .x          .#x .##x...xxx#xx. ...#. xx#x  . .   x .         ..      . 
+ .x#x.   .. .        #####x.x .  xx... #xx...xxx#x           x.  .    ..    .   
+ xx.      .        .###xxxxx  x  .###xxxxx .. ..   xx     . #   x   x     .     
+           .      x .   .  ..  ..#x.#x.x x  x ..           .x     . x   . x     
+                .#x         .   . ..#x..x.xx xxx  .        x x     . x .  #x    
+                 x              #.  .xx..    . #  xx              x        x    
+              .#..               . ..  x.  #x#.### #x             . .. xx       
+             #x .x    x              .#x##..x.#x### .         .xx  xx# .        
+            .       ..   .    #.#######xx xxx#x. #x         x       x.         .
+      x.                   #x#x x #####x.x##x .x.x. .    .   .       x   .      
+            .                x.  ...##x.xxx.  ..x..                             
+                              #..#.#x#.x.#. . x###                              
+                                  ###x  #x    xxxx                              
+
