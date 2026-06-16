@@ -113,6 +113,101 @@ const Gallery = () => {
 
 
 
+  // Group images by size & orientation for Watercolor page
+  const parseDimensions = (caption) => {
+    if (!caption) return 'unknown';
+    const match = caption.match(/(\d+)\s*[xX\*×]\s*(\d+)/);
+    if (match) {
+      const num1 = parseInt(match[1]);
+      const num2 = parseInt(match[2]);
+      const min = Math.min(num1, num2);
+      const max = Math.max(num1, num2);
+      return `${min}x${max}`;
+    }
+    return 'unknown';
+  };
+
+  const processImages = () => {
+    if (!gallery || !gallery.images) return [];
+
+    const groups = {};
+    gallery.images.forEach((img) => {
+      const size = parseDimensions(img.caption);
+      const key = size === 'unknown' ? 'unknown' : `${size}_${img.orientation || 'portrait'}`;
+      if (!groups[key]) {
+        groups[key] = [];
+      }
+      groups[key].push(img);
+    });
+
+    const rows3 = [];
+    const rows2 = [];
+    const rows1 = [];
+    const unknownRows = [];
+
+    // Process groups with known sizes
+    Object.keys(groups).forEach((key) => {
+      if (key === 'unknown') return;
+
+      const imgs = groups[key];
+      const parts = key.split('_');
+      const size = parts[0];
+      const orientation = parts[1];
+
+      // Calculate aspect ratio from caption dimensions
+      const dimensions = size.split('x');
+      const d1 = parseInt(dimensions[0]);
+      const d2 = parseInt(dimensions[1]);
+      const min = Math.min(d1, d2);
+      const max = Math.max(d1, d2);
+      const isLandscape = orientation === 'landscape';
+      const width = isLandscape ? max : min;
+      const height = isLandscape ? min : max;
+      const aspectRatio = width / height;
+
+      const chunkSize = 3;
+      for (let i = 0; i < imgs.length; i += chunkSize) {
+        const chunk = imgs.slice(i, i + chunkSize);
+        const row = {
+          id: `row_${key}_${i}`,
+          size,
+          orientation,
+          aspectRatio,
+          images: chunk
+        };
+
+        if (chunk.length === 3) {
+          rows3.push(row);
+        } else if (chunk.length === 2) {
+          rows2.push(row);
+        } else {
+          rows1.push(row);
+        }
+      }
+    });
+
+    // Process unknown sizes at the end
+    if (groups['unknown'] && groups['unknown'].length > 0) {
+      const imgs = groups['unknown'];
+      const chunkSize = 3;
+      for (let i = 0; i < imgs.length; i += chunkSize) {
+        const chunk = imgs.slice(i, i + chunkSize);
+        unknownRows.push({
+          id: `row_unknown_${i}`,
+          size: 'unknown',
+          orientation: 'mixed',
+          aspectRatio: null, // Let browser display naturally if unknown
+          images: chunk
+        });
+      }
+    }
+
+    return [...rows3, ...rows2, ...rows1, ...unknownRows];
+  };
+
+  const isWatercolor = gallery.id === 'gallery_5';
+  const rows = isWatercolor ? processImages() : [];
+
   return (
     <div className="gallery-page animate-fade-in">
       <div className="gallery-header">
@@ -145,22 +240,27 @@ const Gallery = () => {
       </div>
 
       <div className="container section">
-        <div className="masonry-grid">
-          {[0, 1, 2].map((colIndex) => (
-            <div key={colIndex} className="masonry-column">
-              {gallery.images
-                .filter((_, index) => {
-                  return index % 3 === colIndex;
-                })
-                .map((img) => {
+        {isWatercolor ? (
+          <div className="gallery-watercolor-container">
+            {rows.map((row) => (
+              <div 
+                key={row.id} 
+                className="gallery-grid-row"
+              >
+                {row.images.map((img) => {
                   const originalIndex = gallery.images.findIndex(i => i.id === img.id);
                   return (
                     <div 
                       key={img.id} 
-                      className={`masonry-item ${img.orientation || 'portrait'}`} 
+                      className={`gallery-card ${img.orientation || 'portrait'}`} 
                       onClick={() => openLightbox(originalIndex)}
                     >
-                      <img src={img.url} alt={img.alt} loading="lazy" />
+                      <div 
+                        className="gallery-card-image-wrapper"
+                        style={row.aspectRatio ? { aspectRatio: row.aspectRatio } : null}
+                      >
+                        <img src={img.url} alt={img.alt} loading="lazy" />
+                      </div>
                       {img.caption && (
                         <div className="image-caption">
                           {img.caption}
@@ -169,9 +269,39 @@ const Gallery = () => {
                     </div>
                   );
                 })}
-            </div>
-          ))}
-        </div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          /* Original Masonry Layout for other galleries */
+          <div className="masonry-grid">
+            {[0, 1, 2].map((colIndex) => (
+              <div key={colIndex} className="masonry-column">
+                {gallery.images
+                  .filter((_, index) => {
+                    return index % 3 === colIndex;
+                  })
+                  .map((img) => {
+                    const originalIndex = gallery.images.findIndex(i => i.id === img.id);
+                    return (
+                      <div 
+                        key={img.id} 
+                        className={`masonry-item ${img.orientation || 'portrait'}`} 
+                        onClick={() => openLightbox(originalIndex)}
+                      >
+                        <img src={img.url} alt={img.alt} loading="lazy" />
+                        {img.caption && (
+                          <div className="image-caption">
+                            {img.caption}
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
+              </div>
+            ))}
+          </div>
+        )}
         <div className="gallery-footer-nav">
           <Link to="/galleries" className="back-link"><ArrowRight size={18} /> חזרה לגלריות</Link>
         </div>
