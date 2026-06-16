@@ -145,21 +145,30 @@ const Gallery = () => {
       </div>
 
       <div className="container section">
-        <div className="gallery-grid">
-          {gallery.images.map((img, index) => (
-            <div 
-              key={img.id} 
-              className={`gallery-item ${img.orientation || 'portrait'}`} 
-              onClick={() => openLightbox(index)}
-            >
-              <div className="gallery-item-image-wrapper">
-                <img src={img.url} alt={img.alt} loading="lazy" />
-              </div>
-              {img.caption && (
-                <div className="image-caption">
-                  {img.caption}
-                </div>
-              )}
+        <div className="masonry-grid">
+          {[0, 1, 2].map((colIndex) => (
+            <div key={colIndex} className="masonry-column">
+              {gallery.images
+                .filter((_, index) => {
+                  return index % 3 === colIndex;
+                })
+                .map((img) => {
+                  const originalIndex = gallery.images.findIndex(i => i.id === img.id);
+                  return (
+                    <div 
+                      key={img.id} 
+                      className={`masonry-item ${img.orientation || 'portrait'}`} 
+                      onClick={() => openLightbox(originalIndex)}
+                    >
+                      <img src={img.url} alt={img.alt} loading="lazy" />
+                      {img.caption && (
+                        <div className="image-caption">
+                          {img.caption}
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
             </div>
           ))}
         </div>
