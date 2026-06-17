@@ -17,147 +17,168 @@ export const galleries = [
         "url": "/galleries/שקופים/שקופים1.jpg",
         "alt": "שקופים1",
         "orientation": "landscape",
-        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "transparent_1",
         "url": "/galleries/שקופים/שקופים10.jpg",
         "alt": "שקופים10",
         "orientation": "portrait",
-        "caption": "100x80 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x80 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x80 cm | Technique: Oil paints"
       },
       {
         "id": "transparent_2",
         "url": "/galleries/שקופים/שקופים11.JPG",
         "alt": "שקופים11",
         "orientation": "landscape",
-        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "transparent_3",
         "url": "/galleries/שקופים/שקופים12.jpg",
         "alt": "שקופים12",
         "orientation": "landscape",
-        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "transparent_4",
         "url": "/galleries/שקופים/שקופים13.jpg",
         "alt": "שקופים13",
         "orientation": "portrait",
-        "caption": "100x80 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x80 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x80 cm | Technique: Oil paints"
       },
       {
         "id": "transparent_5",
         "url": "/galleries/שקופים/שקופים14.jpg",
         "alt": "שקופים14",
         "orientation": "portrait",
-        "caption": "120x80 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x80 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x80 cm | Technique: Oil paints"
       },
       {
         "id": "transparent_6",
         "url": "/galleries/שקופים/שקופים16.jpg",
         "alt": "שקופים16",
         "orientation": "portrait",
-        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "transparent_7",
         "url": "/galleries/שקופים/שקופים17.JPG",
         "alt": "שקופים17",
         "orientation": "portrait",
-        "caption": "120x80 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x80 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x80 cm | Technique: Oil paints"
       },
       {
         "id": "transparent_8",
         "url": "/galleries/שקופים/שקופים18.jpg",
         "alt": "שקופים18",
         "orientation": "portrait",
-        "caption": "80x60 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "80x60 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "80x60 cm | Technique: Oil paints"
       },
       {
         "id": "transparent_9",
         "url": "/galleries/שקופים/שקופים19.jpg",
         "alt": "שקופים19",
         "orientation": "portrait",
-        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "transparent_10",
         "url": "/galleries/שקופים/שקופים2.jpg",
         "alt": "שקופים2",
         "orientation": "landscape",
-        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "transparent_11",
         "url": "/galleries/שקופים/שקופים20.JPG",
         "alt": "שקופים20",
         "orientation": "portrait",
-        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "transparent_12",
         "url": "/galleries/שקופים/שקופים21.jpg",
         "alt": "שקופים21",
         "orientation": "portrait",
-        "caption": "60x80 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "60x80 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "60x80 cm | Technique: Oil paints"
       },
       {
         "id": "transparent_13",
         "url": "/galleries/שקופים/שקופים3.JPG",
         "alt": "שקופים3",
         "orientation": "portrait",
-        "caption": "90x45 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "90x45 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "90x45 cm | Technique: Oil paints"
       },
       {
         "id": "transparent_14",
         "url": "/galleries/שקופים/שקופים4.JPG",
         "alt": "שקופים4",
         "orientation": "portrait",
-        "caption": "90x45 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "90x45 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "90x45 cm | Technique: Oil paints"
       },
       {
         "id": "transparent_15",
         "url": "/galleries/שקופים/שקופים5.jpg",
         "alt": "שקופים5",
         "orientation": "portrait",
-        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "transparent_16",
         "url": "/galleries/שקופים/שקופים6.jpg",
         "alt": "שקופים6",
         "orientation": "portrait",
-        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "transparent_17",
         "url": "/galleries/שקופים/שקופים7.jpg",
         "alt": "שקופים7",
         "orientation": "portrait",
-        "caption": "100x80 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x80 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x80 cm | Technique: Oil paints"
       },
       {
         "id": "transparent_18",
         "url": "/galleries/שקופים/שקופים8.jpg",
         "alt": "שקופים8",
         "orientation": "landscape",
-        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "transparent_19",
         "url": "/galleries/שקופים/שקופים9.JPG",
         "alt": "שקופים9",
         "orientation": "portrait",
-        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "transparent_20",
         "url": "/galleries/שקופים/שקר השקיפות2.JPG",
         "alt": "שקר השקיפות2",
         "orientation": "portrait",
-        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       }
     ]
   },
@@ -284,182 +305,208 @@ export const galleries = [
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים1.jpg",
         "alt": "מבטים1",
         "orientation": "portrait",
-        "caption": "הזמנה לתערוכה"
+        "caption": "הזמנה לתערוכה",
+        "captionEn": "Exhibition invitation"
       },
       {
         "id": "gallery_1_1",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים7.jpg",
         "alt": "מבטים7",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_2",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים3.jpg",
         "alt": "מבטים3",
         "orientation": "portrait",
-        "caption": "80x80 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "80x80 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "80x80 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_3",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים10.jpg",
         "alt": "מבטים10",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_4",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים4.jpg",
         "alt": "מבטים4",
         "orientation": "portrait",
-        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_5",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים11.jpg",
         "alt": "מבטים11",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_6",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים13.jpg",
         "alt": "מבטים13",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_7",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים5.jpg",
         "alt": "מבטים5",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_8",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים12.jpg",
         "alt": "מבטים12",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_9",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים14.jpg",
         "alt": "מבטים14",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_10",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים6.jpg",
         "alt": "מבטים6",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_11",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים15.jpg",
         "alt": "מבטים15",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_12",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים16.jpg",
         "alt": "מבטים16",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_13",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים8.jpg",
         "alt": "מבטים8",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_14",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים17.jpg",
         "alt": "מבטים17",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_15",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים18.jpg",
         "alt": "מבטים18",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_16",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים9.jpg",
         "alt": "מבטים9",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_17",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים20.jpg",
         "alt": "מבטים20",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_18",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים19.jpg",
         "alt": "מבטים19",
         "orientation": "landscape",
-        "caption": "70x50 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "70x50 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "70x50 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_19",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים23.jpg",
         "alt": "מבטים23",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_20",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים21.jpg",
         "alt": "מבטים21",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_21",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים24.jpg",
         "alt": "מבטים24",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_22",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים22.jpg",
         "alt": "מבטים22",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_23",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים25.jpg",
         "alt": "מבטים25",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_24",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים26.jpg",
         "alt": "מבטים26",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_1_25",
         "url": "/galleries/מבטים של יום יום 6-11-2003/מבטים27.jpg",
         "alt": "מבטים27",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       }
     ]
   },
@@ -478,133 +525,152 @@ export const galleries = [
         "url": "/galleries/ברוש/ברוש טבעון11.jpg",
         "alt": "ברוש טבעון11",
         "orientation": "portrait",
-        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן",
+        "captionEn": "Size: 100x70 cm | Technique: Graphite with oil paints"
       },
       {
         "id": "brosh_2",
         "url": "/galleries/ברוש/ברוש טבעון12.jpg",
         "alt": "ברוש טבעון12",
         "orientation": "portrait",
-        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן",
+        "captionEn": "Size: 100x70 cm | Technique: Graphite with oil paints"
       },
       {
         "id": "brosh_0",
         "url": "/galleries/ברוש/ברוש טבעון10.jpg",
         "alt": "ברוש טבעון10",
         "orientation": "landscape",
-        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן",
+        "captionEn": "Size: 100x70 cm | Technique: Graphite with oil paints"
       },
       {
         "id": "brosh_3",
         "url": "/galleries/ברוש/ברוש טבעון15.jpg",
         "alt": "ברוש טבעון15",
         "orientation": "landscape",
-        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן",
+        "captionEn": "Size: 100x70 cm | Technique: Graphite with oil paints"
       },
       {
         "id": "brosh_4",
         "url": "/galleries/ברוש/ברוש טבעון16.jpg",
         "alt": "ברוש טבעון16",
         "orientation": "landscape",
-        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית"
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית",
+        "captionEn": "Size: 100x70 cm | Technique: Graphite"
       },
       {
         "id": "brosh_5",
         "url": "/galleries/ברוש/ברוש טבעון17.jpg",
         "alt": "ברוש טבעון17",
         "orientation": "landscape",
-        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית"
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית",
+        "captionEn": "Size: 100x70 cm | Technique: Graphite"
       },
       {
         "id": "brosh_6",
         "url": "/galleries/ברוש/ברוש טבעון19.jpg",
         "alt": "ברוש טבעון19",
         "orientation": "landscape",
-        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית"
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית",
+        "captionEn": "Size: 100x70 cm | Technique: Graphite"
       },
       {
         "id": "brosh_7",
         "url": "/galleries/ברוש/ברוש טבעון2.jpg",
         "alt": "ברוש טבעון2",
         "orientation": "portrait",
-        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן",
+        "captionEn": "Size: 100x70 cm | Technique: Graphite with oil paints"
       },
       {
         "id": "brosh_8",
         "url": "/galleries/ברוש/ברוש טבעון21.jpg",
         "alt": "ברוש טבעון21",
         "orientation": "landscape",
-        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית"
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית",
+        "captionEn": "Size: 100x70 cm | Technique: Graphite"
       },
       {
         "id": "brosh_9",
         "url": "/galleries/ברוש/ברוש טבעון23.jpg",
         "alt": "ברוש טבעון23",
         "orientation": "landscape",
-        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית"
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית",
+        "captionEn": "Size: 100x70 cm | Technique: Graphite"
       },
       {
         "id": "brosh_10",
         "url": "/galleries/ברוש/ברוש טבעון24.jpg",
         "alt": "ברוש טבעון24",
         "orientation": "landscape",
-        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית"
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית",
+        "captionEn": "Size: 100x70 cm | Technique: Graphite"
       },
       {
         "id": "brosh_11",
         "url": "/galleries/ברוש/ברוש טבעון26.jpg",
         "alt": "ברוש טבעון26",
         "orientation": "portrait",
-        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית"
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית",
+        "captionEn": "Size: 100x70 cm | Technique: Graphite"
       },
       {
         "id": "brosh_12",
         "url": "/galleries/ברוש/ברוש טבעון27.jpg",
         "alt": "ברוש טבעון27",
         "orientation": "landscape",
-        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית"
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית",
+        "captionEn": "Size: 100x70 cm | Technique: Graphite"
       },
       {
         "id": "brosh_13",
         "url": "/galleries/ברוש/ברוש טבעון28.jpg",
         "alt": "ברוש טבעון28",
         "orientation": "portrait",
-        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן",
+        "captionEn": "Size: 100x70 cm | Technique: Graphite with oil paints"
       },
       {
         "id": "brosh_14",
         "url": "/galleries/ברוש/ברוש טבעון5.jpg",
         "alt": "ברוש טבעון5",
         "orientation": "landscape",
-        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן",
+        "captionEn": "Size: 100x70 cm | Technique: Graphite with oil paints"
       },
       {
         "id": "brosh_15",
         "url": "/galleries/ברוש/ברוש טבעון6.JPG",
         "alt": "ברוש טבעון6",
         "orientation": "portrait",
-        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן",
+        "captionEn": "Size: 100x70 cm | Technique: Graphite with oil paints"
       },
       {
         "id": "brosh_16",
         "url": "/galleries/ברוש/ברוש טבעון7.jpg",
         "alt": "ברוש טבעון7",
         "orientation": "portrait",
-        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן",
+        "captionEn": "Size: 100x70 cm | Technique: Graphite with oil paints"
       },
       {
         "id": "brosh_17",
         "url": "/galleries/ברוש/ברוש טבעון8.jpg",
         "alt": "ברוש טבעון8",
         "orientation": "portrait",
-        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן",
+        "captionEn": "Size: 100x70 cm | Technique: Graphite with oil paints"
       },
       {
         "id": "brosh_18",
         "url": "/galleries/ברוש/ברוש טבעון9.jpg",
         "alt": "ברוש טבעון9",
         "orientation": "portrait",
-        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן"
+        "caption": "גודל: 100x70 ס\"מ | טכניקה: גרפית עם צבעי שמן",
+        "captionEn": "Size: 100x70 cm | Technique: Graphite with oil paints"
       }
     ]
   },
@@ -623,252 +689,288 @@ export const galleries = [
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה10.jpg",
         "alt": "דיוקן קורונה10",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_1",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה11.jpg",
         "alt": "דיוקן קורונה11",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_2",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה12.jpg",
         "alt": "דיוקן קורונה12",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_3",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה13.jpg",
         "alt": "דיוקן קורונה13",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_4",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה14.jpg",
         "alt": "דיוקן קורונה14",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_5",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה15.jpg",
         "alt": "דיוקן קורונה15",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_6",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה16.jpg",
         "alt": "דיוקן קורונה16",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_7",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה17.jpg",
         "alt": "דיוקן קורונה17",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_8",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה18.jpg",
         "alt": "דיוקן קורונה18",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_9",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה19.jpg",
         "alt": "דיוקן קורונה19",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_10",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה2 (2).jpg",
         "alt": "דיוקן קורונה2 (2)",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_11",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה20.jpg",
         "alt": "דיוקן קורונה20",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_12",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה23.jpg",
         "alt": "דיוקן קורונה23",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל"
+        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "30x42 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_6_13",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה25.jpg",
         "alt": "דיוקן קורונה25",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל"
+        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "30x42 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_6_14",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה26.jpg",
         "alt": "דיוקן קורונה26",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל"
+        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "30x42 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_6_15",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה28.jpg",
         "alt": "דיוקן קורונה28",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל"
+        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "30x42 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_6_16",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה29.jpg",
         "alt": "דיוקן קורונה29",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל"
+        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "30x42 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_6_17",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה4.jpg",
         "alt": "דיוקן קורונה4",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_18",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה5.jpg",
         "alt": "דיוקן קורונה5",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_19",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה6.jpg",
         "alt": "דיוקן קורונה6",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_20",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה7.jpg",
         "alt": "דיוקן קורונה7",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_21",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה9.jpg",
         "alt": "דיוקן קורונה9",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_22",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקןקורונה19.jpg",
         "alt": "דיוקןקורונה19",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל"
+        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "30x42 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_6_23",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקןקוררונה27.jpg",
         "alt": "דיוקןקוררונה27",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל"
+        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "30x42 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_6_24",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/קורונה באקוורל.jpg",
         "alt": "קורונה באקוורל",
         "orientation": "landscape",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל"
+        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "30x42 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_6_25",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/קורונה באקוורל2.jpg",
         "alt": "קורונה באקוורל2",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל"
+        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "30x42 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_6_26",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה22.jpg",
         "alt": "דיוקן קורונה22",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_27",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה24.jpg",
         "alt": "דיוקן קורונה24",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_28",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה30.jpg",
         "alt": "דיוקן קורונה30",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_29",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה31.jpg",
         "alt": "דיוקן קורונה31",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_30",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה32.jpg",
         "alt": "דיוקן קורונה32",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_31",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה33.jpg",
         "alt": "דיוקן קורונה33",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_32",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה34.jpg",
         "alt": "דיוקן קורונה34",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_33",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה35.jpg",
         "alt": "דיוקן קורונה35",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי"
+        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
+        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
         "id": "gallery_6_34",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה36.jpg",
         "alt": "דיוקן קורונה36",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל"
+        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "30x42 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_6_35",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה37.jpg",
         "alt": "דיוקן קורונה37",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל"
+        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "30x42 cm | Technique: Watercolor"
       }
     ]
   },
@@ -893,112 +995,128 @@ export const galleries = [
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני1 הזמנה.jpg",
         "alt": "רישום ואני1 הזמנה",
         "orientation": "portrait",
-        "caption": "הזמנה לתערוכה"
+        "caption": "הזמנה לתערוכה",
+        "captionEn": "Exhibition invitation"
       },
       {
         "id": "gallery_0_2",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני10.jpg",
         "alt": "רישום ואני10",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק",
+        "captionEn": "100x70 cm | Technique: Acrylic"
       },
       {
         "id": "gallery_0_3",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני11.jpg",
         "alt": "רישום ואני11",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק",
+        "captionEn": "100x70 cm | Technique: Acrylic"
       },
       {
         "id": "gallery_0_4",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני12.jpg",
         "alt": "רישום ואני12",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית"
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית",
+        "captionEn": "100x70 cm | Technique: Acrylic and graphite"
       },
       {
         "id": "gallery_0_5",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני13.jpg",
         "alt": "רישום ואני13",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק",
+        "captionEn": "100x70 cm | Technique: Acrylic"
       },
       {
         "id": "gallery_0_6",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני14.jpg",
         "alt": "רישום ואני14",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק",
+        "captionEn": "100x70 cm | Technique: Acrylic"
       },
       {
         "id": "gallery_0_7",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני15.jpg",
         "alt": "רישום ואני15",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק",
+        "captionEn": "100x70 cm | Technique: Acrylic"
       },
       {
         "id": "gallery_0_8",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני16.jpg",
         "alt": "רישום ואני16",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית"
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית",
+        "captionEn": "100x70 cm | Technique: Acrylic and graphite"
       },
       {
         "id": "gallery_0_9",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני17.jpg",
         "alt": "רישום ואני17",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק",
+        "captionEn": "100x70 cm | Technique: Acrylic"
       },
       {
         "id": "gallery_0_10",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני3.jpg",
         "alt": "רישום ואני3",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x70 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_0_11",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני4.jpg",
         "alt": "רישום ואני4",
         "orientation": "landscape",
-        "caption": "טכניקה: פחם סינטטי"
+        "caption": "טכניקה: פחם סינטטי",
+        "captionEn": "Technique: Synthetic charcoal"
       },
       {
         "id": "gallery_0_12",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני5.jpg",
         "alt": "רישום ואני5",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית"
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית",
+        "captionEn": "100x70 cm | Technique: Acrylic and graphite"
       },
       {
         "id": "gallery_0_13",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני6.jpg",
         "alt": "רישום ואני6",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: רישום וגרפית"
+        "caption": "100x70 ס\"מ | טכניקה: רישום וגרפית",
+        "captionEn": "100x70 cm | Technique: Drawing and graphite"
       },
       {
         "id": "gallery_0_14",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני7.jpg",
         "alt": "רישום ואני7",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית"
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית",
+        "captionEn": "100x70 cm | Technique: Acrylic and graphite"
       },
       {
         "id": "gallery_0_15",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני8a.jpg",
         "alt": "רישום ואני8a",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית"
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית",
+        "captionEn": "100x70 cm | Technique: Acrylic and graphite"
       },
       {
         "id": "gallery_0_16",
         "url": "/galleries/רישום ואני 12-09-1998/רישום ואני9.jpg",
         "alt": "רישום ואני9",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית"
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית",
+        "captionEn": "100x70 cm | Technique: Acrylic and graphite"
       }
     ]
   },
@@ -1137,161 +1255,184 @@ export const galleries = [
         "url": "/galleries/יומן מלחמה/יומן מלחמה מגן דוד.jpg",
         "alt": "יומן מלחמה מגן דוד",
         "orientation": "landscape",
-        "caption": "29x21 ס\"מ | טכניקה: פחם סינטטי שחור"
+        "caption": "29x21 ס\"מ | טכניקה: פחם סינטטי שחור",
+        "captionEn": "29x21 cm | Technique: Black synthetic charcoal"
       },
       {
         "id": "war-diary_1",
         "url": "/galleries/יומן מלחמה/יומן מלחמה1.jpg",
         "alt": "יומן מלחמה1",
         "orientation": "portrait",
-        "caption": "תשע תמונות, כל אחת 21x29 ס\"מ | טכניקה: גרפית, אחת סנגווין"
+        "caption": "תשע תמונות, כל אחת 21x29 ס\"מ | טכניקה: גרפית, אחת סנגווין",
+        "captionEn": "Nine pictures, each 21x29 cm | Technique: Graphite, one sanguine"
       },
       {
         "id": "war-diary_2",
         "url": "/galleries/יומן מלחמה/יומן מלחמה10.jpg",
         "alt": "יומן מלחמה10",
         "orientation": "landscape",
-        "caption": "רושמת | טכניקה: סנגווין"
+        "caption": "רושמת | טכניקה: סנגווין",
+        "captionEn": "Drawing | Technique: Sanguine"
       },
       {
         "id": "war-diary_3",
         "url": "/galleries/יומן מלחמה/יומן מלחמה11.jpg",
         "alt": "יומן מלחמה11",
         "orientation": "portrait",
-        "caption": "רושמת | טכניקה: סנגווין"
+        "caption": "רושמת | טכניקה: סנגווין",
+        "captionEn": "Drawing | Technique: Sanguine"
       },
       {
         "id": "war-diary_4",
         "url": "/galleries/יומן מלחמה/יומן מלחמה12.jpg",
         "alt": "יומן מלחמה12",
         "orientation": "landscape",
-        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי שחור"
+        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי שחור",
+        "captionEn": "21x29 cm | Technique: Black synthetic charcoal"
       },
       {
         "id": "war-diary_5",
         "url": "/galleries/יומן מלחמה/יומן מלחמה13.jpg",
         "alt": "יומן מלחמה13",
         "orientation": "portrait",
-        "caption": "21x29 ס\"מ | טכניקה: סנגווין ופחם סינטטי"
+        "caption": "21x29 ס\"מ | טכניקה: סנגווין ופחם סינטטי",
+        "captionEn": "21x29 cm | Technique: Sanguine and synthetic charcoal"
       },
       {
         "id": "war-diary_6",
         "url": "/galleries/יומן מלחמה/יומן מלחמה14.jpg",
         "alt": "יומן מלחמה14",
         "orientation": "landscape",
-        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי שחור"
+        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי שחור",
+        "captionEn": "21x29 cm | Technique: Black synthetic charcoal"
       },
       {
         "id": "war-diary_7",
         "url": "/galleries/יומן מלחמה/יומן מלחמה16.jpg",
         "alt": "יומן מלחמה16",
         "orientation": "landscape",
-        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי"
+        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי",
+        "captionEn": "21x29 cm | Technique: Synthetic charcoal"
       },
       {
         "id": "war-diary_8",
         "url": "/galleries/יומן מלחמה/יומן מלחמה17.jpg",
         "alt": "יומן מלחמה17",
         "orientation": "portrait",
-        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי"
+        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי",
+        "captionEn": "21x29 cm | Technique: Synthetic charcoal"
       },
       {
         "id": "war-diary_9",
         "url": "/galleries/יומן מלחמה/יומן מלחמה18.jpg",
         "alt": "יומן מלחמה18",
         "orientation": "portrait",
-        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי"
+        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי",
+        "captionEn": "21x29 cm | Technique: Synthetic charcoal"
       },
       {
         "id": "war-diary_10",
         "url": "/galleries/יומן מלחמה/יומן מלחמה19.jpg",
         "alt": "יומן מלחמה19",
         "orientation": "portrait",
-        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי"
+        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי",
+        "captionEn": "21x29 cm | Technique: Synthetic charcoal"
       },
       {
         "id": "war-diary_11",
         "url": "/galleries/יומן מלחמה/יומן מלחמה2.jpg",
         "alt": "יומן מלחמה2",
         "orientation": "portrait",
-        "caption": "שתי תמונות, כל אחת 21x29 ס\"מ | טכניקה: פחם סינטטי"
+        "caption": "שתי תמונות, כל אחת 21x29 ס\"מ | טכניקה: פחם סינטטי",
+        "captionEn": "Two pictures, each 21x29 cm | Technique: Synthetic charcoal"
       },
       {
         "id": "war-diary_12",
         "url": "/galleries/יומן מלחמה/יומן מלחמה21.jpg",
         "alt": "יומן מלחמה21",
         "orientation": "portrait",
-        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי"
+        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי",
+        "captionEn": "21x29 cm | Technique: Synthetic charcoal"
       },
       {
         "id": "war-diary_13",
         "url": "/galleries/יומן מלחמה/יומן מלחמה22.jpg",
         "alt": "יומן מלחמה22",
         "orientation": "landscape",
-        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי"
+        "caption": "21x29 ס\"מ | טכניקה: פחם סינטטי",
+        "captionEn": "21x29 cm | Technique: Synthetic charcoal"
       },
       {
         "id": "war-diary_14",
         "url": "/galleries/יומן מלחמה/יומן מלחמה3.jpg",
         "alt": "יומן מלחמה3",
         "orientation": "portrait",
-        "caption": "שתי תמונות, כל אחת 21x29 ס\"מ | טכניקה: פחם סינטטי"
+        "caption": "שתי תמונות, כל אחת 21x29 ס\"מ | טכניקה: פחם סינטטי",
+        "captionEn": "Two pictures, each 21x29 cm | Technique: Synthetic charcoal"
       },
       {
         "id": "war-diary_15",
         "url": "/galleries/יומן מלחמה/יומן מלחמה4.jpg",
         "alt": "יומן מלחמה4",
         "orientation": "portrait",
-        "caption": "שלוש תמונות, כל אחת 21x29 ס\"מ | טכניקה: סנגווין"
+        "caption": "שלוש תמונות, כל אחת 21x29 ס\"מ | טכניקה: סנגווין",
+        "captionEn": "Three pictures, each 21x29 cm | Technique: Sanguine"
       },
       {
         "id": "war-diary_16",
         "url": "/galleries/יומן מלחמה/יומן מלחמה5.jpg",
         "alt": "יומן מלחמה5",
         "orientation": "landscape",
-        "caption": "21x29 ס\"מ | טכניקה: סנגווין"
+        "caption": "21x29 ס\"מ | טכניקה: סנגווין",
+        "captionEn": "21x29 cm | Technique: Sanguine"
       },
       {
         "id": "war-diary_17",
         "url": "/galleries/יומן מלחמה/יומן מלחמה6.jpg",
         "alt": "יומן מלחמה6",
         "orientation": "portrait",
-        "caption": "שתי תמונות, כל אחת 21x29 ס\"מ | טכניקה: סנגווין"
+        "caption": "שתי תמונות, כל אחת 21x29 ס\"מ | טכניקה: סנגווין",
+        "captionEn": "Two pictures, each 21x29 cm | Technique: Sanguine"
       },
       {
         "id": "war-diary_18",
         "url": "/galleries/יומן מלחמה/יומן מלחמה8.jpg",
         "alt": "יומן מלחמה8",
         "orientation": "landscape",
-        "caption": "שתי תמונות, כל אחת 21x29 ס\"מ | טכניקה: פחם סינטטי שחור"
+        "caption": "שתי תמונות, כל אחת 21x29 ס\"מ | טכניקה: פחם סינטטי שחור",
+        "captionEn": "Two pictures, each 21x29 cm | Technique: Black synthetic charcoal"
       },
       {
         "id": "war-diary_19",
         "url": "/galleries/יומן מלחמה/יומןמלחמה מגן דוד.jpg",
         "alt": "יומןמלחמה מגן דוד",
         "orientation": "landscape",
-        "caption": "29x21 ס\"מ | טכניקה: פחם סינטטי שחור"
+        "caption": "29x21 ס\"מ | טכניקה: פחם סינטטי שחור",
+        "captionEn": "29x21 cm | Technique: Black synthetic charcoal"
       },
       {
         "id": "war-diary_20",
         "url": "/galleries/יומן מלחמה/יונן מלחמה15.jpg",
         "alt": "יונן מלחמה15",
         "orientation": "landscape",
-        "caption": "21x29 ס\"מ | טכניקה: סנגווין ופחם סינטטי"
+        "caption": "21x29 ס\"מ | טכניקה: סנגווין ופחם סינטטי",
+        "captionEn": "21x29 cm | Technique: Sanguine and synthetic charcoal"
       },
       {
         "id": "war-diary_21",
         "url": "/galleries/יומן מלחמה/קיר יומן מלחמה בתערוכה.jpg",
         "alt": "קיר יומן מלחמה בתערוכה",
         "orientation": "landscape",
-        "caption": "240x120 ס\"מ"
+        "caption": "240x120 ס\"מ",
+        "captionEn": "240x120 cm"
       },
       {
         "id": "war-diary_22",
         "url": "/galleries/יומן מלחמה/קיר יומן מלחמה2.jpg",
         "alt": "קיר יומן מלחמה2",
         "orientation": "landscape",
-        "caption": "240x120 ס\"מ"
+        "caption": "240x120 ס\"מ",
+        "captionEn": "240x120 cm"
       }
     ]
   },
@@ -1310,133 +1451,152 @@ export const galleries = [
         "url": "/galleries/פיסות נוף/פיסות נוף תמונת הסבר.PNG",
         "alt": "פיסות נוף תמונת הסבר",
         "orientation": "landscape",
-        "caption": "הזמנה לתערוכה"
+        "caption": "הזמנה לתערוכה",
+        "captionEn": "Exhibition invitation"
       },
       {
         "id": "scenery-pieces_0",
         "url": "/galleries/פיסות נוף/פיסות נוף10.JPG",
         "alt": "פיסות נוף10",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית",
+        "captionEn": "100x70 cm | Technique: Oil paint and graphite pencil"
       },
       {
         "id": "scenery-pieces_1",
         "url": "/galleries/פיסות נוף/פיסות נוף11.JPG",
         "alt": "פיסות נוף11",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית",
+        "captionEn": "100x70 cm | Technique: Oil paint and graphite pencil"
       },
       {
         "id": "scenery-pieces_2",
         "url": "/galleries/פיסות נוף/פיסות נוף12.JPG",
         "alt": "פיסות נוף12",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית",
+        "captionEn": "100x70 cm | Technique: Oil paint and graphite pencil"
       },
       {
         "id": "scenery-pieces_3",
         "url": "/galleries/פיסות נוף/פיסות נוף14.jpg",
         "alt": "פיסות נוף14",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית",
+        "captionEn": "100x70 cm | Technique: Oil paint and graphite pencil"
       },
       {
         "id": "scenery-pieces_4",
         "url": "/galleries/פיסות נוף/פיסות נוף16.jpg",
         "alt": "פיסות נוף16",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית",
+        "captionEn": "100x70 cm | Technique: Oil paint and graphite pencil"
       },
       {
         "id": "scenery-pieces_5",
         "url": "/galleries/פיסות נוף/פיסות נוף17.jpg",
         "alt": "פיסות נוף17",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית",
+        "captionEn": "100x70 cm | Technique: Oil paint and graphite pencil"
       },
       {
         "id": "scenery-pieces_6",
         "url": "/galleries/פיסות נוף/פיסות נוף18.JPG",
         "alt": "פיסות נוף18",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית",
+        "captionEn": "100x70 cm | Technique: Oil paint and graphite pencil"
       },
       {
         "id": "scenery-pieces_7",
         "url": "/galleries/פיסות נוף/פיסות נוף19.JPG",
         "alt": "פיסות נוף19",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית",
+        "captionEn": "100x70 cm | Technique: Oil paint and graphite pencil"
       },
       {
         "id": "scenery-pieces_8",
         "url": "/galleries/פיסות נוף/פיסות נוף2.jpg",
         "alt": "פיסות נוף2",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית",
+        "captionEn": "100x70 cm | Technique: Oil paint and graphite pencil"
       },
       {
         "id": "scenery-pieces_9",
         "url": "/galleries/פיסות נוף/פיסות נוף20.JPG",
         "alt": "פיסות נוף20",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית",
+        "captionEn": "100x70 cm | Technique: Oil paint and graphite pencil"
       },
       {
         "id": "scenery-pieces_10",
         "url": "/galleries/פיסות נוף/פיסות נוף21.JPG",
         "alt": "פיסות נוף21",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית",
+        "captionEn": "100x70 cm | Technique: Oil paint and graphite pencil"
       },
       {
         "id": "scenery-pieces_11",
         "url": "/galleries/פיסות נוף/פיסות נוף3.JPG",
         "alt": "פיסות נוף3",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית",
+        "captionEn": "100x70 cm | Technique: Oil paint and graphite pencil"
       },
       {
         "id": "scenery-pieces_12",
         "url": "/galleries/פיסות נוף/פיסות נוף4.JPG",
         "alt": "פיסות נוף4",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית",
+        "captionEn": "100x70 cm | Technique: Oil paint and graphite pencil"
       },
       {
         "id": "scenery-pieces_13",
         "url": "/galleries/פיסות נוף/פיסות נוף5.JPG",
         "alt": "פיסות נוף5",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית",
+        "captionEn": "100x70 cm | Technique: Oil paint and graphite pencil"
       },
       {
         "id": "scenery-pieces_14",
         "url": "/galleries/פיסות נוף/פיסות נוף6.JPG",
         "alt": "פיסות נוף6",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית",
+        "captionEn": "100x70 cm | Technique: Oil paint and graphite pencil"
       },
       {
         "id": "scenery-pieces_15",
         "url": "/galleries/פיסות נוף/פיסות נוף8 (2).JPG",
         "alt": "פיסות נוף8 (2)",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית",
+        "captionEn": "100x70 cm | Technique: Oil paint and graphite pencil"
       },
       {
         "id": "scenery-pieces_16",
         "url": "/galleries/פיסות נוף/פיסות נוף8.jpg",
         "alt": "פיסות נוף8",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית",
+        "captionEn": "100x70 cm | Technique: Oil paint and graphite pencil"
       },
       {
         "id": "scenery-pieces_17",
         "url": "/galleries/פיסות נוף/פיסות נוף9.jpg",
         "alt": "פיסות נוף9",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית"
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן ועיפרון גרפית",
+        "captionEn": "100x70 cm | Technique: Oil paint and graphite pencil"
       }
     ]
   },
@@ -1455,287 +1615,328 @@ export const galleries = [
         "url": "/galleries/באקוורל/באקוורל/אקוורל10.JPG",
         "alt": "אקוורל10",
         "orientation": "landscape",
-        "caption": "35x25 ס\"מ | טכניקה: אקוורל"
+        "caption": "35x25 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "35x25 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_1",
         "url": "/galleries/באקוורל/באקוורל/אקוורל11.jpg",
         "alt": "אקוורל11",
         "orientation": "landscape",
-        "caption": "35x25 ס\"מ | טכניקה: אקוורל"
+        "caption": "35x25 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "35x25 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_2",
         "url": "/galleries/באקוורל/באקוורל/אקוורל12.jpg",
         "alt": "אקוורל12",
         "orientation": "portrait",
-        "caption": "45x35 ס\"מ | טכניקה: אקוורל"
+        "caption": "45x35 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "45x35 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_3",
         "url": "/galleries/באקוורל/באקוורל/אקוורל13.jpg",
         "alt": "אקוורל13",
         "orientation": "portrait",
-        "caption": "50x70 ס\"מ | טכניקה: אקוורל"
+        "caption": "50x70 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "50x70 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_4",
         "url": "/galleries/באקוורל/באקוורל/אקוורל14.JPG",
         "alt": "אקוורל14",
         "orientation": "landscape",
-        "caption": "35x25 ס\"מ | טכניקה: אקוורל"
+        "caption": "35x25 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "35x25 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_5",
         "url": "/galleries/באקוורל/באקוורל/אקוורל15.jpg",
         "alt": "אקוורל15",
         "orientation": "portrait",
-        "caption": "50x70 ס\"מ | טכניקה: אקוורל"
+        "caption": "50x70 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "50x70 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_6",
         "url": "/galleries/באקוורל/באקוורל/אקוורל16.JPG",
         "alt": "אקוורל16",
         "orientation": "portrait",
-        "caption": "25x35 ס\"מ | טכניקה: אקוורל"
+        "caption": "25x35 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "25x35 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_7",
         "url": "/galleries/באקוורל/באקוורל/אקוורל17.JPG",
         "alt": "אקוורל17",
         "orientation": "portrait",
-        "caption": "35x25 ס\"מ | טכניקה: אקוורל"
+        "caption": "35x25 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "35x25 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_8",
         "url": "/galleries/באקוורל/באקוורל/אקוורל18.JPG",
         "alt": "אקוורל18",
         "orientation": "landscape",
-        "caption": "50x35 ס\"מ | טכניקה: אקוורל"
+        "caption": "50x35 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "50x35 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_9",
         "url": "/galleries/באקוורל/באקוורל/אקוורל19.JPG",
         "alt": "אקוורל19",
         "orientation": "landscape",
-        "caption": "50x70 ס\"מ | טכניקה: אקוורל"
+        "caption": "50x70 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "50x70 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_10",
         "url": "/galleries/באקוורל/באקוורל/אקוורל2.JPG",
         "alt": "אקוורל2",
         "orientation": "landscape",
-        "caption": "80x75 ס\"מ | טכניקה: אקוורל"
+        "caption": "80x75 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "80x75 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_11",
         "url": "/galleries/באקוורל/באקוורל/אקוורל20.JPG",
         "alt": "אקוורל20",
         "orientation": "landscape",
-        "caption": "105x70 ס\"מ | טכניקה: אקוורל"
+        "caption": "105x70 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "105x70 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_12",
         "url": "/galleries/באקוורל/באקוורל/אקוורל21.JPG",
         "alt": "אקוורל21",
         "orientation": "landscape",
-        "caption": "105x70 ס\"מ | טכניקה: אקוורל"
+        "caption": "105x70 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "105x70 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_13",
         "url": "/galleries/באקוורל/באקוורל/אקוורל22.JPG",
         "alt": "אקוורל22",
         "orientation": "portrait",
-        "caption": "35x45 ס\"מ | טכניקה: אקוורל"
+        "caption": "35x45 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "35x45 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_14",
         "url": "/galleries/באקוורל/באקוורל/אקוורל23.JPG",
         "alt": "אקוורל23",
         "orientation": "landscape",
-        "caption": "35x45 ס\"מ | טכניקה: אקוורל"
+        "caption": "35x45 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "35x45 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_15",
         "url": "/galleries/באקוורל/באקוורל/אקוורל24.JPG",
         "alt": "אקוורל24",
         "orientation": "landscape",
-        "caption": "35x25 ס\"מ | טכניקה: אקוורל"
+        "caption": "35x25 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "35x25 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_16",
         "url": "/galleries/באקוורל/באקוורל/אקוורל25.jpg",
         "alt": "אקוורל25",
         "orientation": "landscape",
-        "caption": "35x25 ס\"מ | טכניקה: אקוורל"
+        "caption": "35x25 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "35x25 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_17",
         "url": "/galleries/באקוורל/באקוורל/אקוורל26.jpg",
         "alt": "אקוורל26",
         "orientation": "portrait",
-        "caption": "25x35 ס\"מ | טכניקה: אקוורל"
+        "caption": "25x35 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "25x35 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_18",
         "url": "/galleries/באקוורל/באקוורל/אקוורל27.JPG",
         "alt": "אקוורל27",
         "orientation": "portrait",
-        "caption": "50x70 ס\"מ | טכניקה: אקוורל"
+        "caption": "50x70 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "50x70 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_19",
         "url": "/galleries/באקוורל/באקוורל/אקוורל28.jpg",
         "alt": "אקוורל28",
         "orientation": "landscape",
-        "caption": "טכניקה: אקוורל"
+        "caption": "טכניקה: אקוורל",
+        "captionEn": "Technique: Watercolor"
       },
       {
         "id": "gallery_5_21",
         "url": "/galleries/באקוורל/באקוורל/אקוורל3.jpg",
         "alt": "אקוורל3",
         "orientation": "landscape",
-        "caption": "70x50 ס\"מ | טכניקה: אקוורל"
+        "caption": "70x50 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "70x50 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_22",
         "url": "/galleries/באקוורל/באקוורל/אקוורל30.JPG",
         "alt": "אקוורל30",
         "orientation": "landscape",
-        "caption": "35x45 ס\"מ | טכניקה: אקוורל"
+        "caption": "35x45 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "35x45 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_23",
         "url": "/galleries/באקוורל/באקוורל/אקוורל39.jpg",
         "alt": "אקוורל39",
         "orientation": "portrait",
-        "caption": "25x16 ס\"מ | טכניקה: אקוורל"
+        "caption": "25x16 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "25x16 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_24",
         "url": "/galleries/באקוורל/באקוורל/אקוורל4.jpg",
         "alt": "אקוורל4",
         "orientation": "portrait",
-        "caption": "70x50 ס\"מ | טכניקה: אקוורל"
+        "caption": "70x50 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "70x50 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_25",
         "url": "/galleries/באקוורל/באקוורל/אקוורל5.JPG",
         "alt": "אקוורל5",
         "orientation": "landscape",
-        "caption": "90x60 ס\"מ | טכניקה: אקוורל"
+        "caption": "90x60 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "90x60 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_26",
         "url": "/galleries/באקוורל/באקוורל/אקוורל6.jpg",
         "alt": "אקוורל6",
         "orientation": "landscape",
-        "caption": "24x17 ס\"מ | טכניקה: אקוורל"
+        "caption": "24x17 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "24x17 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_27",
         "url": "/galleries/באקוורל/באקוורל/אקוורל7.jpg",
         "alt": "אקוורל7",
         "orientation": "landscape",
-        "caption": "24x17 ס\"מ | טכניקה: אקוורל"
+        "caption": "24x17 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "24x17 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_28",
         "url": "/galleries/באקוורל/באקוורל/אקוורל8.JPG",
         "alt": "אקוורל8",
         "orientation": "portrait",
-        "caption": "24x17 ס\"מ | טכניקה: אקוורל"
+        "caption": "24x17 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "24x17 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_29",
         "url": "/galleries/באקוורל/באקוורל/אקוורל9.JPG",
         "alt": "אקוורל9",
         "orientation": "portrait",
-        "caption": "50x70 ס\"מ | טכניקה: אקוורל"
+        "caption": "50x70 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "50x70 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_30",
         "url": "/galleries/באקוורל/באקוורל/באקוורל30.jpg",
         "alt": "באקוורל30",
         "orientation": "portrait",
-        "caption": "35x45 ס\"מ | טכניקה: אקוורל"
+        "caption": "35x45 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "35x45 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_32",
         "url": "/galleries/באקוורל/באקוורל/באקוורל35.jpg",
         "alt": "באקוורל35",
         "orientation": "portrait",
-        "caption": "35x50 ס\"מ | טכניקה: אקוורל"
+        "caption": "35x50 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "35x50 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_33",
         "url": "/galleries/באקוורל/באקוורל/באקוורל36.jpg",
         "alt": "באקוורל36",
         "orientation": "landscape",
-        "caption": "35x25 ס\"מ | טכניקה: אקוורל"
+        "caption": "35x25 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "35x25 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_34",
         "url": "/galleries/באקוורל/באקוורל/באקוורל37.jpg",
         "alt": "באקוורל37",
         "orientation": "portrait",
-        "caption": "35x45 ס\"מ | טכניקה: אקוורל"
+        "caption": "35x45 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "35x45 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_35",
         "url": "/galleries/באקוורל/באקוורל/באקוורל38.jpg",
         "alt": "באקוורל38",
         "orientation": "portrait",
-        "caption": "45x35 ס\"מ | טכניקה: אקוורל"
+        "caption": "45x35 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "45x35 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_36",
         "url": "/galleries/באקוורל/באקוורל/באקוורל49.jpg",
         "alt": "באקוורל49",
         "orientation": "landscape",
-        "caption": "50x70 ס\"מ | טכניקה: אקוורל"
+        "caption": "50x70 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "50x70 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_37",
         "url": "/galleries/באקוורל/באקוורל/נוף באקוורל.JPG",
         "alt": "נוף באקוורל",
         "orientation": "landscape",
-        "caption": "25x35 ס\"מ | טכניקה: אקוורל"
+        "caption": "25x35 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "25x35 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_38",
         "url": "/galleries/באקוורל/באקוורל/נוף בכחול וסגול באקוורל.JPG",
         "alt": "נוף בכחול וסגול באקוורל",
         "orientation": "landscape",
-        "caption": "25x35 ס\"מ | טכניקה: אקוורל"
+        "caption": "25x35 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "25x35 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_39",
         "url": "/galleries/באקוורל/באקוורל/נוף כביש אדום.JPG",
         "alt": "נוף כביש אדום",
         "orientation": "landscape",
-        "caption": "25x35 ס\"מ | טכניקה: אקוורל"
+        "caption": "25x35 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "25x35 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_40",
         "url": "/galleries/באקוורל/באקוורל/נוף מהמרפסת.jpg",
         "alt": "נוף מהמרפסת",
         "orientation": "landscape",
-        "caption": "35x25 ס\"מ | טכניקה: אקוורל"
+        "caption": "35x25 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "35x25 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_41",
         "url": "/galleries/באקוורל/באקוורל/נוף קטן באקוורל.jpg",
         "alt": "נוף קטן באקוורל",
         "orientation": "landscape",
-        "caption": "25x16 ס\"מ | טכניקה: אקוורל"
+        "caption": "25x16 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "25x16 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_5_42",
         "url": "/galleries/באקוורל/באקוורל/סירות בקישון.jpg",
         "alt": "סירות בקישון",
         "orientation": "landscape",
-        "caption": "35x45 ס\"מ | טכניקה: אקוורל"
+        "caption": "35x45 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "35x45 cm | Technique: Watercolor"
       }
     ]
   },
@@ -1754,119 +1955,136 @@ export const galleries = [
         "url": "/galleries/מיקי/מיקי10.jpg",
         "alt": "מיקי10",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: פחמים | מצע: ג'סו על נייר"
+        "caption": "100x70 ס\"מ | טכניקה: פחמים | מצע: ג'סו על נייר",
+        "captionEn": "100x70 cm | Technique: Charcoal | Medium: gesso on paper"
       },
       {
         "id": "miki_1",
         "url": "/galleries/מיקי/מיקי12.jpg",
         "alt": "מיקי12",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: שמן וגרפית"
+        "caption": "100x70 ס\"מ | טכניקה: שמן וגרפית",
+        "captionEn": "100x70 cm | Technique: Oil and graphite"
       },
       {
         "id": "miki_2",
         "url": "/galleries/מיקי/מיקי14.jpg",
         "alt": "מיקי14",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבע שמן"
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן",
+        "captionEn": "100x70 cm | Technique: Oil paint"
       },
       {
         "id": "miki_3",
         "url": "/galleries/מיקי/מיקי15.jpg",
         "alt": "מיקי15",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית"
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית",
+        "captionEn": "100x70 cm | Technique: Acrylic and graphite"
       },
       {
         "id": "miki_4",
         "url": "/galleries/מיקי/מיקי16.jpg",
         "alt": "מיקי16",
         "orientation": "portrait",
-        "caption": "24x17 ס\"מ | טכניקה: אקוורל"
+        "caption": "24x17 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "24x17 cm | Technique: Watercolor"
       },
       {
         "id": "miki_5",
         "url": "/galleries/מיקי/מיקי17.jpg",
         "alt": "מיקי17",
         "orientation": "portrait",
-        "caption": "35x45 ס\"מ | טכניקה: אקוורל"
+        "caption": "35x45 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "35x45 cm | Technique: Watercolor"
       },
       {
         "id": "miki_6",
         "url": "/galleries/מיקי/מיקי18.jpg",
         "alt": "מיקי18",
         "orientation": "landscape",
-        "caption": "24x17 ס\"מ | טכניקה: אקוורל"
+        "caption": "24x17 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "24x17 cm | Technique: Watercolor"
       },
       {
         "id": "miki_7",
         "url": "/galleries/מיקי/מיקי2.jpg",
         "alt": "מיקי2",
         "orientation": "portrait",
-        "caption": "100x80 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "100x80 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "100x80 cm | Technique: Oil paints"
       },
       {
         "id": "miki_8",
         "url": "/galleries/מיקי/מיקי20.jpg",
         "alt": "מיקי20",
         "orientation": "landscape",
-        "caption": "17x24 ס\"מ | טכניקה: אקוורל"
+        "caption": "17x24 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "17x24 cm | Technique: Watercolor"
       },
       {
         "id": "miki_9",
         "url": "/galleries/מיקי/מיקי22.jpg",
         "alt": "מיקי22",
         "orientation": "portrait",
-        "caption": "50x70 ס\"מ | טכניקה: אקוורל"
+        "caption": "50x70 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "50x70 cm | Technique: Watercolor"
       },
       {
         "id": "miki_10",
         "url": "/galleries/מיקי/מיקי23.jpg",
         "alt": "מיקי23",
         "orientation": "portrait",
-        "caption": "50x70 ס\"מ | טכניקה: אקוורל"
+        "caption": "50x70 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "50x70 cm | Technique: Watercolor"
       },
       {
         "id": "miki_11",
         "url": "/galleries/מיקי/מיקי24.jpg",
         "alt": "מיקי24",
         "orientation": "landscape",
-        "caption": "25x35 ס\"מ | טכניקה: אקוורל"
+        "caption": "25x35 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "25x35 cm | Technique: Watercolor"
       },
       {
         "id": "miki_12",
         "url": "/galleries/מיקי/מיקי4.jpg",
         "alt": "מיקי4",
         "orientation": "landscape",
-        "caption": "50x70 ס\"מ | טכניקה: אקוורל"
+        "caption": "50x70 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "50x70 cm | Technique: Watercolor"
       },
       {
         "id": "miki_13",
         "url": "/galleries/מיקי/מיקי5.jpg",
         "alt": "מיקי5",
         "orientation": "portrait",
-        "caption": "35x45 ס\"מ | טכניקה: אקוורל"
+        "caption": "35x45 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "35x45 cm | Technique: Watercolor"
       },
       {
         "id": "miki_14",
         "url": "/galleries/מיקי/מיקי7.jpg",
         "alt": "מיקי7",
         "orientation": "landscape",
-        "caption": "90x70 ס\"מ | טכניקה: אקוורל"
+        "caption": "90x70 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "90x70 cm | Technique: Watercolor"
       },
       {
         "id": "miki_15",
         "url": "/galleries/מיקי/מיקי8.jpg",
         "alt": "מיקי8",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: אקריליק | מצע: ג'סו מרוח על נייר"
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק | מצע: ג'סו מרוח על נייר",
+        "captionEn": "100x70 cm | Technique: Acrylic | Medium: gesso on paper"
       },
       {
         "id": "miki_16",
         "url": "/galleries/מיקי/מיקי9.jpg",
         "alt": "מיקי9",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: פחמים | מצע: ג'סו על נייר"
+        "caption": "100x70 ס\"מ | טכניקה: פחמים | מצע: ג'סו על נייר",
+        "captionEn": "100x70 cm | Technique: Charcoal | Medium: gesso on paper"
       }
     ]
   },
@@ -1885,77 +2103,88 @@ export const galleries = [
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן10.JPG",
         "alt": "כמעט שחור לבן10",
         "orientation": "landscape",
-        "caption": "150x100 ס\"מ | טכניקה: אקריליק וגירים"
+        "caption": "150x100 ס\"מ | טכניקה: אקריליק וגירים",
+        "captionEn": "150x100 cm | Technique: Acrylic and pastels"
       },
       {
         "id": "almost-black-and-white_1",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן11.JPG",
         "alt": "כמעט שחור לבן11",
         "orientation": "landscape",
-        "caption": "140x100 ס\"מ | טכניקה: אקריליק וגירים"
+        "caption": "140x100 ס\"מ | טכניקה: אקריליק וגירים",
+        "captionEn": "140x100 cm | Technique: Acrylic and pastels"
       },
       {
         "id": "almost-black-and-white_2",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן12.JPG",
         "alt": "כמעט שחור לבן12",
         "orientation": "landscape",
-        "caption": "130x100 ס\"מ | טכניקה: אקריליק וגירים"
+        "caption": "130x100 ס\"מ | טכניקה: אקריליק וגירים",
+        "captionEn": "130x100 cm | Technique: Acrylic and pastels"
       },
       {
         "id": "almost-black-and-white_3",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן13.JPG",
         "alt": "כמעט שחור לבן13",
         "orientation": "landscape",
-        "caption": "140x100 ס\"מ | טכניקה: אקריליק וגירים"
+        "caption": "140x100 ס\"מ | טכניקה: אקריליק וגירים",
+        "captionEn": "140x100 cm | Technique: Acrylic and pastels"
       },
       {
         "id": "almost-black-and-white_4",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן14.JPG",
         "alt": "כמעט שחור לבן14",
         "orientation": "landscape",
-        "caption": "140x100 ס\"מ | טכניקה: אקריליק ופחם"
+        "caption": "140x100 ס\"מ | טכניקה: אקריליק ופחם",
+        "captionEn": "140x100 cm | Technique: Acrylic and charcoal"
       },
       {
         "id": "almost-black-and-white_5",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן15.JPG",
         "alt": "כמעט שחור לבן15",
         "orientation": "landscape",
-        "caption": "120x100 ס\"מ | טכניקה: אקריליק ופחם"
+        "caption": "120x100 ס\"מ | טכניקה: אקריליק ופחם",
+        "captionEn": "120x100 cm | Technique: Acrylic and charcoal"
       },
       {
         "id": "almost-black-and-white_6",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן3.JPG",
         "alt": "כמעט שחור לבן3",
         "orientation": "landscape",
-        "caption": "120x100 ס\"מ | טכניקה: פחם סינטטי"
+        "caption": "120x100 ס\"מ | טכניקה: פחם סינטטי",
+        "captionEn": "120x100 cm | Technique: Synthetic charcoal"
       },
       {
         "id": "almost-black-and-white_7",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן5 (2).JPG",
         "alt": "כמעט שחור לבן5 (2)",
         "orientation": "portrait",
-        "caption": "120x100 ס\"מ | טכניקה: אקריליק וגירים"
+        "caption": "120x100 ס\"מ | טכניקה: אקריליק וגירים",
+        "captionEn": "120x100 cm | Technique: Acrylic and pastels"
       },
       {
         "id": "almost-black-and-white_8",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן6.JPG",
         "alt": "כמעט שחור לבן6",
         "orientation": "landscape",
-        "caption": "140x100 ס\"מ | טכניקה: אקריליק וגירים"
+        "caption": "140x100 ס\"מ | טכניקה: אקריליק וגירים",
+        "captionEn": "140x100 cm | Technique: Acrylic and pastels"
       },
       {
         "id": "almost-black-and-white_9",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן7.jpg",
         "alt": "כמעט שחור לבן7",
         "orientation": "landscape",
-        "caption": "130x100 ס\"מ | טכניקה: אקריליק ופחם"
+        "caption": "130x100 ס\"מ | טכניקה: אקריליק ופחם",
+        "captionEn": "130x100 cm | Technique: Acrylic and charcoal"
       },
       {
         "id": "almost-black-and-white_10",
         "url": "/galleries/כמעט שחור לבן/כמעט שחור לבן8.jpg",
         "alt": "כמעט שחור לבן8",
         "orientation": "landscape",
-        "caption": "130x100 ס\"מ | טכניקה: צבע אקריליק ופחם"
+        "caption": "130x100 ס\"מ | טכניקה: צבע אקריליק ופחם",
+        "captionEn": "130x100 cm | Technique: Acrylic paint and charcoal"
       }
     ]
   },
@@ -2064,217 +2293,248 @@ export const galleries = [
         "url": "/galleries/בין לבין/בין לבין10.JPG",
         "alt": "בין לבין10",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_1",
         "url": "/galleries/בין לבין/בין לבין11.jpg",
         "alt": "בין לבין11",
         "orientation": "portrait",
-        "caption": "30x40 ס\"מ | טכניקה: עיפרון רך"
+        "caption": "30x40 ס\"מ | טכניקה: עיפרון רך",
+        "captionEn": "30x40 cm | Technique: Soft pencil"
       },
       {
         "id": "between-between_2",
         "url": "/galleries/בין לבין/בין לבין12.jpg",
         "alt": "בין לבין12",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_3",
         "url": "/galleries/בין לבין/בין לבין13.jpg",
         "alt": "בין לבין13",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_4",
         "url": "/galleries/בין לבין/בין לבין14.jpg",
         "alt": "בין לבין14",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_5",
         "url": "/galleries/בין לבין/בין לבין15.jpg",
         "alt": "בין לבין15",
         "orientation": "portrait",
-        "caption": "30x40 ס\"מ | טכניקה: עיפרון רך"
+        "caption": "30x40 ס\"מ | טכניקה: עיפרון רך",
+        "captionEn": "30x40 cm | Technique: Soft pencil"
       },
       {
         "id": "between-between_6",
         "url": "/galleries/בין לבין/בין לבין16.jpg",
         "alt": "בין לבין16",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_7",
         "url": "/galleries/בין לבין/בין לבין17.jpg",
         "alt": "בין לבין17",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_8",
         "url": "/galleries/בין לבין/בין לבין18.jpg",
         "alt": "בין לבין18",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_9",
         "url": "/galleries/בין לבין/בין לבין19.jpg",
         "alt": "בין לבין19",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_10",
         "url": "/galleries/בין לבין/בין לבין2.jpg",
         "alt": "בין לבין2",
         "orientation": "portrait",
-        "caption": "30x40 ס\"מ | טכניקה: עיפרון רך"
+        "caption": "30x40 ס\"מ | טכניקה: עיפרון רך",
+        "captionEn": "30x40 cm | Technique: Soft pencil"
       },
       {
         "id": "between-between_11",
         "url": "/galleries/בין לבין/בין לבין20.jpg",
         "alt": "בין לבין20",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_12",
         "url": "/galleries/בין לבין/בין לבין21.jpg",
         "alt": "בין לבין21",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_13",
         "url": "/galleries/בין לבין/בין לבין23.jpg",
         "alt": "בין לבין23",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_14",
         "url": "/galleries/בין לבין/בין לבין24.jpg",
         "alt": "בין לבין24",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_15",
         "url": "/galleries/בין לבין/בין לבין26.JPG",
         "alt": "בין לבין26",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_16",
         "url": "/galleries/בין לבין/בין לבין27.jpg",
         "alt": "בין לבין27",
         "orientation": "landscape",
-        "caption": "30x40 ס\"מ | טכניקה: עיפרון רך"
+        "caption": "30x40 ס\"מ | טכניקה: עיפרון רך",
+        "captionEn": "30x40 cm | Technique: Soft pencil"
       },
       {
         "id": "between-between_17",
         "url": "/galleries/בין לבין/בין לבין28.jpg",
         "alt": "בין לבין28",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_18",
         "url": "/galleries/בין לבין/בין לבין29.jpg",
         "alt": "בין לבין29",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_19",
         "url": "/galleries/בין לבין/בין לבין3.jpg",
         "alt": "בין לבין3",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_20",
         "url": "/galleries/בין לבין/בין לבין30.jpg",
         "alt": "בין לבין30",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_21",
         "url": "/galleries/בין לבין/בין לבין31.jpg",
         "alt": "בין לבין31",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_22",
         "url": "/galleries/בין לבין/בין לבין32.jpg",
         "alt": "בין לבין32",
         "orientation": "portrait",
-        "caption": "30x40 ס\"מ | טכניקה: עיפרון רך"
+        "caption": "30x40 ס\"מ | טכניקה: עיפרון רך",
+        "captionEn": "30x40 cm | Technique: Soft pencil"
       },
       {
         "id": "between-between_23",
         "url": "/galleries/בין לבין/בין לבין33.jpg",
         "alt": "בין לבין33",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_24",
         "url": "/galleries/בין לבין/בין לבין4.jpg",
         "alt": "בין לבין4",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_25",
         "url": "/galleries/בין לבין/בין לבין6.JPG",
         "alt": "בין לבין6",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_26",
         "url": "/galleries/בין לבין/בין לבין7.jpg",
         "alt": "בין לבין7",
         "orientation": "portrait",
-        "caption": "30x40 ס\"מ | טכניקה: עיפרון רך"
+        "caption": "30x40 ס\"מ | טכניקה: עיפרון רך",
+        "captionEn": "30x40 cm | Technique: Soft pencil"
       },
       {
         "id": "between-between_27",
         "url": "/galleries/בין לבין/בין לבין8.jpg",
         "alt": "בין לבין8",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_28",
         "url": "/galleries/בין לבין/בין לבין9.jpg",
         "alt": "בין לבין9",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
       {
         "id": "between-between_29",
         "url": "/galleries/בין לבין/ביןלבין25.jpg",
         "alt": "ביןלבין25",
         "orientation": "portrait",
-        "caption": "30x40 ס\"מ | טכניקה: עיפרון רך"
+        "caption": "30x40 ס\"מ | טכניקה: עיפרון רך",
+        "captionEn": "30x40 cm | Technique: Soft pencil"
       },
       {
         "id": "between-between_30",
         "url": "/galleries/בין לבין/קנאה.JPG",
         "alt": "קנאה",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים"
+        "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
+        "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       }
     ]
   },
@@ -2293,56 +2553,64 @@ export const galleries = [
         "url": "/galleries/וריאציות על נושא/DSCN9023a.jpg",
         "alt": "DSCN9023a",
         "orientation": "landscape",
-        "caption": "140x100 ס\"מ | טכניקה: אקריליק וגרפית"
+        "caption": "140x100 ס\"מ | טכניקה: אקריליק וגרפית",
+        "captionEn": "140x100 cm | Technique: Acrylic and graphite"
       },
       {
         "id": "gallery_7_1",
         "url": "/galleries/וריאציות על נושא/וריאציות על נושא4a.jpg",
         "alt": "וריאציות על נושא4a",
         "orientation": "landscape",
-        "caption": "140x100 ס\"מ | טכניקה: אקריליק ופחמים סינטטיים"
+        "caption": "140x100 ס\"מ | טכניקה: אקריליק ופחמים סינטטיים",
+        "captionEn": "140x100 cm | Technique: Acrylic and synthetic charcoal"
       },
       {
         "id": "gallery_7_2",
         "url": "/galleries/וריאציות על נושא/וריאציות על נושא6a.jpg",
         "alt": "וריאציות על נושא6a",
         "orientation": "portrait",
-        "caption": "150x100 ס\"מ | טכניקה: אקריליק וגירים"
+        "caption": "150x100 ס\"מ | טכניקה: אקריליק וגירים",
+        "captionEn": "150x100 cm | Technique: Acrylic and pastels"
       },
       {
         "id": "gallery_7_3",
         "url": "/galleries/וריאציות על נושא/וריאציות על נושא7.JPG",
         "alt": "וריאציות על נושא7",
         "orientation": "landscape",
-        "caption": "150x100 ס\"מ | טכניקה: אקריליק וגירים"
+        "caption": "150x100 ס\"מ | טכניקה: אקריליק וגירים",
+        "captionEn": "150x100 cm | Technique: Acrylic and pastels"
       },
       {
         "id": "gallery_7_4",
         "url": "/galleries/וריאציות על נושא/כמעט שחור לבן5.JPG",
         "alt": "כמעט שחור לבן5",
         "orientation": "landscape",
-        "caption": "140x100 ס\"מ | טכניקה: אקריליק וגירים"
+        "caption": "140x100 ס\"מ | טכניקה: אקריליק וגירים",
+        "captionEn": "140x100 cm | Technique: Acrylic and pastels"
       },
       {
         "id": "gallery_7_5",
         "url": "/galleries/וריאציות על נושא/כמעט שחור לבן6.JPG",
         "alt": "כמעט שחור לבן6",
         "orientation": "landscape",
-        "caption": "140x100 ס\"מ | טכניקה: אקריליק וגירים"
+        "caption": "140x100 ס\"מ | טכניקה: אקריליק וגירים",
+        "captionEn": "140x100 cm | Technique: Acrylic and pastels"
       },
       {
         "id": "gallery_7_6",
         "url": "/galleries/וריאציות על נושא/מקור.jpeg",
         "alt": "מקור",
         "orientation": "portrait",
-        "caption": "55x75 ס\"מ | טכניקה: אקוורל"
+        "caption": "55x75 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "55x75 cm | Technique: Watercolor"
       },
       {
         "id": "gallery_7_7",
         "url": "/galleries/וריאציות על נושא/‏‏a - עותק.jpg",
         "alt": "‏‏a - עותק",
         "orientation": "landscape",
-        "caption": "150x100 ס\"מ | טכניקה: אקריליק וגירים"
+        "caption": "150x100 ס\"מ | טכניקה: אקריליק וגירים",
+        "captionEn": "150x100 cm | Technique: Acrylic and pastels"
       }
     ]
   },
@@ -2541,126 +2809,144 @@ export const galleries = [
         "url": "/galleries/עירום מהמוזיאון/20200915_143827.jpg",
         "alt": "20200915_143827",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: גרפית | מצע: נייר"
+        "caption": "100x70 ס\"מ | טכניקה: גרפית | מצע: נייר",
+        "captionEn": "100x70 cm | Technique: Graphite | Medium: Paper"
       },
       {
         "id": "nude-museum_1",
         "url": "/galleries/עירום מהמוזיאון/20200915_143901.jpg",
         "alt": "20200915_143901",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: גרפית | מצע: נייר"
+        "caption": "100x70 ס\"מ | טכניקה: גרפית | מצע: נייר",
+        "captionEn": "100x70 cm | Technique: Graphite | Medium: Paper"
       },
       {
         "id": "nude-museum_2",
         "url": "/galleries/עירום מהמוזיאון/20200915_144616.jpg",
         "alt": "20200915_144616",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק",
+        "captionEn": "100x70 cm | Technique: Acrylic"
       },
       {
         "id": "nude-museum_3",
         "url": "/galleries/עירום מהמוזיאון/20200915_144641.jpg",
         "alt": "20200915_144641",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק",
+        "captionEn": "100x70 cm | Technique: Acrylic"
       },
       {
         "id": "nude-museum_4",
         "url": "/galleries/עירום מהמוזיאון/20200915_145012.jpg",
         "alt": "20200915_145012",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית"
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית",
+        "captionEn": "100x70 cm | Technique: Acrylic and graphite"
       },
       {
         "id": "nude-museum_5",
         "url": "/galleries/עירום מהמוזיאון/20200915_145039.jpg",
         "alt": "20200915_145039",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק",
+        "captionEn": "100x70 cm | Technique: Acrylic"
       },
       {
         "id": "nude-museum_6",
         "url": "/galleries/עירום מהמוזיאון/20200915_145059.jpg",
         "alt": "20200915_145059",
         "orientation": "portrait",
-        "caption": "70x50 ס\"מ | טכניקה: אקריליק וגרפית"
+        "caption": "70x50 ס\"מ | טכניקה: אקריליק וגרפית",
+        "captionEn": "70x50 cm | Technique: Acrylic and graphite"
       },
       {
         "id": "nude-museum_7",
         "url": "/galleries/עירום מהמוזיאון/20200915_145211.jpg",
         "alt": "20200915_145211",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק",
+        "captionEn": "100x70 cm | Technique: Acrylic"
       },
       {
         "id": "nude-museum_8",
         "url": "/galleries/עירום מהמוזיאון/20200915_145454.jpg",
         "alt": "20200915_145454",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: אקריליק"
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק",
+        "captionEn": "100x70 cm | Technique: Acrylic"
       },
       {
         "id": "nude-museum_9",
         "url": "/galleries/עירום מהמוזיאון/גבר עירום  על הגב בעיפרון.jpg",
         "alt": "גבר עירום על הגב בעיפרון",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: עיפרון גרפית"
+        "caption": "100x70 ס\"מ | טכניקה: עיפרון גרפית",
+        "captionEn": "100x70 cm | Technique: Graphite pencil"
       },
       {
         "id": "nude-museum_10",
         "url": "/galleries/עירום מהמוזיאון/גבר עירום עם רגל על השולחן.jpg",
         "alt": "גבר עירום עם רגל על השולחן",
         "orientation": "landscape",
-        "caption": "70x50 ס\"מ | טכניקה: עיפרון גרפית"
+        "caption": "70x50 ס\"מ | טכניקה: עיפרון גרפית",
+        "captionEn": "70x50 cm | Technique: Graphite pencil"
       },
       {
         "id": "nude-museum_11",
         "url": "/galleries/עירום מהמוזיאון/מהגב על ניר חום.jpg",
         "alt": "מהגב על ניר חום",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגיר לבן"
+        "caption": "100x70 ס\"מ | טכניקה: אקריליק וגיר לבן",
+        "captionEn": "100x70 cm | Technique: Acrylic and white chalk"
       },
       {
         "id": "nude-museum_12",
         "url": "/galleries/עירום מהמוזיאון/מהצד על ניר חום.jpg",
         "alt": "מהצד על ניר חום",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: גירים | מצע: נייר חום"
+        "caption": "100x70 ס\"מ | טכניקה: גירים | מצע: נייר חום",
+        "captionEn": "100x70 cm | Technique: Pastels | Medium: Brown paper"
       },
       {
         "id": "nude-museum_13",
         "url": "/galleries/עירום מהמוזיאון/מוזיאון8.JPG",
         "alt": "מוזיאון8",
         "orientation": "portrait",
-        "caption": "50x70 ס\"מ | טכניקה: אקריליק"
+        "caption": "50x70 ס\"מ | טכניקה: אקריליק",
+        "captionEn": "50x70 cm | Technique: Acrylic"
       },
       {
         "id": "nude-museum_14",
         "url": "/galleries/עירום מהמוזיאון/מוזיאון9.JPG",
         "alt": "מוזיאון9",
         "orientation": "portrait",
-        "caption": "70x50 ס\"מ | טכניקה: אקריליק"
+        "caption": "70x50 ס\"מ | טכניקה: אקריליק",
+        "captionEn": "70x50 cm | Technique: Acrylic"
       },
       {
         "id": "nude-museum_15",
         "url": "/galleries/עירום מהמוזיאון/עירום יושב.jpg",
         "alt": "עירום יושב",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: עיפרון גרפית"
+        "caption": "100x70 ס\"מ | טכניקה: עיפרון גרפית",
+        "captionEn": "100x70 cm | Technique: Graphite pencil"
       },
       {
         "id": "nude-museum_16",
         "url": "/galleries/עירום מהמוזיאון/על הגב טורסו ורגליים בעיפרון.jpg",
         "alt": "על הגב טורסו ורגליים בעיפרון",
         "orientation": "landscape",
-        "caption": "100x70 ס\"מ | טכניקה: עיפרון גרפית"
+        "caption": "100x70 ס\"מ | טכניקה: עיפרון גרפית",
+        "captionEn": "100x70 cm | Technique: Graphite pencil"
       },
       {
         "id": "nude-museum_17",
         "url": "/galleries/עירום מהמוזיאון/על הצד בסגול.jpg",
         "alt": "על הצד בסגול",
         "orientation": "landscape",
-        "caption": "70x50 ס\"מ | טכניקה: אקריליק"
+        "caption": "70x50 ס\"מ | טכניקה: אקריליק",
+        "captionEn": "70x50 cm | Technique: Acrylic"
       }
     ]
   },
