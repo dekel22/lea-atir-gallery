@@ -141,7 +141,10 @@ const Gallery = () => {
     });
 
     const rows3 = [];
-    const leftovers = [];
+    
+    // We will separate leftover images into pairs of 2 (identical size/orientation) and singles (1 image of a size, or unknown)
+    const pairs = [];
+    const singles = [];
 
     // Process groups with known sizes
     Object.keys(groups).forEach((key) => {
@@ -177,26 +180,55 @@ const Gallery = () => {
         });
       }
 
-      // Add remainders of 1 or 2 to leftovers pool
+      // Add remainders of 1 or 2 to either pairs or singles
       const remainder = imgs.slice(fullRowsCount * chunkSize);
-      leftovers.push(...remainder);
+      if (remainder.length === 2) {
+        pairs.push(remainder); // array of 2 images
+      } else if (remainder.length === 1) {
+        singles.push(remainder[0]); // single image
+      }
     });
 
-    // Process unknown sizes at the end
+    // Process unknown sizes at the end as singles
     if (groups['unknown'] && groups['unknown'].length > 0) {
-      leftovers.push(...groups['unknown']);
+      singles.push(...groups['unknown']);
     }
 
-    // Chunk all leftovers/mixed images into rows of 3
+    // Now, combine pairs with singles into rows of 3 (placing the pair side-by-side)
     const leftoverRows = [];
-    const chunkSize = 3;
-    for (let i = 0; i < leftovers.length; i += chunkSize) {
-      const chunk = leftovers.slice(i, i + chunkSize);
+    let pairIndex = 0;
+    let singleIndex = 0;
+
+    while (pairIndex < pairs.length && singleIndex < singles.length) {
+      const pair = pairs[pairIndex++];
+      const single = singles[singleIndex++];
       leftoverRows.push({
-        id: `row_leftover_${i}`,
+        id: `row_leftover_pair_${pairIndex}`,
         size: 'mixed',
         orientation: 'mixed',
         aspectRatio: 1, // square cards to align mixed ratios beautifully
+        images: [single, ...pair] // single first, then pair so the pair is adjacent
+      });
+    }
+
+    // Gather any leftover unpaired items
+    const remainingLeftovers = [];
+    while (pairIndex < pairs.length) {
+      remainingLeftovers.push(...pairs[pairIndex++]);
+    }
+    while (singleIndex < singles.length) {
+      remainingLeftovers.push(singles[singleIndex++]);
+    }
+
+    // Chunk the remaining unpaired leftovers into rows of 3
+    const chunkSize = 3;
+    for (let i = 0; i < remainingLeftovers.length; i += chunkSize) {
+      const chunk = remainingLeftovers.slice(i, i + chunkSize);
+      leftoverRows.push({
+        id: `row_leftover_rem_${i}`,
+        size: 'mixed',
+        orientation: 'mixed',
+        aspectRatio: 1,
         images: chunk
       });
     }
@@ -206,8 +238,8 @@ const Gallery = () => {
     };
   };
 
-  const isWatercolor = gallery.id === 'gallery_5';
-  const { rows } = isWatercolor ? processImages() : { rows: [] };
+  const useAlignedGrid = gallery.id === 'gallery_5' || gallery.id === 'gallery_3';
+  const { rows } = useAlignedGrid ? processImages() : { rows: [] };
 
   return (
     <div className="gallery-page animate-fade-in">
@@ -241,7 +273,7 @@ const Gallery = () => {
       </div>
 
       <div className="container section">
-        {isWatercolor ? (
+        {useAlignedGrid ? (
           <div className="gallery-watercolor-container">
             {rows.map((row) => (
               <div 
