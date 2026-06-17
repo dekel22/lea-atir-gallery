@@ -1,0 +1,7 @@
+- [x] Define the chronological gallery year mappings in `Home.jsx`
+- [x] Implement the interactive accordion timeline section in `Home.jsx`
+- [x] Add the responsive styles for the timeline accordion in `Home.css`
+- [x] Filter out "תפאורות להצגות" (scenery) from the chronological accordion
+- [x] Configure default state as desaturated/softened and hovered slice as full color
+- [x] Run Vite production build to verify compilation
+- [x] Verify hover interactions on desktop and mobile

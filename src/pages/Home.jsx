@@ -165,7 +165,6 @@ const Home = () => {
               className="timeline-slice"
             >
               <img src={g.coverImage} alt={g.title} className="slice-image" loading="lazy" />
-              <div className="slice-year-badge">{g.year}</div>
               <div className="slice-overlay">
                 <div className="slice-content">
                   <span className="slice-overlay-year">{g.year}</span>
