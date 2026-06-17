@@ -142,6 +142,12 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/* Hand-drawn graphite pencil stroke divider echoing the artist's signature */}
+      <div className="w-full max-w-[1100px] mx-auto mt-24 px-margin-edge">
+        <svg viewBox="0 0 1000 10" preserveAspectRatio="none" className="w-full h-[3px] text-[#7A7571] opacity-40">
+          <path d="M 0 5 C 150 4.2, 300 5.8, 500 5 C 700 4.2, 850 5.8, 1000 5" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
+        </svg>
+      </div>
 
       {/* Interactive Chronological Accordion Section */}
       <section className="mt-section-gap">
