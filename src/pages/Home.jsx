@@ -1,10 +1,42 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { galleries } from '../data/galleries';
+import './Home.css';
+
+const GALLERY_YEARS = {
+  'transparent': 2020,
+  'silver': 2026,
+  'gallery_1': 2003,
+  'brosh': 2020,
+  'gallery_6': 2020,
+  'gallery_0': 1998,
+  'gallery_3': 2026,
+  'war-diary': 2025,
+  'scenery-pieces': 2004,
+  'gallery_5': 1986,
+  'miki': 1982,
+  'almost-black-and-white': 1992,
+  'chemnitz': 2016,
+  'between-between': 2013,
+  'gallery_7': 1995,
+  'nude': 2015,
+  'gallery_2': 2016,
+  'nude-museum': 2010,
+  'scenery': 1975
+};
 
 const Home = () => {
   useEffect(() => {
     document.title = 'לאה עתיר - גלריה לאומנות';
   }, []);
+
+  const cronGalleries = galleries
+    .filter(g => g.id !== 'gallery_4' && g.id !== 'scenery')
+    .map(g => ({
+      ...g,
+      year: GALLERY_YEARS[g.id] || 2000
+    }))
+    .sort((a, b) => a.year - b.year);
 
   return (
     <main className="pt-24 pb-12 max-w-container-max mx-auto px-margin-edge">
@@ -108,6 +140,41 @@ const Home = () => {
               <span className="material-symbols-outlined text-lg group-hover:-translate-x-2 transition-transform" data-icon="arrow_back">arrow_back</span>
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Interactive Chronological Accordion Section */}
+      <section className="mt-section-gap">
+        <div className="flex items-center gap-4 mb-8">
+          <span className="font-label-sm text-on-surface-variant uppercase tracking-widest">02</span>
+          <div className="w-12 h-px bg-outline-variant"></div>
+          <span className="font-label-sm text-primary uppercase tracking-widest">ציר זמן של יצירה</span>
+        </div>
+        <div className="mb-8 text-right">
+          <h2 className="font-h2 text-3xl lg:text-4xl text-primary mb-4">תערוכות לאורך השנים</h2>
+          <p className="font-body-md text-on-surface-variant max-w-2xl">
+            מסע כרונולוגי דרך התערוכות והאוספים של לאה עתיר משנת 1975 ועד היום. עמוד על כל פס כדי לגלות את התערוכה.
+          </p>
+        </div>
+        
+        <div className="timeline-accordion-container">
+          {cronGalleries.map((g) => (
+            <Link 
+              key={g.id}
+              to={`/gallery/${g.id}`} 
+              className="timeline-slice"
+            >
+              <img src={g.coverImage} alt={g.title} className="slice-image" loading="lazy" />
+              <div className="slice-year-badge">{g.year}</div>
+              <div className="slice-overlay">
+                <div className="slice-content">
+                  <span className="slice-overlay-year">{g.year}</span>
+                  <h3 className="slice-overlay-title">{g.title}</h3>
+                  <span className="slice-overlay-link-text">לצפייה בתערוכה ←</span>
+                </div>
+              </div>
+            </Link>
+          ))}
         </div>
       </section>
     </main>
