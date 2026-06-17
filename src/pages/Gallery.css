@@ -398,6 +398,7 @@
   color: var(--color-text);
 }
 
+
 /* Responsive adjustment */
 @media (max-width: 768px) {
   .gallery-grid-row {

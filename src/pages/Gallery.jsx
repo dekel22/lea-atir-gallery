@@ -128,7 +128,7 @@ const Gallery = () => {
   };
 
   const processImages = () => {
-    if (!gallery || !gallery.images) return [];
+    if (!gallery || !gallery.images) return { rows: [] };
 
     const groups = {};
     gallery.images.forEach((img) => {
@@ -141,9 +141,7 @@ const Gallery = () => {
     });
 
     const rows3 = [];
-    const rows2 = [];
-    const rows1 = [];
-    const unknownRows = [];
+    const leftovers = [];
 
     // Process groups with known sizes
     Object.keys(groups).forEach((key) => {
@@ -165,48 +163,51 @@ const Gallery = () => {
       const height = isLandscape ? min : max;
       const aspectRatio = width / height;
 
+      // Extract full rows of 3 first
       const chunkSize = 3;
-      for (let i = 0; i < imgs.length; i += chunkSize) {
-        const chunk = imgs.slice(i, i + chunkSize);
-        const row = {
+      const fullRowsCount = Math.floor(imgs.length / chunkSize);
+      for (let i = 0; i < fullRowsCount; i++) {
+        const chunk = imgs.slice(i * chunkSize, (i + 1) * chunkSize);
+        rows3.push({
           id: `row_${key}_${i}`,
           size,
           orientation,
           aspectRatio,
           images: chunk
-        };
-
-        if (chunk.length === 3) {
-          rows3.push(row);
-        } else if (chunk.length === 2) {
-          rows2.push(row);
-        } else {
-          rows1.push(row);
-        }
+        });
       }
+
+      // Add remainders of 1 or 2 to leftovers pool
+      const remainder = imgs.slice(fullRowsCount * chunkSize);
+      leftovers.push(...remainder);
     });
 
     // Process unknown sizes at the end
     if (groups['unknown'] && groups['unknown'].length > 0) {
-      const imgs = groups['unknown'];
-      const chunkSize = 3;
-      for (let i = 0; i < imgs.length; i += chunkSize) {
-        const chunk = imgs.slice(i, i + chunkSize);
-        unknownRows.push({
-          id: `row_unknown_${i}`,
-          size: 'unknown',
-          orientation: 'mixed',
-          aspectRatio: null, // Let browser display naturally if unknown
-          images: chunk
-        });
-      }
+      leftovers.push(...groups['unknown']);
     }
 
-    return [...rows3, ...rows2, ...rows1, ...unknownRows];
+    // Chunk all leftovers/mixed images into rows of 3
+    const leftoverRows = [];
+    const chunkSize = 3;
+    for (let i = 0; i < leftovers.length; i += chunkSize) {
+      const chunk = leftovers.slice(i, i + chunkSize);
+      leftoverRows.push({
+        id: `row_leftover_${i}`,
+        size: 'mixed',
+        orientation: 'mixed',
+        aspectRatio: 1, // square cards to align mixed ratios beautifully
+        images: chunk
+      });
+    }
+
+    return {
+      rows: [...rows3, ...leftoverRows]
+    };
   };
 
   const isWatercolor = gallery.id === 'gallery_5';
-  const rows = isWatercolor ? processImages() : [];
+  const { rows } = isWatercolor ? processImages() : { rows: [] };
 
   return (
     <div className="gallery-page animate-fade-in">
