@@ -8,10 +8,14 @@ import Contact from './pages/Contact';
 import Success from './pages/Success';
 import About from './pages/About';
 
+import { useTranslation } from 'react-i18next';
+
 function App() {
+  const { i18n } = useTranslation();
+
   return (
     <Router>
-      <div dir="rtl" className="min-h-screen flex flex-col relative selection:bg-secondary-container selection:text-on-secondary-container">
+      <div dir={i18n.language === 'he' ? 'rtl' : 'ltr'} className="min-h-screen flex flex-col relative selection:bg-secondary-container selection:text-on-secondary-container">
         <Navbar />
         <main className="flex-1 relative z-10 flex flex-col">
           <Routes>

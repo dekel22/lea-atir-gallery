@@ -148,7 +148,7 @@
 
 .slice-content {
   color: #ffffff;
-  text-align: right;
+  text-align: start;
   width: 100%;
   transform: translateY(10px);
   transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
@@ -217,25 +217,19 @@
   transform: translateY(0);
 }
 
-/* Mobile Responsive Stacking */
+/* Mobile Responsive Accordion */
 @media (max-width: 768px) {
   .timeline-accordion-container {
-    flex-direction: column;
-    aspect-ratio: 11 / 28; /* Stretches to full container width on mobile */
-    gap: 3px; /* Vertical gaps on mobile */
+    flex-direction: row;
+    aspect-ratio: 16 / 10;
+    gap: 2px; /* Thinner gaps on mobile */
   }
 
   .timeline-slice {
-    border-left: none;
-    border-bottom: none; /* Gaps handle separation */
     transition: flex-grow 1.1s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
-  .timeline-slice:last-child {
-    border-bottom: none;
-  }
-
   .timeline-slice:hover {
-    flex-grow: 5;
+    flex-grow: 6; /* Expand more on mobile to show detail */
   }
 }

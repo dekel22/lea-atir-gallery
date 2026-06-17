@@ -963,8 +963,11 @@ export const galleries = [
   {
     "id": "gallery_3",
     "title": "ש.ב.ר 2026",
+    "titleEn": "S.H.A.T.T.E.R. 2026",
     "description": "ש.ב.ר ונעקרת - תערוכת יחיד גלריה לאומנות רמות מנשה",
+    "descriptionEn": "S.H.A.T.T.E.R. & Uprooted - Solo Exhibition at Ramot Menashe Art Gallery",
     "longDescription": "# נעקרת\n\nהעבודות נוצרו בתקופה של מחאות וחשש לפיצול בעם, זו תקופה של המהפכה המשטרית בה הקרע בעם החל להיראות. תקופה של מחאות, תחילה של אי שייכות, עקירה מכל מה שידעתי עד היום. \n\nבאחת הפעמים שעבדתי בגינה עקרתי צמח מהשורש, הרגשתי כמו אני נעקרת, ואת ההרגשה הזאת ציירתי. \n\nבחרתי בפחם סינטטי שהוא חומר עם ביטוי חזק.\n\n\n# ש.ב.ר\n\nשבר מלווה את התערוכה כולה. פרטי, כמו ב\"שבר האומנות שלי\" וכללי כמו שקורה בעם. התערוכה היא התגובה שלי לאירועים הדרמטיים שקרו במדינה בתקופה האחרונה, נגעתי בעדינות בנושא מתוך הבנה ברורה שאני מביעה את דעתי האישית ומתוך כבוד לדעות אחרות. \n\nאני יודעת שחלק מן האנשים שאני מכירה ואוהבת לא בדעתי, שזה לא יישמע כהתנצלות, אני לא מתנצלת, ידוע שהעם מפולג בדעתו. אני אישית מאוד כואבת את הפילוג המסוכן הזה. \n\nכמו בציור \"יום שחור לדמוקרטיה הישראלית\" מקווה שיש אור מאחורי השחור.",
+    "longDescriptionEn": "# Uprooted\n\nThe works were created during a period of protests and fear of a split in the nation. This was a time of judicial reform protests when the rift in the country began to surface. A period of demonstrations, initially bringing a feeling of displacement, of being uprooted from everything I had known until then.\n\nOnce while working in the garden, I uprooted a plant by its roots. I felt as if I myself was being uprooted, and I drew that feeling.\n\nI chose synthetic charcoal, which is a medium with strong expression.\n\n\n# S.H.A.T.T.E.R.\n\nShatter accompanies the entire exhibition. Personal, as in 'The Shatter of My Art', and general, as is happening in our nation. The exhibition is my response to the dramatic events that took place in the country recently. I gently touched upon the subject with the clear understanding that I am expressing my personal opinion and with respect for other opinions.\n\nI know that some of the people I know and love do not share my views. Let this not sound like an apology—I do not apologize. It is well known that the nation is divided in its opinion. I personally ache deeply for this dangerous division.\n\nAs in the painting 'A Black Day for Israeli Democracy', I hope there is light behind the blackness.",
     "coverImage": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר8 שבר האומנות שלי.jpg",
     "images": [
       {
@@ -972,84 +975,96 @@ export const galleries = [
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר11.jpg",
         "alt": "שבר11",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: פחם סינטטי שחור"
+        "caption": "100x70 ס\"מ | טכניקה: פחם סינטטי שחור",
+        "captionEn": "100x70 cm | Technique: Synthetic black charcoal"
       },
       {
         "id": "gallery_3_3",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר12 נעקרת.jpg",
         "alt": "שבר12 נעקרת",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: פחם סינטטי שחור"
+        "caption": "100x70 ס\"מ | טכניקה: פחם סינטטי שחור",
+        "captionEn": "100x70 cm | Technique: Synthetic black charcoal"
       },
       {
         "id": "gallery_3_4",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר13 נעקרת.jpg",
         "alt": "שבר13 נעקרת",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: פחם סינטטי שחור"
+        "caption": "100x70 ס\"מ | טכניקה: פחם סינטטי שחור",
+        "captionEn": "100x70 cm | Technique: Synthetic black charcoal"
       },
       {
         "id": "gallery_3_5",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר14 נעקרת.jpg",
         "alt": "שבר14 נעקרת",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: פחם סינטטי שחור"
+        "caption": "100x70 ס\"מ | טכניקה: פחם סינטטי שחור",
+        "captionEn": "100x70 cm | Technique: Synthetic black charcoal"
       },
       {
         "id": "gallery_3_6",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר15 נעקרת.jpg",
         "alt": "שבר15 נעקרת",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: פחם סינטטי שחור"
+        "caption": "100x70 ס\"מ | טכניקה: פחם סינטטי שחור",
+        "captionEn": "100x70 cm | Technique: Synthetic black charcoal"
       },
       {
         "id": "gallery_3_7",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר16 נעקרת.jpg",
         "alt": "שבר16 נעקרת",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: פחם סינטטי שחור"
+        "caption": "100x70 ס\"מ | טכניקה: פחם סינטטי שחור",
+        "captionEn": "100x70 cm | Technique: Synthetic black charcoal"
       },
       {
         "id": "gallery_3_8",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר17.jpg",
         "alt": "שבר17",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: פחם סינטטי שחור"
+        "caption": "100x70 ס\"מ | טכניקה: פחם סינטטי שחור",
+        "captionEn": "100x70 cm | Technique: Synthetic black charcoal"
       },
       {
         "id": "gallery_3_9",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר4ביביסטים 5 מערכות בחירות.jpg",
         "alt": "שבר4ביביסטים 5 מערכות בחירות",
         "orientation": "portrait",
-        "caption": "80x100 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "80x100 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "80x100 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_3_10",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר5 יום שחור לדמוקרטיה הישראלית.jpg",
         "alt": "שבר5 יום שחור לדמוקרטיה הישראלית",
         "orientation": "landscape",
-        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_3_11",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר6 לאה עתיר_תדע כל אם עבריה_שמן על בד_2023 (1).jpg",
         "alt": "שבר6 לאה עתיר_תדע כל אם עבריה_שמן על בד_2023 (1)",
         "orientation": "landscape",
-        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_3_12",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר7מר הפקרה.jpg",
         "alt": "שבר7מר הפקרה",
         "orientation": "portrait",
-        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_3_13",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר8 שבר האומנות שלי.jpg",
         "alt": "שבר8 שבר האומנות שלי",
         "orientation": "portrait",
-        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_3_14",
@@ -2355,8 +2370,11 @@ export const galleries = [
   {
     "id": "gallery_2",
     "title": "גן הדובדבנים מוזיאון עוקשי עכו 2016",
+    "titleEn": "The Cherry Orchard - Okashi Museum Acre 2016",
     "description": "6 אומנים בפרשנות על עבודתה של לאה גולדברג",
+    "descriptionEn": "6 artists interpretation of the work of Lea Goldberg",
     "longDescription": "במוזיאון עוקשי בעכו הצגנו שישה אמנים מרחבי הארץ, אשר העניקו – כל אחד בדרכו הייחודית – פרשנות למחזה \"גן הדובדבנים\" של צ'כוב, תוך התייחסות ללאה גולדברג ופרשנותה שלה למחזה וליוצר.\n\nאני התייחסתי לתוכן עלילת המחזה בכמה דרכים: האחת בדיפטיכון שמראה את כריתת גן הדובדבנים, את לופטין (דמות במחזה) בפתח הדלת עומד כבעל הבית החדש של המקום. מרכז התמונה מתמקד בהרס גן הדובדבנים. בימין העבודה לקחתי ציטוט מתוך הציור של מיכלאנג'לו, \"הגירוש מגן העדן\" – שתי הדמויות, אדם וחוה, נעלמות מתוך הציור בהדרגה מחוצה לו.\n\nאת אווירת המשפחה שסימלה את האריסטוקרטיה ציינתי ב-4 רישומים בקו. התערוכה נחתמה בציור שלי \"אין חדש תחת השמש\" או \"כסף מסובב את העולם\".",
+    "longDescriptionEn": "In the Okashi Museum in Acre, six artists from around the country presented work, each giving their unique interpretation of Chekhov's play 'The Cherry Orchard', referencing Lea Goldberg and her own interpretation of the play and the creator.\n\nI referred to the content of the play's plot in several ways: First, in a diptych showing the cutting down of the cherry orchard, with Lopakhin (a character in the play) standing at the doorway as the new owner of the place. The center of the image focuses on the destruction of the cherry orchard. On the right side of the work, I took a quote from Michelangelo's painting 'The Expulsion from Paradise' – the two figures, Adam and Eve, gradually disappearing from the painting outwards.\n\nI indicated the family atmosphere symbolizing the aristocracy in 4 line drawings. The exhibition was concluded with my painting 'Nothing New Under the Sun' or 'Money Makes the World Go Round'.",
     "coverImage": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים2.JPG",
     "images": [
       {
@@ -2364,14 +2382,16 @@ export const galleries = [
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים2.JPG",
         "alt": "גן הדובדבנים2",
         "orientation": "portrait",
-        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_2_5",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים3.JPG",
         "alt": "גן הדובדבנים3",
         "orientation": "portrait",
-        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "gallery_2_0",
@@ -2384,49 +2404,56 @@ export const galleries = [
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים10.JPG",
         "alt": "גן הדובדבנים10",
         "orientation": "portrait",
-        "caption": "50x70 ס\"מ | טכניקה: דיו"
+        "caption": "50x70 ס\"מ | טכניקה: דיו",
+        "captionEn": "50x70 cm | Technique: Ink"
       },
       {
         "id": "gallery_2_6",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים5.JPG",
         "alt": "גן הדובדבנים5",
         "orientation": "portrait",
-        "caption": "100x70 ס\"מ | טכניקה: צבע שמן על קרטון"
+        "caption": "100x70 ס\"מ | טכניקה: צבע שמן על קרטון",
+        "captionEn": "100x70 cm | Technique: Oil on cardboard"
       },
       {
         "id": "gallery_2_7",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים6.jpg",
         "alt": "גן הדובדבנים6",
         "orientation": "portrait",
-        "caption": "50x70 ס\"מ | טכניקה: ארבע תמונות בצבעי שמן"
+        "caption": "50x70 ס\"מ | טכניקה: ארבע תמונות בצבעי שמן",
+        "captionEn": "50x70 cm | Technique: Four oil paintings"
       },
       {
         "id": "gallery_2_8",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים7.JPG",
         "alt": "גן הדובדבנים7",
         "orientation": "portrait",
-        "caption": "50x70 ס\"מ | טכניקה: דיו"
+        "caption": "50x70 ס\"מ | טכניקה: דיו",
+        "captionEn": "50x70 cm | Technique: Ink"
       },
       {
         "id": "gallery_2_9",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים8.JPG",
         "alt": "גן הדובדבנים8",
         "orientation": "portrait",
-        "caption": "50x70 ס\"מ | טכניקה: דיו"
+        "caption": "50x70 ס\"מ | טכניקה: דיו",
+        "captionEn": "50x70 cm | Technique: Ink"
       },
       {
         "id": "gallery_2_10",
         "url": "/galleries/גן הדובדבנים מוזיאון עוקשי עכו 2016/גן הדובדבנים9.JPG",
         "alt": "גן הדובדבנים9",
         "orientation": "portrait",
-        "caption": "50x70 ס\"מ | טכניקה: דיו"
+        "caption": "50x70 ס\"מ | טכניקה: דיו",
+        "captionEn": "50x70 cm | Technique: Ink"
       },
       {
         "id": "gallery_2_11",
         "url": "/galleries/כסף/כסף1 (2).jpg",
         "alt": "כסף1 (2)",
         "orientation": "portrait",
-        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן"
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       }
     ]
   },

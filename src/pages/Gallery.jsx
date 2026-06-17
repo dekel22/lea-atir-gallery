@@ -2,11 +2,13 @@ import { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 import { useParams, Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { ArrowRight, X, ChevronRight, ChevronLeft } from 'lucide-react';
 import { galleries } from '../data/galleries';
 import './Gallery.css';
 
 const Gallery = () => {
+  const { t, i18n } = useTranslation();
   const { id } = useParams();
   const gallery = galleries.find(g => g.id === id);
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
@@ -17,14 +19,15 @@ const Gallery = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
     if (gallery) {
-      document.title = `${gallery.title} | לאה עתיר`;
+      const displayTitle = i18n.language === 'en' && gallery.titleEn ? gallery.titleEn : gallery.title;
+      document.title = `${displayTitle} | ${i18n.language === 'he' ? 'לאה עתיר' : 'Lea Atir'}`;
     }
     
     // Reset title on unmount
     return () => {
-      document.title = 'לאה עתיר - גלריה לאומנות';
+      document.title = i18n.language === 'he' ? 'לאה עתיר - גלריה לאומנות' : 'Lea Atir - Art Gallery';
     };
-  }, [id, gallery]);
+  }, [id, gallery, i18n.language]);
 
   const closeLightbox = () => {
     setSelectedImageIndex(null);
@@ -62,11 +65,19 @@ const Gallery = () => {
     const isRightSwipe = distance < -minSwipeDistance;
 
     if (isLeftSwipe) {
-      // Swiping left brings content from the right (prevImage in RTL)
-      prevImage();
+      // Swiping left brings content from the right
+      if (i18n.language === 'he') {
+        prevImage();
+      } else {
+        nextImage();
+      }
     } else if (isRightSwipe) {
-      // Swiping right brings content from the left (nextImage in RTL)
-      nextImage();
+      // Swiping right brings content from the left
+      if (i18n.language === 'he') {
+        nextImage();
+      } else {
+        prevImage();
+      }
     }
   };
 
@@ -76,9 +87,17 @@ const Gallery = () => {
       if (selectedImageIndex === null) return;
       
       if (e.key === 'ArrowRight') {
-        prevImage();
+        if (i18n.language === 'he') {
+          prevImage();
+        } else {
+          nextImage();
+        }
       } else if (e.key === 'ArrowLeft') {
-        nextImage();
+        if (i18n.language === 'he') {
+          nextImage();
+        } else {
+          prevImage();
+        }
       } else if (e.key === 'Escape') {
         closeLightbox();
       }
@@ -87,7 +106,7 @@ const Gallery = () => {
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedImageIndex, gallery]);
+  }, [selectedImageIndex, gallery, i18n.language]);
 
   // Handle body scroll locking
   useEffect(() => {
@@ -105,8 +124,8 @@ const Gallery = () => {
   if (!gallery) {
     return (
       <div className="container section text-center animate-fade-in">
-        <h2>הגלריה לא נמצאה</h2>
-        <Link to="/" className="back-link">חזרה לעמוד הבית</Link>
+        <h2>{t('gallery.notFound')}</h2>
+        <Link to="/" className="back-link">{t('gallery.backHome')}</Link>
       </div>
     );
   }
@@ -241,16 +260,20 @@ const Gallery = () => {
   const useAlignedGrid = gallery.id === 'gallery_5' || gallery.id === 'gallery_3';
   const { rows } = useAlignedGrid ? processImages() : { rows: [] };
 
+  const displayTitle = i18n.language === 'en' && gallery.titleEn ? gallery.titleEn : gallery.title;
+  const displayDescription = i18n.language === 'en' && gallery.descriptionEn ? gallery.descriptionEn : gallery.description;
+  const displayLongDescription = i18n.language === 'en' && gallery.longDescriptionEn ? gallery.longDescriptionEn : gallery.longDescription;
+
   return (
     <div className="gallery-page animate-fade-in">
       <div className="gallery-header">
         <div className="container">
-          <Link to="/galleries" className="back-link"><ArrowRight size={18} /> חזרה לגלריות</Link>
-          <h1 className="animate-delay-1">{gallery.title}</h1>
-          <p className="gallery-description animate-delay-2">{gallery.description}</p>
-          {gallery.longDescription && (
+          <Link to="/galleries" className="back-link"><ArrowRight size={18} className={i18n.language === 'en' ? 'rotate-180' : ''} /> {t('gallery.backToGalleries')}</Link>
+          <h1 className="animate-delay-1">{displayTitle}</h1>
+          <p className="gallery-description animate-delay-2">{displayDescription}</p>
+          {displayLongDescription && (
             <div className="gallery-long-description animate-delay-2">
-              {gallery.longDescription.split('\n').map((line, i) => {
+              {displayLongDescription.split('\n').map((line, i) => {
                 const isSubtitle = line.trim().startsWith('#');
                 const isRight = line.trim().startsWith('*');
                 let cleanLine = isSubtitle ? line.trim().substring(1).trim() : line;
@@ -261,7 +284,7 @@ const Gallery = () => {
                 return (
                   <p 
                     key={i} 
-                    className={`${isSubtitle ? 'gallery-subtitle' : ''} ${isRight ? 'text-right' : ''}`}
+                    className={`${isSubtitle ? 'gallery-subtitle' : ''} ${isRight ? (i18n.language === 'he' ? 'text-right' : 'text-left') : ''}`}
                   >
                     {cleanLine}
                   </p>
@@ -282,6 +305,7 @@ const Gallery = () => {
               >
                 {row.images.map((img) => {
                   const originalIndex = gallery.images.findIndex(i => i.id === img.id);
+                  const displayCaption = i18n.language === 'en' && img.captionEn ? img.captionEn : img.caption;
                   return (
                     <div 
                       key={img.id} 
@@ -294,9 +318,9 @@ const Gallery = () => {
                       >
                         <img src={img.url} alt={img.alt} loading="lazy" />
                       </div>
-                      {img.caption && (
+                      {displayCaption && (
                         <div className="image-caption">
-                          {img.caption}
+                          {displayCaption}
                         </div>
                       )}
                     </div>
@@ -316,6 +340,7 @@ const Gallery = () => {
                   })
                   .map((img) => {
                     const originalIndex = gallery.images.findIndex(i => i.id === img.id);
+                    const displayCaption = i18n.language === 'en' && img.captionEn ? img.captionEn : img.caption;
                     return (
                       <div 
                         key={img.id} 
@@ -323,9 +348,9 @@ const Gallery = () => {
                         onClick={() => openLightbox(originalIndex)}
                       >
                         <img src={img.url} alt={img.alt} loading="lazy" />
-                        {img.caption && (
+                        {displayCaption && (
                           <div className="image-caption">
-                            {img.caption}
+                            {displayCaption}
                           </div>
                         )}
                       </div>
@@ -336,7 +361,7 @@ const Gallery = () => {
           </div>
         )}
         <div className="gallery-footer-nav">
-          <Link to="/galleries" className="back-link"><ArrowRight size={18} /> חזרה לגלריות</Link>
+          <Link to="/galleries" className="back-link"><ArrowRight size={18} className={i18n.language === 'en' ? 'rotate-180' : ''} /> {t('gallery.backToGalleries')}</Link>
         </div>
       </div>
 
@@ -353,7 +378,7 @@ const Gallery = () => {
             <X className="w-8 h-8 sm:w-10 sm:h-10" strokeWidth={1.5} />
           </button>
           
-          <button className="lightbox-nav lightbox-prev" onClick={prevImage}>
+          <button className="lightbox-nav lightbox-prev" onClick={i18n.language === 'he' ? prevImage : nextImage}>
             <ChevronRight className="w-10 h-10 sm:w-12 sm:h-12" strokeWidth={1.5} />
           </button>
           
@@ -376,13 +401,17 @@ const Gallery = () => {
             </TransformWrapper>
           </div>
 
-          {gallery.images[selectedImageIndex].caption && (
-            <div className="lightbox-caption">
-              {gallery.images[selectedImageIndex].caption}
-            </div>
-          )}
+          {(() => {
+            const activeImg = gallery.images[selectedImageIndex];
+            const activeCaption = i18n.language === 'en' && activeImg.captionEn ? activeImg.captionEn : activeImg.caption;
+            return activeCaption && (
+              <div className="lightbox-caption">
+                {activeCaption}
+              </div>
+            );
+          })()}
 
-          <button className="lightbox-nav lightbox-next" onClick={nextImage}>
+          <button className="lightbox-nav lightbox-next" onClick={i18n.language === 'he' ? nextImage : prevImage}>
             <ChevronLeft className="w-10 h-10 sm:w-12 sm:h-12" strokeWidth={1.5} />
           </button>
         </div>,

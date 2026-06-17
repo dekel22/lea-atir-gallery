@@ -1,28 +1,31 @@
 import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
+  const { t, i18n } = useTranslation();
+
   useEffect(() => {
-    document.title = 'צור קשר | לאה עתיר';
+    document.title = t('contact.title');
     window.scrollTo(0, 0);
-  }, []);
+  }, [t, i18n.language]);
 
   return (
     <main className="pt-32 pb-20 max-w-container-max mx-auto px-margin-edge animate-fade-in">
       <header className="mb-16">
         <div className="flex items-center gap-4 mb-8">
-          <span className="font-label-sm text-on-surface-variant uppercase tracking-widest">04</span>
+          <span className="font-label-sm text-on-surface-variant uppercase tracking-widest">{t('contact.sectionNumber')}</span>
           <div className="w-12 h-px bg-outline-variant"></div>
-          <span className="font-label-sm text-primary uppercase tracking-widest">צור קשר</span>
+          <span className="font-label-sm text-primary uppercase tracking-widest">{t('contact.sectionTitle')}</span>
         </div>
-        <h1 className="font-h1 text-5xl lg:text-6xl text-primary mb-6">נשמח לשמוע ממך</h1>
+        <h1 className="font-h1 text-5xl lg:text-6xl text-primary mb-6">{t('contact.header')}</h1>
       </header>
 
       <div className="max-w-4xl">
         <div className="flex flex-col space-y-16">
           <div className="space-y-6 max-w-2xl">
-            <h3 className="font-h3 text-2xl text-secondary">פרטי התקשרות</h3>
+            <h3 className="font-h3 text-2xl text-secondary">{t('contact.detailsHeader')}</h3>
             <p className="font-body-lg text-lg text-on-surface-variant leading-relaxed">
-              לבירורים נוספים, רכישת עבודות או תיאום ביקור בסטודיו, ניתן ליצור קשר באופן ישיר. אני זמינה לכל שאלה או התייעצות לגבי היצירות והתהליך האמנותי.
+              {t('contact.description')}
             </p>
           </div>
 
@@ -32,7 +35,7 @@ const Contact = () => {
                 <span className="material-symbols-outlined text-2xl" data-icon="mail">mail</span>
               </div>
               <div>
-                <p className="font-label-sm uppercase tracking-widest text-primary/40 mb-1">אימייל</p>
+                <p className="font-label-sm uppercase tracking-widest text-primary/40 mb-1">{t('contact.emailLabel')}</p>
                 <a href="mailto:leaatir@walla.com" className="font-h3 text-2xl hover:text-secondary transition-colors">leaatir@walla.com</a>
               </div>
             </div>
@@ -42,7 +45,7 @@ const Contact = () => {
                 <span className="material-symbols-outlined text-2xl" data-icon="call">call</span>
               </div>
               <div>
-                <p className="font-label-sm uppercase tracking-widest text-primary/40 mb-1">טלפון נייד</p>
+                <p className="font-label-sm uppercase tracking-widest text-primary/40 mb-1">{t('contact.phoneLabel')}</p>
                 <a href="tel:0544911985" className="font-h3 text-2xl hover:text-secondary transition-colors" dir="ltr">054-4911985</a>
               </div>
             </div>
@@ -50,7 +53,7 @@ const Contact = () => {
 
           <div className="pt-12 border-t border-surface-variant/30">
             <p className="font-h3 italic text-secondary/40 text-3xl">
-              "האומנות היא שפה וגשר בין אנשים"
+              {t('contact.quote')}
             </p>
           </div>
         </div>

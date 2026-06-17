@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "home": "Home",
+    "galleries": "Galleries",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Lea Atir - Art Gallery",
+    "artistName": "Lea Atir",
+    "yearsOfCreation": "Over 50 Years of Creation",
+    "introParagraph": "There were periods of black and white only, there were periods of color, more abstract periods and very realistic ones. Usually, the subject dictated the way of working. There were situations where it was clear to me that this was a work in black and white, in synthetic black charcoal, and not in any other material, like in 'Uprooted'. In 'Drawing and I' I used monochrome in brown tones and not color. When I worked on 'Between-Between', I used oil paint and oil pastels. In 'Landscape Pieces' I used oil and graphite (because in landscape I want to deal differently), and so on... What will be the continuation? I have no idea, I am quite sure it will start with drawing.",
+    "artistStatementHeader": "Artist Statement",
+    "artistStatementQuote": "\"For me, art and creation is a way of life. For as long as I can remember, art has been my anchor and source of strength. Of all techniques—and I know many—black and white drawing with the most basic materials, like pencil, gives me pleasure. It is my investigative medium, the basis of most of my works, the beginning of almost every piece.\"",
+    "selectedExhibitions": "Selected Exhibitions",
+    "creativeProcessHeader": "Creative Process",
+    "creativeProcessText": "Creation is something built as it is made. Even if I know and clearly conceptualize what I am going to do, there is always the 'creative gap'—the process between the beginning and the result... Therefore, creation is a process unknown in advance.",
+    "viewGalleriesButton": "View Galleries",
+    "timelineTitle": "Timeline of Creation",
+    "timelineHeader": "Exhibitions Over the Years",
+    "timelineSubtitle": "A chronological journey through the exhibitions and collections of Lea Atir from 1975 to today. Hover over each stripe to explore the exhibition.",
+    "viewExhibition": "View Exhibition ←",
+    "selfPortraitCaption": "Self portrait, charcoal on paper, 2020",
+    "catalogCaption": "Lea Atir paintings catalog",
+    "exhibitions": {
+      "gallery_3": "S.H.A.T.T.E.R. & Uprooted",
+      "silver": "Silver",
+      "transparent": "The Lie of Transparency",
+      "gallery_0": "Drawing and I",
+      "gallery_1": "Everyday Looks",
+      "gallery_7": "Variations on a Theme"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Lea Atir. All rights reserved."
+  },
+  "about": {
+    "title": "About | Lea Atir",
+    "sectionNumber": "03",
+    "sectionTitle": "About the Artist",
+    "artistName": "Lea Atir",
+    "selfPortraitCaption": "Self portrait, charcoal on paper, 2020",
+    "introParagraph": "I graduated from my studies in Tel Aviv and immediately chose to take responsibility for all my work. First and foremost, to be my own critic, to decide on the subjects, the style of work. I simultaneously chose to teach so as not to depend on selling my works for a living. It was like this all the years, I always painted without interference in my decisions. To date, I have exhibited in more than 23 solo and group exhibitions.",
+    "areasOfActivityHeader": "Areas of Activity",
+    "areasOfActivity": [
+      "Painting in a variety of materials and techniques",
+      "Stage set design",
+      "Clay sculpting",
+      "Art teaching",
+      "Exhibition curating",
+      "Conducting training sessions for art teachers",
+      "Voluntary art teaching for people with disabilities",
+      "Volunteer at B'nai B'rith."
+    ],
+    "educationHeader": "Education & Background",
+    "educationText": "I am an artist, an art teacher, a mother of three and a grandmother of eight. I acquired my professional training in four years of study at the Margoshilsky High School of Painting (Kalisher), and later in renaissance art training in Florence, Italy. Since 1975, I have been a member of the National Artists Association. Over the years, I have presented my work in more than 23 solo exhibitions and group exhibitions in Israel and Germany. Along with painting, I design theater sets, sculpt, and curate. Teaching art is a life mission for me; since 1971, I have had the privilege to teach and change lives through creation. My professional background also includes two decades as an art teacher at the 'Dafna' junior high school, guiding teacher training in the ORT network, adult classes, and curating exhibitions for my students. Believing in the healing power of art, I have volunteered over the years teaching art to disabled groups and within B'nai B'rith.",
+    "whyWebsiteHeader": "Why a Website?",
+    "whyWebsiteParagraphs": [
+      "Beyond the desire to give information about yourself, beyond the accessibility I give to the whole world to my works, beyond the usual reason of 'if you don't have a website you don't exist', I discovered about myself through looking back things that sharpened what is right for me to do in the future. Thanks to building a website, this is the second time (the first was 10 years ago), I came to a conclusion that is good in any area of life: for the best possible future, it is worthwhile to check from time to time what I did in the past.",
+      "What I did not do in the past was document. Today in the era of phones this wouldn't have happened, but 40-50 years ago, during the time of raising children, working, without giving up on personal creation, in busy periods, it was important for me to create in any time I had and I did not attach importance to documentation. Hundreds of works were not photographed, especially early exhibitions. Even when I did take photos I didn't always develop the film. I was left with the knowledge of an exhibition I presented, but I don't remember exactly which works were shown in them, some were sold and are not in my possession, newspaper clippings, invitations to exhibitions, some of which I kept. All of these slowly connect and find their place.",
+      "Of course, larger and more recent exhibitions are remembered. I had the impression, for example, that I moved sharply from work to work. The connection, the continuity, the flow in my work became clear to me, even if I changed the approach, material, or form of work.",
+      "A perspective of time allows seeing the activity in a clearer, more analytical view. I read things I wrote in the past about exhibitions and examine if they are true for me today. Things I touched with caution, not brave enough back then, I touch today. And still wonder if it is enough. I went from creative periods of black and white drawing to color, integrated them, moved away from reality, and then drew closer, returned to work in color at a different level.",
+      "I always knew of my strong inclination towards drawing, I saw how drawing is a basis for my work, all the time, including in color."
+    ],
+    "whyWebsiteQuote": "\"Building a website is first and foremost a self-examination.\""
+  },
+  "contact": {
+    "title": "Contact | Lea Atir",
+    "sectionNumber": "04",
+    "sectionTitle": "Contact",
+    "header": "We'd Love to Hear From You",
+    "detailsHeader": "Contact Information",
+    "description": "For further inquiries, purchasing works, or arranging a studio visit, feel free to contact me directly. I am available for any questions or consultations regarding the artworks and the creative process.",
+    "emailLabel": "Email",
+    "phoneLabel": "Mobile Phone",
+    "quote": "\"Art is a language and a bridge between people\""
+  },
+  "galleries": {
+    "title": "All Galleries | Lea Atir",
+    "sectionNumber": "02",
+    "sectionTitle": "Collections & Galleries",
+    "header": "Galleries",
+    "description": "A selection from decades of creation, from charcoal drawings to stage sets. Each gallery represents a different chapter in the artistic journey.",
+    "viewGallery": "View Gallery"
+  },
+  "gallery": {
+    "notFound": "Gallery not found",
+    "backHome": "Back to Home Page",
+    "backToGalleries": "Back to Galleries"
+  }
+}
