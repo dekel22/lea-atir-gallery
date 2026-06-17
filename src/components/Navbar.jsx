@@ -10,10 +10,10 @@ const Navbar = () => {
           
           {/* Middle Links */}
           <div className="flex flex-wrap justify-center items-center gap-5 sm:gap-8 md:gap-12 lg:gap-16 w-full lg:w-auto">
+            <Link to="/" className="font-label-sm uppercase tracking-widest text-primary hover:text-secondary transition-colors whitespace-nowrap">דף הבית</Link>
             <Link to="/galleries" className="font-label-sm uppercase tracking-widest text-primary hover:text-secondary transition-colors whitespace-nowrap">גלריות</Link>
             <Link to="/about" className="font-label-sm uppercase tracking-widest text-primary hover:text-secondary transition-colors whitespace-nowrap">אודות</Link>
             <Link to="/contact" className="font-label-sm uppercase tracking-widest text-primary hover:text-secondary transition-colors whitespace-nowrap">צור קשר</Link>
-            <Link to="/" className="font-label-sm uppercase tracking-widest text-primary hover:text-secondary transition-colors whitespace-nowrap">דף הבית</Link>
           </div>
 
           {/* Signature in the corner (outside normal flow) */}
