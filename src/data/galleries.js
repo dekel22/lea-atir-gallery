@@ -175,73 +175,97 @@ export const galleries = [
         "id": "silver_0",
         "url": "/galleries/כסף/כסף1 (2).jpg",
         "alt": "כסף1 (2)",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "silver_1",
         "url": "/galleries/כסף/כסף1.jpg",
         "alt": "כסף1",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "silver_2",
         "url": "/galleries/כסף/כסף10.jpg",
         "alt": "כסף10",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "silver_3",
         "url": "/galleries/כסף/כסף11.jpg",
         "alt": "כסף11",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "silver_4",
         "url": "/galleries/כסף/כסף12.jpg",
         "alt": "כסף12",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "silver_5",
         "url": "/galleries/כסף/כסף3.jpg",
         "alt": "כסף3",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "silver_6",
         "url": "/galleries/כסף/כסף4.jpg",
         "alt": "כסף4",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "silver_7",
         "url": "/galleries/כסף/כסף5.jpg",
         "alt": "כסף5",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "silver_8",
         "url": "/galleries/כסף/כסף6.jpg",
         "alt": "כסף6",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "silver_9",
         "url": "/galleries/כסף/כסף7.jpg",
         "alt": "כסף7",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "silver_10",
         "url": "/galleries/כסף/כסף8.JPG",
         "alt": "כסף8",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
         "id": "silver_11",
         "url": "/galleries/כסף/כסף9.JPG",
         "alt": "כסף9",
-        "orientation": "landscape"
+        "orientation": "landscape",
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       }
     ]
   },
