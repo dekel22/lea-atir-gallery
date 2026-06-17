@@ -87,5 +87,11 @@
     "notFound": "Gallery not found",
     "backHome": "Back to Home Page",
     "backToGalleries": "Back to Galleries"
+  },
+  "success": {
+    "title": "Message Sent | Lea Atir",
+    "header": "Message Sent Successfully!",
+    "message": "Thank you for your inquiry. The message has been sent directly to Lea Atir, and we will get back to you as soon as possible.",
+    "backHome": "Back to Home Page"
   }
 }

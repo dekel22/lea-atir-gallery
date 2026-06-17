@@ -5,8 +5,11 @@ export const galleries = [
   {
     "id": "transparent",
     "title": "שקר השקיפות",
+    "titleEn": "The Lie of Transparency",
     "description": "התערוכה \"שקר השקיפות\" הוצגה בבית האומנים בתל אביב במרץ 2020 בתקופת הקורונה.",
+    "descriptionEn": "The exhibition \"The Lie of Transparency\" was presented at the Artists' House in Tel Aviv in March 2020, during the COVID-19 pandemic.",
     "longDescription": "אף פעם לא נתתי מקום נפרד לנושא השקיפות בעבודתי, כי השקוף אף פעם לא בא לבדו, בלי הקשר וחיבור לסביבה. עם הזמן השקוף הפך להיות הנושא, כמו מה שסביב לו. בעצם אי אפשר לצייר שקוף בלי לראות את מה שמאחוריו. הנושא והרקע בלתי ניתנים להפרדה.\n\nיש את מה שרואים בתוך השקוף ומה שרואים מחוץ לשקוף, במעבר ובחיבור בין השניים מתרחש כל הקסם. שם צריך לראות מה קרה לכתם בחוץ כאשר הוא חצה את המעבר לתוך השקוף. אי אפשר לאבד את החיבור ביניהם. בעצם עבדתי על \"שקר השקיפות\" על \"שקר האומנות\", על \"שקר החיים\". כמו בחיים כך באומנות, האומנות היא השתקפות של החיים לכן השקר קיים בשניהם. אפשר לעדן ולאמר שהאומנות יוצרת אשליה, או להפוך ולאמר שהחיים הם אשליה. והנה אנחנו בפילוסופיה של החיים.",
+    "longDescriptionEn": "I have never given a separate place to the subject of transparency in my work, because the transparent never comes alone, without context and connection to the environment. Over time, the transparent became the subject, just like what surrounds it. In fact, it is impossible to paint transparent objects without seeing what lies behind them. Subject and background are inseparable.\n\nThere is what is seen inside the transparent and what is seen outside the transparent; all the magic happens in the transition and connection between the two. There, one must observe what happened to the patch of color outside when it crossed the threshold into the transparent. The connection between them cannot be lost. In essence, I worked on \"The Lie of Transparency,\" \"The Lie of Art,\" \"The Lie of Life.\" As in life, so in art—art is a reflection of life, which is why the lie exists in both. We can refine this by saying that art creates an illusion, or invert it and say that life itself is an illusion. And here we are, in the philosophy of life.",
     "coverImage": "/galleries/שקופים/שקופים1.jpg",
     "images": [
       {
@@ -161,8 +164,11 @@ export const galleries = [
   {
     "id": "silver",
     "title": "כסף",
+    "titleEn": "Money",
     "description": "כסף 2026",
+    "descriptionEn": "Money 2026",
     "longDescription": "חלק מהעבודות בנושא כסף נעשו לפני כ-10 שנים, כהמשך רציף של העבודה על השחיתות והשקרים (בתערוכה \"שקר השקיפות\").\n\nאצרתי את התערוכה \"כסף\" והבעתי דעתי בציור על עובדה ברורה וידועה ש:\n* \"הכסף מסובב את העולם\".\n* שגונבים איפה שרק אפשר, בעיקר הממשלה.\n* שקל לחלק כסף שלא שייך לך.\n* שמי שיכול גונב קצת כסף למגירה של עצמו.\n* שגופים גדולים כמו חברות ביטוח משקרות לציבור בשביל כסף.\n* שגם אם רואים שחיתות, רבים עוצמים עיניים.\n* פוליטיקאים שגנבו וישבו בבית סוהר חוזרים ללא בושה לפוליטיקה, כי שם הם יכולים ויודעים כיצד להמשיך ולגנוב.\n* שכסף מלכלך את הידיים.\n* ועוד.\n\nחלק מהמידע והרעיונות לקחתי מעיתונים, כמו \"שקוף שהלך הכסף\" או \"גן עדן של שותים\", שם הכתבה הייתה על שתייה, וכאן הכוונה היא לשוטים.\n\nהכסף שנשפך מכלי אחד ועובר לכלי אחר, \"מהעם לממשלה\", במקום ההפך.\n\nלסיום, \"אין חדש תחת השמש\".",
+    "longDescriptionEn": "Some of the works on the subject of money were created about 10 years ago, as a continuous progression of my work on corruption and lies (in the exhibition \"The Lie of Transparency\").\n\nI curated the exhibition \"Money\" and expressed my opinion through painting about the clear and well-known facts that:\n* \"Money makes the world go round.\"\n* People steal wherever they can, especially the government.\n* It is easy to distribute money that does not belong to you.\n* Whoever can, steals a little money for their own drawer.\n* Large entities like insurance companies lie to the public for money.\n* Even when corruption is visible, many close their eyes.\n* Politicians who stole and went to prison shamelessly return to politics, because there they can and know how to continue stealing.\n* Money dirties one's hands.\n* And more.\n\nI took some of the information and ideas from newspapers, such as \"It's Clear the Money is Gone\" or \"A Fools' Paradise\"—where the original Hebrew article played on 'drinkers' and 'fools.'\n\nMoney being poured from one vessel to another, \"from the people to the government,\" instead of the other way around.\n\nTo conclude, \"There is nothing new under the sun.\"",
     "coverImage": "/galleries/כסף/כסף3.jpg",
     "images": [
       {
@@ -242,8 +248,11 @@ export const galleries = [
   {
     "id": "gallery_1",
     "title": "מבטים של יום יום 6/11/2003",
+    "titleEn": "Everyday Glances 6/11/2003",
     "description": "גלריה לאומנות קסטרא חיפה",
-    "longDescription": "תערוכה מספר 16 היא התחברות לשגרת חיי. הדברים והחפצים, אלו שעברתי לידם אין ספור פעמים בלי להתייחס אליהם, מקבלים מקום.\nיצירה ושגרת חיים - בזה דנה תערוכה זו. \nבעבודתי הפעם לא חיפשתי נושאים, פשוט נתקלתי בהם, מתוך המציאות בסביבתם הטבעית, צוירו כמעט בלי לשנות דבר. \nעברתי לעבודה בצבעי שמן ובגישה ריאלית, לאחר הרבה שנים של התמקדות ברישום וצבעי מים. כל דרך יצירה והזמן המתאים לה. השתנות, באה באופן טבעי והדרגתי עם השתנות האישיות, למרות התפנית לגישה ריאלית, והמעבר לצבע, עדיין, מה להדגיש, ארגון השטח, בחירת צבעים, אוירה, רמת דיוק, כמה לקחת מתוך הנושא, ועוד הרבה החלטות אחרות נתונות בידי, כמו שהן נתונות בידי כל אמן.\nכיצד לסמל שיגרה? משהו שחוזר על עצמו כמו יום אחרי יום? החלטתי לקחת בכל העבודות פורמט של גיליון ניר 100x70 כדי להכניס מוטיב זהה בכל העבודות.\nעל כתב היד שלי לא ויתרתי בשלב זה, היה חשוב לי לשמור על הנחת צבע קלילה ואוורירית, שמשיכות המכחול תיראינה, ששכבות העבודה תיראינה, בשילוב ראיה אקוורלית, עם הרבה לבנים.\nנושאים כמו כלים המונחים על השיש או בכיור, מגבות מטבח על השיש, נושאים שנוצרו מתוך פעילות שגרתית בבית כמו כביסה תלויה על חבל, או כריות על המיטה וכו'. כמעט הרגשתי לא בנוח על שהדברים כל כך קלים, התהליך הנוכחי היה בין הרגועים, הנעימים, הזורמים בהשוואה לתהליכים עד היום.\nדבר חשוב בעבודה על מבטים הייתה תשומת הלב לחומרים שונים כמו פלסטיק, מתכת, זכוכית, עץ שהובילו להמשך של שקר השקיפות.",
+    "descriptionEn": "Castra Art Gallery, Haifa",
+    "longDescription": "תערוכה מספר 16 היא התחברות לשגרת חיי. הדברים והחפצים, אלו שעברתי לידם אין ספור פעמים בלי להתייחס אליהם, מקבלים מקום.\nיצירה ושגרת חיים - בזה דנה תערוכה זו. \nבעבודתי הפעם לא חיפשתי נושאים, פשוט נתקלתי בהם, מתוך המציאות בסביבתם הטבעית, צוירו כמעט בלי לשנות דבר. \nעברתי לעבודה בצבעי שמן ובגישה ריאלית, לאחר הרבה שנים של התמקדות ברישום וצבעי מים. כל דרך יצירה והזמן המתאים לה. השתנות, באה באופן טבעי והדרגתי עם השתנות האישיות, למרות התפנית לגישה ריאלית, והמעבר לצבע, עדיין, מה להדגיש, ארגון השטח, בחירת צבעים, אוירה, רמת דיוק, כמה לקחת מתוך הנושא, ועוד הרבה החלטות אחרות נתונות בידי, כמו שהן נתונות בידי כל אמן.\nכיצד לסמל שיגרה? משהו שחוזר על עצמו כמו יום אחרי יום? החמידתי לקחת בכל העבודות פורמט של גיליון ניר 100x70 כדי להכניס מוטיב זהה בכל העבודות.\nעל כתב היד שלי לא ויתרתי בשלב זה, היה חשוב לי לשמור על הנחת צבע קלילה ואוורירית, שמשיכות המכחול תיראינה, ששכבות העבודה תיראינה, בשילוב ראיה אקוורלית, עם הרבה לבנים.\nנושאים כמו כלים המונחים על השיש או בכיור, מגבות מטבח על השיש, נושאים שנוצרו מתוך פעילות שגרתית בבית כמו כביסה תלויה על חבל, או כריות על המיטה וכו'. כמעט הרגשתי לא בנוח על שהדברים כל כך קלים, התהליך הנוכחי היה בין הרגועים, הנעימים, הזורמים בהשוואה לתהליכים עד היום.\nדבר חשוב בעבודה על מבטים הייתה תשומת הלב לחומרים שונים כמו פלסטיק, מתכת, זכוכית, עץ שהובילו להמשך של שקר השקיפות.",
+    "longDescriptionEn": "Exhibition number 16 is a connection to my daily routine. Things and objects that I passed countless times without noticing are given a space.\nCreation and daily routine—this is what this exhibition is about.\nIn my work this time, I did not search for subjects; I simply stumbled upon them in their natural surroundings, painted almost without changing a thing.\nI transitioned to oil painting with a realistic approach, after many years of focusing on drawing and watercolors. Every path of creation has its suitable time. Change comes naturally and gradually with the evolution of personality. Despite the turn towards a realistic approach and the transition to color, decisions on what to emphasize, space organization, color selection, atmosphere, level of precision, how much to take from the subject, and many other choices remain in my hands, as they do for any artist.\nHow to symbolize routine? Something that repeats itself day after day? I decided to use a 100x70 paper sheet format for all works to introduce a unifying motif across the exhibition.\nI did not abandon my artistic handwriting at this stage; it was important to me to maintain a light, airy application of color, so that the brushstrokes and the layers of work remain visible, combining a watercolor perspective with plenty of whites.\nSubjects like dishes left on the counter or in the sink, kitchen towels, and scenes arising from routine household activities—like laundry hanging on a line or pillows on the bed. I almost felt uncomfortable that things were so easy; the current process was among the calmest, most pleasant, and fluid compared to my processes up to today.\nAn important aspect in the work on 'Glances' was the attention paid to different materials such as plastic, metal, glass, and wood, which subsequently led to \"The Lie of Transparency.\"",
     "coverImage": "/galleries/מבטים של יום יום 6-11-2003/מבטים3.jpg",
     "images": [
       {
@@ -433,8 +442,11 @@ export const galleries = [
   {
     "id": "brosh",
     "title": "ברוש",
+    "titleEn": "Cypress",
     "description": "תערוכת יחיד טבעון בית יד לבנים 2020",
+    "descriptionEn": "Solo Exhibition at Yad LaBanim, Kiryat Tivon 2020",
     "longDescription": "במרכז העבודה ברוש שנטעתי ליד גדר ביתי וצמח עד לגובה הבית. היות והעניין היה בין ענפיו שהתפרסו לרוחב, רשמתי אותו בחלקים וחיברתי על הקיר שהוצגו בגלריה.\n\nהעבודות מורכבות משניים, ארבעה או שישה חלקים, והגיעו למידות של 3x1.50 מטר. ברגע שפרקתי את התערוכה התפרק גם העץ.\n\nכל גיליונות הנייר היו 100x70. עבודות הרישום נעשו בעיפרון גרפיט רך ובפחם סינטטי.",
+    "longDescriptionEn": "At the center of the work is a cypress tree that I planted near my garden fence, which grew as tall as the house. Since my interest lay in its branches spreading wide, I drew it in sections and assembled them on the gallery wall.\n\nThe works consist of two, four, or six parts, reaching dimensions of 3x1.50 meters. As soon as I dismantled the exhibition, the tree dismantled as well.\n\nAll paper sheets were 100x70. The drawings were done with soft graphite pencil and synthetic charcoal.",
     "coverImage": "/galleries/ברוש/ברוש טבעון17.jpg",
     "images": [
       {
@@ -575,8 +587,11 @@ export const galleries = [
   {
     "id": "gallery_6",
     "title": "דיוקן קורונה ברישום ואקוורל",
+    "titleEn": "Corona Portrait in Drawing and Watercolor",
     "description": "מרץ 2020",
+    "descriptionEn": "March 2020",
     "longDescription": "זו השנה שהצגתי תערוכה בבית האומנים בתל אביב, \"שקר השקיפות\". היא הוצגה שלושה חודשים עם קהל במסכות. בתקופה זו, שלא אפשרו לנו חופש ונשארנו לרוב בבית, התחלתי שוב לרשום את עצמי.\n\nכאשר חולפות כמה שנים ואני חוזרת לרשום את עצמי, זה תמיד שונה ואחר. חזרתי כמובן לחומרים של רישום, שזה מה שקורה כאשר אני מתחילה שלב חדש של חיפוש. בד בבד חזרתי לאקוורל וגם כאן, אחרי מספר שנים, העבודה משתנה – אני משתנה. ראיתי איך הזדקנתי ומה עושה הזמן. אני מביאה חלק קטן מהן כאן.",
+    "longDescriptionEn": "This was the year I presented the exhibition \"The Lie of Transparency\" at the Artists' House in Tel Aviv. It ran for three months with a masked audience. During this period, when our freedom was restricted and we mostly stayed at home, I began drawing myself again.\n\nWhen a few years pass and I return to self-portraiture, it is always different. I naturally returned to drawing materials, which is what happens whenever I begin a new phase of exploration. At the same time, I returned to watercolor, and here too, after several years, the work is changing—I am changing. I saw how I had aged and what time does. I present a small selection of these works here.",
     "coverImage": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה2 (2).jpg",
     "images": [
       {
@@ -836,8 +851,11 @@ export const galleries = [
   {
     "id": "gallery_0",
     "title": "רישום ואני 12/09/1998",
+    "titleEn": "Drawing and I 12/09/1998",
     "description": "בית אגודת האומנים ע\"ש שאגאל חיפה",
-    "longDescription": "רישום ואני בפרספקטיבה של זמן 2026\n\n אלה עבודות שנעשו לפני 15 -20 שנים ועדיין אני מרגישה מחוברת אליהן. \n\nלראות את העבודות בפרספקטיבה של זמן, במבט יותר אובייקטיבי, שבוחן את העבודות מנקודת מבט פחות רגשי ויותר ברור. מה שמוצג כאן הוא חלק קטן של עבודה של שנתיים על עצמי.\n\nנושא הדיוקן העצמי נדוש באומנות, רבים מהאומנים מחפשים מודל ולבסוף מוצאים אותו בעצמם היות והנושא זמין. כמובן שיש מחויבות שתהיה, עד כמה שאפשר אובייקטיבי לא משנה באיזו דרך ביטוי בחרת. רשמתי בכל מיני גישות, חומרים, גדלים, יחסים שונים בין חלקי הגוף, בתנועות שונות, הכל בניסיון לגעת בעצמי, התרחקתי מעבודה ריאליסטית, לא רציתי שהדיון יהיה האם זה דומה לי או לא. השתמשתי במראה יד ימין ציירה ויד שמאל הוסיפה עניין. ככל שעבדתי יותר התנתקתי מן הרעיון שזו אני ומצאתי את עצמי מתבוננת עלי כמו על כל מודל אחר.",
+    "descriptionEn": "Chagall Artists' House, Haifa",
+    "longDescription": "רישום ואני בפרספקטיבה של זמן 2026\n\n אלה עבודות שנעשו לפני 15 -20 שנים ועדיין אני מרגישה מחוברת אליהן. \n\nלראות את העבודות בפרספקטיבה של זמן, במבט יותר אובייקטיבי, שבוחן את העבודות מנקונדת מבט פחות רגשי ויותר ברור. מה שמוצג כאן הוא חלק קטן של עבודה של שנתיים על עצמי.\n\nנושא הדיוקן העצמי נדוש באומנות, רבים מהאומנים מחפשים מודל ולבסוף מוצאים אותו בעצמם היות והנושא זמין. כמובן שיש מחויבות שתהיה, עד כמה שאפשר אובייקטיבי לא משנה באיזו דרך ביטוי בחרת. רשמתי בכל מיני גישות, חומרים, גדלים, יחסים שונים בין חלקי הגוף, בתנועות שונות, הכל בניסיון לגעת בעצמי, התרחקתי מעבודה ריאליסטית, לא רציתי שהדיון יהיה האם זה דומה לי או לא. השתמשתי במראה יד ימין ציירה ויד שמאל הוסיפה עניין. ככל שעבדתי יותר התנתקתי מן הרעיון שזו אני ומצאתי את עצמי מתבוננת עלי כמו על כל מודל אחר.",
+    "longDescriptionEn": "Drawing and I in the Perspective of Time 2026\n\nThese are works created 15-20 years ago, and I still feel connected to them.\n\nTo view the works in the perspective of time is to take a more objective gaze, examining them from a less emotional and clearer viewpoint. What is presented here is a small part of two years of work on myself.\n\nThe subject of self-portraiture is a cliché in art; many artists look for a model and eventually find one in themselves, since the subject is readily available. Of course, there is an obligation to be as objective as possible, regardless of the mode of expression chosen. I drew using various approaches, materials, sizes, different proportions between body parts, and in different poses—all in an attempt to touch upon myself. I steered away from realistic representation, not wanting the discussion to center on whether it resembles me or not. I used a mirror; my right hand drew while my left hand added interest. The more I worked, the more I detached from the idea that this was me, finding myself observing myself as I would any other model.",
     "coverImage": "/galleries/רישום ואני 12-09-1998/רישום ואני3.jpg",
     "images": [
       {
@@ -1083,8 +1101,11 @@ export const galleries = [
   {
     "id": "war-diary",
     "title": "יומן מלחמה 2025-6 חלק מהתערוכה ש.ב.ר",
+    "titleEn": "War Diary 2025-6, Part of the S.H.A.T.T.E.R. Exhibition",
     "description": "היומן נוצר במלחמה האחרונה עם חמס בעזה, עם חיזבאללה בלבנון ועם איראן.",
+    "descriptionEn": "The diary was created during the recent war with Hamas in Gaza, Hezbollah in Lebanon, and Iran.",
     "longDescription": "מתוך קושי לשמוע כל הזמן חדשות, מתוך קושי בכלל להכיל את המצב, הלכתי לאטליה שלי כדי להתרחק מהחדשות, והתיישבתי לרשום. \n\n רשמתי פרחים שנבלו שהתחברו לי עם חיילים (פרחים) שנפלו. רשמתי עם חומר שנקרא סנגווין שבא מהמילה דם, ועם חומרים אחרים של רישום. כמעט כל יום רשמתי רישום אחד, כעבור מספר ימים הוספתי גם תאריך לכל רישום עם הערות של הרעיון מאחורי העבודה. ועם מספר ההרוגים של אותו יום.",
+    "longDescriptionEn": "Out of the difficulty of constantly listening to the news, and the sheer challenge of containing the situation, I went to my studio to distance myself from the reports and sat down to draw.\n\nI drew withered flowers, which connected in my mind with fallen soldiers (\"flowers\"). I drew using a medium called sanguine, derived from the word for blood, and other drawing materials. I made almost one drawing every day. A few days later, I also added a date to each drawing, along with notes on the concept behind the work and the number of fallen soldiers on that day.",
     "coverImage": "/galleries/יומן מלחמה/יומן מלחמה1.jpg",
     "images": [
       {
@@ -1253,8 +1274,11 @@ export const galleries = [
   {
     "id": "scenery-pieces",
     "title": "פיסות נוף",
+    "titleEn": "Scenery Pieces",
     "description": "גלריה בית גבריאל 01/01/2004-01/01/2005",
+    "descriptionEn": "Beit Gabriel Gallery 01/01/2004-01/01/2005",
     "longDescription": "\"פיסות נוף\" - בין צבע שמן לגרפית.\n\nקו וכתם, עיפרון גרפית וצבע שמן, אחד ליד השני, אחד על השני, מעורבבים יחד וכל אחד לחוד. בעקרון, צבע שמן וגרפית הם שני חומרים שלא מתחברים יחד, אך הם סובלים האחד את השני בסמיכויות שונות של החומר. \n\nהעיפרון הוא נייטרלי במושגים של בהיר וכהה. העיפרון לרוב משרת את הקו ויצירת עניין בתוך הצבע והכתם ביצירת טקסטורה. הצבע משרת שטחים וכתם וכמובן תוכן צבעוני. התערוכה היא גזירת חלק קטן מציור שלם והפיכתו לציור בפני עצמו, לכן - \"פיסות נוף\".",
+    "longDescriptionEn": "\"Scenery Pieces\" - Between Oil Paint and Graphite.\n\nLine and patch, graphite pencil and oil paint, side-by-side, one on top of the other, mixed together and each on its own. In principle, oil paint and graphite are two mediums that do not bond well, yet they tolerate one another in varying densities of the material.\n\nThe pencil is neutral in terms of light and dark. It mostly serves the line and creates interest within the color and patch by generating texture. Color serves the fields and patches, and of course, the chromatic content. The exhibition is the cutting of a small segment from a complete painting and turning it into a painting in its own right, hence—\"Scenery Pieces\".",
     "coverImage": "/galleries/פיסות נוף/פיסות נוף4.JPG",
     "images": [
       {
@@ -1395,8 +1419,11 @@ export const galleries = [
   {
     "id": "gallery_5",
     "title": "באקוורל",
+    "titleEn": "In Watercolor",
     "description": "בית האומנים חיפה | 27/12/1986",
+    "descriptionEn": "Haifa Artists' House | 27/12/1986",
     "longDescription": "רוברט ווד סיכם את העבודה באקוורל:\" עבודה של 25 דקות עם ניסיון של 25 שנים.\"\n\nככל שהעמקתי בעבודה באקוורל כך הזדהיתי עם אותה הרגשה. כדי להצליח לבטא את העבודה באקוורל נאלצתי לגייס את כל הידע והניסיון שלי. תערוכה עשירית זו מסכמת את עבודתי באקוורל בתקופה האחרונה. התחלתי לעבוד במדיום זה בחיפוש אחר משהו חדש שיגרום לי לשינוי בחשיבה. ההתחלה הייתה די קלאסית, עבודה בשכבות עם ניצול התכונה האופיינית של אקוורל – השקיפות. את נתון השקיפות השארתי לאורך כל הדרך, העבודה בשכבות איבדה מחשיבותה די סמוך להתחלה. הרישום- הוא נקודת המוצא ובסיס העבודה שלי גם בתערוכה זו, רישום מתוך המציאות,(גם בים), תחימת המישורים, הגדרתם כצורה, מהווה גורם חשוב לתכנון הכתמים. עם הנחת כתמי הצבע הקווים נעלמים. חלק גדול מהפרטים אותם רשמתי בהתחלה, ובהמשך נראו לי לא חשובים, נמחקים ונעלמים גם הם. הנחת הכתמים, הבהירים והכהים, התלות שלהם בנושא משתנה לפי החלטתי. בתחילת העבודה אני מסמנת דרגת כהות לפי המציאות, בהמשך הנחת הכתמים היא ללא תלות בנושא. שיקולים כמו: תנועת הכתם, מיקומו במרחב, עצמת הכתמים, כהותם, האיכות הצבעונית, ביחס לצבעים שסביב, וכמובן הלבן שאותו אני בונה בתחילת העבודה, הם הגורמים המנחים. הלבן בהתחלה שרת את רעיון האור או הנתונים הבהירים, בהמשך ארגון הלבנים נעשה באופן בלתי תלוי בגורם כל שהוא, אלא לפי שיקול דעתי בלבד. ככל שעבדתי יותר ביטלתי טונים של כהות וצמצמתי גוונים עד למינימום. לא אחת חזרתי על עבודה מספר פעמים עד שהגעתי למסקנה הרצויה לי, וגם אז נישאר פתח להרבה אפשרויות נוספות. ברור לי שכאשר אחזור לעבור בכל חומר אחר, העבודה באקוורל תתבטא ותשפיע על המשך עבודתי. הנושאים שהתערוכה עוסקת בהם הן דמויות, לרוב בני ביתי, אותן רשמתי מבלי להושיב אף אחד מהאנשים במיוחד, הם בשגרת חייהם ואני רושמת כחלק משגרת חיי.",
+    "longDescriptionEn": "Robert Wood summed up watercolor painting: \"A 25-minute work with 25 years of experience.\"\n\nThe deeper I went into watercolor, the more I identified with that sentiment. To succeed in expressing watercolor work, I had to mobilize all my knowledge and experience. This tenth exhibition summarizes my recent work in watercolor. I began working in this medium searching for something new that would shift my way of thinking. The start was quite classical—working in layers, utilizing watercolor's characteristic feature: transparency. I kept this quality of transparency throughout, though layering lost its importance soon after the start. Drawing is the starting point and foundation of my work in this exhibition as well—drawing from life (even at sea). Delineating planes and defining them as shapes is an important factor in planning the color patches. Once the patches of color are laid down, the lines disappear. Many of the details I initially drew and later deemed unimportant are erased and disappear too. The placement of light and dark patches, and their reliance on the subject, changes by my decision. At the start of a painting, I mark the level of darkness according to reality; later, the placement of the patches is independent of the subject. Guiding factors include: the movement of the patch, its location in space, the intensity of the patches, their darkness, their chromatic quality relative to surrounding colors, and of course, the white space that I construct at the beginning of the work. Initially, the white served the idea of light or bright elements; later, the organization of whites was done independently of any factor, based purely on my judgment. The more I worked, the more I eliminated dark tones and reduced shades to a minimum. I repeatedly reworked a piece several times until I reached my desired outcome, and even then, many other possibilities remained open. It is clear to me that when I return to work in any other medium, watercolor painting will express itself and influence my future work. The subjects of this exhibition are figures, mostly members of my household, whom I drew without having anyone pose specifically—they go about their daily routines, and I draw as part of mine.",
     "coverImage": "/galleries/באקוורל/באקוורל/אקוורל2.JPG",
     "images": [
       {
@@ -1691,8 +1718,11 @@ export const galleries = [
   {
     "id": "miki",
     "title": "מיקי",
+    "titleEn": "Miki",
     "description": "לאורך השנים",
+    "descriptionEn": "Through the Years",
     "longDescription": "ציירתי את מיקי מלא. הנה קצת לאורך השנים. \n\nהציור שהוא קורא עיתון בגישה קצת קוביסטית הוא משנת 1982 בצבעי שמן. עוד רשמתי אותו בשחור לבן ברישומים קטנים וגדולים, וציירתי אותו באקוורל. מיקי הוא נושא זמין ונוח היות והוא לא זז הרבה. לרוב בציורים הוא קורא עיתון, או ישן. \n\nבמצב שאני מציירת אותו עם עיתון, העיתון הוא שטח ללא תוכן, הוא מעניין כצורה בתוך המרחב. לא במה שכתוב בו. לפעמים הוא משולב עם דיוקן שלי או חלק מהרגלים שלי.",
+    "longDescriptionEn": "I have painted Miki a lot. Here is a little of it through the years.\n\nThe painting of him reading a newspaper in a somewhat Cubist style is from 1982, in oil paints. I also drew him in black and white in small and large sketches, and painted him in watercolor. Miki is a readily available and convenient subject because he does not move much. Most often in the paintings, he is reading a newspaper or sleeping.\n\nWhen I paint him with a newspaper, the newspaper is an area without content; it is interesting as a shape in space, not for what is written in it. Sometimes it is combined with my self-portrait or parts of my legs.",
     "coverImage": "/galleries/מיקי/מיקי17.jpg",
     "images": [
       {
@@ -1819,8 +1849,11 @@ export const galleries = [
   {
     "id": "almost-black-and-white",
     "title": "כמעט שחור לבן אוקטובר 1992",
+    "titleEn": "Almost Black and White October 1992",
     "description": "כמעט שחור לבן, או ממבט מהיר לסטודיו | היכל התרבות נהריה",
+    "descriptionEn": "Almost Black and White, or a Quick Glance at the Studio | Nahariya Cultural Center",
     "longDescription": "כמעט, משום המצע. נייר אריזה בצבע אוכר, נקודת המוצא היא לא לבן, בערך בשליש הסקאלה של הכהים בהירים. מה שמאפשר לנדוד לכיוון הכהים או לכיוון הבהירים, מצב מאוד נוח להימצא בו. \n\nנקודת המוצא היא עשרות רישומים קטנים שנעשו במהירות, רובם תוך כדי נסיעה, שאת חלקם השלמתי מהזיכרון. הרישומים הקטנים הם חלק קטן בתהליך אולם הם מקור התנועה של הדרך. המבט המהיר הוא הדרך, העבודה נעשתה בסטודיו.",
+    "longDescriptionEn": "Almost, because of the substrate. Ochre-colored wrapping paper means the starting point is not white, but rather about a third of the way up the light-dark scale. This allows for wandering toward either the darks or the lights, a very comfortable place to be.\n\nThe starting point is dozens of small sketches drawn quickly, most of them while traveling, some of which I completed from memory. The small sketches are a small part of the process, yet they are the source of movement along the path. The quick glance is the path, while the work was executed in the studio.",
     "coverImage": "/galleries/כמעט שחור לבן/כמעט שחור לבן5 (2).JPG",
     "images": [
       {
@@ -1905,8 +1938,11 @@ export const galleries = [
   {
     "id": "chemnitz",
     "title": "קמניץ גרמניה",
+    "titleEn": "Chemnitz, Germany",
     "description": "תערוכה עם אוסמר אוסטן 2016",
+    "descriptionEn": "Exhibition with Osmar Osten 2016",
     "longDescription": "האירוח לו זכיתי בקמניץ גרמניה היה בזכות הקשרים של חנה ורפי ורטהיים, חנה בעיקר מטפחת את הקשרים האומנותיים עם הקהילה היהודית ועם אומנים מתוך קמניץ, יוצרת חיבורים בין אומנים מקריית ביאליק לבין אומנים מקמניץ. מחברת בניהם לסוג של חיבור אימות בין עולמות שונים. האירוח היה מעל ומעבר, קיבלתי אולם גדול לעבוד, חומרים, בדים, התארחתי ליום אחד בסדנת ההדפס המדהימה של טומס ראמפט, בו יצרתי את ההדפס של אדם וריבוע, ההדפס הוצג במוזיאון של קמניץ. בתום שבוע של עבודה הצגנו תערוכה משותפת , אוסמר אוסטן ואני.",
+    "longDescriptionEn": "The hospitality I enjoyed in Chemnitz, Germany, was thanks to the connections of Hanna and Rafi Wertheim. Hanna especially cultivates artistic ties with the Jewish community and with artists in Chemnitz, creating connections between artists from Kiryat Bialik and artists from Chemnitz—linking them in a sort of dialogue between different worlds. The hospitality was beyond compare: I was given a large hall to work in, materials, canvases, and spent a day at Thomas Ranft's incredible printmaking studio, where I created the 'Man and Square' print, which was exhibited in the Chemnitz Museum. At the end of a week of work, Osmar Osten and I presented a joint exhibition.",
     "coverImage": "/galleries/קמניץ גרמניה עם אוסמר אוסטן/קמניץ17.jpg",
     "images": [
       {
@@ -1992,8 +2028,11 @@ export const galleries = [
   {
     "id": "between-between",
     "title": "בין לבין",
+    "titleEn": "In Between",
     "description": "",
+    "descriptionEn": "",
     "longDescription": "\"בין לבין\" הוא מרחב של אי-ודאות, פתוח, מקום של אפשרויות. לרוב זהו מצב של סיום אמירה, תוכן כלשהו או סיכום עבודה בתערוכה.\n\nמצב ביניים, לאחר סיום של פרק אחד ומעבר לפרק אחר. זה לא מצב של חוסר עשייה - זהו מצב פעיל של חשיבה, חיפוש והקשבה. שום עבודה היא לא לחינם. בין לבין הוא תמיד מלא בתוכן.\n\nיצאתי הפעם מתוך סקיצות מהירות קטנות שאני רושמת כל הזמן כמהלך שגרתי, ומשמשות לי תבנית לווריאציה או אלתור כמו במוזיקה.",
+    "longDescriptionEn": "\"In Between\" is a space of uncertainty, open, a place of possibilities. Most often it is a state of completing an expression, a certain content, or summarizing work for an exhibition.\n\nAn intermediate stage, following the conclusion of one chapter and the transition to another. This is not a state of inactivity—it is an active state of thinking, searching, and listening. No work is in vain. The in-between is always filled with content.\n\nThis time, I started from quick small sketches that I draw constantly as a routine, which serve as a pattern for variation or improvisation, much like in music.",
     "coverImage": "/galleries/בין לבין/בין לבין8.jpg",
     "images": [
       {
@@ -2218,8 +2257,11 @@ export const galleries = [
   {
     "id": "gallery_7",
     "title": "וריאציות על נושא",
+    "titleEn": "Variations on a Theme",
     "description": "תערוכת יחיד בית הלוחם 1995",
+    "descriptionEn": "Solo Exhibition at Beit Halochem 1995",
     "longDescription": "כאשר עבדתי על \"וריאציות על נושא\" חשבתי על מוזיקה, איך נושא יכול להתנגן ויזואלית שונה כאשר התבנית \"pattern\" היא אותה תבנית. בווריאציה התבנית נשארת אותו דבר בכולם, באלתור אפשר להתרחק מהתבנית עד שכמעט ולא נזהה את התבנית המקורית. בכל מקרה התבנית חייבת להיות מאוזכרת בשניהם, ברמה זו או אחרת.\n\nבחרתי בציור של מיקי כתבנית. הפורמט של המקור הוא 75x55. הווריאציות והאלתורים מצוירים על פורמטים גדולים יותר, כ-100–150, על מצע חום לרוב.\n\nהחלל הרחב באולמות של בית הלוחם התאים לעבודות הגדולות והצגתן על הצד הטוב ביותר.",
+    "longDescriptionEn": "When I worked on \"Variations on a Theme,\" I thought of music—how a theme can play out visually in different ways while the pattern remains the same. In a variation, the pattern stays identical in all versions; in an improvisation, one can move so far from the pattern that the original is barely recognizable. In either case, the pattern must be referenced in both, to one degree or another.\n\nI chose a painting of Miki as my pattern. The original format is 75x55. The variations and improvisations are painted on larger formats, about 100-150, mostly on a brown substrate.\n\nThe wide space in the halls of Beit Halochem was perfect for these large works, presenting them in the best possible light.",
     "coverImage": "/galleries/וריאציות על נושא/מקור.jpeg",
     "images": [
       {
@@ -2283,8 +2325,11 @@ export const galleries = [
   {
     "id": "nude",
     "title": "עירום לאורך השנים",
+    "titleEn": "Nude Through the Years",
     "description": "ציורי עירום.",
+    "descriptionEn": "Nude paintings.",
     "longDescription": "אחד הנושאים שאני עוסקת בהם לא מעט הוא עירום בכל פעם שהזדמן לי לרשום עירום, ניצלתי את ההזדמנות. \n\nלמה עירום? שאלתי את עצמי לא אחת. \n\n תפיסת הגוף במצבים של שקיעה, האמת שנחשפת, המשקל, הגיל, לא התעסקות במושג של יופי, או אידיאליזציה, איך הגוף מתעוות תוך תנועה, או מטעין את הגוף במתח, כל אלה מעסיקים אותי ברישום עירום.",
+    "longDescriptionEn": "One of the subjects I engage with quite often is the nude; whenever I had the opportunity to draw a nude, I took it.\n\nWhy the nude? I asked myself more than once.\n\nThe perception of the body in states of decline, the truth that is exposed, the weight, the age, rather than dealing with the concept of beauty or idealization; how the body distorts during movement, or charges the body with tension—all of these occupy me in drawing the nude.",
     "coverImage": "/galleries/עירום לאורך השנים/בעירום1.jpg",
     "images": [
       {
@@ -2460,8 +2505,11 @@ export const galleries = [
   {
     "id": "nude-museum",
     "title": "עירום מהמוזיאון סוף 2010",
+    "titleEn": "Nude from the Museum Late 2010",
     "description": "רישומי מודל עירום במסגרת מוזיאון חיפה.",
+    "descriptionEn": "Nude model drawings at the Haifa Museum.",
     "longDescription": "זוהי תקופה בה הלכתי לרשום מודל עירום במסגרת מוזיאון חיפה. העבודות נעשו ב-25-30 דקות כל עבודה, באקריליק לייבוש מהיר, במונוכרום.\n\nיש בעירום איזושהי חשיפה של הגוף והתעסקות מעניינת עם העור עצמו, עם קיצורי פרופורציות, יצירת נפח או הלחץ, עיוותים ואתגר של בניית כתם על הגוף, וכמובן מיקומו על הדף.",
+    "longDescriptionEn": "This was a period when I went to draw nude models at the Haifa Museum. The works were done in 25-30 minutes each, using fast-drying acrylic, in monochrome.\n\nThere is a certain exposure of the body in the nude and an interesting engagement with the skin itself, foreshortening of proportions, creating volume or tension, distortions, and the challenge of building a patch of color on the body, and of course, its placement on the page.",
     "coverImage": "/galleries/עירום מהמוזיאון/מוזיאון8.JPG",
     "images": [
       {
@@ -2595,8 +2643,11 @@ export const galleries = [
   {
     "id": "scenery",
     "title": "תפאורות להצגות",
+    "titleEn": "Stage Designs for Plays",
     "description": "אוסף תפאורות מהצגות שונות.",
+    "descriptionEn": "A collection of stage designs from various plays.",
     "longDescription": "לעשות תפאורה לגביי היא:\n\n* להגשים לבמאי את מה שהוא רואה בדמיונו.\n* להעריך מה רואה הקהל ממרחק 10-20 מטרים.\n* ליצור חיבור בין שלושה גורמים: השחקנים, התפאורה והקהל.\n\nלפני כל עשיית תפאורה אני קוראת את טקסט ההצגה. כמובן מדברת עם הבמאי, מבררת את צרכי ההצגה, מהלך, מבנה, סגנון ועוד.\n\nמבחינתי זוהי כניסה לעולם אחר, חיבור בין אשליה למציאות, כמו ההצגה כך התפאורה.\n\nכמובן שיש עוד גורמים כמו תאורה והגברה שמשפיעים על התוצאה הסופית.\n\nמה שמוצג כאן הוא חלק מהתפאורות שעשיתי בפועל.",
+    "longDescriptionEn": "For me, creating a stage design means:\n\n* Realizing what the director sees in their imagination.\n* Estimating what the audience sees from a distance of 10-20 meters.\n* Creating a connection among three elements: the actors, the set, and the audience.\n\nBefore making any set, I read the play's text. Of course, I speak with the director, clarify the needs of the show, its flow, structure, style, and more.\n\nFor me, this is entering another world, a connection between illusion and reality—just like the play, so is the set.\n\nOf course, there are other factors such as lighting and amplification that affect the final result.\n\nWhat is shown here is a selection of the sets I actually created.",
     "coverImage": "/galleries/תפאורות להצגות/חיים בסרט2.jpg",
     "images": [
       {
@@ -3120,8 +3171,11 @@ export const galleries = [
   {
     "id": "gallery_4",
     "title": "אדם וריבוע",
+    "titleEn": "Man and Square",
     "description": "היכל התרבות נהריה | אוקטובר 1992",
+    "descriptionEn": "Nahariya Cultural Center | October 1992",
     "longDescription": "שתי תערוכות: \"כמעט שחור לבן\" ו \"אדם וריבוע\". \n\nהריבוע, תבנית טובה, פשוטה, סגורה, סימטרית, יציבה, הכי קשה מבין המרובעים והכי פחות דינמית, אומרים אדם מרובע, ומבינים מה הכוונה. הריבוע הוא לגבי מסגרת, שיגרה, שלפעמים שוחקת. לפעמים אדם מבקש מסגרת (כמו בנישואין) גם כאשר אינו מבין את משמעותה, רוצה להיכנס ולא יודע מה בתוכה, לפעמים מתמזג בה ומרגיש בה טוב, לפעמים נלחם בה מנסה לפרוץ את גבולותיה ולפרקה. מה שמוצג כאן הוא חלק קטן מתוך הרבה רישומים שרשמתי בנושא. רק כדי להציג אפשרויות שונות. יש הדפס אחד שהצגתי כאן, זה שעשיתי בסדנה של טומס ראנפט בקמניץ בהשראת \"אדם וריבוע\", והוצג במוזיאון של העיר. \n\nלאחר בחינה, אין מסקנה.",
+    "longDescriptionEn": "Two exhibitions: \"Almost Black and White\" and \"Man and Square\".\n\nThe square: a good, simple, closed, symmetrical, stable pattern—the least dynamic of the quadrilaterals. Calling someone 'square' is understood to mean they are rigid. For me, the square represents a frame, a routine that sometimes wears us down. Sometimes a person seeks a frame (as in marriage) even without understanding its meaning, wanting to enter without knowing what lies inside; sometimes they merge with it and feel good, and other times they fight it, trying to break its boundaries and dismantle it. What is presented here is a small selection of the many drawings I made on this subject, just to show different options. There is one print shown here that I made in Thomas Ranft's workshop in Chemnitz, inspired by 'Man and Square', which was exhibited in the city museum.\n\nAfter examination, there is no conclusion.",
     "coverImage": "/galleries/אדם וריבוע/אדם וריבוע/אדם וריבוע רישומים2.JPG",
     "images": [
       {
