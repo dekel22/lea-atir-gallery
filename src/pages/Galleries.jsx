@@ -38,7 +38,10 @@ const Galleries = () => {
                 to={`/gallery/${gallery.id}`}
                 className="group block"
               >
-                <div className="relative overflow-hidden aspect-[4/5] bg-surface-container-low mb-6 reveal-image" style={{ animationDelay: `${index * 0.1}s` }}>
+                <div 
+                  className="relative overflow-hidden bg-surface-container-low mb-6 reveal-image" 
+                  style={{ aspectRatio: '4/5', animationDelay: `${index * 0.1}s` }}
+                >
                   <img 
                     src={gallery.coverImage} 
                     alt={displayTitle}
