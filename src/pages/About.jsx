@@ -25,7 +25,7 @@ const About = () => {
 
       <section className="grid grid-cols-1 lg:grid-cols-12 gap-16">
         <div className="lg:col-span-4">
-          <div className="relative overflow-hidden bg-surface-container-low reveal-image artist-portrait-container">
+          <div className="relative overflow-hidden bg-surface-container-low artist-portrait-container">
             <img 
               src="/about-portrait.jpg" 
               alt={t('about.artistName')} 

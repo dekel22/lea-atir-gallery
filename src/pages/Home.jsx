@@ -55,7 +55,7 @@ const Home = () => {
         </div>
         {/* Profile Illustration */}
         <div className="lg:col-span-4 lg:sticky lg:top-32 pr-0 lg:pr-12 mb-8 lg:mb-0">
-          <div className="relative overflow-hidden bg-surface-container-low group reveal-image artist-portrait-container">
+          <div className="relative overflow-hidden bg-surface-container-low group artist-portrait-container">
             <img 
               alt={t('home.artistName')} 
               className="object-cover w-full h-full" 
