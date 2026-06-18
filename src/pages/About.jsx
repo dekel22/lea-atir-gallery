@@ -26,11 +26,29 @@ const About = () => {
 
       <section className="grid grid-cols-1 lg:grid-cols-12 gap-16">
         <div className="w-full lg:col-span-4">
-          <div className="relative overflow-hidden bg-surface-container-low artist-portrait-container">
+          <div 
+            className="relative overflow-hidden bg-surface-container-low artist-portrait-container"
+            style={{
+              display: 'block',
+              width: '100%',
+              maxWidth: '320px',
+              height: '420px',
+              marginLeft: 'auto',
+              marginRight: 'auto',
+              backgroundColor: '#e8e8e7',
+              overflow: 'hidden',
+            }}
+          >
             <img 
               src={portraitImg} 
               alt={t('about.artistName')} 
               className="w-full h-full object-cover grayscale-0"
+              style={{
+                width: '100%',
+                height: '100%',
+                display: 'block',
+                objectFit: 'cover',
+              }}
             />
           </div>
           <div className="mt-4 text-center lg:text-start">
