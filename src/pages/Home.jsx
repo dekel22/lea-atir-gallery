@@ -55,7 +55,10 @@ const Home = () => {
         </div>
         {/* Profile Illustration */}
         <div className="lg:col-span-4 lg:sticky lg:top-32 pr-0 lg:pr-12 mb-8 lg:mb-0">
-          <div className="relative overflow-hidden w-full max-w-[220px] mx-auto lg:max-w-none lg:w-full bg-surface-container-low group reveal-image aspect-[2/3]">
+          <div 
+            className="relative overflow-hidden w-full max-w-[220px] mx-auto lg:max-w-none lg:w-full bg-surface-container-low group reveal-image"
+            style={{ aspectRatio: '2/3' }}
+          >
             <img 
               alt={t('home.artistName')} 
               className="object-cover w-full h-full transition-all duration-[2000ms] ease-out scale-105 group-hover:scale-100" 
