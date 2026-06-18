@@ -112,6 +112,12 @@
             clip-path: inset(0 0 100% 0);
             animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) forwards;
         }
+        @media (max-width: 1023px) {
+            .reveal-image {
+                clip-path: none !important;
+                animation: none !important;
+            }
+        }
         @keyframes reveal {
             to { clip-path: inset(0 0 0 0); }
         }

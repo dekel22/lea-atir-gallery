@@ -26,7 +26,7 @@ const About = () => {
       <section className="grid grid-cols-1 lg:grid-cols-12 gap-16">
         <div className="lg:col-span-4">
           <div 
-            className="relative overflow-hidden w-full max-w-[220px] mx-auto lg:max-w-none lg:w-full bg-surface-container-low reveal-image"
+            className="relative overflow-hidden w-[220px] mx-auto lg:w-full bg-surface-container-low reveal-image"
             style={{ aspectRatio: '2/3' }}
           >
             <img 
