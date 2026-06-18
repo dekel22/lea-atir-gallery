@@ -97,16 +97,17 @@ a:hover {
 .artist-portrait-container {
   display: block !important;
   width: 100% !important;
-  max-width: 420px !important;
+  max-width: 320px !important;
+  height: 420px !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  background-color: var(--color-bg);
+  background-color: #e8e8e7 !important;
   overflow: hidden !important;
 }
 
 .artist-portrait-container img {
   width: 100% !important;
-  height: auto !important;
+  height: 100% !important;
   display: block !important;
   object-fit: cover !important;
 }
@@ -158,6 +159,8 @@ a:hover {
 @media (min-width: 1024px) {
   .artist-portrait-container {
     max-width: none !important;
+    height: auto !important;
+    aspect-ratio: 2 / 3 !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
     clip-path: inset(0 0 100% 0) !important;
