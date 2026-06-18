@@ -129,7 +129,7 @@ const Home = () => {
       {/* Secondary Visual: Process/Behind the Scenes */}
       <section className="mt-section-gap">
         <div className="grid grid-cols-1 lg:grid-cols-12 items-stretch overflow-hidden border border-surface-variant/30">
-          <div className="lg:col-span-8 bg-surface-container-highest aspect-[16/9]">
+          <div className="lg:col-span-8 bg-white aspect-[3/2] md:aspect-[16/9]">
             <img 
               alt={t('home.catalogCaption')} 
               className="w-full h-full object-contain hover:scale-105 transition-transform duration-[3000ms]" 
