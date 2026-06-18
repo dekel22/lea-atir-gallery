@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { galleries } from '../data/galleries';
 import './Home.css';
+import portraitImg from '../assets/about-portrait.jpg';
 
 const GALLERY_YEARS = {
   'transparent': 2020,
@@ -54,12 +55,12 @@ const Home = () => {
           </div>
         </div>
         {/* Profile Illustration */}
-        <div className="lg:col-span-4 lg:sticky lg:top-32 pr-0 lg:pr-12 mb-8 lg:mb-0">
+        <div className="w-full lg:col-span-4 lg:sticky lg:top-32 pr-0 lg:pr-12 mb-8 lg:mb-0">
           <div className="relative overflow-hidden bg-surface-container-low group artist-portrait-container">
             <img 
               alt={t('home.artistName')} 
               className="object-cover w-full h-full" 
-              src="/about-portrait.jpg"
+              src={portraitImg}
             />
           </div>
           <div className="mt-8 text-center lg:text-start">

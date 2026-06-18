@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import portraitImg from '../assets/about-portrait.jpg';
 
 const About = () => {
   const { t, i18n } = useTranslation();
@@ -24,10 +25,10 @@ const About = () => {
       </header>
 
       <section className="grid grid-cols-1 lg:grid-cols-12 gap-16">
-        <div className="lg:col-span-4">
+        <div className="w-full lg:col-span-4">
           <div className="relative overflow-hidden bg-surface-container-low artist-portrait-container">
             <img 
-              src="/about-portrait.jpg" 
+              src={portraitImg} 
               alt={t('about.artistName')} 
               className="w-full h-full object-cover grayscale-0"
             />
