@@ -10,7 +10,7 @@ const Contact = () => {
   }, [t, i18n.language]);
 
   return (
-    <main className="pt-32 pb-20 max-w-container-max mx-auto px-margin-edge animate-fade-in">
+    <main className="pt-24 md:pt-32 pb-20 max-w-container-max mx-auto px-margin-edge animate-fade-in">
       <header className="mb-16">
         <div className="flex items-center gap-4 mb-8">
           <span className="font-label-sm text-on-surface-variant uppercase tracking-widest">{t('contact.sectionNumber')}</span>
@@ -30,23 +30,23 @@ const Contact = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div className="flex items-center gap-8 group">
-              <div className="w-16 h-16 flex items-center justify-center bg-surface-container rounded-full text-primary group-hover:bg-primary group-hover:text-on-primary transition-all duration-500">
+            <div className="flex items-center gap-4 sm:gap-8 group">
+              <div className="w-16 h-16 flex-shrink-0 flex items-center justify-center bg-surface-container rounded-full text-primary group-hover:bg-primary group-hover:text-on-primary transition-all duration-500">
                 <span className="material-symbols-outlined text-2xl" data-icon="mail">mail</span>
               </div>
               <div>
                 <p className="font-label-sm uppercase tracking-widest text-primary/40 mb-1">{t('contact.emailLabel')}</p>
-                <a href="mailto:leaatir@walla.com" className="font-h3 text-2xl hover:text-secondary transition-colors">leaatir@walla.com</a>
+                <a href="mailto:leaatir@walla.com" className="font-h3 text-[18px] sm:text-2xl hover:text-secondary transition-colors break-all">leaatir@walla.com</a>
               </div>
             </div>
 
-            <div className="flex items-center gap-8 group">
-              <div className="w-16 h-16 flex items-center justify-center bg-surface-container rounded-full text-primary group-hover:bg-primary group-hover:text-on-primary transition-all duration-500">
+            <div className="flex items-center gap-4 sm:gap-8 group">
+              <div className="w-16 h-16 flex-shrink-0 flex items-center justify-center bg-surface-container rounded-full text-primary group-hover:bg-primary group-hover:text-on-primary transition-all duration-500">
                 <span className="material-symbols-outlined text-2xl" data-icon="call">call</span>
               </div>
               <div>
                 <p className="font-label-sm uppercase tracking-widest text-primary/40 mb-1">{t('contact.phoneLabel')}</p>
-                <a href="tel:0544911985" className="font-h3 text-2xl hover:text-secondary transition-colors" dir="ltr">054-4911985</a>
+                <a href="tel:0544911985" className="font-h3 text-[18px] sm:text-2xl hover:text-secondary transition-colors" dir="ltr">054-4911985</a>
               </div>
             </div>
           </div>

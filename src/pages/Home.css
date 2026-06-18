@@ -219,49 +219,68 @@
   }
 }
 
-/* Mobile Responsive Accordion (Transforms into a Horizontal Swipeable Carousel) */
+/* Mobile Responsive Accordion (Vertical Stripes with Tap-to-Expand) */
 @media (max-width: 768px) {
   .timeline-accordion-container {
+    display: flex;
     flex-direction: row;
-    aspect-ratio: auto; /* Allow auto height based on card dimensions */
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none; /* Hide scrollbar in Firefox */
-    padding: 12px 4px 24px 4px;
-    gap: 16px;
-    box-shadow: none; /* Let individual cards have shadows */
-    background-color: transparent;
-  }
-
-  .timeline-accordion-container::-webkit-scrollbar {
-    display: none; /* Hide scrollbar in Chrome/Safari */
+    width: 100%;
+    aspect-ratio: 16 / 11; /* Beautiful proportion on mobile */
+    overflow: hidden; /* Prevent horizontal scroll, force vertical stripes */
+    border-radius: 6px;
+    gap: 2px;
+    background-color: var(--color-bg);
+    box-shadow: 0 8px 24px rgba(26, 22, 20, 0.08);
   }
 
   .timeline-slice {
-    flex: 0 0 280px; /* Fixed card width */
-    height: 380px; /* Tall, premium looking cards */
-    scroll-snap-align: start;
-    border-radius: 8px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-    basis: auto;
-    flex-grow: 0;
-    flex-shrink: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    height: 100%;
     overflow: hidden;
+    cursor: pointer;
+    transition: flex-grow 0.8s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.6s ease;
+    display: block;
+  }
+
+  /* Thin default slices */
+  .timeline-slice .slice-image {
+    filter: saturate(0.25) brightness(0.7) contrast(0.9);
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .timeline-slice .slice-overlay {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  /* Expanded active slice */
+  .timeline-slice.active {
+    flex-grow: 12; /* Expands to take up the majority of space */
     opacity: 1;
   }
 
-  .slice-image {
-    filter: none; /* Full color on mobile */
+  .timeline-slice.active .slice-image {
+    filter: none;
     opacity: 1;
+    transform: scale(1.02);
   }
 
-  .slice-overlay {
-    opacity: 1; /* Always visible overlay on mobile */
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0) 100%);
+  .timeline-slice.active .slice-overlay {
+    opacity: 1;
+    pointer-events: auto;
   }
 
-  .slice-content {
-    transform: translateY(0); /* Normal position */
+  .timeline-slice.active .slice-content {
+    transform: translateY(0);
+  }
+  
+  .timeline-slice.active .slice-overlay-title {
+    font-size: 1.15rem; /* Slightly smaller for mobile screens */
   }
 }

@@ -405,4 +405,30 @@
     grid-template-columns: 1fr;
     gap: var(--spacing-md);
   }
+  .gallery-header {
+    padding: 6rem 0 var(--spacing-md); /* Clear navbar, smaller bottom space */
+  }
+  .gallery-header h1 {
+    font-size: 2.2rem;
+  }
+  .gallery-description {
+    font-size: 1.15rem;
+  }
+  .gallery-long-description {
+    font-size: 1rem;
+    margin-top: var(--spacing-md);
+  }
+  .gallery-long-description p.gallery-subtitle {
+    font-size: 1.25rem;
+    margin-top: var(--spacing-lg);
+  }
+  .masonry-grid-flat {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+  }
+  .lightbox-close {
+    top: 16px;
+    right: 16px;
+  }
 }

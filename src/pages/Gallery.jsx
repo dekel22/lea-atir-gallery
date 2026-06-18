@@ -331,34 +331,59 @@ const Gallery = () => {
           </div>
         ) : (
           /* Original Masonry Layout for other galleries */
-          <div className="masonry-grid">
-            {[0, 1, 2].map((colIndex) => (
-              <div key={colIndex} className="masonry-column">
-                {gallery.images
-                  .filter((_, index) => {
-                    return index % 3 === colIndex;
-                  })
-                  .map((img) => {
-                    const originalIndex = gallery.images.findIndex(i => i.id === img.id);
-                    const displayCaption = i18n.language === 'en' && img.captionEn ? img.captionEn : img.caption;
-                    return (
-                      <div 
-                        key={img.id} 
-                        className={`masonry-item ${img.orientation || 'portrait'}`} 
-                        onClick={() => openLightbox(originalIndex)}
-                      >
-                        <img src={img.url} alt={img.alt} loading="lazy" />
-                        {displayCaption && (
-                          <div className="image-caption">
-                            {displayCaption}
-                          </div>
-                        )}
+          <>
+            {/* Mobile View: Flat Sequential List */}
+            <div className="masonry-grid-flat md:hidden">
+              {gallery.images.map((img) => {
+                const originalIndex = gallery.images.findIndex(i => i.id === img.id);
+                const displayCaption = i18n.language === 'en' && img.captionEn ? img.captionEn : img.caption;
+                return (
+                  <div 
+                    key={img.id} 
+                    className={`masonry-item ${img.orientation || 'portrait'}`} 
+                    onClick={() => openLightbox(originalIndex)}
+                  >
+                    <img src={img.url} alt={img.alt} loading="lazy" />
+                    {displayCaption && (
+                      <div className="image-caption">
+                        {displayCaption}
                       </div>
-                    );
-                  })}
-              </div>
-            ))}
-          </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* Desktop View: Multi-column Masonry Layout */}
+            <div className="masonry-grid hidden md:flex">
+              {[0, 1, 2].map((colIndex) => (
+                <div key={colIndex} className="masonry-column">
+                  {gallery.images
+                    .filter((_, index) => {
+                      return index % 3 === colIndex;
+                    })
+                    .map((img) => {
+                      const originalIndex = gallery.images.findIndex(i => i.id === img.id);
+                      const displayCaption = i18n.language === 'en' && img.captionEn ? img.captionEn : img.caption;
+                      return (
+                        <div 
+                          key={img.id} 
+                          className={`masonry-item ${img.orientation || 'portrait'}`} 
+                          onClick={() => openLightbox(originalIndex)}
+                        >
+                          <img src={img.url} alt={img.alt} loading="lazy" />
+                          {displayCaption && (
+                            <div className="image-caption">
+                              {displayCaption}
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
+                </div>
+              ))}
+            </div>
+          </>
         )}
         <div className="gallery-footer-nav">
           <Link to="/galleries" className="back-link"><ArrowRight size={18} className={i18n.language === 'en' ? 'rotate-180' : ''} /> {t('gallery.backToGalleries')}</Link>

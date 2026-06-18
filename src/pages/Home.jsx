@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { galleries } from '../data/galleries';
@@ -40,6 +40,17 @@ const Home = () => {
       year: GALLERY_YEARS[g.id] || 2000
     }))
     .sort((a, b) => a.year - b.year);
+
+  const [activeSlice, setActiveSlice] = useState(cronGalleries.length - 1);
+
+  const handleSliceClick = (e, index) => {
+    if (window.innerWidth <= 768) {
+      if (activeSlice !== index) {
+        e.preventDefault();
+        setActiveSlice(index);
+      }
+    }
+  };
 
   return (
     <main className="pt-24 pb-12 max-w-container-max mx-auto px-margin-edge">
@@ -138,7 +149,7 @@ const Home = () => {
           </div>
           <div className="lg:col-span-4 flex flex-col justify-center p-8 lg:p-12 bg-black text-white">
 
-            <h3 className="font-h2 text-h2 text-white mb-6">{t('home.creativeProcessHeader')}</h3>
+            <h3 className="font-h2 text-3xl lg:text-h2 text-white mb-6">{t('home.creativeProcessHeader')}</h3>
             <p className="text-lg lg:text-xl text-white mb-8 leading-relaxed">{t('home.creativeProcessText')}</p>
             <Link to="/galleries" className="inline-flex items-center gap-4 font-label-sm uppercase tracking-[0.2em] group border-b border-white/20 pb-2 w-fit hover:border-white transition-all text-white">
               {t('home.viewGalleriesButton')}
@@ -169,13 +180,14 @@ const Home = () => {
         </div>
         
         <div className="timeline-accordion-container">
-          {cronGalleries.map((g) => {
+          {cronGalleries.map((g, index) => {
             const displayTitle = i18n.language === 'en' && g.titleEn ? g.titleEn : g.title;
             return (
               <Link 
                 key={g.id}
                 to={`/gallery/${g.id}`} 
-                className="timeline-slice"
+                className={`timeline-slice ${activeSlice === index ? 'active' : ''}`}
+                onClick={(e) => handleSliceClick(e, index)}
               >
                 <img src={g.coverImage} alt={displayTitle} className="slice-image" loading="lazy" />
                 <div className="slice-overlay">
