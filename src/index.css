@@ -97,7 +97,6 @@ a:hover {
 .artist-portrait-container {
   width: 100% !important;
   max-width: 420px !important;
-  aspect-ratio: 2 / 3 !important;
   margin-left: auto !important;
   margin-right: auto !important;
   background-color: var(--color-bg);
@@ -105,7 +104,8 @@ a:hover {
 
 .artist-portrait-container img {
   width: 100% !important;
-  height: 100% !important;
+  height: auto !important;
+  aspect-ratio: 2 / 3 !important;
   display: block !important;
   object-fit: cover !important;
 }
