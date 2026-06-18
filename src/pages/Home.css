@@ -187,49 +187,81 @@
   margin-top: 4px;
 }
 
-/* Hover/Focus States */
-.timeline-accordion-container:hover .slice-image {
-  /* Keep softening filter active and dim other slices when container is active */
-  filter: saturate(0.25) brightness(0.7) contrast(0.9);
-  opacity: 0.55;
-}
-
-.timeline-slice:hover {
-  flex-grow: 7.5; /* Expanded width */
-  opacity: 1; /* Override global link hover opacity */
-}
-
-.timeline-slice:hover .slice-image {
-  transform: scale(1.03); /* Subtle zoom */
-}
-
-/* Hovered slice becomes full color and full brightness, overriding container hover state */
-.timeline-accordion-container .timeline-slice:hover .slice-image {
-  filter: none; /* Full color! */
-  opacity: 1;
-}
-
-.timeline-slice:hover .slice-overlay {
-  opacity: 1;
-}
-
-.timeline-slice:hover .slice-content {
-  transform: translateY(0);
-}
-
-/* Mobile Responsive Accordion */
-@media (max-width: 768px) {
-  .timeline-accordion-container {
-    flex-direction: row;
-    aspect-ratio: 16 / 10;
-    gap: 2px; /* Thinner gaps on mobile */
-  }
-
-  .timeline-slice {
-    transition: flex-grow 1.1s cubic-bezier(0.16, 1, 0.3, 1);
+/* Hover/Focus States (Desktop Only) */
+@media (hover: hover) {
+  .timeline-accordion-container:hover .slice-image {
+    /* Keep softening filter active and dim other slices when container is active */
+    filter: saturate(0.25) brightness(0.7) contrast(0.9);
+    opacity: 0.55;
   }
 
   .timeline-slice:hover {
-    flex-grow: 6; /* Expand more on mobile to show detail */
+    flex-grow: 7.5; /* Expanded width */
+    opacity: 1; /* Override global link hover opacity */
+  }
+
+  .timeline-slice:hover .slice-image {
+    transform: scale(1.03); /* Subtle zoom */
+  }
+
+  /* Hovered slice becomes full color and full brightness, overriding container hover state */
+  .timeline-accordion-container .timeline-slice:hover .slice-image {
+    filter: none; /* Full color! */
+    opacity: 1;
+  }
+
+  .timeline-slice:hover .slice-overlay {
+    opacity: 1;
+  }
+
+  .timeline-slice:hover .slice-content {
+    transform: translateY(0);
+  }
+}
+
+/* Mobile Responsive Accordion (Transforms into a Horizontal Swipeable Carousel) */
+@media (max-width: 768px) {
+  .timeline-accordion-container {
+    flex-direction: row;
+    aspect-ratio: auto; /* Allow auto height based on card dimensions */
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+    padding: 12px 4px 24px 4px;
+    gap: 16px;
+    box-shadow: none; /* Let individual cards have shadows */
+    background-color: transparent;
+  }
+
+  .timeline-accordion-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in Chrome/Safari */
+  }
+
+  .timeline-slice {
+    flex: 0 0 280px; /* Fixed card width */
+    height: 380px; /* Tall, premium looking cards */
+    scroll-snap-align: start;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    overflow: hidden;
+    opacity: 1;
+  }
+
+  .slice-image {
+    filter: none; /* Full color on mobile */
+    opacity: 1;
+  }
+
+  .slice-overlay {
+    opacity: 1; /* Always visible overlay on mobile */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0) 100%);
+  }
+
+  .slice-content {
+    transform: translateY(0); /* Normal position */
   }
 }

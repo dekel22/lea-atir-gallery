@@ -77,3 +77,11 @@ a:hover {
 .section {
   padding: var(--spacing-xxl) 0;
 }
+
+@media (max-width: 768px) {
+  .px-margin-edge {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
