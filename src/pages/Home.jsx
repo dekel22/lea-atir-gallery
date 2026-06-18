@@ -54,30 +54,12 @@ const Home = () => {
             <span className="font-label-sm text-primary uppercase tracking-widest">{t('nav.home')}</span>
           </div>
         </div>
-        {/* Profile Illustration */}
-        <div className="w-full lg:col-span-4 lg:sticky lg:top-32 pr-0 lg:pr-12 mb-8 lg:mb-0">
-          <div 
-            style={{
-              display: 'block',
-              width: '100%',
-              maxWidth: '320px',
-              height: '420px',
-              marginLeft: 'auto',
-              marginRight: 'auto',
-              backgroundColor: '#e8e8e7',
-              overflow: 'hidden',
-              position: 'relative',
-            }}
-          >
+        {/* Profile Illustration (Desktop) */}
+        <div className="hidden lg:block lg:col-span-4 lg:sticky lg:top-32 pr-0 lg:pr-12 mb-8 lg:mb-0">
+          <div className="artist-portrait-container">
             <img 
               alt={t('home.artistName')} 
               src={portraitImg}
-              style={{
-                width: '100%',
-                height: '100%',
-                display: 'block',
-                objectFit: 'cover',
-              }}
             />
           </div>
           <div className="mt-8 text-center lg:text-start">
@@ -87,6 +69,18 @@ const Home = () => {
 
         {/* Narrative Content */}
         <div className="lg:col-span-8 mt-4 lg:mt-0 pl-0 lg:pl-12">
+          {/* Profile Illustration (Mobile) */}
+          <div className="block lg:hidden mb-8 w-full">
+            <div className="artist-portrait-container">
+              <img 
+                alt={t('home.artistName')} 
+                src={portraitImg}
+              />
+            </div>
+            <div className="mt-4 text-center">
+              <p className="font-label-sm text-on-surface-variant/60 uppercase italic">{t('home.selfPortraitCaption')}</p>
+            </div>
+          </div>
           <h2 className="font-h1 text-4xl lg:text-5xl text-primary mb-8 leading-[1.05]">
             {t('home.artistName')} <br/>{t('home.yearsOfCreation')}
           </h2>

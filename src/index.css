@@ -140,6 +140,32 @@ a:hover {
   aspect-ratio: 4 / 5 !important;
 }
 
+.artist-portrait-container {
+  display: block !important;
+  width: 100% !important;
+  max-width: 320px !important;
+  height: 480px !important; /* fallback height */
+  margin-left: auto !important;
+  margin-right: auto !important;
+  background-color: #e8e8e7 !important;
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+@supports (aspect-ratio: 2/3) {
+  .artist-portrait-container {
+    height: auto !important;
+    aspect-ratio: 2 / 3 !important;
+  }
+}
+
+.artist-portrait-container img {
+  width: 100% !important;
+  height: 100% !important;
+  display: block !important;
+  object-fit: cover !important;
+}
+
 @media (min-width: 1024px) {
   .artist-portrait-container {
     max-width: none !important;

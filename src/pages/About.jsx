@@ -25,29 +25,12 @@ const About = () => {
       </header>
 
       <section className="grid grid-cols-1 lg:grid-cols-12 gap-16">
-        <div className="w-full lg:col-span-4">
-          <div 
-            style={{
-              display: 'block',
-              width: '100%',
-              maxWidth: '320px',
-              height: '420px',
-              marginLeft: 'auto',
-              marginRight: 'auto',
-              backgroundColor: '#e8e8e7',
-              overflow: 'hidden',
-              position: 'relative',
-            }}
-          >
+        {/* Profile Illustration (Desktop) */}
+        <div className="hidden lg:block lg:col-span-4">
+          <div className="artist-portrait-container">
             <img 
               src={portraitImg} 
               alt={t('about.artistName')} 
-              style={{
-                width: '100%',
-                height: '100%',
-                display: 'block',
-                objectFit: 'cover',
-              }}
             />
           </div>
           <div className="mt-4 text-center lg:text-start">
@@ -56,6 +39,18 @@ const About = () => {
         </div>
         
         <div className="lg:col-span-8 space-y-8 text-on-surface">
+          {/* Profile Illustration (Mobile) */}
+          <div className="block lg:hidden mb-8 w-full">
+            <div className="artist-portrait-container">
+              <img 
+                src={portraitImg} 
+                alt={t('about.artistName')} 
+              />
+            </div>
+            <div className="mt-4 text-center">
+              <p className="font-label-sm text-on-surface-variant/60 uppercase italic">{t('about.selfPortraitCaption')}</p>
+            </div>
+          </div>
           <div className="space-y-6">
             <p className="font-body-lg text-body-lg leading-relaxed">
               {t('about.introParagraph')}
