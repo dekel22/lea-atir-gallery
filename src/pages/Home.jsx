@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { galleries } from '../data/galleries';
@@ -40,17 +40,6 @@ const Home = () => {
       year: GALLERY_YEARS[g.id] || 2000
     }))
     .sort((a, b) => a.year - b.year);
-
-  const [activeSlice, setActiveSlice] = useState(cronGalleries.length - 1);
-
-  const handleSliceClick = (e, index) => {
-    if (window.innerWidth <= 768) {
-      if (activeSlice !== index) {
-        e.preventDefault();
-        setActiveSlice(index);
-      }
-    }
-  };
 
   return (
     <main className="pt-24 pb-12 max-w-container-max mx-auto px-margin-edge">
@@ -180,14 +169,13 @@ const Home = () => {
         </div>
         
         <div className="timeline-accordion-container">
-          {cronGalleries.map((g, index) => {
+          {cronGalleries.map((g) => {
             const displayTitle = i18n.language === 'en' && g.titleEn ? g.titleEn : g.title;
             return (
               <Link 
                 key={g.id}
                 to={`/gallery/${g.id}`} 
-                className={`timeline-slice ${activeSlice === index ? 'active' : ''}`}
-                onClick={(e) => handleSliceClick(e, index)}
+                className="timeline-slice"
               >
                 <img src={g.coverImage} alt={displayTitle} className="slice-image" loading="lazy" />
                 <div className="slice-overlay">
