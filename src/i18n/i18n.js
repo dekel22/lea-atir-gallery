@@ -12,14 +12,11 @@ const resources = {
   }
 };
 
-// Check localStorage for preferred language, fallback to 'he'
-const savedLanguage = localStorage.getItem('i18nextLng') || 'he';
-
 i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: savedLanguage,
+    lng: 'he', // Always default to Hebrew on page load
     fallbackLng: 'he',
     interpolation: {
       escapeValue: false // react already safes from xss
@@ -30,7 +27,6 @@ i18n
 const applyLanguageDirection = (lng) => {
   document.documentElement.dir = lng === 'he' ? 'rtl' : 'ltr';
   document.documentElement.lang = lng;
-  localStorage.setItem('i18nextLng', lng);
 };
 
 // Apply on startup
