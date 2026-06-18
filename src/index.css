@@ -95,15 +95,29 @@ a:hover {
 
 /* Custom layout fixes to bypass Tailwind CDN arbitrary class bugs in the browser */
 .artist-portrait-container {
-  width: 220px !important;
-  height: 330px !important; /* Definite pixel height to prevent collapses on iOS Safari Grid */
+  width: 100% !important;
+  max-width: 280px !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
+.artist-portrait-container img {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  object-fit: cover !important;
+}
+
 .creative-process-image-container {
   width: 100% !important;
-  aspect-ratio: 16 / 9 !important;
+  height: auto !important;
+}
+
+.creative-process-image-container img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+  display: block !important;
 }
 
 .gallery-card-image-container {
@@ -113,6 +127,7 @@ a:hover {
 
 @media (min-width: 1024px) {
   .artist-portrait-container {
+    max-width: none !important;
     width: 100% !important;
     height: auto !important;
     aspect-ratio: 2 / 3 !important;
@@ -120,8 +135,16 @@ a:hover {
     margin-right: 0 !important;
   }
   
+  .artist-portrait-container img {
+    height: 100% !important;
+  }
+
   .creative-process-image-container {
-    aspect-ratio: auto !important;
+    height: 100% !important;
+  }
+  
+  .creative-process-image-container img {
+    height: 100% !important;
   }
 }
 

@@ -44,7 +44,7 @@ const Home = () => {
   return (
     <main className="pt-24 pb-12 max-w-container-max mx-auto px-margin-edge">
       {/* Hero Gallery Section */}
-      <section className="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+      <section className="grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:items-start">
         {/* Navigation Context */}
         <div className="lg:col-span-12 mb-8 flex justify-start">
           <div className="flex items-center gap-4">
@@ -58,7 +58,7 @@ const Home = () => {
           <div className="relative overflow-hidden bg-surface-container-low group reveal-image artist-portrait-container">
             <img 
               alt={t('home.artistName')} 
-              className="object-cover w-full h-full transition-all duration-[2000ms] ease-out scale-105 group-hover:scale-100" 
+              className="object-cover w-full h-full" 
               src="/about-portrait.jpg"
             />
           </div>
@@ -133,7 +133,7 @@ const Home = () => {
             <img 
               alt={t('home.catalogCaption')} 
               className="w-full h-full object-contain hover:scale-105 transition-transform duration-[3000ms]" 
-              src="/galleries/קטלוג.PNG"
+              src="/galleries/catalog.png"
             />
           </div>
           <div className="lg:col-span-4 flex flex-col justify-center p-8 lg:p-12 bg-black text-white">
