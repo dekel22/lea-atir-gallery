@@ -96,14 +96,16 @@ a:hover {
 /* Custom layout fixes to bypass Tailwind CDN arbitrary class bugs in the browser */
 .artist-portrait-container {
   width: 100% !important;
-  max-width: 280px !important;
+  max-width: 420px !important;
+  aspect-ratio: 2 / 3 !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  background-color: var(--color-bg);
 }
 
 .artist-portrait-container img {
   width: 100% !important;
-  height: auto !important;
+  height: 100% !important;
   display: block !important;
   object-fit: cover !important;
 }
@@ -111,13 +113,23 @@ a:hover {
 .creative-process-image-container {
   width: 100% !important;
   height: auto !important;
+  overflow-x: auto !important;
+  display: block !important;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.creative-process-image-container::-webkit-scrollbar {
+  display: none;
 }
 
 .creative-process-image-container img {
-  width: 100% !important;
-  height: auto !important;
-  object-fit: contain !important;
+  height: 240px !important;
+  width: auto !important;
+  max-width: none !important;
   display: block !important;
+  object-fit: contain !important;
 }
 
 .gallery-card-image-container {
@@ -128,23 +140,20 @@ a:hover {
 @media (min-width: 1024px) {
   .artist-portrait-container {
     max-width: none !important;
-    width: 100% !important;
-    height: auto !important;
-    aspect-ratio: 2 / 3 !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
-  }
-  
-  .artist-portrait-container img {
-    height: 100% !important;
   }
 
   .creative-process-image-container {
     height: 100% !important;
+    display: flex !important;
+    overflow-x: visible !important;
   }
   
   .creative-process-image-container img {
+    width: 100% !important;
     height: 100% !important;
+    max-width: 100% !important;
   }
 }
 
