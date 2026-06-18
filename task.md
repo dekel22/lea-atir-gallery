@@ -5,3 +5,4 @@
 - [x] Configure default state as desaturated/softened and hovered slice as full color
 - [x] Run Vite production build to verify compilation
 - [x] Verify hover interactions on desktop and mobile
+- [x] Revert `.reveal-image` animation in `index.html` to clip-path
