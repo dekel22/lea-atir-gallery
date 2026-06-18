@@ -93,3 +93,36 @@ a:hover {
   }
 }
 
+/* Custom layout fixes to bypass Tailwind CDN arbitrary class bugs in the browser */
+.artist-portrait-container {
+  width: 220px !important;
+  height: 330px !important; /* Definite pixel height to prevent collapses on iOS Safari Grid */
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.creative-process-image-container {
+  width: 100% !important;
+  aspect-ratio: 16 / 9 !important;
+}
+
+.gallery-card-image-container {
+  width: 100% !important;
+  aspect-ratio: 4 / 5 !important;
+}
+
+@media (min-width: 1024px) {
+  .artist-portrait-container {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 2 / 3 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  
+  .creative-process-image-container {
+    aspect-ratio: auto !important;
+  }
+}
+
+
