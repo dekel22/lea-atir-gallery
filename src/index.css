@@ -94,23 +94,7 @@ a:hover {
 }
 
 /* Custom layout fixes to bypass Tailwind CDN arbitrary class bugs in the browser */
-.artist-portrait-container {
-  display: block !important;
-  width: 100% !important;
-  max-width: 320px !important;
-  height: 420px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  background-color: #e8e8e7 !important;
-  overflow: hidden !important;
-}
 
-.artist-portrait-container img {
-  width: 100% !important;
-  height: 100% !important;
-  display: block !important;
-  object-fit: cover !important;
-}
 
 /* Ensure reveal-image does not hide images on mobile/tablet */
 .reveal-image {

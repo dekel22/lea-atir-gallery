@@ -57,7 +57,6 @@ const Home = () => {
         {/* Profile Illustration */}
         <div className="w-full lg:col-span-4 lg:sticky lg:top-32 pr-0 lg:pr-12 mb-8 lg:mb-0">
           <div 
-            className="relative overflow-hidden bg-surface-container-low group artist-portrait-container"
             style={{
               display: 'block',
               width: '100%',
@@ -67,11 +66,11 @@ const Home = () => {
               marginRight: 'auto',
               backgroundColor: '#e8e8e7',
               overflow: 'hidden',
+              position: 'relative',
             }}
           >
             <img 
               alt={t('home.artistName')} 
-              className="object-cover w-full h-full" 
               src={portraitImg}
               style={{
                 width: '100%',
