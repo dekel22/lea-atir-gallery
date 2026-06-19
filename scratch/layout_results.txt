@@ -1,195 +1,50 @@
-{
-  "found": true,
-  "path": [
-    {
-      "tagName": "DIV",
-      "className": "artist-portrait-container",
-      "rect": {
-        "x": 27.5,
-        "y": 211.1875,
-        "width": 320,
-        "height": 480
-      },
-      "styles": {
-        "display": "block",
-        "width": "320px",
-        "height": "480px",
-        "position": "relative",
-        "overflow": "hidden",
-        "margin": "0px 7.5px",
-        "padding": "0px"
-      }
+[
+  {
+    "name": "Container 1",
+    "found": true,
+    "parentClassName": "hidden lg:block lg:col-span-4 lg:sticky lg:top-32 pr-0 lg:pr-12 mb-8 lg:mb-0",
+    "parentStyleDisplay": "block",
+    "rect": {
+      "x": 853.34375,
+      "y": 195.1875,
+      "width": 298.65625,
+      "height": 447.984375
     },
-    {
-      "tagName": "DIV",
-      "className": "block lg:hidden mb-8 w-full",
-      "rect": {
-        "x": 20,
-        "y": 211.1875,
-        "width": 335,
-        "height": 523.1875
-      },
-      "styles": {
-        "display": "block",
-        "width": "335px",
-        "height": "523.188px",
-        "position": "static",
-        "overflow": "visible",
-        "margin": "0px 0px 32px",
-        "padding": "0px"
-      }
-    },
-    {
-      "tagName": "DIV",
-      "className": "lg:col-span-8 mt-4 lg:mt-0 pl-0 lg:pl-12",
-      "rect": {
-        "x": 20,
-        "y": 211.1875,
-        "width": 335,
-        "height": 1744.28125
-      },
-      "styles": {
-        "display": "block",
-        "width": "335px",
-        "height": "1744.28px",
-        "position": "static",
-        "overflow": "visible",
-        "margin": "16px 0px 0px",
-        "padding": "0px"
-      }
-    },
-    {
-      "tagName": "SECTION",
-      "className": "grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:items-start",
-      "rect": {
-        "x": 20,
-        "y": 96,
-        "width": 335,
-        "height": 1859.46875
-      },
-      "styles": {
-        "display": "grid",
-        "width": "335px",
-        "height": "1859.47px",
-        "position": "static",
-        "overflow": "visible",
-        "margin": "0px",
-        "padding": "0px"
-      }
-    },
-    {
-      "tagName": "MAIN",
-      "className": "w-full pt-24 pb-12 max-w-container-max mx-auto px-margin-edge",
-      "rect": {
-        "x": 0,
-        "y": 0,
-        "width": 375,
-        "height": 3417.28125
-      },
-      "styles": {
-        "display": "block",
-        "width": "375px",
-        "height": "3417.28px",
-        "position": "static",
-        "overflow": "visible",
-        "margin": "0px",
-        "padding": "96px 20px 48px"
-      }
-    },
-    {
-      "tagName": "MAIN",
-      "className": "flex-1 relative z-10 flex flex-col",
-      "rect": {
-        "x": 0,
-        "y": 0,
-        "width": 375,
-        "height": 3417.28125
-      },
-      "styles": {
-        "display": "flex",
-        "width": "375px",
-        "height": "3417.28px",
-        "position": "relative",
-        "overflow": "visible",
-        "margin": "0px",
-        "padding": "0px"
-      }
-    },
-    {
-      "tagName": "DIV",
-      "className": "min-h-screen flex flex-col relative selection:bg-secondary-container selection:text-on-secondary-container",
-      "rect": {
-        "x": 0,
-        "y": 0,
-        "width": 375,
-        "height": 3593.65625
-      },
-      "styles": {
-        "display": "flex",
-        "width": "375px",
-        "height": "3593.66px",
-        "position": "relative",
-        "overflow": "visible",
-        "margin": "0px",
-        "padding": "0px"
-      }
-    },
-    {
-      "tagName": "DIV",
-      "className": "",
-      "rect": {
-        "x": 0,
-        "y": 0,
-        "width": 375,
-        "height": 3593.65625
-      },
-      "styles": {
-        "display": "block",
-        "width": "375px",
-        "height": "3593.66px",
-        "position": "static",
-        "overflow": "hidden auto",
-        "margin": "0px",
-        "padding": "0px"
-      }
-    },
-    {
-      "tagName": "BODY",
-      "className": "font-body-md bg-background selection:bg-secondary-container selection:text-on-secondary-container",
-      "rect": {
-        "x": 0,
-        "y": 0,
-        "width": 375,
-        "height": 3593.65625
-      },
-      "styles": {
-        "display": "block",
-        "width": "375px",
-        "height": "3593.66px",
-        "position": "static",
-        "overflow": "hidden auto",
-        "margin": "0px",
-        "padding": "0px"
-      }
-    },
-    {
-      "tagName": "HTML",
-      "className": "light",
-      "rect": {
-        "x": 0,
-        "y": 0,
-        "width": 375,
-        "height": 3593.65625
-      },
-      "styles": {
-        "display": "block",
-        "width": "375px",
-        "height": "3593.66px",
-        "position": "static",
-        "overflow": "hidden auto",
-        "margin": "0px",
-        "padding": "0px"
-      }
+    "styles": {
+      "display": "block",
+      "visibility": "visible",
+      "opacity": "1",
+      "clipPath": "inset(0px 0px 0%)",
+      "width": "298.656px",
+      "height": "447.984px",
+      "maxWidth": "none",
+      "position": "relative",
+      "overflow": "hidden",
+      "animation": "1.5s cubic-bezier(0.77, 0, 0.175, 1) forwards reveal-anim"
     }
-  ]
-}
+  },
+  {
+    "name": "Container 2",
+    "found": true,
+    "parentClassName": "block lg:hidden mb-8 w-full",
+    "parentStyleDisplay": "none",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "styles": {
+      "display": "block",
+      "visibility": "visible",
+      "opacity": "1",
+      "clipPath": "inset(0px 0px 100%)",
+      "width": "100%",
+      "height": "auto",
+      "maxWidth": "none",
+      "position": "relative",
+      "overflow": "hidden",
+      "animation": "1.5s cubic-bezier(0.77, 0, 0.175, 1) forwards reveal-anim"
+    }
+  }
+]
