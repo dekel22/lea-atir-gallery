@@ -149,6 +149,92 @@ const Gallery = () => {
   const processImages = () => {
     if (!gallery || !gallery.images) return { rows: [] };
 
+    if (gallery.id === 'transparent') {
+      const groups = {};
+      gallery.images.forEach((img) => {
+        const size = parseDimensions(img.caption);
+        const key = size === 'unknown' ? 'unknown' : `${size}_${img.orientation || 'portrait'}`;
+        if (!groups[key]) {
+          groups[key] = [];
+        }
+        groups[key].push(img);
+      });
+
+      const rows3 = [];
+      const leftoverGroups = [];
+
+      // Sort keys to have a consistent order (largest first)
+      const sortedKeys = Object.keys(groups).sort((a, b) => {
+        if (a === 'unknown') return 1;
+        if (b === 'unknown') return -1;
+        return b.localeCompare(a);
+      });
+
+      sortedKeys.forEach((key) => {
+        const imgs = groups[key];
+        if (key === 'unknown') {
+          leftoverGroups.push({
+            id: 'leftover_unknown',
+            size: 'unknown',
+            orientation: 'unknown',
+            aspectRatio: null,
+            images: imgs
+          });
+          return;
+        }
+
+        const parts = key.split('_');
+        const size = parts[0];
+        const orientation = parts[1];
+
+        const dimensions = size.split('x');
+        const d1 = parseInt(dimensions[0]);
+        const d2 = parseInt(dimensions[1]);
+        const min = Math.min(d1, d2);
+        const max = Math.max(d1, d2);
+        const isLandscape = orientation === 'landscape';
+        const width = isLandscape ? max : min;
+        const height = isLandscape ? min : max;
+        const aspectRatio = width / height;
+
+        const chunkSize = 3;
+        const fullRowsCount = Math.floor(imgs.length / chunkSize);
+        
+        for (let i = 0; i < fullRowsCount; i++) {
+          rows3.push({
+            id: `row_${key}_${i}`,
+            size,
+            orientation,
+            aspectRatio,
+            images: imgs.slice(i * chunkSize, (i + 1) * chunkSize)
+          });
+        }
+
+        const remainder = imgs.slice(fullRowsCount * chunkSize);
+        if (remainder.length > 0) {
+          leftoverGroups.push({
+            id: `leftover_${key}`,
+            size,
+            orientation,
+            aspectRatio,
+            images: remainder
+          });
+        }
+      });
+
+      const leftoverRows = leftoverGroups.map((group) => ({
+        id: `row_${group.id}`,
+        size: group.size,
+        orientation: group.orientation,
+        aspectRatio: group.aspectRatio,
+        images: group.images
+      }));
+
+      return {
+        rows: [...rows3, ...leftoverRows]
+      };
+    }
+
     const groups = {};
     gallery.images.forEach((img) => {
       const size = parseDimensions(img.caption);
@@ -257,7 +343,7 @@ const Gallery = () => {
     };
   };
 
-  const useAlignedGrid = gallery.id === 'gallery_5' || gallery.id === 'gallery_3';
+  const useAlignedGrid = gallery.id === 'gallery_5' || gallery.id === 'gallery_3' || gallery.id === 'transparent';
   const { rows } = useAlignedGrid ? processImages() : { rows: [] };
 
   const displayTitle = i18n.language === 'en' && gallery.titleEn ? gallery.titleEn : gallery.title;

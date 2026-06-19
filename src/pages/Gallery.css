@@ -352,15 +352,15 @@
 
 /* Gallery Grid Row for size groups */
 .gallery-grid-row {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: var(--spacing-lg);
   margin-bottom: var(--spacing-lg);
   width: 100%;
 }
 
 .gallery-card {
-  width: 100%;
   position: relative;
   border-radius: 4px;
   overflow: hidden;
@@ -369,6 +369,10 @@
   transition: transform 0.3s ease;
   display: flex;
   flex-direction: column;
+}
+
+.gallery-grid-row .gallery-card {
+  width: calc((100% - 2 * var(--spacing-lg)) / 3);
 }
 
 .gallery-card:hover {
@@ -402,8 +406,12 @@
 /* Responsive adjustment */
 @media (max-width: 768px) {
   .gallery-grid-row {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    align-items: center;
     gap: var(--spacing-md);
+  }
+  .gallery-grid-row .gallery-card {
+    width: 100%;
   }
   .gallery-header {
     padding: 6rem 0 var(--spacing-md); /* Clear navbar, smaller bottom space */
