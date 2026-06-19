@@ -98,14 +98,14 @@ a:hover {
 
 /* Ensure reveal-image does not hide images on mobile/tablet */
 .reveal-image {
-  clip-path: none !important;
-  animation: none !important;
+  clip-path: none;
+  animation: none;
 }
 
 @media (min-width: 1024px) {
   .reveal-image {
-    clip-path: inset(0 0 100% 0) !important;
-    animation: reveal-anim 1.5s cubic-bezier(0.77, 0, 0.175, 1) forwards !important;
+    clip-path: inset(0 0 100% 0);
+    animation: reveal-anim 1.5s cubic-bezier(0.77, 0, 0.175, 1) forwards;
   }
 }
 
