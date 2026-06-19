@@ -2808,7 +2808,7 @@ export const galleries = [
         "id": "nude-museum_0",
         "url": "/galleries/עירום מהמוזיאון/20200915_143827.jpg",
         "alt": "20200915_143827",
-        "orientation": "portrait",
+        "orientation": "landscape",
         "caption": "100x70 ס\"מ | טכניקה: גרפית | מצע: נייר",
         "captionEn": "100x70 cm | Technique: Graphite | Medium: Paper"
       },
@@ -2824,7 +2824,7 @@ export const galleries = [
         "id": "nude-museum_2",
         "url": "/galleries/עירום מהמוזיאון/20200915_144616.jpg",
         "alt": "20200915_144616",
-        "orientation": "portrait",
+        "orientation": "landscape",
         "caption": "100x70 ס\"מ | טכניקה: אקריליק",
         "captionEn": "100x70 cm | Technique: Acrylic"
       },
@@ -2840,7 +2840,7 @@ export const galleries = [
         "id": "nude-museum_4",
         "url": "/galleries/עירום מהמוזיאון/20200915_145012.jpg",
         "alt": "20200915_145012",
-        "orientation": "portrait",
+        "orientation": "landscape",
         "caption": "100x70 ס\"מ | טכניקה: אקריליק וגרפית",
         "captionEn": "100x70 cm | Technique: Acrylic and graphite"
       },
@@ -2848,7 +2848,7 @@ export const galleries = [
         "id": "nude-museum_5",
         "url": "/galleries/עירום מהמוזיאון/20200915_145039.jpg",
         "alt": "20200915_145039",
-        "orientation": "portrait",
+        "orientation": "landscape",
         "caption": "100x70 ס\"מ | טכניקה: אקריליק",
         "captionEn": "100x70 cm | Technique: Acrylic"
       },
@@ -2856,7 +2856,7 @@ export const galleries = [
         "id": "nude-museum_6",
         "url": "/galleries/עירום מהמוזיאון/20200915_145059.jpg",
         "alt": "20200915_145059",
-        "orientation": "portrait",
+        "orientation": "landscape",
         "caption": "70x50 ס\"מ | טכניקה: אקריליק וגרפית",
         "captionEn": "70x50 cm | Technique: Acrylic and graphite"
       },
@@ -2864,7 +2864,7 @@ export const galleries = [
         "id": "nude-museum_7",
         "url": "/galleries/עירום מהמוזיאון/20200915_145211.jpg",
         "alt": "20200915_145211",
-        "orientation": "landscape",
+        "orientation": "portrait",
         "caption": "100x70 ס\"מ | טכניקה: אקריליק",
         "captionEn": "100x70 cm | Technique: Acrylic"
       },
@@ -2888,9 +2888,9 @@ export const galleries = [
         "id": "nude-museum_10",
         "url": "/galleries/עירום מהמוזיאון/גבר עירום עם רגל על השולחן.jpg",
         "alt": "גבר עירום עם רגל על השולחן",
-        "orientation": "landscape",
-        "caption": "70x50 ס\"מ | טכניקה: עיפרון גרפית",
-        "captionEn": "70x50 cm | Technique: Graphite pencil"
+        "orientation": "portrait",
+        "caption": "50x70 ס\"מ | טכניקה: עיפרון גרפית",
+        "captionEn": "50x70 cm | Technique: Graphite pencil"
       },
       {
         "id": "nude-museum_11",
@@ -2912,23 +2912,23 @@ export const galleries = [
         "id": "nude-museum_13",
         "url": "/galleries/עירום מהמוזיאון/מוזיאון8.JPG",
         "alt": "מוזיאון8",
-        "orientation": "portrait",
-        "caption": "50x70 ס\"מ | טכניקה: אקריליק",
-        "captionEn": "50x70 cm | Technique: Acrylic"
+        "orientation": "landscape",
+        "caption": "70x50 ס\"מ | טכניקה: אקריליק",
+        "captionEn": "70x50 cm | Technique: Acrylic"
       },
       {
         "id": "nude-museum_14",
         "url": "/galleries/עירום מהמוזיאון/מוזיאון9.JPG",
         "alt": "מוזיאון9",
         "orientation": "portrait",
-        "caption": "70x50 ס\"מ | טכניקה: אקריליק",
-        "captionEn": "70x50 cm | Technique: Acrylic"
+        "caption": "50x70 ס\"מ | טכניקה: אקריליק",
+        "captionEn": "50x70 cm | Technique: Acrylic"
       },
       {
         "id": "nude-museum_15",
         "url": "/galleries/עירום מהמוזיאון/עירום יושב.jpg",
         "alt": "עירום יושב",
-        "orientation": "portrait",
+        "orientation": "landscape",
         "caption": "100x70 ס\"מ | טכניקה: עיפרון גרפית",
         "captionEn": "100x70 cm | Technique: Graphite pencil"
       },
@@ -2944,9 +2944,9 @@ export const galleries = [
         "id": "nude-museum_17",
         "url": "/galleries/עירום מהמוזיאון/על הצד בסגול.jpg",
         "alt": "על הצד בסגול",
-        "orientation": "landscape",
-        "caption": "70x50 ס\"מ | טכניקה: אקריליק",
-        "captionEn": "70x50 cm | Technique: Acrylic"
+        "orientation": "portrait",
+        "caption": "50x70 ס\"מ | טכניקה: אקריליק",
+        "captionEn": "50x70 cm | Technique: Acrylic"
       }
     ]
   },
