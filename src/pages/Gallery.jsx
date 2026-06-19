@@ -149,7 +149,8 @@ const Gallery = () => {
   const processImages = () => {
     if (!gallery || !gallery.images) return { rows: [] };
 
-    if (gallery.id === 'transparent') {
+    // For 'gallery_5' and 'gallery_3': keep original grouping logic
+    if (gallery.id === 'gallery_5' || gallery.id === 'gallery_3') {
       const groups = {};
       gallery.images.forEach((img) => {
         const size = parseDimensions(img.caption);
@@ -161,28 +162,13 @@ const Gallery = () => {
       });
 
       const rows3 = [];
-      const leftoverGroups = [];
+      const pairs = [];
+      const singles = [];
 
-      // Sort keys to have a consistent order (largest first)
-      const sortedKeys = Object.keys(groups).sort((a, b) => {
-        if (a === 'unknown') return 1;
-        if (b === 'unknown') return -1;
-        return b.localeCompare(a);
-      });
+      Object.keys(groups).forEach((key) => {
+        if (key === 'unknown') return;
 
-      sortedKeys.forEach((key) => {
         const imgs = groups[key];
-        if (key === 'unknown') {
-          leftoverGroups.push({
-            id: 'leftover_unknown',
-            size: 'unknown',
-            orientation: 'unknown',
-            aspectRatio: null,
-            images: imgs
-          });
-          return;
-        }
-
         const parts = key.split('_');
         const size = parts[0];
         const orientation = parts[1];
@@ -199,69 +185,71 @@ const Gallery = () => {
 
         const chunkSize = 3;
         const fullRowsCount = Math.floor(imgs.length / chunkSize);
-        
         for (let i = 0; i < fullRowsCount; i++) {
+          const chunk = imgs.slice(i * chunkSize, (i + 1) * chunkSize);
           rows3.push({
             id: `row_${key}_${i}`,
             size,
             orientation,
             aspectRatio,
-            images: imgs.slice(i * chunkSize, (i + 1) * chunkSize)
+            images: chunk
           });
         }
 
         const remainder = imgs.slice(fullRowsCount * chunkSize);
-        if (remainder.length > 0) {
-          leftoverGroups.push({
-            id: `leftover_${key}`,
-            size,
-            orientation,
-            aspectRatio,
-            images: remainder
-          });
+        if (remainder.length === 2) {
+          pairs.push(remainder);
+        } else if (remainder.length === 1) {
+          singles.push(remainder[0]);
         }
       });
 
-      const pairRows = [];
-      const singleImages = [];
+      if (groups['unknown'] && groups['unknown'].length > 0) {
+        singles.push(...groups['unknown']);
+      }
 
-      leftoverGroups.forEach((group) => {
-        if (group.images.length === 2) {
-          pairRows.push({
-            id: `row_${group.id}`,
-            size: group.size,
-            orientation: group.orientation,
-            aspectRatio: group.aspectRatio,
-            images: group.images
-          });
-        } else if (group.images.length === 1) {
-          singleImages.push({
-            ...group.images[0],
-            groupSize: group.size,
-            groupOrientation: group.orientation,
-            groupAspectRatio: group.aspectRatio
-          });
-        }
-      });
+      const leftoverRows = [];
+      let pairIndex = 0;
+      let singleIndex = 0;
 
-      const singleRows = [];
-      const chunkSize = 3;
-      for (let i = 0; i < singleImages.length; i += chunkSize) {
-        const chunk = singleImages.slice(i, i + chunkSize);
-        singleRows.push({
-          id: `row_leftover_singles_${i}`,
-          size: 'single-mixed',
+      while (pairIndex < pairs.length && singleIndex < singles.length) {
+        const pair = pairs[pairIndex++];
+        const single = singles[singleIndex++];
+        leftoverRows.push({
+          id: `row_leftover_pair_${pairIndex}`,
+          size: 'mixed',
           orientation: 'mixed',
-          aspectRatio: chunk.length === 1 ? chunk[0].groupAspectRatio : 1,
+          aspectRatio: 1,
+          images: [single, ...pair]
+        });
+      }
+
+      const remainingLeftovers = [];
+      while (pairIndex < pairs.length) {
+        remainingLeftovers.push(...pairs[pairIndex++]);
+      }
+      while (singleIndex < singles.length) {
+        remainingLeftovers.push(singles[singleIndex++]);
+      }
+
+      const chunkSize = 3;
+      for (let i = 0; i < remainingLeftovers.length; i += chunkSize) {
+        const chunk = remainingLeftovers.slice(i, i + chunkSize);
+        leftoverRows.push({
+          id: `row_leftover_rem_${i}`,
+          size: 'mixed',
+          orientation: 'mixed',
+          aspectRatio: 1,
           images: chunk
         });
       }
 
       return {
-        rows: [...rows3, ...pairRows, ...singleRows]
+        rows: [...rows3, ...leftoverRows]
       };
     }
 
+    // For all other galleries (transparent, silver, gallery_1, gallery_6, gallery_0, war-diary, etc.)
     const groups = {};
     gallery.images.forEach((img) => {
       const size = parseDimensions(img.caption);
@@ -273,21 +261,32 @@ const Gallery = () => {
     });
 
     const rows3 = [];
-    
-    // We will separate leftover images into pairs of 2 (identical size/orientation) and singles (1 image of a size, or unknown)
-    const pairs = [];
-    const singles = [];
+    const leftoverGroups = [];
 
-    // Process groups with known sizes
-    Object.keys(groups).forEach((key) => {
-      if (key === 'unknown') return;
+    // Sort keys to have a consistent order (largest first)
+    const sortedKeys = Object.keys(groups).sort((a, b) => {
+      if (a === 'unknown') return 1;
+      if (b === 'unknown') return -1;
+      return b.localeCompare(a);
+    });
 
+    sortedKeys.forEach((key) => {
       const imgs = groups[key];
+      if (key === 'unknown') {
+        leftoverGroups.push({
+          id: 'leftover_unknown',
+          size: 'unknown',
+          orientation: 'unknown',
+          aspectRatio: null,
+          images: imgs
+        });
+        return;
+      }
+
       const parts = key.split('_');
       const size = parts[0];
       const orientation = parts[1];
 
-      // Calculate aspect ratio from caption dimensions
       const dimensions = size.split('x');
       const d1 = parseInt(dimensions[0]);
       const d2 = parseInt(dimensions[1]);
@@ -298,80 +297,102 @@ const Gallery = () => {
       const height = isLandscape ? min : max;
       const aspectRatio = width / height;
 
-      // Extract full rows of 3 first
       const chunkSize = 3;
       const fullRowsCount = Math.floor(imgs.length / chunkSize);
+      
       for (let i = 0; i < fullRowsCount; i++) {
-        const chunk = imgs.slice(i * chunkSize, (i + 1) * chunkSize);
         rows3.push({
           id: `row_${key}_${i}`,
           size,
           orientation,
           aspectRatio,
-          images: chunk
+          images: imgs.slice(i * chunkSize, (i + 1) * chunkSize)
         });
       }
 
-      // Add remainders of 1 or 2 to either pairs or singles
       const remainder = imgs.slice(fullRowsCount * chunkSize);
-      if (remainder.length === 2) {
-        pairs.push(remainder); // array of 2 images
-      } else if (remainder.length === 1) {
-        singles.push(remainder[0]); // single image
+      if (remainder.length > 0) {
+        leftoverGroups.push({
+          id: `leftover_${key}`,
+          size,
+          orientation,
+          aspectRatio,
+          images: remainder
+        });
       }
     });
 
-    // Process unknown sizes at the end as singles
-    if (groups['unknown'] && groups['unknown'].length > 0) {
-      singles.push(...groups['unknown']);
-    }
+    const pairRows = [];
+    const singleImages = [];
 
-    // Now, combine pairs with singles into rows of 3 (placing the pair side-by-side)
-    const leftoverRows = [];
-    let pairIndex = 0;
-    let singleIndex = 0;
+    leftoverGroups.forEach((group) => {
+      if (group.images.length === 2) {
+        pairRows.push({
+          id: `row_${group.id}`,
+          size: group.size,
+          orientation: group.orientation,
+          aspectRatio: group.aspectRatio,
+          images: group.images
+        });
+      } else if (group.images.length === 1) {
+        singleImages.push({
+          ...group.images[0],
+          groupSize: group.size,
+          groupOrientation: group.orientation,
+          groupAspectRatio: group.aspectRatio
+        });
+      } else if (group.images.length > 2) {
+        const chunkSize = 3;
+        for (let i = 0; i < group.images.length; i += chunkSize) {
+          const chunk = group.images.slice(i, i + chunkSize);
+          if (chunk.length === 2) {
+            pairRows.push({
+              id: `row_${group.id}_rem_${i}`,
+              size: group.size,
+              orientation: group.orientation,
+              aspectRatio: group.aspectRatio,
+              images: chunk
+            });
+          } else if (chunk.length === 1) {
+            singleImages.push({
+              ...chunk[0],
+              groupSize: group.size,
+              groupOrientation: group.orientation,
+              groupAspectRatio: group.aspectRatio
+            });
+          } else {
+            rows3.push({
+              id: `row_${group.id}_rem_${i}`,
+              size: group.size,
+              orientation: group.orientation,
+              aspectRatio: group.aspectRatio,
+              images: chunk
+            });
+          }
+        }
+      }
+    });
 
-    while (pairIndex < pairs.length && singleIndex < singles.length) {
-      const pair = pairs[pairIndex++];
-      const single = singles[singleIndex++];
-      leftoverRows.push({
-        id: `row_leftover_pair_${pairIndex}`,
-        size: 'mixed',
-        orientation: 'mixed',
-        aspectRatio: 1, // square cards to align mixed ratios beautifully
-        images: [single, ...pair] // single first, then pair so the pair is adjacent
-      });
-    }
-
-    // Gather any leftover unpaired items
-    const remainingLeftovers = [];
-    while (pairIndex < pairs.length) {
-      remainingLeftovers.push(...pairs[pairIndex++]);
-    }
-    while (singleIndex < singles.length) {
-      remainingLeftovers.push(singles[singleIndex++]);
-    }
-
-    // Chunk the remaining unpaired leftovers into rows of 3
+    const singleRows = [];
     const chunkSize = 3;
-    for (let i = 0; i < remainingLeftovers.length; i += chunkSize) {
-      const chunk = remainingLeftovers.slice(i, i + chunkSize);
-      leftoverRows.push({
-        id: `row_leftover_rem_${i}`,
-        size: 'mixed',
+    for (let i = 0; i < singleImages.length; i += chunkSize) {
+      const chunk = singleImages.slice(i, i + chunkSize);
+      singleRows.push({
+        id: `row_leftover_singles_${i}`,
+        size: 'single-mixed',
         orientation: 'mixed',
-        aspectRatio: 1,
+        aspectRatio: chunk.length === 1 ? chunk[0].groupAspectRatio : 1,
         images: chunk
       });
     }
 
     return {
-      rows: [...rows3, ...leftoverRows]
+      rows: [...rows3, ...pairRows, ...singleRows]
     };
   };
 
-  const useAlignedGrid = gallery.id === 'gallery_5' || gallery.id === 'gallery_3' || gallery.id === 'transparent';
-  const { rows } = useAlignedGrid ? processImages() : { rows: [] };
+  const useAlignedGrid = true;
+  const { rows } = processImages();
 
   const displayTitle = i18n.language === 'en' && gallery.titleEn ? gallery.titleEn : gallery.title;
   const displayDescription = i18n.language === 'en' && gallery.descriptionEn ? gallery.descriptionEn : gallery.description;
