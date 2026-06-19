@@ -2292,7 +2292,7 @@ export const galleries = [
         "id": "between-between_0",
         "url": "/galleries/בין לבין/בין לבין10.JPG",
         "alt": "בין לבין10",
-        "orientation": "landscape",
+        "orientation": "portrait",
         "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
         "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
@@ -2412,7 +2412,7 @@ export const galleries = [
         "id": "between-between_15",
         "url": "/galleries/בין לבין/בין לבין26.JPG",
         "alt": "בין לבין26",
-        "orientation": "portrait",
+        "orientation": "landscape",
         "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
         "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
@@ -2428,7 +2428,7 @@ export const galleries = [
         "id": "between-between_17",
         "url": "/galleries/בין לבין/בין לבין28.jpg",
         "alt": "בין לבין28",
-        "orientation": "landscape",
+        "orientation": "portrait",
         "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
         "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
@@ -2436,7 +2436,7 @@ export const galleries = [
         "id": "between-between_18",
         "url": "/galleries/בין לבין/בין לבין29.jpg",
         "alt": "בין לבין29",
-        "orientation": "landscape",
+        "orientation": "portrait",
         "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
         "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
@@ -2452,7 +2452,7 @@ export const galleries = [
         "id": "between-between_20",
         "url": "/galleries/בין לבין/בין לבין30.jpg",
         "alt": "בין לבין30",
-        "orientation": "portrait",
+        "orientation": "landscape",
         "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
         "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
@@ -2460,7 +2460,7 @@ export const galleries = [
         "id": "between-between_21",
         "url": "/galleries/בין לבין/בין לבין31.jpg",
         "alt": "בין לבין31",
-        "orientation": "portrait",
+        "orientation": "landscape",
         "caption": "100x70 ס\"מ | טכניקה: צבעי שמן עם גירים שמנים",
         "captionEn": "100x70 cm | Technique: Oil paints with oil pastels"
       },
@@ -2468,7 +2468,7 @@ export const galleries = [
         "id": "between-between_22",
         "url": "/galleries/בין לבין/בין לבין32.jpg",
         "alt": "בין לבין32",
-        "orientation": "portrait",
+        "orientation": "landscape",
         "caption": "30x40 ס\"מ | טכניקה: עיפרון רך",
         "captionEn": "30x40 cm | Technique: Soft pencil"
       },
