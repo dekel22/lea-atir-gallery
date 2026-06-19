@@ -110,7 +110,7 @@ a:hover {
 }
 
 @keyframes reveal-anim {
-  to { clip-path: inset(0 0 0 0) !important; }
+  to { clip-path: inset(0 0 0 0); }
 }
 
 .creative-process-image-container {
@@ -173,8 +173,8 @@ a:hover {
     aspect-ratio: 2 / 3 !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
-    clip-path: inset(0 0 100% 0) !important;
-    animation: reveal-anim 1.5s cubic-bezier(0.77, 0, 0.175, 1) forwards !important;
+    clip-path: inset(0 0 100% 0);
+    animation: reveal-anim 1.5s cubic-bezier(0.77, 0, 0.175, 1) forwards;
   }
 
   .creative-process-image-container {
