@@ -1,50 +1,173 @@
 [
   {
-    "name": "Container 1",
-    "found": true,
-    "parentClassName": "hidden lg:block lg:col-span-4 lg:sticky lg:top-32 pr-0 lg:pr-12 mb-8 lg:mb-0",
-    "parentStyleDisplay": "block",
-    "rect": {
-      "x": 853.34375,
-      "y": 195.1875,
-      "width": 298.65625,
-      "height": 447.984375
-    },
-    "styles": {
-      "display": "block",
-      "visibility": "visible",
-      "opacity": "1",
-      "clipPath": "inset(0px 0px 0%)",
-      "width": "298.656px",
-      "height": "447.984px",
-      "maxWidth": "none",
-      "position": "relative",
-      "overflow": "hidden",
-      "animation": "1.5s cubic-bezier(0.77, 0, 0.175, 1) forwards reveal-anim"
-    }
+    "index": 1,
+    "src": "http://localhost:5173/galleries/%D7%A9%D7%A7%D7%95%D7%A4%D7%99%D7%9D/%D7%A9%D7%A7%D7%95%D7%A4%D7%99%D7%9D1.jpg",
+    "complete": true,
+    "naturalWidth": 3540,
+    "naturalHeight": 2906,
+    "offsetWidth": 341,
+    "offsetHeight": 427
   },
   {
-    "name": "Container 2",
-    "found": true,
-    "parentClassName": "block lg:hidden mb-8 w-full",
-    "parentStyleDisplay": "none",
-    "rect": {
-      "x": 0,
-      "y": 0,
-      "width": 0,
-      "height": 0
-    },
-    "styles": {
-      "display": "block",
-      "visibility": "visible",
-      "opacity": "1",
-      "clipPath": "inset(0px 0px 100%)",
-      "width": "100%",
-      "height": "auto",
-      "maxWidth": "none",
-      "position": "relative",
-      "overflow": "hidden",
-      "animation": "1.5s cubic-bezier(0.77, 0, 0.175, 1) forwards reveal-anim"
-    }
+    "index": 2,
+    "src": "http://localhost:5173/galleries/%D7%9B%D7%A1%D7%A3/%D7%9B%D7%A1%D7%A33.jpg",
+    "complete": true,
+    "naturalWidth": 653,
+    "naturalHeight": 919,
+    "offsetWidth": 341,
+    "offsetHeight": 427
+  },
+  {
+    "index": 3,
+    "src": "http://localhost:5173/galleries/%D7%9E%D7%91%D7%98%D7%99%D7%9D%20%D7%A9%D7%9C%20%D7%99%D7%95%D7%9D%20%D7%99%D7%95%D7%9D%206-11-2003/%D7%9E%D7%91%D7%98%D7%99%D7%9D3.jpg",
+    "complete": true,
+    "naturalWidth": 2582,
+    "naturalHeight": 2606,
+    "offsetWidth": 341,
+    "offsetHeight": 427
+  },
+  {
+    "index": 4,
+    "src": "http://localhost:5173/galleries/%D7%91%D7%A8%D7%95%D7%A9/%D7%91%D7%A8%D7%95%D7%A9%20%D7%98%D7%91%D7%A2%D7%95%D7%9F17.jpg",
+    "complete": true,
+    "naturalWidth": 2510,
+    "naturalHeight": 1676,
+    "offsetWidth": 341,
+    "offsetHeight": 427
+  },
+  {
+    "index": 5,
+    "src": "http://localhost:5173/galleries/%D7%93%D7%99%D7%95%D7%A7%D7%9F%20%D7%A7%D7%9F%D7%A8%D7%95%D7%A0%D7%94%20%D7%91%D7%A8%D7%99%D7%A9%D7%95%D7%9D%20%D7%95%D7%90%D7%A7%D7%95%D7%95%D7%A8%D7%9C/%D7%93%D7%99%D7%95%D7%A7%D7%9F%20%D7%A7%D7%9F%D7%A8%D7%95%D7%A0%D7%94%20%D7%91%D7%A8%D7%99%D7%A9%D7%95%D7%9D%20%D7%95%D7%90%D7%A7%D7%95%D7%95%D7%A8%D7%9C/%D7%93%D7%99%D7%95%D7%A7%D7%9F%20%D7%A7%D7%95%D7%A8%D7%95%D7%A0%D7%942%20(2).jpg",
+    "complete": true,
+    "naturalWidth": 688,
+    "naturalHeight": 919,
+    "offsetWidth": 341,
+    "offsetHeight": 427
+  },
+  {
+    "index": 6,
+    "src": "http://localhost:5173/galleries/%D7%A8%D7%99%D7%A9%D7%95%D7%9D%20%D7%95%D7%90%D7%A0%D7%99%2012-09-1998/%D7%A8%D7%99%D7%A9%D7%95%D7%9D%20%D7%95%D7%90%D7%A0%D7%993.jpg",
+    "complete": true,
+    "naturalWidth": 630,
+    "naturalHeight": 919,
+    "offsetWidth": 341,
+    "offsetHeight": 427
+  },
+  {
+    "index": 7,
+    "src": "http://localhost:5173/galleries/2026-%20%D7%A9.%D7%91.%D7%A8%20%D7%A8%D7%9E%D7%95%D7%AA%20%D7%9E%D7%A0%D7%A9%D7%94%20%D7%92%D7%9C%D7%A8%D7%99%D7%94%20%D7%9C%D7%90%D7%95%D7%9E%D7%A0%D7%95%D7%AA/2026-%20%D7%A9.%D7%91.%D7%A8%20%D7%A8%D7%9E%D7%95%D7%AA%20%D7%9E%D7%A0%D7%A9%D7%94%20%D7%92%D7%9C%D7%A8%D7%99%D7%94%20%D7%9C%D7%90%D7%95%D7%9E%D7%A0%D7%95%D7%AA/%D7%A9%D7%91%D7%A88%20%D7%A9%D7%91%D7%A8%20%D7%94%D7%90%D7%95%D7%9E%D7%A0%D7%95%D7%AA%20%D7%A9%D7%9C%D7%99.jpg",
+    "complete": true,
+    "naturalWidth": 748,
+    "naturalHeight": 919,
+    "offsetWidth": 341,
+    "offsetHeight": 427
+  },
+  {
+    "index": 8,
+    "src": "http://localhost:5173/galleries/%D7%99%D7%95%D7%9E%D7%9F%20%D7%9E%D7%9C%D7%97%D7%9E%D7%94/%D7%99%D7%95%D7%9E%D7%9F%20%D7%9E%D7%9C%D7%97%D7%9E%D7%941.jpg",
+    "complete": true,
+    "naturalWidth": 1178,
+    "naturalHeight": 884,
+    "offsetWidth": 341,
+    "offsetHeight": 427
+  },
+  {
+    "index": 9,
+    "src": "http://localhost:5173/galleries/%D7%A4%D7%99%D7%A1%D7%95%D7%AA%20%D7%A0%D7%95%D7%A3/%D7%A4%D7%99%D7%A1%D7%95%D7%AA%20%D7%A0%D7%95%D7%A34.JPG",
+    "complete": true,
+    "naturalWidth": 1337,
+    "naturalHeight": 919,
+    "offsetWidth": 341,
+    "offsetHeight": 427
+  },
+  {
+    "index": 10,
+    "src": "http://localhost:5173/galleries/%D7%91%D7%90%D7%A7%D7%95%D7%95%D7%A8%D7%9C/%D7%91%D7%90%D7%A7%D7%95%D7%95%D7%A8%D7%9C/%D7%90%D7%A7%D7%95%D7%95%D7%A8%D7%9C2.JPG",
+    "complete": true,
+    "naturalWidth": 1005,
+    "naturalHeight": 919,
+    "offsetWidth": 341,
+    "offsetHeight": 427
+  },
+  {
+    "index": 11,
+    "src": "http://localhost:5173/galleries/%D7%9E%D7%99%D7%A7%D7%99/%D7%9E%D7%99%D7%A7%D7%9917.jpg",
+    "complete": true,
+    "naturalWidth": 1571,
+    "naturalHeight": 2200,
+    "offsetWidth": 341,
+    "offsetHeight": 427
+  },
+  {
+    "index": 12,
+    "src": "http://localhost:5173/galleries/%D7%9B%D7%9E%D7%A2%D7%98%20%D7%A9%D7%97%D7%95%D7%A8%20%D7%9C%D7%91%D7%9F/%D7%9B%D7%9E%D7%A2%D7%98%20%D7%A9%D7%97%D7%95%D7%A8%20%D7%9C%D7%91%D7%9F5%20(2).JPG",
+    "complete": true,
+    "naturalWidth": 2126,
+    "naturalHeight": 2985,
+    "offsetWidth": 341,
+    "offsetHeight": 427
+  },
+  {
+    "index": 13,
+    "src": "http://localhost:5173/galleries/%D7%A7%D7%9E%D7%A0%D7%99%D7%A5%20%D7%92%D7%A8%D7%9E%D7%A0%D7%99%D7%94%20%D7%A2%D7%9D%20%D7%90%D7%95%D7%A1%D7%9E%D7%A8%20%D7%90%D7%95%D7%A1%D7%98%D7%9F/%D7%A7%D7%9E%D7%A0%D7%99%D7%A517.jpg",
+    "complete": true,
+    "naturalWidth": 474,
+    "naturalHeight": 919,
+    "offsetWidth": 341,
+    "offsetHeight": 427
+  },
+  {
+    "index": 14,
+    "src": "http://localhost:5173/galleries/%D7%91%D7%99%D7%9F%20%D7%9C%D7%91%D7%99%D7%9F/%D7%91%D7%99%D7%9F%20%D7%9C%D7%91%D7%99%D7%9F8.jpg",
+    "complete": true,
+    "naturalWidth": 654,
+    "naturalHeight": 914,
+    "offsetWidth": 341,
+    "offsetHeight": 427
+  },
+  {
+    "index": 15,
+    "src": "http://localhost:5173/galleries/%D7%95%D7%A8%D7%99%D7%90%D7%A6%D7%99%D7%95%D7%AA%20%D7%A2%D7%9C%20%D7%A0%D7%95%D7%A9%D7%90/%D7%9E%D7%A7%D7%95%D7%A8.jpeg",
+    "complete": true,
+    "naturalWidth": 655,
+    "naturalHeight": 919,
+    "offsetWidth": 341,
+    "offsetHeight": 427
+  },
+  {
+    "index": 16,
+    "src": "http://localhost:5173/galleries/%D7%A2%D7%99%D7%A8%D7%95%D7%9D%20%D7%9C%D7%90%D7%95%D7%A8%D7%9A%20%D7%94%D7%A9%D7%A0%D7%99%D7%9D/%D7%91%D7%A2%D7%99%D7%A8%D7%95%D7%9D1.jpg",
+    "complete": true,
+    "naturalWidth": 627,
+    "naturalHeight": 897,
+    "offsetWidth": 341,
+    "offsetHeight": 427
+  },
+  {
+    "index": 17,
+    "src": "http://localhost:5173/galleries/%D7%92%D7%9F%20%D7%94%D7%93%D7%95%D7%91%D7%93%D7%91%D7%A0%D7%99%D7%9D%20%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F%20%D7%A2%D7%95%D7%A7%D7%A9%D7%99%20%D7%A2%D7%9B%D7%95%202016/%D7%92%D7%9F%20%D7%94%D7%93%D7%95%D7%91%D7%93%D7%91%D7%A0%D7%99%D7%9D2.JPG",
+    "complete": true,
+    "naturalWidth": 694,
+    "naturalHeight": 916,
+    "offsetWidth": 341,
+    "offsetHeight": 427
+  },
+  {
+    "index": 18,
+    "src": "http://localhost:5173/galleries/%D7%A2%D7%99%D7%A8%D7%95%D7%9D%20%D7%9E%D7%94%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F/%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F8.JPG",
+    "complete": true,
+    "naturalWidth": 1333,
+    "naturalHeight": 919,
+    "offsetWidth": 341,
+    "offsetHeight": 427
+  },
+  {
+    "index": 19,
+    "src": "http://localhost:5173/galleries/%D7%AA%D7%A4%D7%90%D7%95%D7%A8%D7%95%D7%AA%20%D7%9C%D7%94%D7%A6%D7%92%D7%95%D7%AA/%D7%97%D7%99%D7%99%D7%9D%20%D7%91%D7%A1%D7%A8%D7%982.jpg",
+    "complete": true,
+    "naturalWidth": 1536,
+    "naturalHeight": 2048,
+    "offsetWidth": 341,
+    "offsetHeight": 427
   }
 ]
