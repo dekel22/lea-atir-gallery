@@ -23,7 +23,7 @@ const Navbar = () => {
               onClick={() => i18n.changeLanguage(i18n.language === 'he' ? 'en' : 'he')}
               className="font-label-sm uppercase tracking-[0.1em] text-[0.7rem] sm:text-xs text-primary hover:text-secondary transition-all cursor-pointer select-none border border-outline-variant/40 hover:border-primary/60 px-3 py-1 rounded-[20px] bg-white/40 backdrop-blur-sm focus:outline-none mx-1 sm:mx-2"
             >
-              {i18n.language === 'he' ? 'English' : 'עברית'}
+              {i18n.language === 'he' ? 'en' : 'עברית'}
             </button>
           </div>
 
