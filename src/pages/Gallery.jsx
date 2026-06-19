@@ -222,16 +222,43 @@ const Gallery = () => {
         }
       });
 
-      const leftoverRows = leftoverGroups.map((group) => ({
-        id: `row_${group.id}`,
-        size: group.size,
-        orientation: group.orientation,
-        aspectRatio: group.aspectRatio,
-        images: group.images
-      }));
+      const pairRows = [];
+      const singleImages = [];
+
+      leftoverGroups.forEach((group) => {
+        if (group.images.length === 2) {
+          pairRows.push({
+            id: `row_${group.id}`,
+            size: group.size,
+            orientation: group.orientation,
+            aspectRatio: group.aspectRatio,
+            images: group.images
+          });
+        } else if (group.images.length === 1) {
+          singleImages.push({
+            ...group.images[0],
+            groupSize: group.size,
+            groupOrientation: group.orientation,
+            groupAspectRatio: group.aspectRatio
+          });
+        }
+      });
+
+      const singleRows = [];
+      const chunkSize = 3;
+      for (let i = 0; i < singleImages.length; i += chunkSize) {
+        const chunk = singleImages.slice(i, i + chunkSize);
+        singleRows.push({
+          id: `row_leftover_singles_${i}`,
+          size: 'single-mixed',
+          orientation: 'mixed',
+          aspectRatio: chunk.length === 1 ? chunk[0].groupAspectRatio : 1,
+          images: chunk
+        });
+      }
 
       return {
-        rows: [...rows3, ...leftoverRows]
+        rows: [...rows3, ...pairRows, ...singleRows]
       };
     }
 
