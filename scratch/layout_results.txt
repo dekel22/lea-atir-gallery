@@ -1,0 +1,195 @@
+{
+  "found": true,
+  "path": [
+    {
+      "tagName": "DIV",
+      "className": "artist-portrait-container",
+      "rect": {
+        "x": 27.5,
+        "y": 211.1875,
+        "width": 320,
+        "height": 480
+      },
+      "styles": {
+        "display": "block",
+        "width": "320px",
+        "height": "480px",
+        "position": "relative",
+        "overflow": "hidden",
+        "margin": "0px 7.5px",
+        "padding": "0px"
+      }
+    },
+    {
+      "tagName": "DIV",
+      "className": "block lg:hidden mb-8 w-full",
+      "rect": {
+        "x": 20,
+        "y": 211.1875,
+        "width": 335,
+        "height": 523.1875
+      },
+      "styles": {
+        "display": "block",
+        "width": "335px",
+        "height": "523.188px",
+        "position": "static",
+        "overflow": "visible",
+        "margin": "0px 0px 32px",
+        "padding": "0px"
+      }
+    },
+    {
+      "tagName": "DIV",
+      "className": "lg:col-span-8 mt-4 lg:mt-0 pl-0 lg:pl-12",
+      "rect": {
+        "x": 20,
+        "y": 211.1875,
+        "width": 335,
+        "height": 1744.28125
+      },
+      "styles": {
+        "display": "block",
+        "width": "335px",
+        "height": "1744.28px",
+        "position": "static",
+        "overflow": "visible",
+        "margin": "16px 0px 0px",
+        "padding": "0px"
+      }
+    },
+    {
+      "tagName": "SECTION",
+      "className": "grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:items-start",
+      "rect": {
+        "x": 20,
+        "y": 96,
+        "width": 335,
+        "height": 1859.46875
+      },
+      "styles": {
+        "display": "grid",
+        "width": "335px",
+        "height": "1859.47px",
+        "position": "static",
+        "overflow": "visible",
+        "margin": "0px",
+        "padding": "0px"
+      }
+    },
+    {
+      "tagName": "MAIN",
+      "className": "w-full pt-24 pb-12 max-w-container-max mx-auto px-margin-edge",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 3417.28125
+      },
+      "styles": {
+        "display": "block",
+        "width": "375px",
+        "height": "3417.28px",
+        "position": "static",
+        "overflow": "visible",
+        "margin": "0px",
+        "padding": "96px 20px 48px"
+      }
+    },
+    {
+      "tagName": "MAIN",
+      "className": "flex-1 relative z-10 flex flex-col",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 3417.28125
+      },
+      "styles": {
+        "display": "flex",
+        "width": "375px",
+        "height": "3417.28px",
+        "position": "relative",
+        "overflow": "visible",
+        "margin": "0px",
+        "padding": "0px"
+      }
+    },
+    {
+      "tagName": "DIV",
+      "className": "min-h-screen flex flex-col relative selection:bg-secondary-container selection:text-on-secondary-container",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 3593.65625
+      },
+      "styles": {
+        "display": "flex",
+        "width": "375px",
+        "height": "3593.66px",
+        "position": "relative",
+        "overflow": "visible",
+        "margin": "0px",
+        "padding": "0px"
+      }
+    },
+    {
+      "tagName": "DIV",
+      "className": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 3593.65625
+      },
+      "styles": {
+        "display": "block",
+        "width": "375px",
+        "height": "3593.66px",
+        "position": "static",
+        "overflow": "hidden auto",
+        "margin": "0px",
+        "padding": "0px"
+      }
+    },
+    {
+      "tagName": "BODY",
+      "className": "font-body-md bg-background selection:bg-secondary-container selection:text-on-secondary-container",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 3593.65625
+      },
+      "styles": {
+        "display": "block",
+        "width": "375px",
+        "height": "3593.66px",
+        "position": "static",
+        "overflow": "hidden auto",
+        "margin": "0px",
+        "padding": "0px"
+      }
+    },
+    {
+      "tagName": "HTML",
+      "className": "light",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 3593.65625
+      },
+      "styles": {
+        "display": "block",
+        "width": "375px",
+        "height": "3593.66px",
+        "position": "static",
+        "overflow": "hidden auto",
+        "margin": "0px",
+        "padding": "0px"
+      }
+    }
+  ]
+}

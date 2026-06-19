@@ -1,0 +1,674 @@
+[
+  {
+    "tagName": "MAIN",
+    "id": "",
+    "className": "pt-24 pb-12 max-w-container-max mx-auto px-margin-edge",
+    "width": 1440,
+    "height": 2870.59375,
+    "x": -1065,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "1440px",
+      "maxWidth": "1440px",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<main class=\"pt-24 pb-12 max-w-container-max mx-auto px-margin-edge\"><section class=\"grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:items-start\"><div ..."
+  },
+  {
+    "tagName": "SECTION",
+    "id": "",
+    "className": "grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:items-start",
+    "width": 1400,
+    "height": 1456.96875,
+    "x": -1045,
+    "styles": {
+      "display": "grid",
+      "position": "static",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<section class=\"grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:items-start\"><div class=\"lg:col-span-12 mb-8 flex justify-start\"><div class=\"flex items..."
+  },
+  {
+    "tagName": "DIV",
+    "id": "",
+    "className": "lg:col-span-12 mb-8 flex justify-start",
+    "width": 1400,
+    "height": 27.1875,
+    "x": -1045,
+    "styles": {
+      "display": "flex",
+      "position": "static",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<div class=\"lg:col-span-12 mb-8 flex justify-start\"><div class=\"flex items-center gap-4\"><span class=\"font-label-sm text-on-surface-variant uppercase ..."
+  },
+  {
+    "tagName": "DIV",
+    "id": "",
+    "className": "lg:col-span-8 mt-4 lg:mt-0 pl-0 lg:pl-12",
+    "width": 1400,
+    "height": 1341.78125,
+    "x": -1045,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<div class=\"lg:col-span-8 mt-4 lg:mt-0 pl-0 lg:pl-12\"><div class=\"block lg:hidden mb-8 w-full\"><div class=\"artist-portrait-container\"><img alt=\"לאה עת..."
+  },
+  {
+    "tagName": "DIV",
+    "id": "",
+    "className": "block lg:hidden mb-8 w-full",
+    "width": 1400,
+    "height": 523.1875,
+    "x": -1045,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<div class=\"block lg:hidden mb-8 w-full\"><div class=\"artist-portrait-container\"><img alt=\"לאה עתיר\" src=\"/src/assets/about-portrait.jpg\"></div><div cl..."
+  },
+  {
+    "tagName": "DIV",
+    "id": "",
+    "className": "mt-4 text-center",
+    "width": 1400,
+    "height": 27.1875,
+    "x": -1045,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<div class=\"mt-4 text-center\"><p class=\"font-label-sm text-on-surface-variant/60 uppercase italic\">דיוקן עצמי, פחם על נייר, 2020</p></div>..."
+  },
+  {
+    "tagName": "P",
+    "id": "",
+    "className": "font-label-sm text-on-surface-variant/60 uppercase italic",
+    "width": 1400,
+    "height": 27.1875,
+    "x": -1045,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<p class=\"font-label-sm text-on-surface-variant/60 uppercase italic\">דיוקן עצמי, פחם על נייר, 2020</p>..."
+  },
+  {
+    "tagName": "H2",
+    "id": "",
+    "className": "font-h1 text-4xl lg:text-5xl text-primary mb-8 leading-[1.05]",
+    "width": 1400,
+    "height": 75.59375,
+    "x": -1045,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<h2 class=\"font-h1 text-4xl lg:text-5xl text-primary mb-8 leading-[1.05]\">לאה עתיר <br>מעל 50 שנים של יצירה</h2>..."
+  },
+  {
+    "tagName": "DIV",
+    "id": "",
+    "className": "space-y-6 text-on-surface",
+    "width": 1400,
+    "height": 679,
+    "x": -1045,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<div class=\"space-y-6 text-on-surface\"><p class=\"font-body-lg text-body-lg leading-relaxed\">היו תקופות של שחור לבן בלבד, היו תקופות של צבע, תקופות יות..."
+  },
+  {
+    "tagName": "P",
+    "id": "",
+    "className": "font-body-lg text-body-lg leading-relaxed",
+    "width": 1400,
+    "height": 97.5,
+    "x": -1045,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<p class=\"font-body-lg text-body-lg leading-relaxed\">היו תקופות של שחור לבן בלבד, היו תקופות של צבע, תקופות יותר מופשטות וכאלה מאוד ריאליסטיות. לרוב ה..."
+  },
+  {
+    "tagName": "DIV",
+    "id": "",
+    "className": "py-8 border-y border-surface-variant/50 relative",
+    "width": 1400,
+    "height": 188.1875,
+    "x": -1045,
+    "styles": {
+      "display": "block",
+      "position": "relative",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<div class=\"py-8 border-y border-surface-variant/50 relative\"><span class=\"material-symbols-outlined text-6xl text-secondary-container/40 absolute -to..."
+  },
+  {
+    "tagName": "DIV",
+    "id": "",
+    "className": "grid grid-cols-1 lg:grid-cols-4 gap-8",
+    "width": 1400,
+    "height": 122.1875,
+    "x": -1045,
+    "styles": {
+      "display": "grid",
+      "position": "static",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<div class=\"grid grid-cols-1 lg:grid-cols-4 gap-8\"><div class=\"lg:col-span-1\"><h3 class=\"font-label-sm uppercase tracking-widest text-primary\">הצהרת א..."
+  },
+  {
+    "tagName": "DIV",
+    "id": "",
+    "className": "lg:col-span-1",
+    "width": 1400,
+    "height": 27.1875,
+    "x": -1045,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<div class=\"lg:col-span-1\"><h3 class=\"font-label-sm uppercase tracking-widest text-primary\">הצהרת אמן</h3></div>..."
+  },
+  {
+    "tagName": "H3",
+    "id": "",
+    "className": "font-label-sm uppercase tracking-widest text-primary",
+    "width": 1400,
+    "height": 27.1875,
+    "x": -1045,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<h3 class=\"font-label-sm uppercase tracking-widest text-primary\">הצהרת אמן</h3>..."
+  },
+  {
+    "tagName": "DIV",
+    "id": "",
+    "className": "lg:col-span-3",
+    "width": 1400,
+    "height": 63,
+    "x": -1045,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<div class=\"lg:col-span-3\"><p class=\"font-h3 text-xl lg:text-2xl italic leading-snug text-secondary mb-2\">\"לגבי אומנות ויצירה היא דרך חיים, האומנות מא..."
+  },
+  {
+    "tagName": "P",
+    "id": "",
+    "className": "font-h3 text-xl lg:text-2xl italic leading-snug text-secondary mb-2",
+    "width": 1400,
+    "height": 55,
+    "x": -1045,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<p class=\"font-h3 text-xl lg:text-2xl italic leading-snug text-secondary mb-2\">\"לגבי אומנות ויצירה היא דרך חיים, האומנות מאז שאני זוכרת את עצמי הייתה ..."
+  },
+  {
+    "tagName": "DIV",
+    "id": "",
+    "className": "pt-8 max-w-4xl",
+    "width": 896,
+    "height": 345.3125,
+    "x": -541,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "896px",
+      "maxWidth": "896px",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<div class=\"pt-8 max-w-4xl\"><div class=\"space-y-6\"><h4 class=\"font-label-sm text-on-surface-variant border-b border-outline-variant/30 pb-2\">תערוכות נ..."
+  },
+  {
+    "tagName": "DIV",
+    "id": "",
+    "className": "space-y-6",
+    "width": 896,
+    "height": 313.3125,
+    "x": -541,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "896px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<div class=\"space-y-6\"><h4 class=\"font-label-sm text-on-surface-variant border-b border-outline-variant/30 pb-2\">תערוכות נבחרות</h4><ul class=\"font-bo..."
+  },
+  {
+    "tagName": "H4",
+    "id": "",
+    "className": "font-label-sm text-on-surface-variant border-b border-outline-variant/30 pb-2",
+    "width": 896,
+    "height": 36.1875,
+    "x": -541,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "896px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<h4 class=\"font-label-sm text-on-surface-variant border-b border-outline-variant/30 pb-2\">תערוכות נבחרות</h4>..."
+  },
+  {
+    "tagName": "UL",
+    "id": "",
+    "className": "font-body-md grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-3",
+    "width": 896,
+    "height": 253.125,
+    "x": -541,
+    "styles": {
+      "display": "grid",
+      "position": "static",
+      "width": "896px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<ul class=\"font-body-md grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-3\"><li class=\"flex justify-between items-baseline gap-4 border-b border-outline..."
+  },
+  {
+    "tagName": "LI",
+    "id": "",
+    "className": "flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1",
+    "width": 896,
+    "height": 32.1875,
+    "x": -541,
+    "styles": {
+      "display": "flex",
+      "position": "static",
+      "width": "896px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<li class=\"flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1\"><a class=\"text-primary font-medium hover:text-secondary ..."
+  },
+  {
+    "tagName": "LI",
+    "id": "",
+    "className": "flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1",
+    "width": 896,
+    "height": 32.1875,
+    "x": -541,
+    "styles": {
+      "display": "flex",
+      "position": "static",
+      "width": "896px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<li class=\"flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1\"><a class=\"text-primary font-medium hover:text-secondary ..."
+  },
+  {
+    "tagName": "LI",
+    "id": "",
+    "className": "flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1",
+    "width": 896,
+    "height": 32.1875,
+    "x": -541,
+    "styles": {
+      "display": "flex",
+      "position": "static",
+      "width": "896px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<li class=\"flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1\"><a class=\"text-primary font-medium hover:text-secondary ..."
+  },
+  {
+    "tagName": "LI",
+    "id": "",
+    "className": "flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1",
+    "width": 896,
+    "height": 32.1875,
+    "x": -541,
+    "styles": {
+      "display": "flex",
+      "position": "static",
+      "width": "896px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<li class=\"flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1\"><a class=\"text-primary font-medium hover:text-secondary ..."
+  },
+  {
+    "tagName": "LI",
+    "id": "",
+    "className": "flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1",
+    "width": 896,
+    "height": 32.1875,
+    "x": -541,
+    "styles": {
+      "display": "flex",
+      "position": "static",
+      "width": "896px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<li class=\"flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1\"><a class=\"text-primary font-medium hover:text-secondary ..."
+  },
+  {
+    "tagName": "LI",
+    "id": "",
+    "className": "flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1",
+    "width": 896,
+    "height": 32.1875,
+    "x": -541,
+    "styles": {
+      "display": "flex",
+      "position": "static",
+      "width": "896px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<li class=\"flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1\"><a class=\"text-primary font-medium hover:text-secondary ..."
+  },
+  {
+    "tagName": "SECTION",
+    "id": "",
+    "className": "mt-section-gap",
+    "width": 1400,
+    "height": 464.25,
+    "x": -1045,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<section class=\"mt-section-gap\"><div class=\"grid grid-cols-1 lg:grid-cols-12 items-stretch overflow-hidden border border-surface-variant/30\"><div clas..."
+  },
+  {
+    "tagName": "DIV",
+    "id": "",
+    "className": "grid grid-cols-1 lg:grid-cols-12 items-stretch overflow-hidden border border-surface-variant/30",
+    "width": 1400,
+    "height": 464.25,
+    "x": -1045,
+    "styles": {
+      "display": "grid",
+      "position": "static",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "hidden"
+    },
+    "outerHTMLSnippet": "<div class=\"grid grid-cols-1 lg:grid-cols-12 items-stretch overflow-hidden border border-surface-variant/30\"><div class=\"lg:col-span-8 bg-white flex i..."
+  },
+  {
+    "tagName": "DIV",
+    "id": "",
+    "className": "lg:col-span-8 bg-white flex items-center justify-center creative-process-image-container",
+    "width": 1398,
+    "height": 240,
+    "x": -1044,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "1398px",
+      "maxWidth": "none",
+      "overflow": "auto"
+    },
+    "outerHTMLSnippet": "<div class=\"lg:col-span-8 bg-white flex items-center justify-center creative-process-image-container\"><img alt=\"קטלוג ציורים של לאה עתיר\" class=\"w-ful..."
+  },
+  {
+    "tagName": "IMG",
+    "id": "",
+    "className": "w-full h-full object-contain hover:scale-105 transition-transform duration-[3000ms]",
+    "width": 638.640625,
+    "height": 240,
+    "x": -284.640625,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "638.641px",
+      "maxWidth": "none",
+      "overflow": "clip"
+    },
+    "outerHTMLSnippet": "<img alt=\"קטלוג ציורים של לאה עתיר\" class=\"w-full h-full object-contain hover:scale-105 transition-transform duration-[3000ms]\" src=\"/galleries/catalo..."
+  },
+  {
+    "tagName": "DIV",
+    "id": "",
+    "className": "lg:col-span-4 flex flex-col justify-center p-8 lg:p-12 bg-black text-white",
+    "width": 1398,
+    "height": 222.25,
+    "x": -1044,
+    "styles": {
+      "display": "flex",
+      "position": "static",
+      "width": "1398px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<div class=\"lg:col-span-4 flex flex-col justify-center p-8 lg:p-12 bg-black text-white\"><h3 class=\"font-h2 text-3xl lg:text-h2 text-white mb-6\">תהליך ..."
+  },
+  {
+    "tagName": "H3",
+    "id": "",
+    "className": "font-h2 text-3xl lg:text-h2 text-white mb-6",
+    "width": 1334,
+    "height": 36,
+    "x": -1012,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "1334px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<h3 class=\"font-h2 text-3xl lg:text-h2 text-white mb-6\">תהליך היצירה</h3>..."
+  },
+  {
+    "tagName": "P",
+    "id": "",
+    "className": "text-lg lg:text-xl text-white mb-8 leading-relaxed",
+    "width": 1334,
+    "height": 29.25,
+    "x": -1012,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "1334px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<p class=\"text-lg lg:text-xl text-white mb-8 leading-relaxed\">יצירה היא משהו שניבנה עם עשייתה, גם אם ידוע וברור לי במחשבה מה אני הולכת לעשות תמיד קיים..."
+  },
+  {
+    "tagName": "DIV",
+    "id": "",
+    "className": "w-full max-w-[1100px] mx-auto mt-24 px-margin-edge",
+    "width": 1100,
+    "height": 3,
+    "x": -895,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "1100px",
+      "maxWidth": "1100px",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<div class=\"w-full max-w-[1100px] mx-auto mt-24 px-margin-edge\"><svg viewBox=\"0 0 1000 10\" preserveAspectRatio=\"none\" class=\"w-full h-[3px] text-[#7A7..."
+  },
+  {
+    "tagName": "svg",
+    "id": "",
+    "className": {},
+    "width": 1060,
+    "height": 3,
+    "x": -875,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "1060px",
+      "maxWidth": "none",
+      "overflow": "hidden"
+    },
+    "outerHTMLSnippet": "<svg viewBox=\"0 0 1000 10\" preserveAspectRatio=\"none\" class=\"w-full h-[3px] text-[#7A7571] opacity-40\"><path d=\"M 0 5 C 150 4.2, 300 5.8, 500 5 C 700 ..."
+  },
+  {
+    "tagName": "path",
+    "id": "",
+    "className": {},
+    "width": 1060,
+    "height": 0.138671875,
+    "x": -875,
+    "styles": {
+      "display": "inline",
+      "position": "static",
+      "width": "auto",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<path d=\"M 0 5 C 150 4.2, 300 5.8, 500 5 C 700 4.2, 850 5.8, 1000 5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linecap=\"round\"></pat..."
+  },
+  {
+    "tagName": "SECTION",
+    "id": "",
+    "className": "mt-section-gap",
+    "width": 1400,
+    "height": 586.375,
+    "x": -1045,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<section class=\"mt-section-gap\"><div class=\"flex items-center gap-4 mb-8\"><span class=\"font-label-sm text-on-surface-variant uppercase tracking-widest..."
+  },
+  {
+    "tagName": "DIV",
+    "id": "",
+    "className": "flex items-center gap-4 mb-8",
+    "width": 1400,
+    "height": 27.1875,
+    "x": -1045,
+    "styles": {
+      "display": "flex",
+      "position": "static",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<div class=\"flex items-center gap-4 mb-8\"><span class=\"font-label-sm text-on-surface-variant uppercase tracking-widest\">02</span><div class=\"w-12 h-px..."
+  },
+  {
+    "tagName": "DIV",
+    "id": "",
+    "className": "mb-8 text-start",
+    "width": 1400,
+    "height": 79.1875,
+    "x": -1045,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<div class=\"mb-8 text-start\"><h2 class=\"font-h2 text-3xl lg:text-4xl text-primary mb-4\">תערוכות לאורך השנים</h2><p class=\"font-body-md text-on-surface..."
+  },
+  {
+    "tagName": "H2",
+    "id": "",
+    "className": "font-h2 text-3xl lg:text-4xl text-primary mb-4",
+    "width": 1400,
+    "height": 36,
+    "x": -1045,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<h2 class=\"font-h2 text-3xl lg:text-4xl text-primary mb-4\">תערוכות לאורך השנים</h2>..."
+  },
+  {
+    "tagName": "P",
+    "id": "",
+    "className": "font-body-md text-on-surface-variant max-w-2xl",
+    "width": 672,
+    "height": 27.1875,
+    "x": -317,
+    "styles": {
+      "display": "block",
+      "position": "static",
+      "width": "672px",
+      "maxWidth": "672px",
+      "overflow": "visible"
+    },
+    "outerHTMLSnippet": "<p class=\"font-body-md text-on-surface-variant max-w-2xl\">מסע כרונולוגי דרך התערוכות והאוספים של לאה עתיר משנת 1975 ועד היום. עמוד על כל פס כדי לגלות ..."
+  },
+  {
+    "tagName": "DIV",
+    "id": "",
+    "className": "timeline-accordion-container",
+    "width": 1400,
+    "height": 416,
+    "x": -1045,
+    "styles": {
+      "display": "flex",
+      "position": "static",
+      "width": "1400px",
+      "maxWidth": "none",
+      "overflow": "auto hidden"
+    },
+    "outerHTMLSnippet": "<div class=\"timeline-accordion-container\"><a class=\"timeline-slice\" href=\"/gallery/miki\" data-discover=\"true\"><img alt=\"מיקי\" class=\"slice-image\" load..."
+  }
+]
