@@ -14,7 +14,7 @@ const About = () => {
   const whyWebsiteParagraphs = t('about.whyWebsiteParagraphs', { returnObjects: true }) || [];
 
   return (
-    <main className="pt-24 pb-20 max-w-container-max mx-auto px-margin-edge animate-fade-in">
+    <main className="w-full pt-24 pb-20 max-w-container-max mx-auto px-margin-edge animate-fade-in">
       <header className="mb-16">
         <div className="flex items-center gap-4 mb-8">
           <span className="font-label-sm text-on-surface-variant uppercase tracking-widest">{t('about.sectionNumber')}</span>

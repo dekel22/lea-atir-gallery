@@ -43,7 +43,7 @@ const Home = () => {
     .sort((a, b) => a.year - b.year);
 
   return (
-    <main className="pt-24 pb-12 max-w-container-max mx-auto px-margin-edge">
+    <main className="w-full pt-24 pb-12 max-w-container-max mx-auto px-margin-edge">
       {/* Hero Gallery Section */}
       <section className="grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:items-start">
         {/* Navigation Context */}

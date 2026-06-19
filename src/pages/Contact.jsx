@@ -10,7 +10,7 @@ const Contact = () => {
   }, [t, i18n.language]);
 
   return (
-    <main className="pt-24 md:pt-32 pb-20 max-w-container-max mx-auto px-margin-edge animate-fade-in">
+    <main className="w-full pt-24 md:pt-32 pb-20 max-w-container-max mx-auto px-margin-edge animate-fade-in">
       <header className="mb-16">
         <div className="flex items-center gap-4 mb-8">
           <span className="font-label-sm text-on-surface-variant uppercase tracking-widest">{t('contact.sectionNumber')}</span>

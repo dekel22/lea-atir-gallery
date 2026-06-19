@@ -10,7 +10,7 @@ const Success = () => {
   }, [t, i18n.language]);
 
   return (
-    <main className="pt-24 md:pt-32 pb-20 max-w-container-max mx-auto px-margin-edge animate-fade-in text-center">
+    <main className="w-full pt-24 md:pt-32 pb-20 max-w-container-max mx-auto px-margin-edge animate-fade-in text-center">
       <div className="bg-surface-container p-8 sm:p-16 max-w-2xl mx-auto space-y-8 border border-primary/10">
         <span className="material-symbols-outlined text-7xl text-primary" data-icon="check_circle">check_circle</span>
         <h1 className="font-h1 text-4xl lg:text-5xl text-primary">{t('success.header')}</h1>
