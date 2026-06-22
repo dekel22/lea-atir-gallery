@@ -709,14 +709,6 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_3",
-        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה13.jpg",
-        "alt": "דיוקן קורונה13",
-        "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: רישום פחם סינטטי",
-        "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
-      },
-      {
         "id": "gallery_6_4",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה14.jpg",
         "alt": "דיוקן קורונה14",
