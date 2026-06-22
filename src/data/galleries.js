@@ -955,14 +955,6 @@ export const galleries = [
         "orientation": "portrait",
         "caption": "30x42 ס\"מ | טכניקה: אקוורל",
         "captionEn": "30x42 cm | Technique: Watercolor"
-      },
-      {
-        "id": "gallery_6_35",
-        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה37.jpg",
-        "alt": "דיוקן קורונה37",
-        "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
-        "captionEn": "30x42 cm | Technique: Watercolor"
       }
     ]
   },
