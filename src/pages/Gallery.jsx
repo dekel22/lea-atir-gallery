@@ -147,15 +147,15 @@ const Gallery = () => {
   };
 
   const getIndividualAspectRatio = (img) => {
-    // Force aspect ratio of the poem card to 0.75 (same as the 120x90 portrait paintings in Row 5)
-    // so they are displayed at the exact same height and width in the grid.
-    if (img.id === 'gallery_3_14') {
-      return 0.75;
+    // Force aspect ratio of Row 5 images in S.B.R gallery to 0.82 (the maximum actual aspect ratio in the row)
+    // so they are displayed at the exact same visual height in the grid.
+    if (img.id === 'gallery_3_12' || img.id === 'gallery_3_14' || img.id === 'gallery_3_15') {
+      return 0.82;
     }
-    // Force aspect ratio of the two images in Row 3 of S.B.R gallery to 0.7 (roots drawing aspect ratio)
-    // so they are displayed at the exact same height and width in the grid.
+    // Force aspect ratio of Row 3 images in S.B.R gallery to 0.81 (the maximum actual aspect ratio in the row)
+    // so they are displayed at the exact same visual height in the grid.
     if (img.id === 'gallery_3_8' || img.id === 'gallery_3_9') {
-      return 0.7;
+      return 0.81;
     }
     // If it's a mixed row, we want the image's own aspect ratio to prevent shrinking.
     // For normal rows, all images have the same size/orientation anyway.
