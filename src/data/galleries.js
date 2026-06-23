@@ -709,7 +709,7 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_4",
+        "id": "gallery_6_3",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה14.jpg",
         "alt": "דיוקן קורונה14",
         "orientation": "portrait",
@@ -717,7 +717,7 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_5",
+        "id": "gallery_6_4",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה15.jpg",
         "alt": "דיוקן קורונה15",
         "orientation": "portrait",
@@ -725,7 +725,7 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_6",
+        "id": "gallery_6_5",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה16.jpg",
         "alt": "דיוקן קורונה16",
         "orientation": "portrait",
@@ -733,7 +733,7 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_7",
+        "id": "gallery_6_6",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה17.jpg",
         "alt": "דיוקן קורונה17",
         "orientation": "portrait",
@@ -741,7 +741,7 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_8",
+        "id": "gallery_6_7",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה18.jpg",
         "alt": "דיוקן קורונה18",
         "orientation": "portrait",
@@ -749,7 +749,7 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_9",
+        "id": "gallery_6_8",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה19.jpg",
         "alt": "דיוקן קורונה19",
         "orientation": "portrait",
@@ -757,7 +757,7 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_10",
+        "id": "gallery_6_9",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה2 (2).jpg",
         "alt": "דיוקן קורונה2 (2)",
         "orientation": "portrait",
@@ -765,7 +765,7 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_11",
+        "id": "gallery_6_10",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה20.jpg",
         "alt": "דיוקן קורונה20",
         "orientation": "portrait",
@@ -773,47 +773,7 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_12",
-        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה23.jpg",
-        "alt": "דיוקן קורונה23",
-        "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
-        "captionEn": "30x42 cm | Technique: Watercolor"
-      },
-      {
-        "id": "gallery_6_13",
-        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה25.jpg",
-        "alt": "דיוקן קורונה25",
-        "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
-        "captionEn": "30x42 cm | Technique: Watercolor"
-      },
-      {
-        "id": "gallery_6_14",
-        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה26.jpg",
-        "alt": "דיוקן קורונה26",
-        "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
-        "captionEn": "30x42 cm | Technique: Watercolor"
-      },
-      {
-        "id": "gallery_6_15",
-        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה28.jpg",
-        "alt": "דיוקן קורונה28",
-        "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
-        "captionEn": "30x42 cm | Technique: Watercolor"
-      },
-      {
-        "id": "gallery_6_16",
-        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה29.jpg",
-        "alt": "דיוקן קורונה29",
-        "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
-        "captionEn": "30x42 cm | Technique: Watercolor"
-      },
-      {
-        "id": "gallery_6_17",
+        "id": "gallery_6_11",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה4.jpg",
         "alt": "דיוקן קורונה4",
         "orientation": "portrait",
@@ -821,7 +781,7 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_18",
+        "id": "gallery_6_12",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה5.jpg",
         "alt": "דיוקן קורונה5",
         "orientation": "portrait",
@@ -829,7 +789,7 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_19",
+        "id": "gallery_6_13",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה6.jpg",
         "alt": "דיוקן קורונה6",
         "orientation": "portrait",
@@ -837,7 +797,7 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_20",
+        "id": "gallery_6_14",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה7.jpg",
         "alt": "דיוקן קורונה7",
         "orientation": "portrait",
@@ -845,7 +805,7 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_21",
+        "id": "gallery_6_15",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה9.jpg",
         "alt": "דיוקן קורונה9",
         "orientation": "portrait",
@@ -853,39 +813,7 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_22",
-        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקןקורונה19.jpg",
-        "alt": "דיוקןקורונה19",
-        "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
-        "captionEn": "30x42 cm | Technique: Watercolor"
-      },
-      {
-        "id": "gallery_6_23",
-        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקןקוררונה27.jpg",
-        "alt": "דיוקןקוררונה27",
-        "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
-        "captionEn": "30x42 cm | Technique: Watercolor"
-      },
-      {
-        "id": "gallery_6_24",
-        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/קורונה באקוורל.jpg",
-        "alt": "קורונה באקוורל",
-        "orientation": "landscape",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
-        "captionEn": "30x42 cm | Technique: Watercolor"
-      },
-      {
-        "id": "gallery_6_25",
-        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/קורונה באקוורל2.jpg",
-        "alt": "קורונה באקוורל2",
-        "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
-        "captionEn": "30x42 cm | Technique: Watercolor"
-      },
-      {
-        "id": "gallery_6_26",
+        "id": "gallery_6_16",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה22.jpg",
         "alt": "דיוקן קורונה22",
         "orientation": "portrait",
@@ -893,7 +821,7 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_27",
+        "id": "gallery_6_17",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה24.jpg",
         "alt": "דיוקן קורונה24",
         "orientation": "portrait",
@@ -901,7 +829,7 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_28",
+        "id": "gallery_6_18",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה30.jpg",
         "alt": "דיוקן קורונה30",
         "orientation": "portrait",
@@ -909,7 +837,7 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_29",
+        "id": "gallery_6_19",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה31.jpg",
         "alt": "דיוקן קורונה31",
         "orientation": "portrait",
@@ -917,7 +845,7 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_30",
+        "id": "gallery_6_20",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה32.jpg",
         "alt": "דיוקן קורונה32",
         "orientation": "portrait",
@@ -925,7 +853,7 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_31",
+        "id": "gallery_6_21",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה33.jpg",
         "alt": "דיוקן קורונה33",
         "orientation": "portrait",
@@ -933,7 +861,7 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_32",
+        "id": "gallery_6_22",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה34.jpg",
         "alt": "דיוקן קורונה34",
         "orientation": "portrait",
@@ -941,7 +869,7 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_33",
+        "id": "gallery_6_23",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה35.jpg",
         "alt": "דיוקן קורונה35",
         "orientation": "portrait",
@@ -949,7 +877,79 @@ export const galleries = [
         "captionEn": "30x42 cm | Technique: Synthetic charcoal drawing"
       },
       {
-        "id": "gallery_6_34",
+        "id": "gallery_6_24",
+        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה23.jpg",
+        "alt": "דיוקן קורונה23",
+        "orientation": "portrait",
+        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "30x42 cm | Technique: Watercolor"
+      },
+      {
+        "id": "gallery_6_25",
+        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה25.jpg",
+        "alt": "דיוקן קורונה25",
+        "orientation": "portrait",
+        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "30x42 cm | Technique: Watercolor"
+      },
+      {
+        "id": "gallery_6_26",
+        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה26.jpg",
+        "alt": "דיוקן קורונה26",
+        "orientation": "portrait",
+        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "30x42 cm | Technique: Watercolor"
+      },
+      {
+        "id": "gallery_6_27",
+        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה28.jpg",
+        "alt": "דיוקן קורונה28",
+        "orientation": "portrait",
+        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "30x42 cm | Technique: Watercolor"
+      },
+      {
+        "id": "gallery_6_28",
+        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה29.jpg",
+        "alt": "דיוקן קורונה29",
+        "orientation": "portrait",
+        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "30x42 cm | Technique: Watercolor"
+      },
+      {
+        "id": "gallery_6_29",
+        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקןקורונה19.jpg",
+        "alt": "דיוקןקורונה19",
+        "orientation": "portrait",
+        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "30x42 cm | Technique: Watercolor"
+      },
+      {
+        "id": "gallery_6_30",
+        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקןקוררונה27.jpg",
+        "alt": "דיוקןקוררונה27",
+        "orientation": "portrait",
+        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "30x42 cm | Technique: Watercolor"
+      },
+      {
+        "id": "gallery_6_31",
+        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/קורונה באקוורל.jpg",
+        "alt": "קורונה באקוורל",
+        "orientation": "landscape",
+        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "30x42 cm | Technique: Watercolor"
+      },
+      {
+        "id": "gallery_6_32",
+        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/קורונה באקוורל2.jpg",
+        "alt": "קורונה באקוורל2",
+        "orientation": "portrait",
+        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "30x42 cm | Technique: Watercolor"
+      },
+      {
+        "id": "gallery_6_33",
         "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה36.jpg",
         "alt": "דיוקן קורונה36",
         "orientation": "portrait",
