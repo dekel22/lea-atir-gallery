@@ -82,7 +82,7 @@ const Home = () => {
             </div>
           </div>
           <h2 className="font-h1 text-4xl lg:text-5xl text-primary mb-8 leading-[1.05]">
-            {t('home.artistName')} <br/>{t('home.yearsOfCreation')}
+            {t('home.artistName')} | {t('home.yearsOfCreation')}
           </h2>
           <div className="space-y-6 text-on-surface">
             <p className="font-body-lg text-body-lg leading-relaxed">
