@@ -81,7 +81,7 @@ const Home = () => {
               <p className="font-label-sm text-on-surface-variant/60 uppercase italic">{t('home.selfPortraitCaption')}</p>
             </div>
           </div>
-          <h2 className="font-h1 text-4xl lg:text-5xl text-primary mb-8 leading-[1.05]">
+          <h2 className="font-h1 text-2xl sm:text-3xl lg:text-4xl font-normal text-primary mb-8 leading-[1.05]">
             {t('home.artistName')} | {t('home.yearsOfCreation')}
           </h2>
           <div className="space-y-6 text-on-surface">
