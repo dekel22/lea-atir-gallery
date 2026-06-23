@@ -18,7 +18,7 @@ const About = () => {
     <main className="w-full pt-24 pb-20 max-w-container-max mx-auto px-margin-edge animate-fade-in">
       <header className="mb-16">
 
-        <h1 className="font-h1 text-5xl lg:text-6xl text-primary mb-6">{t('about.artistName')}</h1>
+        <h1 className="font-h1 text-5xl lg:text-6xl font-normal text-primary mb-6">{t('about.artistName')}</h1>
       </header>
 
       <section className="grid grid-cols-1 lg:grid-cols-12 gap-16">
