@@ -351,55 +351,17 @@ const Gallery = () => {
       }
     });
 
-    const pairRows = [];
     const singleImages = [];
 
     leftoverGroups.forEach((group) => {
-      if (group.images.length === 2) {
-        pairRows.push({
-          id: `row_${group.id}`,
-          size: group.size,
-          orientation: group.orientation,
-          aspectRatio: group.aspectRatio,
-          images: group.images
-        });
-      } else if (group.images.length === 1) {
+      group.images.forEach((img) => {
         singleImages.push({
-          ...group.images[0],
+          ...img,
           groupSize: group.size,
           groupOrientation: group.orientation,
           groupAspectRatio: group.aspectRatio
         });
-      } else if (group.images.length > 2) {
-        const chunkSize = 3;
-        for (let i = 0; i < group.images.length; i += chunkSize) {
-          const chunk = group.images.slice(i, i + chunkSize);
-          if (chunk.length === 2) {
-            pairRows.push({
-              id: `row_${group.id}_rem_${i}`,
-              size: group.size,
-              orientation: group.orientation,
-              aspectRatio: group.aspectRatio,
-              images: chunk
-            });
-          } else if (chunk.length === 1) {
-            singleImages.push({
-              ...chunk[0],
-              groupSize: group.size,
-              groupOrientation: group.orientation,
-              groupAspectRatio: group.aspectRatio
-            });
-          } else {
-            rows3.push({
-              id: `row_${group.id}_rem_${i}`,
-              size: group.size,
-              orientation: group.orientation,
-              aspectRatio: group.aspectRatio,
-              images: chunk
-            });
-          }
-        }
-      }
+      });
     });
 
     const singleRows = [];
@@ -416,7 +378,7 @@ const Gallery = () => {
     }
 
     return {
-      rows: [...rows3, ...pairRows, ...singleRows]
+      rows: [...rows3, ...singleRows]
     };
   };
 

@@ -1197,8 +1197,8 @@ export const galleries = [
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/NAL_2587_A_Small.jpg",
         "alt": "NAL_2587_A_Small",
         "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
-        "captionEn": "30x42 cm | Technique: Watercolor"
+        "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
+        "captionEn": "120x90 cm | Technique: Oil paints"
       }
     ]
   },
