@@ -130,11 +130,7 @@ const Home = () => {
 
       {/* Interactive Chronological Accordion Section */}
       <section className="mt-section-gap">
-        <div className="flex items-center gap-4 mb-8">
-          <span className="font-label-sm text-on-surface-variant uppercase tracking-widest">02</span>
-          <div className="w-12 h-px bg-outline-variant"></div>
-          <span className="font-label-sm text-primary uppercase tracking-widest">{t('home.timelineTitle')}</span>
-        </div>
+
         <div className="mb-8 text-start">
           <h2 className="font-h2 text-3xl lg:text-4xl text-primary mb-4">{t('home.timelineHeader')}</h2>
           <p className="font-body-md text-on-surface-variant max-w-2xl">
