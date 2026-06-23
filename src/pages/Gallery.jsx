@@ -178,8 +178,8 @@ const Gallery = () => {
   const processImages = () => {
     if (!gallery || !gallery.images) return { rows: [] };
 
-    // For 'gallery_5' and 'gallery_3': keep original grouping logic
-    if (gallery.id === 'gallery_5' || gallery.id === 'gallery_3') {
+    // For 'gallery_5': keep original grouping logic
+    if (gallery.id === 'gallery_5') {
       const groups = {};
       gallery.images.forEach((img) => {
         const size = parseDimensions(img.caption);
