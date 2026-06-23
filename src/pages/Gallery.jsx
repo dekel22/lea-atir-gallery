@@ -146,6 +146,24 @@ const Gallery = () => {
     return 'unknown';
   };
 
+  const getIndividualAspectRatio = (img) => {
+    // If it's a mixed row, we want the image's own aspect ratio to prevent shrinking.
+    // For normal rows, all images have the same size/orientation anyway.
+    const size = parseDimensions(img.caption);
+    if (size !== 'unknown') {
+      const dimensions = size.split('x');
+      const d1 = parseInt(dimensions[0]);
+      const d2 = parseInt(dimensions[1]);
+      const min = Math.min(d1, d2);
+      const max = Math.max(d1, d2);
+      const isLandscape = img.orientation === 'landscape';
+      const width = isLandscape ? max : min;
+      const height = isLandscape ? min : max;
+      return width / height;
+    }
+    return img.orientation === 'landscape' ? 1.43 : 0.714;
+  };
+
   const processImages = () => {
     if (!gallery || !gallery.images) return { rows: [] };
 
@@ -448,7 +466,7 @@ const Gallery = () => {
                     >
                       <div 
                         className="gallery-card-image-wrapper"
-                        style={row.aspectRatio ? { aspectRatio: row.aspectRatio } : null}
+                        style={{ aspectRatio: getIndividualAspectRatio(img) }}
                       >
                         <img src={img.url} alt={img.alt} loading="lazy" />
                       </div>
