@@ -10,7 +10,7 @@ async function run() {
     return;
   }
 
-  const targetPath = 'c:/Users/MY/Downloads/JPEG - Small-20260614T074109Z-3-001/JPEG - Small/NAL_2587_A_Small.jpg';
+  const targetPath = 'c:/Users/MY/Downloads/JPEG - Small-20260614T074109Z-3-001/JPEG - Small/NAL_2546_A_Small.jpg';
   if (!fs.existsSync(targetPath)) {
     console.error('Target image not found at:', targetPath);
     return;
