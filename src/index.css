@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500&family=Bellefair&family=Rubik:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500&family=Bellefair&family=Varela+Round&display=swap');
 
 :root {
   --color-bg: #FAF9F6; /* Ivory / Cream canvas */
@@ -41,15 +41,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2 {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 900;
-  color: transparent !important;
-  -webkit-text-stroke: 1.2px var(--color-text);
-}
-
-h3, h4, h5, h6 {
-  font-family: var(--font-serif);
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Varela Round', sans-serif;
   font-weight: 400;
   color: var(--color-text);
 }
