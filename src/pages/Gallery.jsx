@@ -147,6 +147,11 @@ const Gallery = () => {
   };
 
   const getIndividualAspectRatio = (img) => {
+    // Force aspect ratio of the poem card to 0.75 (same as the 120x90 portrait paintings in Row 5)
+    // so they are displayed at the exact same height and width in the grid.
+    if (img.id === 'gallery_3_14') {
+      return 0.75;
+    }
     // If it's a mixed row, we want the image's own aspect ratio to prevent shrinking.
     // For normal rows, all images have the same size/orientation anyway.
     const size = parseDimensions(img.caption);

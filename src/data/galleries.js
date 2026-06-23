@@ -1198,7 +1198,9 @@ export const galleries = [
         "id": "gallery_3_14",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שלושה שעמדו.jpg",
         "alt": "שלושה שעמדו",
-        "orientation": "portrait"
+        "orientation": "portrait",
+        "caption": "100x70 ס\"מ | שיר: שלושה שעמדו",
+        "captionEn": "100x70 cm | Poem: Three Who Stood"
       }
     ]
   },
