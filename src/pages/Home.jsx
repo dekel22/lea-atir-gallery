@@ -46,14 +46,7 @@ const Home = () => {
     <main className="w-full pt-24 pb-12 max-w-container-max mx-auto px-margin-edge">
       {/* Hero Gallery Section */}
       <section className="grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:items-start">
-        {/* Navigation Context */}
-        <div className="lg:col-span-12 mb-8 flex justify-start">
-          <div className="flex items-center gap-4">
-            <span className="font-label-sm text-on-surface-variant uppercase tracking-widest">01</span>
-            <div className="w-12 h-px bg-outline-variant"></div>
-            <span className="font-label-sm text-primary uppercase tracking-widest">{t('nav.home')}</span>
-          </div>
-        </div>
+
         {/* Profile Illustration (Desktop) */}
         <div className="hidden lg:block lg:col-span-5 lg:sticky lg:top-32 pr-0 lg:pr-12 mb-8 lg:mb-0">
           <div className="artist-portrait-container">
