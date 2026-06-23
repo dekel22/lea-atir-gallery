@@ -289,7 +289,7 @@ const Gallery = () => {
       const r2 = [getImg('gallery_3_5'), getImg('gallery_3_6'), getImg('gallery_3_7')].filter(Boolean);
       const r3 = [getImg('gallery_3_8'), getImg('gallery_3_9')].filter(Boolean);
       const r4 = [getImg('gallery_3_10'), getImg('gallery_3_11')].filter(Boolean);
-      const r5 = [getImg('gallery_3_12'), getImg('gallery_3_14'), getImg('gallery_3_15')].filter(Boolean);
+      const r5 = [getImg('gallery_3_12'), getImg('gallery_3_15'), getImg('gallery_3_14')].filter(Boolean);
       
       const placedIds = new Set([...r1, ...r2, ...r3, ...r4, ...r5].map(img => img.id));
       const remaining = gallery.images.filter(img => !placedIds.has(img.id));

@@ -1187,18 +1187,18 @@ export const galleries = [
         "captionEn": "120x90 cm | Technique: Oil paints"
       },
       {
-        "id": "gallery_3_14",
-        "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שלושה שעמדו.jpg",
-        "alt": "שלושה שעמדו",
-        "orientation": "portrait"
-      },
-      {
         "id": "gallery_3_15",
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/NAL_2587_A_Small.jpg",
         "alt": "NAL_2587_A_Small",
         "orientation": "portrait",
         "caption": "120x90 ס\"מ | טכניקה: צבעי שמן",
         "captionEn": "120x90 cm | Technique: Oil paints"
+      },
+      {
+        "id": "gallery_3_14",
+        "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שלושה שעמדו.jpg",
+        "alt": "שלושה שעמדו",
+        "orientation": "portrait"
       }
     ]
   },
