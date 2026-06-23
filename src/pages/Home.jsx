@@ -141,27 +141,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Secondary Visual: Process/Behind the Scenes */}
-      <section className="mt-section-gap">
-        <div className="grid grid-cols-1 lg:grid-cols-12 items-stretch overflow-hidden border border-surface-variant/30">
-          <div className="lg:col-span-8 bg-white flex items-center justify-center creative-process-image-container">
-            <img 
-              alt={t('home.catalogCaption')} 
-              className="w-full h-full object-contain hover:scale-105 transition-transform duration-[3000ms]" 
-              src="/galleries/catalog.png"
-            />
-          </div>
-          <div className="lg:col-span-4 flex flex-col justify-center p-8 lg:p-12 bg-black text-white">
-
-            <h3 className="font-h2 text-3xl lg:text-h2 text-white mb-6">{t('home.creativeProcessHeader')}</h3>
-            <p className="text-lg lg:text-xl text-white mb-8 leading-relaxed">{t('home.creativeProcessText')}</p>
-            <Link to="/galleries" className="inline-flex items-center gap-4 font-label-sm uppercase tracking-[0.2em] group border-b border-white/20 pb-2 w-fit hover:border-white transition-all text-white">
-              {t('home.viewGalleriesButton')}
-              <span className={`material-symbols-outlined text-lg transition-transform ${i18n.language === 'he' ? 'group-hover:-translate-x-2' : 'group-hover:translate-x-2 rotate-180'}`} data-icon="arrow_back">arrow_back</span>
-            </Link>
-          </div>
-        </div>
-      </section>
     </main>
   );
 };
