@@ -167,6 +167,9 @@ const Gallery = () => {
   const getCardWidthClass = (img, row) => {
     // For mixed rows (leftovers), display landscape images at 2/3 width
     // and portrait images at 1/3 width to maintain correct visual scale.
+    if (row.layout === 'two-landscapes') {
+      return 'col-half';
+    }
     if (row.orientation === 'mixed' || row.size === 'mixed' || row.size === 'single-mixed') {
       if (img.orientation === 'landscape') {
         return 'col-span-2';
@@ -276,6 +279,43 @@ const Gallery = () => {
       return {
         rows: [...rows3, ...leftoverRows]
       };
+    }
+
+    // Custom row layout for S.B.R (gallery_3) to place specific drawings next to each other
+    if (gallery.id === 'gallery_3') {
+      const getImg = (id) => gallery.images.find(img => img.id === id);
+      
+      const r1 = [getImg('gallery_3_2'), getImg('gallery_3_3'), getImg('gallery_3_4')].filter(Boolean);
+      const r2 = [getImg('gallery_3_5'), getImg('gallery_3_6'), getImg('gallery_3_7')].filter(Boolean);
+      const r3 = [getImg('gallery_3_8'), getImg('gallery_3_9')].filter(Boolean);
+      const r4 = [getImg('gallery_3_10'), getImg('gallery_3_11')].filter(Boolean);
+      const r5 = [getImg('gallery_3_12'), getImg('gallery_3_14'), getImg('gallery_3_15')].filter(Boolean);
+      
+      const placedIds = new Set([...r1, ...r2, ...r3, ...r4, ...r5].map(img => img.id));
+      const remaining = gallery.images.filter(img => !placedIds.has(img.id));
+      
+      const rows = [
+        { id: 'row_sbr_1', size: '100x70', orientation: 'portrait', aspectRatio: 0.7, images: r1 },
+        { id: 'row_sbr_2', size: '100x70', orientation: 'portrait', aspectRatio: 0.7, images: r2 },
+        { id: 'row_sbr_3', size: 'mixed', orientation: 'mixed', aspectRatio: null, images: r3 },
+        { id: 'row_sbr_4', size: 'mixed-half', orientation: 'landscape', layout: 'two-landscapes', aspectRatio: null, images: r4 },
+        { id: 'row_sbr_5', size: 'mixed', orientation: 'mixed', aspectRatio: null, images: r5 }
+      ].filter(row => row.images.length > 0);
+      
+      if (remaining.length > 0) {
+        const chunkSize = 3;
+        for (let i = 0; i < remaining.length; i += chunkSize) {
+          rows.push({
+            id: `row_sbr_extra_${i}`,
+            size: 'mixed',
+            orientation: 'mixed',
+            aspectRatio: null,
+            images: remaining.slice(i, i + chunkSize)
+          });
+        }
+      }
+      
+      return { rows };
     }
 
     // For all other galleries (transparent, silver, gallery_1, gallery_6, gallery_0, war-diary, etc.)

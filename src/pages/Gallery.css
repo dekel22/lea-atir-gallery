@@ -383,6 +383,10 @@
   width: calc((100% - 2 * var(--spacing-lg)) / 3);
 }
 
+.gallery-grid-row .gallery-card.col-half {
+  width: calc(50% - var(--spacing-lg) / 2);
+}
+
 .gallery-card:hover {
   transform: scale(1.02);
 }
@@ -420,7 +424,8 @@
   }
   .gallery-grid-row .gallery-card,
   .gallery-grid-row .gallery-card.col-span-1,
-  .gallery-grid-row .gallery-card.col-span-2 {
+  .gallery-grid-row .gallery-card.col-span-2,
+  .gallery-grid-row .gallery-card.col-half {
     width: 100%;
   }
   .gallery-header {
