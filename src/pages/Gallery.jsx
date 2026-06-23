@@ -152,6 +152,11 @@ const Gallery = () => {
     if (img.id === 'gallery_3_14') {
       return 0.75;
     }
+    // Force aspect ratio of the two images in Row 3 of S.B.R gallery to 0.7 (roots drawing aspect ratio)
+    // so they are displayed at the exact same height and width in the grid.
+    if (img.id === 'gallery_3_8' || img.id === 'gallery_3_9') {
+      return 0.7;
+    }
     // If it's a mixed row, we want the image's own aspect ratio to prevent shrinking.
     // For normal rows, all images have the same size/orientation anyway.
     const size = parseDimensions(img.caption);
