@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500&family=Bellefair&family=Heebo:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800&display=swap');
 
 :root {
   --color-bg: #FAF9F6; /* Ivory / Cream canvas */
@@ -8,8 +8,8 @@
   --color-border: rgba(26, 22, 20, 0.1);
   --color-accent: #C5A880; /* Subtle gold/bronze for highlights if needed */
   
-  --font-sans: 'Assistant', system-ui, -apple-system, sans-serif;
-  --font-serif: 'Bellefair', Georgia, serif;
+  --font-sans: 'Heebo', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Heebo', system-ui, -apple-system, sans-serif;
   
   --spacing-sm: 0.75rem;
   --spacing-md: 1.5rem;
