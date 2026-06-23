@@ -102,38 +102,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            {/* Details Section */}
-            <div className="pt-8 max-w-4xl">
-              <div className="space-y-6">
-                <h4 className="font-label-sm text-on-surface-variant border-b border-outline-variant/30 pb-2">{t('home.selectedExhibitions')}</h4>
-                <ul className="font-body-md grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-3">
-                  <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1">
-                    <Link to="/gallery/gallery_3" className="text-primary font-medium hover:text-secondary transition-colors">{t('home.exhibitions.gallery_3')}</Link>
-                    <span className="text-on-surface-variant text-sm tabular-nums">2026</span>
-                  </li>
-                  <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1">
-                    <Link to="/gallery/silver" className="text-primary font-medium hover:text-secondary transition-colors">{t('home.exhibitions.silver')}</Link>
-                    <span className="text-on-surface-variant text-sm tabular-nums">2026</span>
-                  </li>
-                  <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1">
-                    <Link to="/gallery/transparent" className="text-primary font-medium hover:text-secondary transition-colors">{t('home.exhibitions.transparent')}</Link>
-                    <span className="text-on-surface-variant text-sm tabular-nums">2020</span>
-                  </li>
-                  <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1">
-                    <Link to="/gallery/gallery_0" className="text-primary font-medium hover:text-secondary transition-colors">{t('home.exhibitions.gallery_0')}</Link>
-                    <span className="text-on-surface-variant text-sm tabular-nums">1998</span>
-                  </li>
-                  <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1">
-                    <Link to="/gallery/gallery_1" className="text-primary font-medium hover:text-secondary transition-colors">{t('home.exhibitions.gallery_1')}</Link>
-                    <span className="text-sm tabular-nums">2003</span>
-                  </li>
-                  <li className="flex justify-between items-baseline gap-4 border-b border-outline-variant/10 pb-1">
-                    <Link to="/gallery/gallery_7" className="text-primary font-medium hover:text-secondary transition-colors">{t('home.exhibitions.gallery_7')}</Link>
-                    <span className="text-on-surface-variant text-sm tabular-nums">1995</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
+
           </div>
         </div>
       </section>
