@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import portraitImg from '../assets/about-portrait.jpg';
+import portraitImg from '../assets/about-portrait-bw.jpg';
 
 const About = () => {
   const { t, i18n } = useTranslation();
