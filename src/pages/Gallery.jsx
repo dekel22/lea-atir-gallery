@@ -164,6 +164,17 @@ const Gallery = () => {
     return img.orientation === 'landscape' ? 1.43 : 0.714;
   };
 
+  const getCardWidthClass = (img, row) => {
+    // For mixed rows (leftovers), display landscape images at 2/3 width
+    // and portrait images at 1/3 width to maintain correct visual scale.
+    if (row.orientation === 'mixed' || row.size === 'mixed' || row.size === 'single-mixed') {
+      if (img.orientation === 'landscape') {
+        return 'col-span-2';
+      }
+    }
+    return 'col-span-1';
+  };
+
   const processImages = () => {
     if (!gallery || !gallery.images) return { rows: [] };
 
@@ -461,7 +472,7 @@ const Gallery = () => {
                   return (
                     <div 
                       key={img.id} 
-                      className={`gallery-card ${img.orientation || 'portrait'}`} 
+                      className={`gallery-card ${img.orientation || 'portrait'} ${getCardWidthClass(img, row)}`} 
                       onClick={() => openLightbox(originalIndex)}
                     >
                       <div 
