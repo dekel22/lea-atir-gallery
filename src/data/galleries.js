@@ -939,14 +939,6 @@ export const galleries = [
         "orientation": "portrait",
         "caption": "30x42 ס\"מ | טכניקה: אקוורל",
         "captionEn": "30x42 cm | Technique: Watercolor"
-      },
-      {
-        "id": "gallery_6_32",
-        "url": "/galleries/דיוקן קןרונה ברישום ואקוורל/דיוקן קןרונה ברישום ואקוורל/דיוקן קורונה36.jpg",
-        "alt": "דיוקן קורונה36",
-        "orientation": "portrait",
-        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
-        "captionEn": "30x42 cm | Technique: Watercolor"
       }
     ]
   },
@@ -1213,6 +1205,14 @@ export const galleries = [
         "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/שבר1.jpg",
         "alt": "שבר1",
         "orientation": "portrait"
+      },
+      {
+        "id": "gallery_3_15",
+        "url": "/galleries/2026- ש.ב.ר רמות מנשה גלריה לאומנות/2026- ש.ב.ר רמות מנשה גלריה לאומנות/NAL_2587_A_Small.jpg",
+        "alt": "NAL_2587_A_Small",
+        "orientation": "portrait",
+        "caption": "30x42 ס\"מ | טכניקה: אקוורל",
+        "captionEn": "30x42 cm | Technique: Watercolor"
       }
     ]
   },
