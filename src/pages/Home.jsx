@@ -55,7 +55,7 @@ const Home = () => {
           </div>
         </div>
         {/* Profile Illustration (Desktop) */}
-        <div className="hidden lg:block lg:col-span-4 lg:sticky lg:top-32 pr-0 lg:pr-12 mb-8 lg:mb-0">
+        <div className="hidden lg:block lg:col-span-5 lg:sticky lg:top-32 pr-0 lg:pr-12 mb-8 lg:mb-0">
           <div className="artist-portrait-container">
             <img 
               alt={t('home.artistName')} 
@@ -68,7 +68,7 @@ const Home = () => {
         </div>
 
         {/* Narrative Content */}
-        <div className="lg:col-span-8 mt-4 lg:mt-0 pl-0 lg:pl-12">
+        <div className="lg:col-span-7 mt-4 lg:mt-0 pl-0 lg:pl-12">
           {/* Profile Illustration (Mobile) */}
           <div className="block lg:hidden mb-8 w-full">
             <div className="artist-portrait-container">

@@ -143,7 +143,7 @@ a:hover {
 .artist-portrait-container {
   display: block !important;
   width: 100% !important;
-  max-width: 320px !important;
+  max-width: 400px !important;
   height: 480px !important; /* fallback height */
   margin-left: auto !important;
   margin-right: auto !important;
