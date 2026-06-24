@@ -6,7 +6,6 @@ const Success = () => {
 
   useEffect(() => {
     document.title = t('success.title');
-    window.scrollTo(0, 0);
   }, [t, i18n.language]);
 
   return (

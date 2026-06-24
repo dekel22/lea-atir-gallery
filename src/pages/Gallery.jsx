@@ -15,9 +15,8 @@ const Gallery = () => {
   const [touchStartX, setTouchStartX] = useState(null);
   const [touchEndX, setTouchEndX] = useState(null);
 
-  // Scroll to top and set page title when gallery opens
+  // Set page title when gallery opens
   useEffect(() => {
-    window.scrollTo(0, 0);
     if (gallery) {
       const displayTitle = i18n.language === 'en' && gallery.titleEn ? gallery.titleEn : gallery.title;
       document.title = `${displayTitle} | ${i18n.language === 'he' ? 'לאה עתיר' : 'Lea Atir'}`;

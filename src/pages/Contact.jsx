@@ -6,7 +6,6 @@ const Contact = () => {
 
   useEffect(() => {
     document.title = t('contact.title');
-    window.scrollTo(0, 0);
   }, [t, i18n.language]);
 
   return (

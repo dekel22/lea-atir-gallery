@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <div dir={i18n.language === 'he' ? 'rtl' : 'ltr'} className="min-h-screen flex flex-col relative selection:bg-secondary-container selection:text-on-secondary-container">
         <Navbar />
         <main className="flex-1 relative z-10 flex flex-col">
