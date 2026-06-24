@@ -113,7 +113,7 @@ const Home = () => {
 
         <div className="mb-8 text-start">
           <h2 className="font-h2 text-3xl lg:text-4xl text-primary mb-4">{t('home.timelineHeader')}</h2>
-          <p className="font-body-md text-on-surface-variant max-w-2xl">
+          <p className="font-body-md text-on-surface-variant">
             {t('home.timelineSubtitle')}
           </p>
         </div>
