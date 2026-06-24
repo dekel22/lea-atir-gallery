@@ -61,7 +61,7 @@
 }
 
 .gallery-long-description p.gallery-subtitle {
-  font-weight: 600;
+  font-weight: 300;
   font-size: 1.8rem;
   color: var(--color-primary);
   margin-top: var(--spacing-xl);

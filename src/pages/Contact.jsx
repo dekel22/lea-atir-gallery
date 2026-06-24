@@ -12,11 +12,6 @@ const Contact = () => {
   return (
     <main className="w-full pt-24 md:pt-32 pb-20 max-w-container-max mx-auto px-margin-edge animate-fade-in">
       <header className="mb-16">
-        <div className="flex items-center gap-4 mb-8">
-          <span className="font-label-sm text-on-surface-variant uppercase tracking-widest">{t('contact.sectionNumber')}</span>
-          <div className="w-12 h-px bg-outline-variant"></div>
-          <span className="font-label-sm text-primary uppercase tracking-widest">{t('contact.sectionTitle')}</span>
-        </div>
         <h1 className="font-h1 text-5xl lg:text-6xl text-primary mb-6">{t('contact.header')}</h1>
       </header>
 
