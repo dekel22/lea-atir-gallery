@@ -14,7 +14,7 @@ const Galleries = () => {
     <main className="w-full pt-24 pb-20 max-w-container-max mx-auto px-margin-edge animate-fade-in">
       <header className="mb-16">
         <h1 className="font-h1 text-5xl lg:text-6xl text-primary mb-6">{t('galleries.header')}</h1>
-        <p className="font-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+        <p className="font-body-lg text-on-surface-variant leading-relaxed">
           {t('galleries.description')}
         </p>
       </header>
